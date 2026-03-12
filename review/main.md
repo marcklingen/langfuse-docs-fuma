@@ -45,13 +45,14 @@ The following are launch blockers unless explicitly approved:
 Old version
 
 - Filesystem: repos/github/langfuse/langfuse-docs
-- Production: https://langfuse.com
-- Local dev (no rate limits or bot protection): https://localhost:3000
+- Deployment: https://langfuse.com
+- Local dev (no rate limits or bot protection): http://localhost:4444
 
 New version
 
 - Filesystem: this repo
-- Local dev: https://localhost:3001
+- Preview deployment: https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/
+- Local dev (no rate limits or bot protection): http://localhost:3333
 
 ## How to work on the following chapters
 
