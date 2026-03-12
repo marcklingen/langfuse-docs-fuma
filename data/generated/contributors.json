@@ -37,8 +37,8 @@
     "tomaszantas"
   ],
   "/docs/api-and-data-platform/features/export-to-blob-storage": [
-    "tomaszantas",
-    "ArkuVonSymfon"
+    "ArkuVonSymfon",
+    "tomaszantas"
   ],
   "/docs/api-and-data-platform/features/mcp-server": [
     "ArkuVonSymfon"
@@ -350,6 +350,9 @@
     "ArkuVonSymfon"
   ],
   "/faq/all/how-to-measure-prompt-performance": [
+    "ArkuVonSymfon"
+  ],
+  "/faq/all/index": [
     "ArkuVonSymfon"
   ],
   "/faq/all/inviting-in-langfuse": [
