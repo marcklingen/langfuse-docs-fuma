@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-03-12T03:46:50.528Z",
+  "previewBaseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionBaseUrl": "https://langfuse.com",
+  "findings": [
+    {
+      "id": "preview-md-to-pdf-500",
+      "severity": "high",
+      "title": "Preview md-to-pdf export fails for an allowlisted Langfuse markdown URL",
+      "evidenceFile": "md-to-pdf.json",
+      "details": "Preview returned 500 while production returned 200 for the same allowlisted markdown input."
+    },
+    {
+      "id": "preview-mcp-hardcodes-production-markdown-host",
+      "severity": "medium",
+      "title": "Preview MCP markdown retrieval does not match the preview markdown endpoint",
+      "evidenceFile": "mcp.json",
+      "details": "Preview MCP returned _meta.url=https://langfuse.com/docs/observability/overview.md and the tool output differs from https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview.md."
+    }
+  ],
+  "checks": [
+    {
+      "name": "llms.txt",
+      "previewPass": true,
+      "productionPass": true
+    },
+    {
+      "name": "markdown-endpoints",
+      "previewPass": true,
+      "productionPass": true
+    },
+    {
+      "name": "ask-ai-http",
+      "previewPass": true,
+      "productionPass": true
+    },
+    {
+      "name": "mcp",
+      "previewPass": false,
+      "productionPass": true
+    },
+    {
+      "name": "search-docs",
+      "previewPass": true,
+      "productionPass": true
+    },
+    {
+      "name": "md-to-pdf",
+      "previewPass": false,
+      "productionPass": true
+    }
+  ]
+}

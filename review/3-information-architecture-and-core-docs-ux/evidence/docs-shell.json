@@ -1,0 +1,1044 @@
+{
+  "generatedAt": "2026-03-12T03:38:52.090Z",
+  "baseUrl": "http://localhost:3333",
+  "desktopRoot": {
+    "path": "/docs",
+    "screenshot": "screenshots/desktop-docs-root.png",
+    "assertions": [
+      {
+        "name": "Desktop header exposes Product, Resources, Docs, Changelog, and Pricing in order",
+        "pass": true,
+        "details": {
+          "headerEntries": [
+            {
+              "tag": "A",
+              "text": "Hiring in Europe and SFLooking for GOATS!",
+              "href": "/careers"
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Product",
+              "href": null
+            },
+            {
+              "tag": "BUTTON",
+              "text": "Resources",
+              "href": null
+            },
+            {
+              "tag": "A",
+              "text": "Docs",
+              "href": "/docs"
+            },
+            {
+              "tag": "A",
+              "text": "Changelog",
+              "href": "/changelog"
+            },
+            {
+              "tag": "A",
+              "text": "Pricing",
+              "href": "/pricing"
+            },
+            {
+              "tag": "A",
+              "text": "GitHub23K",
+              "href": "https://github.com/langfuse/langfuse"
+            },
+            {
+              "tag": "A",
+              "text": "Get Demo",
+              "href": "/talk-to-us"
+            },
+            {
+              "tag": "A",
+              "text": "AppSign Up",
+              "href": "https://cloud.langfuse.com"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Desktop Product dropdown exposes the expected docs entry points",
+        "pass": true,
+        "details": {
+          "productMenu": [
+            {
+              "text": "Overview",
+              "href": "/docs"
+            },
+            {
+              "text": "LLM Observability",
+              "href": "/docs/observability/overview"
+            },
+            {
+              "text": "Prompt Management",
+              "href": "/docs/prompt-management/overview"
+            },
+            {
+              "text": "Evaluation",
+              "href": "/docs/evaluation/overview"
+            },
+            {
+              "text": "Metrics",
+              "href": "/docs/metrics/overview"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Desktop Resources dropdown exposes the expected support and content links",
+        "pass": true,
+        "details": {
+          "resourcesMenu": [
+            {
+              "text": "Blog",
+              "href": "/blog"
+            },
+            {
+              "text": "Changelog",
+              "href": "/changelog"
+            },
+            {
+              "text": "Roadmap",
+              "href": "/docs/roadmap"
+            },
+            {
+              "text": "Users",
+              "href": "/users"
+            },
+            {
+              "text": "Example Project",
+              "href": "/docs/demo"
+            },
+            {
+              "text": "Walkthroughs",
+              "href": "/guides"
+            },
+            {
+              "text": "Support",
+              "href": "/support"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Docs sidebar preserves the curated root structure and order",
+        "pass": true,
+        "details": {
+          "sidebar": [
+            "Overview",
+            "Example Project",
+            "Ask AI",
+            "Get Started",
+            "Start Tracing",
+            "Use Prompt Management",
+            "Set up Evals",
+            "Products",
+            "Observability",
+            "Prompt Management",
+            "Evaluation",
+            "Platform",
+            "Metrics",
+            "API & Data Platform",
+            "Administration",
+            "Security & Guardrails",
+            "More",
+            "Glossary",
+            "Roadmap",
+            "Docs MCP Server",
+            "SDK & API References",
+            "Security & Compliance ↗",
+            "Support ↗"
+          ]
+        }
+      },
+      {
+        "name": "Docs menu-switcher shows the expected sections and keeps Docs as the active item",
+        "pass": true,
+        "details": {
+          "menuSwitcher": [
+            {
+              "text": "Docs",
+              "tag": "DIV",
+              "href": null
+            },
+            {
+              "text": "Integrations",
+              "tag": "A",
+              "href": "/integrations"
+            },
+            {
+              "text": "Self Hosting",
+              "tag": "A",
+              "href": "/self-hosting"
+            },
+            {
+              "text": "Guides",
+              "tag": "A",
+              "href": "/guides"
+            },
+            {
+              "text": "AI Engineering Library",
+              "tag": "A",
+              "href": "/library"
+            }
+          ]
+        }
+      }
+    ],
+    "observations": [],
+    "topNav": {
+      "headerEntries": [
+        {
+          "tag": "A",
+          "text": "Hiring in Europe and SFLooking for GOATS!",
+          "href": "/careers"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Product",
+          "href": null
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Resources",
+          "href": null
+        },
+        {
+          "tag": "A",
+          "text": "Docs",
+          "href": "/docs"
+        },
+        {
+          "tag": "A",
+          "text": "Changelog",
+          "href": "/changelog"
+        },
+        {
+          "tag": "A",
+          "text": "Pricing",
+          "href": "/pricing"
+        },
+        {
+          "tag": "A",
+          "text": "GitHub23K",
+          "href": "https://github.com/langfuse/langfuse"
+        },
+        {
+          "tag": "A",
+          "text": "Get Demo",
+          "href": "/talk-to-us"
+        },
+        {
+          "tag": "A",
+          "text": "AppSign Up",
+          "href": "https://cloud.langfuse.com"
+        }
+      ],
+      "productMenu": [
+        {
+          "text": "Overview",
+          "href": "/docs"
+        },
+        {
+          "text": "LLM Observability",
+          "href": "/docs/observability/overview"
+        },
+        {
+          "text": "Prompt Management",
+          "href": "/docs/prompt-management/overview"
+        },
+        {
+          "text": "Evaluation",
+          "href": "/docs/evaluation/overview"
+        },
+        {
+          "text": "Metrics",
+          "href": "/docs/metrics/overview"
+        }
+      ],
+      "resourcesMenu": [
+        {
+          "text": "Blog",
+          "href": "/blog"
+        },
+        {
+          "text": "Changelog",
+          "href": "/changelog"
+        },
+        {
+          "text": "Roadmap",
+          "href": "/docs/roadmap"
+        },
+        {
+          "text": "Users",
+          "href": "/users"
+        },
+        {
+          "text": "Example Project",
+          "href": "/docs/demo"
+        },
+        {
+          "text": "Walkthroughs",
+          "href": "/guides"
+        },
+        {
+          "text": "Support",
+          "href": "/support"
+        }
+      ]
+    },
+    "menuSwitcher": [
+      {
+        "text": "Docs",
+        "tag": "DIV",
+        "href": null
+      },
+      {
+        "text": "Integrations",
+        "tag": "A",
+        "href": "/integrations"
+      },
+      {
+        "text": "Self Hosting",
+        "tag": "A",
+        "href": "/self-hosting"
+      },
+      {
+        "text": "Guides",
+        "tag": "A",
+        "href": "/guides"
+      },
+      {
+        "text": "AI Engineering Library",
+        "tag": "A",
+        "href": "/library"
+      }
+    ],
+    "sidebar": {
+      "all": [
+        "Docs",
+        "Integrations",
+        "Self Hosting",
+        "Guides",
+        "AI Engineering Library",
+        "Overview",
+        "Example Project",
+        "Ask AI",
+        "Get Started",
+        "Start Tracing",
+        "Use Prompt Management",
+        "Set up Evals",
+        "Products",
+        "Observability",
+        "Prompt Management",
+        "Evaluation",
+        "Platform",
+        "Metrics",
+        "API & Data Platform",
+        "Administration",
+        "Security & Guardrails",
+        "More",
+        "Glossary",
+        "Roadmap",
+        "Docs MCP Server",
+        "SDK & API References",
+        "Security & Compliance ↗",
+        "Support ↗"
+      ],
+      "switcher": [
+        "Docs",
+        "Integrations",
+        "Self Hosting",
+        "Guides",
+        "AI Engineering Library"
+      ],
+      "root": [
+        "Overview",
+        "Example Project",
+        "Ask AI",
+        "Get Started",
+        "Start Tracing",
+        "Use Prompt Management",
+        "Set up Evals",
+        "Products",
+        "Observability",
+        "Prompt Management",
+        "Evaluation",
+        "Platform",
+        "Metrics",
+        "API & Data Platform",
+        "Administration",
+        "Security & Guardrails",
+        "More",
+        "Glossary",
+        "Roadmap",
+        "Docs MCP Server",
+        "SDK & API References",
+        "Security & Compliance ↗",
+        "Support ↗"
+      ]
+    },
+    "pass": true
+  },
+  "menuSwitcherRoutes": [
+    {
+      "path": "/docs",
+      "active": "Docs",
+      "pass": true,
+      "menuSwitcher": [
+        {
+          "text": "Docs",
+          "tag": "DIV",
+          "href": null
+        },
+        {
+          "text": "Integrations",
+          "tag": "A",
+          "href": "/integrations"
+        },
+        {
+          "text": "Self Hosting",
+          "tag": "A",
+          "href": "/self-hosting"
+        },
+        {
+          "text": "Guides",
+          "tag": "A",
+          "href": "/guides"
+        },
+        {
+          "text": "AI Engineering Library",
+          "tag": "A",
+          "href": "/library"
+        }
+      ]
+    },
+    {
+      "path": "/integrations",
+      "active": "Integrations",
+      "pass": true,
+      "menuSwitcher": [
+        {
+          "text": "Docs",
+          "tag": "A",
+          "href": "/docs"
+        },
+        {
+          "text": "Integrations",
+          "tag": "DIV",
+          "href": null
+        },
+        {
+          "text": "Self Hosting",
+          "tag": "A",
+          "href": "/self-hosting"
+        },
+        {
+          "text": "Guides",
+          "tag": "A",
+          "href": "/guides"
+        },
+        {
+          "text": "AI Engineering Library",
+          "tag": "A",
+          "href": "/library"
+        }
+      ]
+    },
+    {
+      "path": "/self-hosting",
+      "active": "Self Hosting",
+      "pass": true,
+      "menuSwitcher": [
+        {
+          "text": "Docs",
+          "tag": "A",
+          "href": "/docs"
+        },
+        {
+          "text": "Integrations",
+          "tag": "A",
+          "href": "/integrations"
+        },
+        {
+          "text": "Self Hosting",
+          "tag": "DIV",
+          "href": null
+        },
+        {
+          "text": "Guides",
+          "tag": "A",
+          "href": "/guides"
+        },
+        {
+          "text": "AI Engineering Library",
+          "tag": "A",
+          "href": "/library"
+        }
+      ]
+    }
+  ],
+  "deepDoc": {
+    "path": "/docs/prompt-management/get-started",
+    "screenshot": "screenshots/desktop-docs-deep-page.png",
+    "assertions": [
+      {
+        "name": "Deep docs page keeps the Prompt Management subsection entries available from the sidebar",
+        "pass": true,
+        "details": {
+          "sidebar": [
+            "Overview",
+            "Example Project",
+            "Ask AI",
+            "Get Started",
+            "Start Tracing",
+            "Use Prompt Management",
+            "Set up Evals",
+            "Products",
+            "Observability",
+            "Prompt Management",
+            "Overview",
+            "Get Started",
+            "Concepts",
+            "Features",
+            "Troubleshooting and FAQ",
+            "Evaluation",
+            "Platform",
+            "Metrics",
+            "API & Data Platform",
+            "Administration",
+            "Security & Guardrails",
+            "More",
+            "Glossary",
+            "Roadmap",
+            "Docs MCP Server",
+            "SDK & API References",
+            "Security & Compliance ↗",
+            "Support ↗"
+          ]
+        }
+      },
+      {
+        "name": "Deep docs page breadcrumbs match the expected root and current page labels",
+        "pass": true,
+        "details": {
+          "breadcrumbs": [
+            {
+              "text": "Docs",
+              "kind": "text",
+              "href": null
+            },
+            {
+              "text": "Use Prompt Management",
+              "kind": "link",
+              "href": "/docs/prompt-management/get-started"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Desktop TOC links resolve to existing anchors on the page",
+        "pass": false,
+        "details": {
+          "toc": {
+            "links": [
+              {
+                "text": "Get Started with Prompt Management",
+                "href": "#get-started-with-prompt-management"
+              },
+              {
+                "text": "Get API keys",
+                "href": "#get-api-keys"
+              },
+              {
+                "text": "Create a prompt",
+                "href": "#create-update-prompt"
+              },
+              {
+                "text": "Use the prompt in your code",
+                "href": "#use-prompt"
+              },
+              {
+                "text": "Get API keys",
+                "href": "#get-api-keys-1"
+              },
+              {
+                "text": "Create a prompt",
+                "href": "#create-update-prompt"
+              },
+              {
+                "text": "Use the prompt in your code",
+                "href": "#use-prompt"
+              },
+              {
+                "text": "Not seeing what you expected?",
+                "href": "#not-seeing-what-you-expected"
+              },
+              {
+                "text": "Next steps",
+                "href": "#next-steps"
+              }
+            ],
+            "missingTargets": [
+              "#get-api-keys-1"
+            ],
+            "duplicateLabels": [
+              "Get API keys",
+              "Create a prompt",
+              "Use the prompt in your code"
+            ]
+          }
+        }
+      },
+      {
+        "name": "Desktop TOC can return the viewport to the top of the document",
+        "pass": true,
+        "details": {
+          "pass": true,
+          "beforeScroll": 1629,
+          "afterScroll": 136,
+          "hash": "#get-started-with-prompt-management",
+          "href": "#get-started-with-prompt-management"
+        }
+      },
+      {
+        "name": "Edit this page link targets the expected source file",
+        "pass": true,
+        "details": {
+          "editLink": {
+            "text": "Edit this page on GitHub",
+            "href": "https://github.com/langfuse/langfuse-docs/edit/main/content/docs/prompt-management/get-started.mdx"
+          }
+        }
+      },
+      {
+        "name": "Contributors block matches generated contributor data for the page",
+        "pass": true,
+        "details": {
+          "contributors": [
+            "ArkuVonSymfon"
+          ],
+          "expected": [
+            "ArkuVonSymfon"
+          ]
+        }
+      },
+      {
+        "name": "Desktop sticky chrome keeps the header and TOC within the viewport while scrolling",
+        "pass": true,
+        "details": {
+          "headerTop": 48,
+          "tocTop": 112,
+          "tocBottom": 1200,
+          "viewportHeight": 1200,
+          "pass": true
+        }
+      }
+    ],
+    "observations": [
+      "Duplicate TOC labels observed on /docs/prompt-management/get-started: Get API keys, Create a prompt, Use the prompt in your code"
+    ],
+    "sidebar": {
+      "all": [
+        "Docs",
+        "Integrations",
+        "Self Hosting",
+        "Guides",
+        "AI Engineering Library",
+        "Overview",
+        "Example Project",
+        "Ask AI",
+        "Get Started",
+        "Start Tracing",
+        "Use Prompt Management",
+        "Set up Evals",
+        "Products",
+        "Observability",
+        "Prompt Management",
+        "Overview",
+        "Get Started",
+        "Concepts",
+        "Features",
+        "Troubleshooting and FAQ",
+        "Evaluation",
+        "Platform",
+        "Metrics",
+        "API & Data Platform",
+        "Administration",
+        "Security & Guardrails",
+        "More",
+        "Glossary",
+        "Roadmap",
+        "Docs MCP Server",
+        "SDK & API References",
+        "Security & Compliance ↗",
+        "Support ↗"
+      ],
+      "switcher": [
+        "Docs",
+        "Integrations",
+        "Self Hosting",
+        "Guides",
+        "AI Engineering Library"
+      ],
+      "root": [
+        "Overview",
+        "Example Project",
+        "Ask AI",
+        "Get Started",
+        "Start Tracing",
+        "Use Prompt Management",
+        "Set up Evals",
+        "Products",
+        "Observability",
+        "Prompt Management",
+        "Overview",
+        "Get Started",
+        "Concepts",
+        "Features",
+        "Troubleshooting and FAQ",
+        "Evaluation",
+        "Platform",
+        "Metrics",
+        "API & Data Platform",
+        "Administration",
+        "Security & Guardrails",
+        "More",
+        "Glossary",
+        "Roadmap",
+        "Docs MCP Server",
+        "SDK & API References",
+        "Security & Compliance ↗",
+        "Support ↗"
+      ]
+    },
+    "breadcrumbs": [
+      {
+        "text": "Docs",
+        "kind": "text",
+        "href": null
+      },
+      {
+        "text": "Use Prompt Management",
+        "kind": "link",
+        "href": "/docs/prompt-management/get-started"
+      }
+    ],
+    "toc": {
+      "links": [
+        {
+          "text": "Get Started with Prompt Management",
+          "href": "#get-started-with-prompt-management"
+        },
+        {
+          "text": "Get API keys",
+          "href": "#get-api-keys"
+        },
+        {
+          "text": "Create a prompt",
+          "href": "#create-update-prompt"
+        },
+        {
+          "text": "Use the prompt in your code",
+          "href": "#use-prompt"
+        },
+        {
+          "text": "Get API keys",
+          "href": "#get-api-keys-1"
+        },
+        {
+          "text": "Create a prompt",
+          "href": "#create-update-prompt"
+        },
+        {
+          "text": "Use the prompt in your code",
+          "href": "#use-prompt"
+        },
+        {
+          "text": "Not seeing what you expected?",
+          "href": "#not-seeing-what-you-expected"
+        },
+        {
+          "text": "Next steps",
+          "href": "#next-steps"
+        }
+      ],
+      "missingTargets": [
+        "#get-api-keys-1"
+      ],
+      "duplicateLabels": [
+        "Get API keys",
+        "Create a prompt",
+        "Use the prompt in your code"
+      ]
+    },
+    "backToTop": {
+      "pass": true,
+      "beforeScroll": 1629,
+      "afterScroll": 136,
+      "hash": "#get-started-with-prompt-management",
+      "href": "#get-started-with-prompt-management"
+    },
+    "editLink": {
+      "text": "Edit this page on GitHub",
+      "href": "https://github.com/langfuse/langfuse-docs/edit/main/content/docs/prompt-management/get-started.mdx"
+    },
+    "contributors": [
+      "ArkuVonSymfon"
+    ],
+    "stickyChrome": {
+      "headerTop": 48,
+      "tocTop": 112,
+      "tocBottom": 1200,
+      "viewportHeight": 1200,
+      "pass": true
+    },
+    "pass": false
+  },
+  "bannerDismissal": {
+    "path": "/docs",
+    "assertions": [
+      {
+        "name": "Announcement banner is visible before dismissal in a fresh browser context",
+        "pass": true,
+        "details": {
+          "initialState": {
+            "visible": true,
+            "dismissed": null
+          }
+        }
+      },
+      {
+        "name": "Announcement dismissal writes the stable localStorage key",
+        "pass": true,
+        "details": {
+          "dismissedState": {
+            "visible": false,
+            "dismissed": "true",
+            "documentClass": false
+          }
+        }
+      },
+      {
+        "name": "Announcement banner stays hidden after a reload once dismissed",
+        "pass": true,
+        "details": {
+          "reloadedState": {
+            "visible": false,
+            "dismissed": "true",
+            "documentClass": true
+          }
+        }
+      }
+    ],
+    "initialState": {
+      "visible": true,
+      "dismissed": null
+    },
+    "dismissedState": {
+      "visible": false,
+      "dismissed": "true",
+      "documentClass": false
+    },
+    "reloadedState": {
+      "visible": false,
+      "dismissed": "true",
+      "documentClass": true
+    },
+    "pass": true
+  },
+  "mobileDeepDoc": {
+    "pass": true,
+    "tocPopover": {
+      "path": "/docs/prompt-management/get-started",
+      "screenshot": "screenshots/mobile-toc-popover.png",
+      "assertions": [
+        {
+          "name": "Mobile sticky page chrome keeps the TOC button pinned near the top while scrolling",
+          "pass": true,
+          "details": {
+            "stickyButtonBefore": {
+              "text": "Use Prompt Management",
+              "top": 112,
+              "bottom": 152,
+              "expanded": "false"
+            },
+            "stickyButtonAfter": {
+              "text": "Use Prompt ManagementUse the prompt in your code",
+              "top": 112,
+              "bottom": 152,
+              "expanded": "false"
+            }
+          }
+        },
+        {
+          "name": "Mobile TOC popover exposes the expected document anchors",
+          "pass": true,
+          "details": {
+            "popoverLinks": [
+              {
+                "text": "Get Started with Prompt Management",
+                "href": "#get-started-with-prompt-management"
+              },
+              {
+                "text": "Get API keys",
+                "href": "#get-api-keys"
+              },
+              {
+                "text": "Create a prompt",
+                "href": "#create-update-prompt"
+              },
+              {
+                "text": "Use the prompt in your code",
+                "href": "#use-prompt"
+              },
+              {
+                "text": "Get API keys",
+                "href": "#get-api-keys-1"
+              },
+              {
+                "text": "Create a prompt",
+                "href": "#create-update-prompt"
+              },
+              {
+                "text": "Use the prompt in your code",
+                "href": "#use-prompt"
+              },
+              {
+                "text": "Not seeing what you expected?",
+                "href": "#not-seeing-what-you-expected"
+              },
+              {
+                "text": "Next steps",
+                "href": "#next-steps"
+              }
+            ]
+          }
+        }
+      ],
+      "stickyButtonBefore": {
+        "text": "Use Prompt Management",
+        "top": 112,
+        "bottom": 152,
+        "expanded": "false"
+      },
+      "stickyButtonAfter": {
+        "text": "Use Prompt ManagementUse the prompt in your code",
+        "top": 112,
+        "bottom": 152,
+        "expanded": "false"
+      },
+      "popoverLinks": [
+        {
+          "text": "Get Started with Prompt Management",
+          "href": "#get-started-with-prompt-management"
+        },
+        {
+          "text": "Get API keys",
+          "href": "#get-api-keys"
+        },
+        {
+          "text": "Create a prompt",
+          "href": "#create-update-prompt"
+        },
+        {
+          "text": "Use the prompt in your code",
+          "href": "#use-prompt"
+        },
+        {
+          "text": "Get API keys",
+          "href": "#get-api-keys-1"
+        },
+        {
+          "text": "Create a prompt",
+          "href": "#create-update-prompt"
+        },
+        {
+          "text": "Use the prompt in your code",
+          "href": "#use-prompt"
+        },
+        {
+          "text": "Not seeing what you expected?",
+          "href": "#not-seeing-what-you-expected"
+        },
+        {
+          "text": "Next steps",
+          "href": "#next-steps"
+        }
+      ],
+      "pass": true
+    },
+    "navigation": {
+      "path": "/docs/prompt-management/get-started",
+      "screenshots": [
+        "screenshots/mobile-site-nav.png",
+        "screenshots/mobile-docs-chrome.png"
+      ],
+      "assertions": [
+        {
+          "name": "Mobile site navigation exposes product shortcuts and section links",
+          "pass": true,
+          "details": {
+            "siteMenuLines": [
+              "Product",
+              "Overview",
+              "LLM Observability",
+              "Prompt Management",
+              "Evaluation",
+              "Metrics",
+              "Resources",
+              "Docs",
+              "Self Hosting",
+              "Guides",
+              "Integrations",
+              "FAQ",
+              "Handbook",
+              "Changelog",
+              "Pricing",
+              "Library",
+              "Security & Compliance"
+            ]
+          }
+        },
+        {
+          "name": "Mobile docs pages still expose a sidebar toggle control",
+          "pass": true,
+          "details": {
+            "sidebarToggle": {
+              "ariaLabel": "Open Sidebar",
+              "text": "",
+              "visible": false
+            }
+          }
+        }
+      ],
+      "siteMenuLines": [
+        "Product",
+        "Overview",
+        "LLM Observability",
+        "Prompt Management",
+        "Evaluation",
+        "Metrics",
+        "Resources",
+        "Docs",
+        "Self Hosting",
+        "Guides",
+        "Integrations",
+        "FAQ",
+        "Handbook",
+        "Changelog",
+        "Pricing",
+        "Library",
+        "Security & Compliance"
+      ],
+      "sidebarToggle": {
+        "ariaLabel": "Open Sidebar",
+        "text": "",
+        "visible": false
+      },
+      "pass": true
+    }
+  }
+}

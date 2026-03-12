@@ -1,0 +1,62 @@
+{
+  "preview": {
+    "valid": {
+      "status": 200,
+      "ok": true,
+      "contentType": "application/json",
+      "corsOrigin": "*",
+      "corsMethods": "GET, OPTIONS",
+      "corsHeaders": "Content-Type",
+      "keys": [
+        "answer",
+        "metadata",
+        "query"
+      ],
+      "answerType": "string",
+      "metadataType": "object"
+    },
+    "invalid": {
+      "status": 400,
+      "contentType": "application/json",
+      "error": "Missing or invalid 'query' parameter"
+    },
+    "options": {
+      "status": 204,
+      "corsOrigin": "*",
+      "corsMethods": "GET, OPTIONS",
+      "corsHeaders": "Content-Type",
+      "allow": null
+    },
+    "pass": true
+  },
+  "production": {
+    "valid": {
+      "status": 200,
+      "ok": true,
+      "contentType": "application/json; charset=utf-8",
+      "corsOrigin": "*",
+      "corsMethods": "GET, OPTIONS",
+      "corsHeaders": "Content-Type",
+      "keys": [
+        "answer",
+        "metadata",
+        "query"
+      ],
+      "answerType": "string",
+      "metadataType": "object"
+    },
+    "invalid": {
+      "status": 400,
+      "contentType": "application/json; charset=utf-8",
+      "error": "Missing or invalid 'query' parameter"
+    },
+    "options": {
+      "status": 204,
+      "corsOrigin": "*",
+      "corsMethods": "GET, OPTIONS",
+      "corsHeaders": "Content-Type",
+      "allow": null
+    },
+    "pass": true
+  }
+}

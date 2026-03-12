@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/docs/prompt-management/get-started",
+    "anchor": "create-update-prompt",
+    "exists": true
+  },
+  {
+    "path": "/faq/all/existing-otel-setup",
+    "anchor": "how-langfuse-uses-otel",
+    "exists": true
+  },
+  {
+    "path": "/self-hosting/security/authentication-and-sso",
+    "anchor": "auth-email-password",
+    "exists": true
+  },
+  {
+    "path": "/self-hosting/configuration/encryption",
+    "anchor": "encryption-at-rest",
+    "exists": true
+  },
+  {
+    "path": "/docs/metrics/features/metrics-api",
+    "anchor": "daily-metrics",
+    "exists": true
+  },
+  {
+    "path": "/integrations/frameworks/langchain",
+    "anchor": "upgrade-paths",
+    "exists": true
+  }
+]

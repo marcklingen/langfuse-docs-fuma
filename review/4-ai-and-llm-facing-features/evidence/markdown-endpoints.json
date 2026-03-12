@@ -1,0 +1,354 @@
+{
+  "preview": {
+    "samplePath": "/docs/observability/overview",
+    "results": [
+      {
+        "path": "/docs/observability/overview",
+        "direct": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 4395,
+          "sha256": "65a7b9309c9f120d0ea550202f0b107c282e048c71352d3cbde0a3636ec2a53c"
+        },
+        "negotiated": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 4395,
+          "sha256": "65a7b9309c9f120d0ea550202f0b107c282e048c71352d3cbde0a3636ec2a53c"
+        },
+        "html": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/html; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 256050,
+          "sha256": "64ad641ac8f2fd98c125eb094ae7c8dca1ca4fa0c0a086f7c7c700fbe6182778"
+        },
+        "directContentTypeOk": true,
+        "negotiatedContentTypeOk": true,
+        "directNoindexOk": true,
+        "negotiatedNoindexOk": true,
+        "htmlLooksHtml": true,
+        "bodyMatches": true,
+        "firstDifference": null
+      },
+      {
+        "path": "/docs/docs-mcp",
+        "direct": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 5785,
+          "sha256": "fcbc5c2c858e7606e6f06c64aa899e7b258e82da92ad066f4cd474c2b41ca539"
+        },
+        "negotiated": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 5785,
+          "sha256": "fcbc5c2c858e7606e6f06c64aa899e7b258e82da92ad066f4cd474c2b41ca539"
+        },
+        "html": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/html; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 256346,
+          "sha256": "8314453fd401729504dd954a6984f8404f2362397cd4e34451de4b1cb184fa93"
+        },
+        "directContentTypeOk": true,
+        "negotiatedContentTypeOk": true,
+        "directNoindexOk": true,
+        "negotiatedNoindexOk": true,
+        "htmlLooksHtml": true,
+        "bodyMatches": true,
+        "firstDifference": null
+      },
+      {
+        "path": "/integrations/frameworks/langchain",
+        "direct": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 29038,
+          "sha256": "0ea900a3001b6f10aa3868b6e9e5b090e4f6c9bf0d73ed25c92acf88ba0b0595"
+        },
+        "negotiated": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 29038,
+          "sha256": "0ea900a3001b6f10aa3868b6e9e5b090e4f6c9bf0d73ed25c92acf88ba0b0595"
+        },
+        "html": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/html; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 436492,
+          "sha256": "fb9d70dd689984ce40a21c61831d5a9df6121fd5a52d98625cc136f7184cf7cc"
+        },
+        "directContentTypeOk": true,
+        "negotiatedContentTypeOk": true,
+        "directNoindexOk": true,
+        "negotiatedNoindexOk": true,
+        "htmlLooksHtml": true,
+        "bodyMatches": true,
+        "firstDifference": null
+      },
+      {
+        "path": "/self-hosting/deployment/docker-compose",
+        "direct": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 9092,
+          "sha256": "926b7d6f736800db4311f3ac9c6326a2b4c87268b6da10ea8730ca8c324624e4"
+        },
+        "negotiated": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 9092,
+          "sha256": "926b7d6f736800db4311f3ac9c6326a2b4c87268b6da10ea8730ca8c324624e4"
+        },
+        "html": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/html; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 251692,
+          "sha256": "fe41b5adb5a93dc2015f3d13a037e0d0c3b4313a6c855a4dc353093f37987698"
+        },
+        "directContentTypeOk": true,
+        "negotiatedContentTypeOk": true,
+        "directNoindexOk": true,
+        "negotiatedNoindexOk": true,
+        "htmlLooksHtml": true,
+        "bodyMatches": true,
+        "firstDifference": null
+      },
+      {
+        "path": "/faq/all/langfuse-support",
+        "direct": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 342,
+          "sha256": "677f4660b5c09c9b86b803250cbaa294dc3167ca952cb9f6977aba493ba1ce1a"
+        },
+        "negotiated": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 342,
+          "sha256": "677f4660b5c09c9b86b803250cbaa294dc3167ca952cb9f6977aba493ba1ce1a"
+        },
+        "html": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/html; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 266319,
+          "sha256": "d2e9b13b564a4ca66bc56e089748b714d4ccd83f0541d43d4f8847ba9d4bd39f"
+        },
+        "directContentTypeOk": true,
+        "negotiatedContentTypeOk": true,
+        "directNoindexOk": true,
+        "negotiatedNoindexOk": true,
+        "htmlLooksHtml": true,
+        "bodyMatches": true,
+        "firstDifference": null
+      }
+    ],
+    "pass": true
+  },
+  "production": {
+    "samplePath": "/docs/observability/overview",
+    "results": [
+      {
+        "path": "/docs/observability/overview",
+        "direct": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 4432,
+          "sha256": "5bdb851e148b287f230799e60423e4db7933da1a5f47d0dfc6d69d1b79b10d2d"
+        },
+        "negotiated": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": null,
+          "bodyLength": 4432,
+          "sha256": "5bdb851e148b287f230799e60423e4db7933da1a5f47d0dfc6d69d1b79b10d2d"
+        },
+        "html": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/html; charset=utf-8",
+          "xRobotsTag": null,
+          "bodyLength": 142486,
+          "sha256": "d3727cc84dd3a6946146d7280ea9f1b1436f26cee838bbf62b46405c33d6a6bd"
+        },
+        "directContentTypeOk": true,
+        "negotiatedContentTypeOk": true,
+        "directNoindexOk": true,
+        "negotiatedNoindexOk": false,
+        "htmlLooksHtml": true,
+        "bodyMatches": true,
+        "firstDifference": null
+      },
+      {
+        "path": "/docs/docs-mcp",
+        "direct": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 5753,
+          "sha256": "2ca0b0c4c4e775a0e2e54d9294cb85f88a7d9763e3ba65641791acf592a6dd5b"
+        },
+        "negotiated": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": null,
+          "bodyLength": 5753,
+          "sha256": "2ca0b0c4c4e775a0e2e54d9294cb85f88a7d9763e3ba65641791acf592a6dd5b"
+        },
+        "html": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/html; charset=utf-8",
+          "xRobotsTag": null,
+          "bodyLength": 166869,
+          "sha256": "d8ff2acb9cf7b4928a246eb6a715d901c380b4fe984837170578a62fa6c80697"
+        },
+        "directContentTypeOk": true,
+        "negotiatedContentTypeOk": true,
+        "directNoindexOk": true,
+        "negotiatedNoindexOk": false,
+        "htmlLooksHtml": true,
+        "bodyMatches": true,
+        "firstDifference": null
+      },
+      {
+        "path": "/integrations/frameworks/langchain",
+        "direct": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 29288,
+          "sha256": "2abc23de91adcad8b75e0e743f09493e03193938a73ef431cb24825c7421ca00"
+        },
+        "negotiated": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": null,
+          "bodyLength": 29288,
+          "sha256": "2abc23de91adcad8b75e0e743f09493e03193938a73ef431cb24825c7421ca00"
+        },
+        "html": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/html; charset=utf-8",
+          "xRobotsTag": null,
+          "bodyLength": 344954,
+          "sha256": "2823de4e26ab03eeb57f04394e3db1dad78718493fa48296b127946ec44a2832"
+        },
+        "directContentTypeOk": true,
+        "negotiatedContentTypeOk": true,
+        "directNoindexOk": true,
+        "negotiatedNoindexOk": false,
+        "htmlLooksHtml": true,
+        "bodyMatches": true,
+        "firstDifference": null
+      },
+      {
+        "path": "/self-hosting/deployment/docker-compose",
+        "direct": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 9092,
+          "sha256": "926b7d6f736800db4311f3ac9c6326a2b4c87268b6da10ea8730ca8c324624e4"
+        },
+        "negotiated": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": null,
+          "bodyLength": 9092,
+          "sha256": "926b7d6f736800db4311f3ac9c6326a2b4c87268b6da10ea8730ca8c324624e4"
+        },
+        "html": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/html; charset=utf-8",
+          "xRobotsTag": null,
+          "bodyLength": 141860,
+          "sha256": "4104fdeeda58ef3e17ea072d67e1f36fc4db7d4ca21b124eb19175883f7d7156"
+        },
+        "directContentTypeOk": true,
+        "negotiatedContentTypeOk": true,
+        "directNoindexOk": true,
+        "negotiatedNoindexOk": false,
+        "htmlLooksHtml": true,
+        "bodyMatches": true,
+        "firstDifference": null
+      },
+      {
+        "path": "/faq/all/langfuse-support",
+        "direct": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": "noindex",
+          "bodyLength": 342,
+          "sha256": "677f4660b5c09c9b86b803250cbaa294dc3167ca952cb9f6977aba493ba1ce1a"
+        },
+        "negotiated": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/markdown; charset=utf-8",
+          "xRobotsTag": null,
+          "bodyLength": 342,
+          "sha256": "677f4660b5c09c9b86b803250cbaa294dc3167ca952cb9f6977aba493ba1ce1a"
+        },
+        "html": {
+          "status": 200,
+          "ok": true,
+          "contentType": "text/html; charset=utf-8",
+          "xRobotsTag": null,
+          "bodyLength": 46563,
+          "sha256": "2ca1ce3765678904cd31e781821748eb98db26c61c5ce483bee766ca0ecd0c27"
+        },
+        "directContentTypeOk": true,
+        "negotiatedContentTypeOk": true,
+        "directNoindexOk": true,
+        "negotiatedNoindexOk": false,
+        "htmlLooksHtml": true,
+        "bodyMatches": true,
+        "firstDifference": null
+      }
+    ],
+    "pass": true
+  }
+}

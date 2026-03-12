@@ -1,0 +1,14 @@
+{
+  "preview": {
+    "url": "http://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview",
+    "status": 308,
+    "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview",
+    "pass": true
+  },
+  "production": {
+    "url": "http://langfuse.com/docs/observability/overview",
+    "status": 308,
+    "location": "https://langfuse.com/docs/observability/overview",
+    "pass": true
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "generatedAt": "2026-03-12T04:13:01.011Z",
+  "required": [
+    {
+      "name": "WEBSITE_FEEDBACK_WEBHOOK",
+      "purpose": "Forwards docs feedback submissions from `/api/feedback`",
+      "files": [
+        "app/api/feedback/route.ts",
+        ".env.template"
+      ],
+      "inEnvTemplate": true,
+      "fileChecks": [
+        {
+          "file": "app/api/feedback/route.ts",
+          "mentionsVar": true
+        },
+        {
+          "file": ".env.template",
+          "mentionsVar": true
+        }
+      ]
+    },
+    {
+      "name": "NEXT_PUBLIC_POSTHOG_KEY",
+      "purpose": "Enables client-side PostHog analytics and MCP event tracking",
+      "files": [
+        "components/analytics/PostHogProvider.tsx",
+        "lib/mcp-handler.ts",
+        ".env.template"
+      ],
+      "inEnvTemplate": true,
+      "fileChecks": [
+        {
+          "file": "components/analytics/PostHogProvider.tsx",
+          "mentionsVar": true
+        },
+        {
+          "file": "lib/mcp-handler.ts",
+          "mentionsVar": true
+        },
+        {
+          "file": ".env.template",
+          "mentionsVar": true
+        }
+      ]
+    },
+    {
+      "name": "NEXT_PUBLIC_POSTHOG_HOST",
+      "purpose": "Selects the PostHog ingestion host for browser and MCP events",
+      "files": [
+        "components/analytics/PostHogProvider.tsx",
+        "lib/mcp-handler.ts",
+        ".env.template"
+      ],
+      "inEnvTemplate": true,
+      "fileChecks": [
+        {
+          "file": "components/analytics/PostHogProvider.tsx",
+          "mentionsVar": true
+        },
+        {
+          "file": "lib/mcp-handler.ts",
+          "mentionsVar": true
+        },
+        {
+          "file": ".env.template",
+          "mentionsVar": true
+        }
+      ]
+    },
+    {
+      "name": "NEXT_PUBLIC_INKEEP_API_KEY",
+      "purpose": "Bootstraps the client-side Inkeep widget used by site search and Ask AI",
+      "files": [
+        "components/inkeep/useInkeepSettings.ts",
+        ".env.template"
+      ],
+      "inEnvTemplate": false,
+      "fileChecks": [
+        {
+          "file": "components/inkeep/useInkeepSettings.ts",
+          "mentionsVar": true
+        },
+        {
+          "file": ".env.template",
+          "mentionsVar": false
+        }
+      ]
+    },
+    {
+      "name": "INKEEP_BACKEND_API_KEY",
+      "purpose": "Powers server-side Inkeep RAG calls used by `/api/search-docs` and MCP search",
+      "files": [
+        "lib/inkeep-search.ts",
+        ".env.template"
+      ],
+      "inEnvTemplate": false,
+      "fileChecks": [
+        {
+          "file": "lib/inkeep-search.ts",
+          "mentionsVar": true
+        },
+        {
+          "file": ".env.template",
+          "mentionsVar": false
+        }
+      ]
+    }
+  ],
+  "optional": [
+    {
+      "name": "NEXT_PUBLIC_PLAIN_APP_ID",
+      "purpose": "Enables the authenticated Plain support-chat integration",
+      "files": [
+        "components/supportChat/index.tsx",
+        ".env.template"
+      ],
+      "inEnvTemplate": true,
+      "fileChecks": [
+        {
+          "file": "components/supportChat/index.tsx",
+          "mentionsVar": true
+        },
+        {
+          "file": ".env.template",
+          "mentionsVar": true
+        }
+      ]
+    }
+  ],
+  "pass": false
+}

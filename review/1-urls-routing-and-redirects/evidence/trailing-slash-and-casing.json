@@ -1,0 +1,251 @@
+{
+  "trailingSlash": [
+    {
+      "path": "/about",
+      "withoutSlash": {
+        "initialStatus": 200,
+        "finalStatus": 200,
+        "finalPath": "/about",
+        "hopCount": 0,
+        "loopDetected": false,
+        "chain": [
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/about",
+            "status": 200,
+            "location": null
+          }
+        ]
+      },
+      "withSlash": {
+        "initialStatus": 308,
+        "finalStatus": 200,
+        "finalPath": "/about",
+        "hopCount": 1,
+        "loopDetected": false,
+        "chain": [
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/about/",
+            "status": 308,
+            "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/about"
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/about",
+            "status": 200,
+            "location": null
+          }
+        ]
+      },
+      "duplicateLiveUrl": false
+    },
+    {
+      "path": "/docs",
+      "withoutSlash": {
+        "initialStatus": 200,
+        "finalStatus": 200,
+        "finalPath": "/docs",
+        "hopCount": 0,
+        "loopDetected": false,
+        "chain": [
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs",
+            "status": 200,
+            "location": null
+          }
+        ]
+      },
+      "withSlash": {
+        "initialStatus": 308,
+        "finalStatus": 200,
+        "finalPath": "/docs",
+        "hopCount": 1,
+        "loopDetected": false,
+        "chain": [
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/",
+            "status": 308,
+            "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs"
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs",
+            "status": 200,
+            "location": null
+          }
+        ]
+      },
+      "duplicateLiveUrl": false
+    },
+    {
+      "path": "/docs/prompt-management/get-started",
+      "withoutSlash": {
+        "initialStatus": 200,
+        "finalStatus": 200,
+        "finalPath": "/docs/prompt-management/get-started",
+        "hopCount": 0,
+        "loopDetected": false,
+        "chain": [
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started",
+            "status": 200,
+            "location": null
+          }
+        ]
+      },
+      "withSlash": {
+        "initialStatus": 308,
+        "finalStatus": 200,
+        "finalPath": "/docs/prompt-management/get-started",
+        "hopCount": 1,
+        "loopDetected": false,
+        "chain": [
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started/",
+            "status": 308,
+            "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started"
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started",
+            "status": 200,
+            "location": null
+          }
+        ]
+      },
+      "duplicateLiveUrl": false
+    },
+    {
+      "path": "/faq/all/existing-otel-setup",
+      "withoutSlash": {
+        "initialStatus": 200,
+        "finalStatus": 200,
+        "finalPath": "/faq/all/existing-otel-setup",
+        "hopCount": 0,
+        "loopDetected": false,
+        "chain": [
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/existing-otel-setup",
+            "status": 200,
+            "location": null
+          }
+        ]
+      },
+      "withSlash": {
+        "initialStatus": 308,
+        "finalStatus": 200,
+        "finalPath": "/faq/all/existing-otel-setup",
+        "hopCount": 1,
+        "loopDetected": false,
+        "chain": [
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/existing-otel-setup/",
+            "status": 308,
+            "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/existing-otel-setup"
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/existing-otel-setup",
+            "status": 200,
+            "location": null
+          }
+        ]
+      },
+      "duplicateLiveUrl": false
+    },
+    {
+      "path": "/self-hosting/security/authentication-and-sso",
+      "withoutSlash": {
+        "initialStatus": 200,
+        "finalStatus": 200,
+        "finalPath": "/self-hosting/security/authentication-and-sso",
+        "hopCount": 0,
+        "loopDetected": false,
+        "chain": [
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/security/authentication-and-sso",
+            "status": 200,
+            "location": null
+          }
+        ]
+      },
+      "withSlash": {
+        "initialStatus": 308,
+        "finalStatus": 200,
+        "finalPath": "/self-hosting/security/authentication-and-sso",
+        "hopCount": 1,
+        "loopDetected": false,
+        "chain": [
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/security/authentication-and-sso/",
+            "status": 308,
+            "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/security/authentication-and-sso"
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/security/authentication-and-sso",
+            "status": 200,
+            "location": null
+          }
+        ]
+      },
+      "duplicateLiveUrl": false
+    }
+  ],
+  "casing": [
+    {
+      "path": "/Docs",
+      "initialStatus": 200,
+      "finalStatus": 200,
+      "finalPath": "/Docs",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/Docs",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "path": "/Docs/Prompt-Management/Get-Started",
+      "initialStatus": 404,
+      "finalStatus": 404,
+      "finalPath": "/Docs/Prompt-Management/Get-Started",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/Docs/Prompt-Management/Get-Started",
+          "status": 404,
+          "location": null
+        }
+      ]
+    },
+    {
+      "path": "/FAQ/All/Existing-Otel-Setup",
+      "initialStatus": 404,
+      "finalStatus": 404,
+      "finalPath": "/FAQ/All/Existing-Otel-Setup",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/FAQ/All/Existing-Otel-Setup",
+          "status": 404,
+          "location": null
+        }
+      ]
+    },
+    {
+      "path": "/Self-Hosting/Security/Authentication-And-Sso",
+      "initialStatus": 404,
+      "finalStatus": 404,
+      "finalPath": "/Self-Hosting/Security/Authentication-And-Sso",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/Self-Hosting/Security/Authentication-And-Sso",
+          "status": 404,
+          "location": null
+        }
+      ]
+    }
+  ]
+}

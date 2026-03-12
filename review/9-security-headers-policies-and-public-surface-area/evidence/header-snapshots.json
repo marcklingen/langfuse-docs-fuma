@@ -1,0 +1,506 @@
+{
+  "preview": [
+    {
+      "id": "home",
+      "label": "Homepage",
+      "path": "/",
+      "status": 200,
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/",
+      "headers": {
+        "access-control-allow-headers": null,
+        "access-control-allow-methods": null,
+        "access-control-allow-origin": "*",
+        "content-security-policy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+        "content-type": "text/html; charset=utf-8",
+        "permissions-policy": "autoplay=*, fullscreen=*, microphone=*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-robots-tag": "noindex"
+      },
+      "baselineAssertions": [
+        {
+          "header": "x-content-type-options",
+          "expected": "nosniff",
+          "actual": "nosniff",
+          "pass": true
+        },
+        {
+          "header": "referrer-policy",
+          "expected": "strict-origin-when-cross-origin",
+          "actual": "strict-origin-when-cross-origin",
+          "pass": true
+        },
+        {
+          "header": "permissions-policy",
+          "expected": "autoplay=*, fullscreen=*, microphone=*",
+          "actual": "autoplay=*, fullscreen=*, microphone=*",
+          "pass": true
+        },
+        {
+          "header": "x-frame-options",
+          "expected": "SAMEORIGIN",
+          "actual": "SAMEORIGIN",
+          "pass": true
+        }
+      ],
+      "cspPass": true,
+      "indexingPass": true,
+      "corsPass": true,
+      "pass": true
+    },
+    {
+      "id": "docs-overview",
+      "label": "Docs overview",
+      "path": "/docs/observability/overview",
+      "status": 200,
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview",
+      "headers": {
+        "access-control-allow-headers": null,
+        "access-control-allow-methods": null,
+        "access-control-allow-origin": "*",
+        "content-security-policy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+        "content-type": "text/html; charset=utf-8",
+        "permissions-policy": "autoplay=*, fullscreen=*, microphone=*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-robots-tag": "noindex"
+      },
+      "baselineAssertions": [
+        {
+          "header": "x-content-type-options",
+          "expected": "nosniff",
+          "actual": "nosniff",
+          "pass": true
+        },
+        {
+          "header": "referrer-policy",
+          "expected": "strict-origin-when-cross-origin",
+          "actual": "strict-origin-when-cross-origin",
+          "pass": true
+        },
+        {
+          "header": "permissions-policy",
+          "expected": "autoplay=*, fullscreen=*, microphone=*",
+          "actual": "autoplay=*, fullscreen=*, microphone=*",
+          "pass": true
+        },
+        {
+          "header": "x-frame-options",
+          "expected": "SAMEORIGIN",
+          "actual": "SAMEORIGIN",
+          "pass": true
+        }
+      ],
+      "cspPass": true,
+      "indexingPass": true,
+      "corsPass": true,
+      "pass": true
+    },
+    {
+      "id": "guide-video",
+      "label": "Guide video",
+      "path": "/guides/videos/run-langfuse-locally",
+      "status": 200,
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/run-langfuse-locally",
+      "headers": {
+        "access-control-allow-headers": null,
+        "access-control-allow-methods": null,
+        "access-control-allow-origin": "*",
+        "content-security-policy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+        "content-type": "text/html; charset=utf-8",
+        "permissions-policy": "autoplay=*, fullscreen=*, microphone=*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-robots-tag": "noindex"
+      },
+      "baselineAssertions": [
+        {
+          "header": "x-content-type-options",
+          "expected": "nosniff",
+          "actual": "nosniff",
+          "pass": true
+        },
+        {
+          "header": "referrer-policy",
+          "expected": "strict-origin-when-cross-origin",
+          "actual": "strict-origin-when-cross-origin",
+          "pass": true
+        },
+        {
+          "header": "permissions-policy",
+          "expected": "autoplay=*, fullscreen=*, microphone=*",
+          "actual": "autoplay=*, fullscreen=*, microphone=*",
+          "pass": true
+        },
+        {
+          "header": "x-frame-options",
+          "expected": "SAMEORIGIN",
+          "actual": "SAMEORIGIN",
+          "pass": true
+        }
+      ],
+      "cspPass": true,
+      "indexingPass": true,
+      "corsPass": true,
+      "pass": true
+    },
+    {
+      "id": "search-docs",
+      "label": "Search docs API",
+      "path": "/api/search-docs?query=Langfuse%20MCP",
+      "status": 200,
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/search-docs?query=Langfuse%20MCP",
+      "headers": {
+        "access-control-allow-headers": "Content-Type",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-origin": "*",
+        "content-security-policy": null,
+        "content-type": "application/json",
+        "permissions-policy": "autoplay=*, fullscreen=*, microphone=*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-robots-tag": "noindex"
+      },
+      "baselineAssertions": [
+        {
+          "header": "x-content-type-options",
+          "expected": "nosniff",
+          "actual": "nosniff",
+          "pass": true
+        },
+        {
+          "header": "referrer-policy",
+          "expected": "strict-origin-when-cross-origin",
+          "actual": "strict-origin-when-cross-origin",
+          "pass": true
+        },
+        {
+          "header": "permissions-policy",
+          "expected": "autoplay=*, fullscreen=*, microphone=*",
+          "actual": "autoplay=*, fullscreen=*, microphone=*",
+          "pass": true
+        },
+        {
+          "header": "x-frame-options",
+          "expected": "SAMEORIGIN",
+          "actual": "SAMEORIGIN",
+          "pass": true
+        }
+      ],
+      "cspPass": true,
+      "indexingPass": true,
+      "corsPass": true,
+      "pass": true
+    },
+    {
+      "id": "markdown-endpoint",
+      "label": "Markdown endpoint",
+      "path": "/docs/observability/overview.md",
+      "status": 200,
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview.md",
+      "headers": {
+        "access-control-allow-headers": null,
+        "access-control-allow-methods": null,
+        "access-control-allow-origin": "*",
+        "content-security-policy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+        "content-type": "text/markdown; charset=utf-8",
+        "permissions-policy": "autoplay=*, fullscreen=*, microphone=*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-robots-tag": "noindex"
+      },
+      "baselineAssertions": [
+        {
+          "header": "x-content-type-options",
+          "expected": "nosniff",
+          "actual": "nosniff",
+          "pass": true
+        },
+        {
+          "header": "referrer-policy",
+          "expected": "strict-origin-when-cross-origin",
+          "actual": "strict-origin-when-cross-origin",
+          "pass": true
+        },
+        {
+          "header": "permissions-policy",
+          "expected": "autoplay=*, fullscreen=*, microphone=*",
+          "actual": "autoplay=*, fullscreen=*, microphone=*",
+          "pass": true
+        },
+        {
+          "header": "x-frame-options",
+          "expected": "SAMEORIGIN",
+          "actual": "SAMEORIGIN",
+          "pass": true
+        }
+      ],
+      "cspPass": true,
+      "indexingPass": true,
+      "corsPass": true,
+      "pass": true
+    }
+  ],
+  "production": [
+    {
+      "id": "home",
+      "label": "Homepage",
+      "path": "/",
+      "status": 200,
+      "finalUrl": "https://langfuse.com/",
+      "headers": {
+        "access-control-allow-headers": null,
+        "access-control-allow-methods": null,
+        "access-control-allow-origin": "*",
+        "content-security-policy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+        "content-type": "text/html; charset=utf-8",
+        "permissions-policy": "autoplay=*, fullscreen=*, microphone=*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "strict-transport-security": "max-age=63072000",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-robots-tag": null
+      },
+      "baselineAssertions": [
+        {
+          "header": "x-content-type-options",
+          "expected": "nosniff",
+          "actual": "nosniff",
+          "pass": true
+        },
+        {
+          "header": "referrer-policy",
+          "expected": "strict-origin-when-cross-origin",
+          "actual": "strict-origin-when-cross-origin",
+          "pass": true
+        },
+        {
+          "header": "permissions-policy",
+          "expected": "autoplay=*, fullscreen=*, microphone=*",
+          "actual": "autoplay=*, fullscreen=*, microphone=*",
+          "pass": true
+        },
+        {
+          "header": "x-frame-options",
+          "expected": "SAMEORIGIN",
+          "actual": "SAMEORIGIN",
+          "pass": true
+        }
+      ],
+      "cspPass": true,
+      "indexingPass": true,
+      "corsPass": true,
+      "pass": true
+    },
+    {
+      "id": "docs-overview",
+      "label": "Docs overview",
+      "path": "/docs/observability/overview",
+      "status": 200,
+      "finalUrl": "https://langfuse.com/docs/observability/overview",
+      "headers": {
+        "access-control-allow-headers": null,
+        "access-control-allow-methods": null,
+        "access-control-allow-origin": "*",
+        "content-security-policy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+        "content-type": "text/html; charset=utf-8",
+        "permissions-policy": "autoplay=*, fullscreen=*, microphone=*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "strict-transport-security": "max-age=63072000",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-robots-tag": null
+      },
+      "baselineAssertions": [
+        {
+          "header": "x-content-type-options",
+          "expected": "nosniff",
+          "actual": "nosniff",
+          "pass": true
+        },
+        {
+          "header": "referrer-policy",
+          "expected": "strict-origin-when-cross-origin",
+          "actual": "strict-origin-when-cross-origin",
+          "pass": true
+        },
+        {
+          "header": "permissions-policy",
+          "expected": "autoplay=*, fullscreen=*, microphone=*",
+          "actual": "autoplay=*, fullscreen=*, microphone=*",
+          "pass": true
+        },
+        {
+          "header": "x-frame-options",
+          "expected": "SAMEORIGIN",
+          "actual": "SAMEORIGIN",
+          "pass": true
+        }
+      ],
+      "cspPass": true,
+      "indexingPass": true,
+      "corsPass": true,
+      "pass": true
+    },
+    {
+      "id": "guide-video",
+      "label": "Guide video",
+      "path": "/guides/videos/run-langfuse-locally",
+      "status": 200,
+      "finalUrl": "https://langfuse.com/guides/videos/run-langfuse-locally",
+      "headers": {
+        "access-control-allow-headers": null,
+        "access-control-allow-methods": null,
+        "access-control-allow-origin": "*",
+        "content-security-policy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+        "content-type": "text/html; charset=utf-8",
+        "permissions-policy": "autoplay=*, fullscreen=*, microphone=*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "strict-transport-security": "max-age=63072000",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-robots-tag": null
+      },
+      "baselineAssertions": [
+        {
+          "header": "x-content-type-options",
+          "expected": "nosniff",
+          "actual": "nosniff",
+          "pass": true
+        },
+        {
+          "header": "referrer-policy",
+          "expected": "strict-origin-when-cross-origin",
+          "actual": "strict-origin-when-cross-origin",
+          "pass": true
+        },
+        {
+          "header": "permissions-policy",
+          "expected": "autoplay=*, fullscreen=*, microphone=*",
+          "actual": "autoplay=*, fullscreen=*, microphone=*",
+          "pass": true
+        },
+        {
+          "header": "x-frame-options",
+          "expected": "SAMEORIGIN",
+          "actual": "SAMEORIGIN",
+          "pass": true
+        }
+      ],
+      "cspPass": true,
+      "indexingPass": true,
+      "corsPass": true,
+      "pass": true
+    },
+    {
+      "id": "search-docs",
+      "label": "Search docs API",
+      "path": "/api/search-docs?query=Langfuse%20MCP",
+      "status": 200,
+      "finalUrl": "https://langfuse.com/api/search-docs?query=Langfuse%20MCP",
+      "headers": {
+        "access-control-allow-headers": "Content-Type",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-origin": "*",
+        "content-security-policy": null,
+        "content-type": "application/json; charset=utf-8",
+        "permissions-policy": "autoplay=*, fullscreen=*, microphone=*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "strict-transport-security": "max-age=63072000",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-robots-tag": null
+      },
+      "baselineAssertions": [
+        {
+          "header": "x-content-type-options",
+          "expected": "nosniff",
+          "actual": "nosniff",
+          "pass": true
+        },
+        {
+          "header": "referrer-policy",
+          "expected": "strict-origin-when-cross-origin",
+          "actual": "strict-origin-when-cross-origin",
+          "pass": true
+        },
+        {
+          "header": "permissions-policy",
+          "expected": "autoplay=*, fullscreen=*, microphone=*",
+          "actual": "autoplay=*, fullscreen=*, microphone=*",
+          "pass": true
+        },
+        {
+          "header": "x-frame-options",
+          "expected": "SAMEORIGIN",
+          "actual": "SAMEORIGIN",
+          "pass": true
+        }
+      ],
+      "cspPass": true,
+      "indexingPass": true,
+      "corsPass": true,
+      "pass": true
+    },
+    {
+      "id": "markdown-endpoint",
+      "label": "Markdown endpoint",
+      "path": "/docs/observability/overview.md",
+      "status": 200,
+      "finalUrl": "https://langfuse.com/docs/observability/overview.md",
+      "headers": {
+        "access-control-allow-headers": null,
+        "access-control-allow-methods": null,
+        "access-control-allow-origin": "*",
+        "content-security-policy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+        "content-type": "text/markdown; charset=utf-8",
+        "permissions-policy": "autoplay=*, fullscreen=*, microphone=*",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "strict-transport-security": "max-age=63072000",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-robots-tag": "noindex"
+      },
+      "baselineAssertions": [
+        {
+          "header": "x-content-type-options",
+          "expected": "nosniff",
+          "actual": "nosniff",
+          "pass": true
+        },
+        {
+          "header": "referrer-policy",
+          "expected": "strict-origin-when-cross-origin",
+          "actual": "strict-origin-when-cross-origin",
+          "pass": true
+        },
+        {
+          "header": "permissions-policy",
+          "expected": "autoplay=*, fullscreen=*, microphone=*",
+          "actual": "autoplay=*, fullscreen=*, microphone=*",
+          "pass": true
+        },
+        {
+          "header": "x-frame-options",
+          "expected": "SAMEORIGIN",
+          "actual": "SAMEORIGIN",
+          "pass": true
+        }
+      ],
+      "cspPass": true,
+      "indexingPass": true,
+      "corsPass": true,
+      "pass": true
+    }
+  ]
+}

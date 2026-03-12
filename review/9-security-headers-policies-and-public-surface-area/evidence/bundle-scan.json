@@ -1,0 +1,329 @@
+{
+  "preview": {
+    "scannedRoutes": [
+      {
+        "route": "/",
+        "byteLength": 135495
+      },
+      {
+        "route": "/pricing",
+        "byteLength": 607974
+      }
+    ],
+    "scannedAssets": [
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/5f282995bd8842a8.js",
+        "status": 200,
+        "byteLength": 32739
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/b80d3e2bbf75c1e1.js",
+        "status": 200,
+        "byteLength": 32892
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/05b1629350ba52d5.js",
+        "status": 200,
+        "byteLength": 111319
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/3dc6cead67de2c85.js",
+        "status": 200,
+        "byteLength": 223559
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/turbopack-1ebad2744b7169b1.js",
+        "status": 200,
+        "byteLength": 10567
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/5ec7e398421ef104.js",
+        "status": 200,
+        "byteLength": 11772
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6c32b3e9ce79e1d1.js",
+        "status": 200,
+        "byteLength": 172667
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/06091c5ad5597ae7.js",
+        "status": 200,
+        "byteLength": 25073
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/94724ee8e54fc3fa.js",
+        "status": 200,
+        "byteLength": 283
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8026fd6fa5562657.js",
+        "status": 200,
+        "byteLength": 30785
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/a6e36d26d3ce4042.js",
+        "status": 200,
+        "byteLength": 1178
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1caeb55ae6316d.js",
+        "status": 200,
+        "byteLength": 25442
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/1cf32302bb240e51.js",
+        "status": 200,
+        "byteLength": 20455
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/41c6d4f5168d4ecf.js",
+        "status": 200,
+        "byteLength": 22718
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/533c49d4642f46ae.js",
+        "status": 200,
+        "byteLength": 19811
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1cf4965507329a.js",
+        "status": 200,
+        "byteLength": 18631
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/34be2152e1382c35.js",
+        "status": 200,
+        "byteLength": 26352
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/fbe4764649cd7ac4.js",
+        "status": 200,
+        "byteLength": 91536
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/7079140f2712ce3e.js",
+        "status": 200,
+        "byteLength": 33309
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/0fb4c5b8b26bd219.js",
+        "status": 200,
+        "byteLength": 36411
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/e5a724525bf20434.js",
+        "status": 200,
+        "byteLength": 62654
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/ee9854d980edd2b5.js",
+        "status": 200,
+        "byteLength": 23025
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/fe24b84cba7de1b8.js",
+        "status": 200,
+        "byteLength": 74641
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/1a032b679fca811d.js",
+        "status": 200,
+        "byteLength": 30930
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/687728ef8816569e.js",
+        "status": 200,
+        "byteLength": 179216
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+        "status": 200,
+        "byteLength": 654836
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/b45caac538ceb827.js",
+        "status": 200,
+        "byteLength": 107382
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/e7141f81e0996bb3.js",
+        "status": 200,
+        "byteLength": 102393
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/82cdd16901067bf6.js",
+        "status": 200,
+        "byteLength": 50543
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/2ac7fa07d076cb10.js",
+        "status": 200,
+        "byteLength": 69886
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/976fea821c7dae48.js",
+        "status": 200,
+        "byteLength": 44163
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f256242ae9c356ef.js",
+        "status": 200,
+        "byteLength": 28173
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f2af4082dcb415ed.js",
+        "status": 200,
+        "byteLength": 123761
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/e07c597e8aff869f.js",
+        "status": 200,
+        "byteLength": 35031
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+        "status": 200,
+        "byteLength": 20384439
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/111375817f09c3cd.js",
+        "status": 200,
+        "byteLength": 362871
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+        "status": 200,
+        "byteLength": 744738
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c8ee4d7d6725ae58.js",
+        "status": 200,
+        "byteLength": 32815
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/a6dad97d9634a72d.js",
+        "status": 200,
+        "byteLength": 112594
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c50877d09bb6b1b4.js",
+        "status": 200,
+        "byteLength": 33104
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/e457c51bd6afc17f.js",
+        "status": 200,
+        "byteLength": 28833
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/221288620d159e97.js",
+        "status": 200,
+        "byteLength": 40409
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/5e1a95f296ecc40a.js",
+        "status": 200,
+        "byteLength": 72234
+      }
+    ],
+    "findings": [],
+    "pass": true
+  },
+  "production": {
+    "scannedRoutes": [
+      {
+        "route": "/",
+        "byteLength": 69393
+      },
+      {
+        "route": "/pricing",
+        "byteLength": 499964
+      }
+    ],
+    "scannedAssets": [
+      {
+        "url": "https://langfuse.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "status": 200,
+        "byteLength": 112594
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/webpack-7ce5d7925a36cfba.js",
+        "status": 200,
+        "byteLength": 12812
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+        "status": 200,
+        "byteLength": 208931
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/main-237a94cfa4fbf8f3.js",
+        "status": 200,
+        "byteLength": 135651
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/pages/_app-b55024183c4d90af.js",
+        "status": 200,
+        "byteLength": 910879
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/78840-0d85a9d463193951.js",
+        "status": 200,
+        "byteLength": 650474
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/99633-f5648a8120c67562.js",
+        "status": 200,
+        "byteLength": 273303
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/pages/index-b8125b8f8bb22800.js",
+        "status": 200,
+        "byteLength": 40421
+      },
+      {
+        "url": "https://langfuse.com/_next/static/iR2eom3IBRRh4NCkruVbz/_buildManifest.js",
+        "status": 200,
+        "byteLength": 139836
+      },
+      {
+        "url": "https://langfuse.com/_next/static/iR2eom3IBRRh4NCkruVbz/_ssgManifest.js",
+        "status": 200,
+        "byteLength": 2748
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/74639-39c38598b253317d.js",
+        "status": 200,
+        "byteLength": 11059
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/5194-8ce7731e26de24d5.js",
+        "status": 200,
+        "byteLength": 27023
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/73654-11a8b621dd8380e2.js",
+        "status": 200,
+        "byteLength": 7558
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/20570-c196520856431ed0.js",
+        "status": 200,
+        "byteLength": 10895
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/2363-567c99bcae56582e.js",
+        "status": 200,
+        "byteLength": 51916
+      },
+      {
+        "url": "https://langfuse.com/_next/static/chunks/pages/pricing-8b7e2cc3de82a243.js",
+        "status": 200,
+        "byteLength": 2259
+      }
+    ],
+    "findings": [],
+    "pass": true
+  }
+}

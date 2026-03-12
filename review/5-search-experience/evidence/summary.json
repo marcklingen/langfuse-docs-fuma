@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-03-12T05:10:52.051Z",
+  "status": "FAIL",
+  "previewBaseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionBaseUrl": "https://langfuse.com",
+  "findings": [
+    {
+      "id": "preview-ui-docker-compose-missing-scopes",
+      "severity": "high",
+      "title": "Preview search query \"docker compose\" does not expose the expected search scopes",
+      "evidenceFile": "search-ui.json",
+      "details": "Preview scopes Docs do not match production scopes Docs, Integrations, Self Hosting, FAQ & Guides, All, GitHub for \"docker compose\". Missing on preview: Integrations, Self Hosting, FAQ & Guides, All, GitHub."
+    },
+    {
+      "id": "preview-ui-docker-compose-no-results",
+      "severity": "high",
+      "title": "Preview search query \"docker compose\" returns no real client-side results",
+      "evidenceFile": "search-ui.json",
+      "details": "Preview only surfaced 1 option(s) and emitted GraphQL warnings, while production surfaced 3 option(s) for the same query."
+    },
+    {
+      "id": "preview-ui-open-source-handbook-missing-scopes",
+      "severity": "high",
+      "title": "Preview search query \"open source handbook\" does not expose the expected search scopes",
+      "evidenceFile": "search-ui.json",
+      "details": "Preview scopes Docs do not match production scopes Docs, Integrations, FAQ & Guides, Handbook, Blog, All, GitHub for \"open source handbook\". Missing on preview: Integrations, FAQ & Guides, Handbook, Blog, All, GitHub."
+    },
+    {
+      "id": "preview-ui-open-source-handbook-no-results",
+      "severity": "high",
+      "title": "Preview search query \"open source handbook\" returns no real client-side results",
+      "evidenceFile": "search-ui.json",
+      "details": "Preview only surfaced 1 option(s) and emitted GraphQL warnings, while production surfaced 2 option(s) for the same query."
+    }
+  ],
+  "checks": [
+    {
+      "name": "preview-desktop-trigger",
+      "previewPass": true,
+      "productionPass": true
+    },
+    {
+      "name": "preview-theme-sync",
+      "previewPass": true,
+      "productionPass": true
+    },
+    {
+      "name": "preview-mobile-search",
+      "previewPass": true,
+      "productionPass": true
+    },
+    {
+      "name": "ui-query-docker-compose",
+      "previewPass": false,
+      "productionPass": true
+    },
+    {
+      "name": "ui-query-open-source-handbook",
+      "previewPass": false,
+      "productionPass": true
+    },
+    {
+      "name": "api-query-docs",
+      "previewPass": true,
+      "productionPass": true
+    },
+    {
+      "name": "api-query-integrations",
+      "previewPass": true,
+      "productionPass": true
+    },
+    {
+      "name": "api-query-self-hosting",
+      "previewPass": true,
+      "productionPass": true
+    },
+    {
+      "name": "api-query-faq",
+      "previewPass": true,
+      "productionPass": true
+    },
+    {
+      "name": "api-query-handbook",
+      "previewPass": true,
+      "productionPass": true
+    }
+  ]
+}

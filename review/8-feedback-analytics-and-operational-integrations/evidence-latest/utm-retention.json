@@ -1,0 +1,21 @@
+{
+  "startUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/cloud/login?utm_source=codex&utm_medium=review&utm_campaign=chapter8#handoff",
+  "redirectedUrl": "https://us.cloud.langfuse.com/login?utm_source=codex&utm_medium=review&utm_campaign=chapter8#handoff",
+  "assertions": [
+    {
+      "label": "Cloud region redirect preserves the UTM query string",
+      "pass": true,
+      "details": {
+        "redirectedUrl": "https://us.cloud.langfuse.com/login?utm_source=codex&utm_medium=review&utm_campaign=chapter8#handoff"
+      }
+    },
+    {
+      "label": "Cloud region redirect preserves the hash fragment",
+      "pass": true,
+      "details": {
+        "redirectedUrl": "https://us.cloud.langfuse.com/login?utm_source=codex&utm_medium=review&utm_campaign=chapter8#handoff"
+      }
+    }
+  ],
+  "pass": true
+}

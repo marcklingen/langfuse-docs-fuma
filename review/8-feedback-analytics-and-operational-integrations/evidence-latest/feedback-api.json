@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "skipped": true,
+  "reason": "Disabled by default to avoid sending live feedback. Enable only when the target deployment points to a test webhook sink.",
+  "pass": true
+}

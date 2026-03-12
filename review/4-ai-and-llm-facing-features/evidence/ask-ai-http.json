@@ -1,0 +1,26 @@
+{
+  "preview": {
+    "legacyRoute": {
+      "status": 307,
+      "location": "/docs/ask-ai"
+    },
+    "docsPage": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "containsHeading": true
+    },
+    "pass": true
+  },
+  "production": {
+    "legacyRoute": {
+      "status": 307,
+      "location": "/docs/ask-ai"
+    },
+    "docsPage": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "containsHeading": true
+    },
+    "pass": true
+  }
+}

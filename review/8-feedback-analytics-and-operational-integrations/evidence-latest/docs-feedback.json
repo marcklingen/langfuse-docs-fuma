@@ -1,0 +1,399 @@
+{
+  "generatedAt": "2026-03-12T04:12:53.203Z",
+  "baseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "surfaceChecks": [
+    {
+      "id": "docs-overview",
+      "label": "Docs overview",
+      "path": "/docs/observability/overview",
+      "expectWidget": true,
+      "expectCopyButton": true,
+      "assertions": [
+        {
+          "label": "Docs overview shows the docs feedback footer",
+          "pass": true,
+          "details": {
+            "hasFooter": true,
+            "footerText": "Was this page helpful?YesNoSupport",
+            "hasFeedbackPrompt": true,
+            "hasSupportLink": true,
+            "hasCopyButton": true
+          }
+        },
+        {
+          "label": "Docs overview shows the copy-as-markdown button",
+          "pass": true,
+          "details": {
+            "hasFooter": true,
+            "footerText": "Was this page helpful?YesNoSupport",
+            "hasFeedbackPrompt": true,
+            "hasSupportLink": true,
+            "hasCopyButton": true
+          }
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "guide-video",
+      "label": "Guide video",
+      "path": "/guides/videos/run-langfuse-locally",
+      "expectWidget": true,
+      "expectCopyButton": true,
+      "assertions": [
+        {
+          "label": "Guide video shows the docs feedback footer",
+          "pass": true,
+          "details": {
+            "hasFooter": true,
+            "footerText": "Was this page helpful?YesNoSupport",
+            "hasFeedbackPrompt": true,
+            "hasSupportLink": true,
+            "hasCopyButton": true
+          }
+        },
+        {
+          "label": "Guide video shows the copy-as-markdown button",
+          "pass": true,
+          "details": {
+            "hasFooter": true,
+            "footerText": "Was this page helpful?YesNoSupport",
+            "hasFeedbackPrompt": true,
+            "hasSupportLink": true,
+            "hasCopyButton": true
+          }
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "faq-article",
+      "label": "FAQ article",
+      "path": "/faq/all/langfuse-support",
+      "expectWidget": true,
+      "expectCopyButton": true,
+      "assertions": [
+        {
+          "label": "FAQ article shows the docs feedback footer",
+          "pass": false,
+          "details": {
+            "hasFooter": false,
+            "footerText": "",
+            "hasFeedbackPrompt": false,
+            "hasSupportLink": false,
+            "hasCopyButton": true
+          }
+        },
+        {
+          "label": "FAQ article shows the copy-as-markdown button",
+          "pass": true,
+          "details": {
+            "hasFooter": false,
+            "footerText": "",
+            "hasFeedbackPrompt": false,
+            "hasSupportLink": false,
+            "hasCopyButton": true
+          }
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": "changelog-entry",
+      "label": "Changelog entry",
+      "path": "/changelog/2025-06-04-open-sourcing-langfuse",
+      "expectWidget": true,
+      "expectCopyButton": false,
+      "assertions": [
+        {
+          "label": "Changelog entry shows the docs feedback footer",
+          "pass": true,
+          "details": {
+            "hasFooter": true,
+            "footerText": "Was this page helpful?YesNoSupport",
+            "hasFeedbackPrompt": true,
+            "hasSupportLink": true,
+            "hasCopyButton": false
+          }
+        },
+        {
+          "label": "Changelog entry does not show the copy-as-markdown button",
+          "pass": true,
+          "details": {
+            "hasFooter": true,
+            "footerText": "Was this page helpful?YesNoSupport",
+            "hasFeedbackPrompt": true,
+            "hasSupportLink": true,
+            "hasCopyButton": false
+          }
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "pricing",
+      "label": "Wide marketing page",
+      "path": "/pricing",
+      "expectWidget": true,
+      "expectCopyButton": false,
+      "assertions": [
+        {
+          "label": "Wide marketing page shows the docs feedback footer",
+          "pass": true,
+          "details": {
+            "hasFooter": true,
+            "footerText": "Was this page helpful?YesNoSupport",
+            "hasFeedbackPrompt": true,
+            "hasSupportLink": true,
+            "hasCopyButton": false
+          }
+        },
+        {
+          "label": "Wide marketing page does not show the copy-as-markdown button",
+          "pass": true,
+          "details": {
+            "hasFooter": true,
+            "footerText": "Was this page helpful?YesNoSupport",
+            "hasFeedbackPrompt": true,
+            "hasSupportLink": true,
+            "hasCopyButton": false
+          }
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "blog-negative-control",
+      "label": "Blog post negative control",
+      "path": "/blog/2025-03-19-ai-agent-comparison",
+      "expectWidget": false,
+      "expectCopyButton": false,
+      "assertions": [
+        {
+          "label": "Blog post negative control does not show the docs feedback footer",
+          "pass": true,
+          "details": {
+            "hasFooter": false,
+            "footerText": "",
+            "hasFeedbackPrompt": false,
+            "hasSupportLink": false,
+            "hasCopyButton": false
+          }
+        },
+        {
+          "label": "Blog post negative control does not show the copy-as-markdown button",
+          "pass": true,
+          "details": {
+            "hasFooter": false,
+            "footerText": "",
+            "hasFeedbackPrompt": false,
+            "hasSupportLink": false,
+            "hasCopyButton": false
+          }
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "positiveFlow": {
+    "kind": "positive",
+    "interceptedRequests": [
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+        "method": "POST",
+        "body": {
+          "page": "/docs/observability/overview",
+          "feedback": "positive"
+        }
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+        "method": "POST",
+        "body": {
+          "page": "/docs/observability/overview",
+          "feedback": "positive",
+          "comment": "Clear walkthrough of the product surface."
+        }
+      }
+    ],
+    "assertions": [
+      {
+        "label": "Positive feedback flow sends the initial rating request",
+        "pass": true,
+        "details": {
+          "interceptedRequests": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "positive"
+              }
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "positive",
+                "comment": "Clear walkthrough of the product surface."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Positive feedback flow sends a follow-up request with the comment",
+        "pass": true,
+        "details": {
+          "interceptedRequests": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "positive"
+              }
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "positive",
+                "comment": "Clear walkthrough of the product surface."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Positive feedback flow posts the current page path",
+        "pass": true,
+        "details": {
+          "interceptedRequests": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "positive"
+              }
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "positive",
+                "comment": "Clear walkthrough of the product surface."
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "pass": true
+  },
+  "negativeFlow": {
+    "kind": "negative",
+    "interceptedRequests": [
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+        "method": "POST",
+        "body": {
+          "page": "/docs/observability/overview",
+          "feedback": "negative"
+        }
+      },
+      {
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+        "method": "POST",
+        "body": {
+          "page": "/docs/observability/overview",
+          "feedback": "negative",
+          "comment": "The page is missing a concrete setup example and expected output."
+        }
+      }
+    ],
+    "assertions": [
+      {
+        "label": "Negative feedback flow sends the initial rating request",
+        "pass": true,
+        "details": {
+          "interceptedRequests": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "negative"
+              }
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "negative",
+                "comment": "The page is missing a concrete setup example and expected output."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Negative feedback flow sends a follow-up request with the comment",
+        "pass": true,
+        "details": {
+          "interceptedRequests": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "negative"
+              }
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "negative",
+                "comment": "The page is missing a concrete setup example and expected output."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Negative feedback flow posts the current page path",
+        "pass": true,
+        "details": {
+          "interceptedRequests": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "negative"
+              }
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/api/feedback",
+              "method": "POST",
+              "body": {
+                "page": "/docs/observability/overview",
+                "feedback": "negative",
+                "comment": "The page is missing a concrete setup example and expected output."
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "pass": true
+  },
+  "pass": false
+}

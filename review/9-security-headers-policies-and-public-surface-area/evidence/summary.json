@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-03-12T04:23:22.535Z",
+  "previewBaseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionBaseUrl": "https://langfuse.com",
+  "findings": [],
+  "checks": [
+    {
+      "name": "header-baseline",
+      "preview": "PASS",
+      "production": "PASS"
+    },
+    {
+      "name": "https-only",
+      "preview": "PASS",
+      "production": "PASS"
+    },
+    {
+      "name": "indexing-guardrails",
+      "preview": "PASS",
+      "production": "PASS"
+    },
+    {
+      "name": "cors-surface",
+      "preview": "PASS",
+      "production": "PASS"
+    },
+    {
+      "name": "pdf-ssrf",
+      "preview": "PASS",
+      "production": "PASS"
+    },
+    {
+      "name": "bundle-scan",
+      "preview": "PASS",
+      "production": "PASS"
+    },
+    {
+      "name": "browser-csp-mixed-content",
+      "preview": "PASS",
+      "production": "PASS"
+    },
+    {
+      "name": "client-env-audit",
+      "preview": "PASS",
+      "production": "PASS"
+    }
+  ]
+}

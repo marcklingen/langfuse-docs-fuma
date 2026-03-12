@@ -1,0 +1,5566 @@
+{
+  "sampledPages": [
+    "/",
+    "/docs",
+    "/docs/ask-ai",
+    "/docs/docs-mcp",
+    "/docs/prompt-management/get-started",
+    "/integrations",
+    "/integrations/frameworks/langchain",
+    "/self-hosting",
+    "/self-hosting/security/authentication-and-sso",
+    "/faq"
+  ],
+  "pageResults": [
+    {
+      "pagePath": "/",
+      "linkCount": 36,
+      "sample": [
+        "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+        "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+        "/blog/joining-clickhouse",
+        "/",
+        "/careers",
+        "/docs",
+        "/changelog",
+        "/pricing",
+        "/docs/observability/overview",
+        "/docs/prompt-management/overview",
+        "/docs/evaluation/overview",
+        "/docs/metrics/overview",
+        "/talk-to-us",
+        "/watch-demo",
+        "/docs/prompt-management/features/playground",
+        "/enterprise",
+        "/self-hosting",
+        "/docs/observability/sdk/overview",
+        "/integrations",
+        "/docs/api-and-data-platform/overview",
+        "/blog",
+        "/docs/roadmap",
+        "/docs/demo",
+        "/users",
+        "/library"
+      ]
+    },
+    {
+      "pagePath": "/docs",
+      "linkCount": 51,
+      "sample": [
+        "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+        "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+        "/blog/joining-clickhouse",
+        "/",
+        "/careers",
+        "/docs",
+        "/changelog",
+        "/pricing",
+        "/docs/observability/overview",
+        "/docs/prompt-management/overview",
+        "/docs/evaluation/overview",
+        "/docs/metrics/overview",
+        "/talk-to-us",
+        "/integrations",
+        "/self-hosting",
+        "/guides",
+        "/library",
+        "/docs/demo",
+        "/docs/ask-ai",
+        "/docs/observability/get-started",
+        "/docs/prompt-management/get-started",
+        "/docs/security-and-guardrails",
+        "/docs/glossary",
+        "/docs/roadmap",
+        "/docs/docs-mcp"
+      ]
+    },
+    {
+      "pagePath": "/docs/ask-ai",
+      "linkCount": 41,
+      "sample": [
+        "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+        "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+        "/blog/joining-clickhouse",
+        "/",
+        "/careers",
+        "/docs",
+        "/changelog",
+        "/pricing",
+        "/docs/observability/overview",
+        "/docs/prompt-management/overview",
+        "/docs/evaluation/overview",
+        "/docs/metrics/overview",
+        "/talk-to-us",
+        "/integrations",
+        "/self-hosting",
+        "/guides",
+        "/library",
+        "/docs/demo",
+        "/docs/ask-ai",
+        "/docs/observability/get-started",
+        "/docs/prompt-management/get-started",
+        "/docs/security-and-guardrails",
+        "/docs/glossary",
+        "/docs/roadmap",
+        "/docs/docs-mcp"
+      ]
+    },
+    {
+      "pagePath": "/docs/docs-mcp",
+      "linkCount": 43,
+      "sample": [
+        "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+        "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+        "/blog/joining-clickhouse",
+        "/",
+        "/careers",
+        "/docs",
+        "/changelog",
+        "/pricing",
+        "/docs/observability/overview",
+        "/docs/prompt-management/overview",
+        "/docs/evaluation/overview",
+        "/docs/metrics/overview",
+        "/talk-to-us",
+        "/integrations",
+        "/self-hosting",
+        "/guides",
+        "/library",
+        "/docs/demo",
+        "/docs/ask-ai",
+        "/docs/observability/get-started",
+        "/docs/prompt-management/get-started",
+        "/docs/security-and-guardrails",
+        "/docs/glossary",
+        "/docs/roadmap",
+        "/docs/docs-mcp"
+      ]
+    },
+    {
+      "pagePath": "/docs/prompt-management/get-started",
+      "linkCount": 45,
+      "sample": [
+        "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+        "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+        "/blog/joining-clickhouse",
+        "/",
+        "/careers",
+        "/docs",
+        "/changelog",
+        "/pricing",
+        "/docs/observability/overview",
+        "/docs/prompt-management/overview",
+        "/docs/evaluation/overview",
+        "/docs/metrics/overview",
+        "/talk-to-us",
+        "/integrations",
+        "/self-hosting",
+        "/guides",
+        "/library",
+        "/docs/demo",
+        "/docs/ask-ai",
+        "/docs/observability/get-started",
+        "/docs/prompt-management/get-started",
+        "/docs/security-and-guardrails",
+        "/docs/glossary",
+        "/docs/roadmap",
+        "/docs/docs-mcp"
+      ]
+    },
+    {
+      "pagePath": "/integrations",
+      "linkCount": 138,
+      "sample": [
+        "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+        "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+        "/blog/joining-clickhouse",
+        "/",
+        "/careers",
+        "/docs",
+        "/changelog",
+        "/pricing",
+        "/docs/observability/overview",
+        "/docs/prompt-management/overview",
+        "/docs/evaluation/overview",
+        "/docs/metrics/overview",
+        "/talk-to-us",
+        "/self-hosting",
+        "/guides",
+        "/library",
+        "/integrations",
+        "/integrations/native/opentelemetry",
+        "/ask-ai",
+        "/docs/sdk/typescript/guide",
+        "/docs/sdk/python/sdk-v3",
+        "/integrations/frameworks/langchain",
+        "/integrations/model-providers/openai-py",
+        "/integrations/frameworks/vercel-ai-sdk",
+        "/integrations/frameworks/google-adk"
+      ]
+    },
+    {
+      "pagePath": "/integrations/frameworks/langchain",
+      "linkCount": 86,
+      "sample": [
+        "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+        "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+        "/blog/joining-clickhouse",
+        "/",
+        "/careers",
+        "/docs",
+        "/changelog",
+        "/pricing",
+        "/docs/observability/overview",
+        "/docs/prompt-management/overview",
+        "/docs/evaluation/overview",
+        "/docs/metrics/overview",
+        "/talk-to-us",
+        "/self-hosting",
+        "/guides",
+        "/library",
+        "/integrations",
+        "/integrations/frameworks/agno-agents",
+        "/integrations/frameworks/amazon-agentcore",
+        "/integrations/frameworks/autogen",
+        "/integrations/frameworks/beeai",
+        "/integrations/frameworks/claude-agent-sdk",
+        "/integrations/frameworks/crewai",
+        "/integrations/frameworks/dspy",
+        "/integrations/frameworks/google-adk"
+      ]
+    },
+    {
+      "pagePath": "/self-hosting",
+      "linkCount": 73,
+      "sample": [
+        "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+        "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+        "/blog/joining-clickhouse",
+        "/",
+        "/careers",
+        "/docs",
+        "/changelog",
+        "/pricing",
+        "/docs/observability/overview",
+        "/docs/prompt-management/overview",
+        "/docs/evaluation/overview",
+        "/docs/metrics/overview",
+        "/talk-to-us",
+        "/integrations",
+        "/guides",
+        "/library",
+        "/self-hosting",
+        "/self-hosting/license-key",
+        "/self-hosting/troubleshooting-and-faq",
+        "/why",
+        "/self-hosting/deployment/docker-compose",
+        "/self-hosting/deployment/kubernetes-helm",
+        "/self-hosting/deployment/aws",
+        "/self-hosting/deployment/azure",
+        "/self-hosting/deployment/gcp"
+      ]
+    },
+    {
+      "pagePath": "/self-hosting/security/authentication-and-sso",
+      "linkCount": 50,
+      "sample": [
+        "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+        "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+        "/blog/joining-clickhouse",
+        "/",
+        "/careers",
+        "/docs",
+        "/changelog",
+        "/pricing",
+        "/docs/observability/overview",
+        "/docs/prompt-management/overview",
+        "/docs/evaluation/overview",
+        "/docs/metrics/overview",
+        "/talk-to-us",
+        "/integrations",
+        "/guides",
+        "/library",
+        "/self-hosting",
+        "/self-hosting/license-key",
+        "/self-hosting/troubleshooting-and-faq",
+        "/self-hosting/security/authentication-and-sso",
+        "/self-hosting/security/deployment-strategies",
+        "/self-hosting/security/networking",
+        "/self-hosting/security/data-masking",
+        "/docs/administration/rbac",
+        "/docs/administration/data-retention"
+      ]
+    },
+    {
+      "pagePath": "/faq",
+      "linkCount": 101,
+      "sample": [
+        "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+        "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+        "/blog/joining-clickhouse",
+        "/",
+        "/careers",
+        "/docs",
+        "/changelog",
+        "/pricing",
+        "/docs/observability/overview",
+        "/docs/prompt-management/overview",
+        "/docs/evaluation/overview",
+        "/docs/metrics/overview",
+        "/talk-to-us",
+        "/integrations",
+        "/self-hosting",
+        "/guides",
+        "/library",
+        "/faq",
+        "/faq/all",
+        "/faq/all/cannot-see-organization",
+        "/faq/all/delete-account-langfuse",
+        "/faq/all/enforcing-2fa",
+        "/faq/all/forgot-password",
+        "/faq/all/inviting-in-langfuse",
+        "/faq/tag/administration"
+      ]
+    }
+  ],
+  "tracedLinks": [
+    {
+      "target": "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/blog/joining-clickhouse",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/blog/joining-clickhouse",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/blog/joining-clickhouse",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/careers",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/careers",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/careers",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/changelog",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/changelog",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/pricing",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/pricing",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/pricing",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/observability/overview",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/observability/overview",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/prompt-management/overview",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/prompt-management/overview",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/overview",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/evaluation/overview",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/evaluation/overview",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/overview",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/metrics/overview",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/metrics/overview",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/metrics/overview",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/talk-to-us",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/talk-to-us",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/talk-to-us",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/watch-demo",
+      "sourcePages": [
+        "/",
+        "/docs"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/watch-demo",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/watch-demo",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/prompt-management/features/playground",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/prompt-management/features/playground",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/features/playground",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/enterprise",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/enterprise",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/enterprise",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/observability/sdk/overview",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/observability/sdk/overview",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/sdk/overview",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/api-and-data-platform/overview",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/api-and-data-platform/overview",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/api-and-data-platform/overview",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/blog",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/blog",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/blog",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/roadmap",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/roadmap",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/roadmap",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/demo",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/demo",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/demo",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/users",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/users",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/users",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/library",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/library",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/library",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/guides",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/guides",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/about",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/about",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/about",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/press",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/press",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/press",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/security",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/security",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/security",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/support",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/support",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/support",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/handbook/chapters/open-source",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/handbook/chapters/open-source",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/handbook/chapters/open-source",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/terms",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/terms",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/terms",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/privacy",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/privacy",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/privacy",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/imprint",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/imprint",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/imprint",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/cookie-policy",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/cookie-policy",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/cookie-policy",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/discord",
+      "sourcePages": [
+        "/",
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started",
+        "/integrations",
+        "/integrations/frameworks/langchain",
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "https://discord.com/invite/7NXusRtqYU",
+      "hopCount": 2,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/discord",
+          "status": 307,
+          "location": "https://discord.gg/7NXusRtqYU"
+        },
+        {
+          "url": "https://discord.gg/7NXusRtqYU",
+          "status": 301,
+          "location": "https://discord.com/invite/7NXusRtqYU"
+        },
+        {
+          "url": "https://discord.com/invite/7NXusRtqYU",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/ask-ai",
+      "sourcePages": [
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/ask-ai",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/ask-ai",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/observability/get-started",
+      "sourcePages": [
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/observability/get-started",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/get-started",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/prompt-management/get-started",
+      "sourcePages": [
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/prompt-management/get-started",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/security-and-guardrails",
+      "sourcePages": [
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/security-and-guardrails",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/security-and-guardrails",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/glossary",
+      "sourcePages": [
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/glossary",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/glossary",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/docs-mcp",
+      "sourcePages": [
+        "/docs",
+        "/docs/ask-ai",
+        "/docs/docs-mcp",
+        "/docs/prompt-management/get-started"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/docs-mcp",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/docs-mcp",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/why",
+      "sourcePages": [
+        "/docs",
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/handbook/chapters/why",
+      "hopCount": 1,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/why",
+          "status": 308,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/handbook/chapters/why"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/handbook/chapters/why",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/evaluation/features/prompt-experiments",
+      "sourcePages": [
+        "/docs"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/evaluation/experiments/experiments-via-ui",
+      "hopCount": 2,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/features/prompt-experiments",
+          "status": 308,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/dataset-runs/native-run"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/dataset-runs/native-run",
+          "status": 308,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/experiments/experiments-via-ui"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/experiments/experiments-via-ui",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/watch-demo?tab=prompt",
+      "sourcePages": [
+        "/docs"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/watch-demo?tab=prompt",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/watch-demo?tab=prompt",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/evaluation/features/datasets",
+      "sourcePages": [
+        "/docs"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/evaluation/experiments/datasets",
+      "hopCount": 2,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/features/datasets",
+          "status": 308,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/dataset-runs/datasets"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/dataset-runs/datasets",
+          "status": 308,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/experiments/datasets"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/experiments/datasets",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/evaluation/core-concepts",
+      "sourcePages": [
+        "/docs"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/evaluation/core-concepts",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/core-concepts",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/watch-demo?tab=evaluation",
+      "sourcePages": [
+        "/docs"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/watch-demo?tab=evaluation",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/watch-demo?tab=evaluation",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/open-source",
+      "sourcePages": [
+        "/docs"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/handbook/chapters/open-source",
+      "hopCount": 1,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/open-source",
+          "status": 308,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/handbook/chapters/open-source"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/handbook/chapters/open-source",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/gh-support",
+      "sourcePages": [
+        "/docs",
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "https://github.com/orgs/langfuse/discussions/categories/support",
+      "hopCount": 1,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/gh-support",
+          "status": 307,
+          "location": "https://github.com/orgs/langfuse/discussions/categories/support"
+        },
+        {
+          "url": "https://github.com/orgs/langfuse/discussions/categories/support",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/issue",
+      "sourcePages": [
+        "/docs"
+      ],
+      "finalStatus": 200,
+      "finalPath": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Flangfuse%2Flangfuse%2Fissues%2Fnew%2Fchoose",
+      "hopCount": 2,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/issue",
+          "status": 307,
+          "location": "https://github.com/langfuse/langfuse/issues/new/choose"
+        },
+        {
+          "url": "https://github.com/langfuse/langfuse/issues/new/choose",
+          "status": 302,
+          "location": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Flangfuse%2Flangfuse%2Fissues%2Fnew%2Fchoose"
+        },
+        {
+          "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Flangfuse%2Flangfuse%2Fissues%2Fnew%2Fchoose",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/get-started",
+      "sourcePages": [
+        "/docs/docs-mcp"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/observability/get-started",
+      "hopCount": 1,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/get-started",
+          "status": 308,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/get-started"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/get-started",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/api-and-data-platform/features/mcp-server",
+      "sourcePages": [
+        "/docs/docs-mcp"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/api-and-data-platform/features/mcp-server",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/api-and-data-platform/features/mcp-server",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/prompt-management/data-model",
+      "sourcePages": [
+        "/docs/prompt-management/get-started"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/prompt-management/data-model",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/data-model",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/old-prompt-version-caching",
+      "sourcePages": [
+        "/docs/prompt-management/get-started",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/old-prompt-version-caching",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/old-prompt-version-caching",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/prompt-management/features/link-to-traces",
+      "sourcePages": [
+        "/docs/prompt-management/get-started"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/prompt-management/features/link-to-traces",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/features/link-to-traces",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/prompt-management/features/prompt-version-control",
+      "sourcePages": [
+        "/docs/prompt-management/get-started"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/prompt-management/features/prompt-version-control",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/features/prompt-version-control",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/native/opentelemetry",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/native/opentelemetry",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/native/opentelemetry",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/ask-ai",
+      "sourcePages": [
+        "/integrations",
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/ask-ai",
+      "hopCount": 1,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/ask-ai",
+          "status": 307,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/ask-ai"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/ask-ai",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/sdk/typescript/guide",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/observability/sdk/overview",
+      "hopCount": 1,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/sdk/typescript/guide",
+          "status": 308,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/sdk/overview"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/sdk/overview",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/sdk/python/sdk-v3",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/observability/sdk/overview",
+      "hopCount": 1,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/sdk/python/sdk-v3",
+          "status": 308,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/sdk/overview"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/sdk/overview",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/langchain",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/langchain",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/langchain",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/openai-py",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/openai-py",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/openai-py",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/vercel-ai-sdk",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/vercel-ai-sdk",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/vercel-ai-sdk",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/google-adk",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/google-adk",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/google-adk",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/pydantic-ai",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/pydantic-ai",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/pydantic-ai",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/openai-agents",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/openai-agents",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/openai-agents",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/agno-agents",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/agno-agents",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/agno-agents",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/amazon-agentcore",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/amazon-agentcore",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/amazon-agentcore",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/autogen",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/autogen",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/autogen",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/beeai",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/beeai",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/beeai",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/claude-agent-sdk",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/claude-agent-sdk",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/claude-agent-sdk",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/crewai",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/crewai",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/crewai",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/dspy",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/dspy",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/dspy",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/embabel",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/embabel",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/embabel",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/haystack",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/haystack",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/haystack",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/instructor",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/instructor",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/instructor",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/koog",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/koog",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/koog",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/langchain-deepagents",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/langchain-deepagents",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/langchain-deepagents",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/langserve",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/langserve",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/langserve",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/litellm-sdk",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/litellm-sdk",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/litellm-sdk",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/livekit",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/livekit",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/livekit",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/llamaindex",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/llamaindex",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/llamaindex",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/llamaindex-workflows",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/llamaindex-workflows",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/llamaindex-workflows",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/mastra",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/mastra",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/mastra",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/microsoft-agent-framework",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/microsoft-agent-framework",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/microsoft-agent-framework",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/mirascope",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/mirascope",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/mirascope",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/pipecat",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/pipecat",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/pipecat",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/quarkus-langchain4j",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/quarkus-langchain4j",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/quarkus-langchain4j",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/ragas",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/ragas",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/ragas",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/semantic-kernel",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/semantic-kernel",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/semantic-kernel",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/smolagents",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/smolagents",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/smolagents",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/spring-ai",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/spring-ai",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/spring-ai",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/strands-agents",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/strands-agents",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/strands-agents",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/swiftide",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/swiftide",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/swiftide",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/temporal",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/temporal",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/temporal",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/voltagent",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/voltagent",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/voltagent",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/frameworks/watsonx-orchestrate",
+      "sourcePages": [
+        "/integrations",
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/frameworks/watsonx-orchestrate",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/frameworks/watsonx-orchestrate",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/amazon-bedrock",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/amazon-bedrock",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/amazon-bedrock",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/amazon-bedrock-agents",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/amazon-bedrock-agents",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/amazon-bedrock-agents",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/anthropic-js",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/anthropic-js",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/anthropic-js",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/anthropic",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/anthropic",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/anthropic",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/baseten",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/baseten",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/baseten",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/byteplus",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/byteplus",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/byteplus",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/cerebras",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/cerebras",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/cerebras",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/cleanlab",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/cleanlab",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/cleanlab",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/cohere",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/cohere",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/cohere",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/cometapi",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/cometapi",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/cometapi",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/databricks",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/databricks",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/databricks",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/deepseek",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/deepseek",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/deepseek",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/fireworks-ai",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/fireworks-ai",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/fireworks-ai",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/google-gemini",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/google-gemini",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/google-gemini",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/google-vertex-ai",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/google-vertex-ai",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/google-vertex-ai",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/groq",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/groq",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/groq",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/huggingface",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/huggingface",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/huggingface",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/mistral-sdk",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/mistral-sdk",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/mistral-sdk",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/novitaai",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/novitaai",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/novitaai",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/ollama",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/ollama",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/ollama",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/openai-js",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/openai-js",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/openai-js",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/openai-assistants-api",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/openai-assistants-api",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/openai-assistants-api",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/togetherai",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/togetherai",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/togetherai",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/vllm",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/vllm",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/vllm",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/model-providers/xai-grok",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/model-providers/xai-grok",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/xai-grok",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/gateways/anannas",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/gateways/anannas",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/gateways/anannas",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/gateways/helicone",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/gateways/helicone",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/gateways/helicone",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/gateways/kong-ai-plugin",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/gateways/kong-ai-plugin",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/gateways/kong-ai-plugin",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/gateways/litellm",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/gateways/litellm",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/gateways/litellm",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/gateways/openrouter",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/gateways/openrouter",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/gateways/openrouter",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/gateways/portkey",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/gateways/portkey",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/gateways/portkey",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/gateways/truefoundry",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/gateways/truefoundry",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/gateways/truefoundry",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/gateways/vercel-ai-gateway",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/gateways/vercel-ai-gateway",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/gateways/vercel-ai-gateway",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/no-code/goose",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/no-code/goose",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/goose",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/no-code/dify",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/no-code/dify",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/dify",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/no-code/flowise",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/no-code/flowise",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/flowise",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/no-code/langdock",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/no-code/langdock",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/langdock",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/no-code/langflow",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/no-code/langflow",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/langflow",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/no-code/lobechat",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/no-code/lobechat",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/lobechat",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/no-code/n8n",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/no-code/n8n",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/n8n",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/no-code/openwebui",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/no-code/openwebui",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/openwebui",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/no-code/ragflow",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/no-code/ragflow",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/ragflow",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/no-code/vapi",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/no-code/vapi",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/vapi",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/analytics/coval",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/analytics/coval",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/analytics/coval",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/analytics/mixpanel",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/analytics/mixpanel",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/analytics/mixpanel",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/analytics/posthog",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/analytics/posthog",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/analytics/posthog",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/analytics/trubrics",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/analytics/trubrics",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/analytics/trubrics",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/claude-code",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/claude-code",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/claude-code",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/cognee",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/cognee",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/cognee",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/cursor",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/cursor",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/cursor",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/exa",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/exa",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/exa",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/firecrawl",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/firecrawl",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/firecrawl",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/gradio",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/gradio",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/gradio",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/inferable",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/inferable",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/inferable",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/librechat",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/librechat",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/librechat",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/mcp-use",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/mcp-use",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/mcp-use",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/milvus",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/milvus",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/milvus",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/openclaw",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/openclaw",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/openclaw",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/parallel-ai",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/parallel-ai",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/parallel-ai",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/promptfoo",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/promptfoo",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/promptfoo",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/testable-minds",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/testable-minds",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/testable-minds",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/integrations/other/zapier",
+      "sourcePages": [
+        "/integrations"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/integrations/other/zapier",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/other/zapier",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/guides/cookbook/integration_langgraph",
+      "sourcePages": [
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/guides/cookbook/integration_langgraph",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/cookbook/integration_langgraph",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/guides/cookbook/integration_langchain",
+      "sourcePages": [
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/guides/cookbook/integration_langchain",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/cookbook/integration_langchain",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/guides/cookbook/js_integration_langchain",
+      "sourcePages": [
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/guides/cookbook/js_integration_langchain",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/cookbook/js_integration_langchain",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/guides/cookbook/example_langgraph_agents",
+      "sourcePages": [
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/guides/cookbook/example_langgraph_agents",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/cookbook/example_langgraph_agents",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/observability/features/users",
+      "sourcePages": [
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/observability/features/users",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/features/users",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/observability/features/sessions",
+      "sourcePages": [
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/observability/features/sessions",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/features/sessions",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/observability/features/tags",
+      "sourcePages": [
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/observability/features/tags",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/features/tags",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/guides/cookbook/example_decorator_openai_langchain",
+      "sourcePages": [
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/guides/cookbook/example_decorator_openai_langchain",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/cookbook/example_decorator_openai_langchain",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/observability/features/trace-ids-and-distributed-tracing",
+      "sourcePages": [
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/observability/features/trace-ids-and-distributed-tracing",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/features/trace-ids-and-distributed-tracing",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/existing-otel-setup",
+      "sourcePages": [
+        "/integrations/frameworks/langchain",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/existing-otel-setup",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/existing-otel-setup",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/custom-langchain-run-names",
+      "sourcePages": [
+        "/integrations/frameworks/langchain",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/custom-langchain-run-names",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/custom-langchain-run-names",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/existing-sentry-setup",
+      "sourcePages": [
+        "/integrations/frameworks/langchain",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/existing-sentry-setup",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/existing-sentry-setup",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/migrate-from-helicone",
+      "sourcePages": [
+        "/integrations/frameworks/langchain",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/migrate-from-helicone",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/migrate-from-helicone",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/openai-assistant-api",
+      "sourcePages": [
+        "/integrations/frameworks/langchain"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/openai-assistant-api",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/openai-assistant-api",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/langsmith-alternative",
+      "sourcePages": [
+        "/integrations/frameworks/langchain",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/langsmith-alternative",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/langsmith-alternative",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/unwanted-http-database-spans",
+      "sourcePages": [
+        "/integrations/frameworks/langchain",
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/unwanted-http-database-spans",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/unwanted-http-database-spans",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/license-key",
+      "sourcePages": [
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/license-key",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/license-key",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/troubleshooting-and-faq",
+      "sourcePages": [
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/troubleshooting-and-faq",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/troubleshooting-and-faq",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/docker-compose",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/docker-compose",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/docker-compose",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/kubernetes-helm",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/kubernetes-helm",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/kubernetes-helm",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/aws",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/aws",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/aws",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/azure",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/azure",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/azure",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/gcp",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/gcp",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/gcp",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/railway",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/railway",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/railway",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/infrastructure/containers",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/infrastructure/containers",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/infrastructure/containers",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/infrastructure/postgres",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/infrastructure/postgres",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/infrastructure/postgres",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/infrastructure/clickhouse",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/infrastructure/clickhouse",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/infrastructure/clickhouse",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/infrastructure/cache",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/infrastructure/cache",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/infrastructure/cache",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/infrastructure/blobstorage",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/infrastructure/blobstorage",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/infrastructure/blobstorage",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/deployment/infrastructure/llm-api",
+      "sourcePages": [
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/deployment/infrastructure/llm-api",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/infrastructure/llm-api",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/security/networking",
+      "sourcePages": [
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/security/networking",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/security/networking",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/prompts",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/prompt-management/get-started",
+      "hopCount": 2,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompts",
+          "status": 307,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompts/get-started"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompts/get-started",
+          "status": 308,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/tracing-features/multi-modality",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/observability/features/multi-modality",
+      "hopCount": 1,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/tracing-features/multi-modality",
+          "status": 308,
+          "location": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/features/multi-modality"
+        },
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/features/multi-modality",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/upgrade/background-migrations",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/upgrade/background-migrations",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/upgrade/background-migrations",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/configuration",
+      "sourcePages": [
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/configuration",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/configuration",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/security/authentication-and-sso",
+      "sourcePages": [
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/security/authentication-and-sso",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/security/authentication-and-sso",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/administration/automated-access-provisioning",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/administration/automated-access-provisioning",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/administration/automated-access-provisioning",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/configuration/caching",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/configuration/caching",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/configuration/caching",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/configuration/custom-base-path",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/configuration/custom-base-path",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/configuration/custom-base-path",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/configuration/encryption",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/configuration/encryption",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/configuration/encryption",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/administration/headless-initialization",
+      "sourcePages": [
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/administration/headless-initialization",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/administration/headless-initialization",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/security/data-masking",
+      "sourcePages": [
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/security/data-masking",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/security/data-masking",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/administration/organization-creators",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/administration/organization-creators",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/administration/organization-creators",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/administration/instance-management-api",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/administration/instance-management-api",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/administration/instance-management-api",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/configuration/health-readiness-endpoints",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/configuration/health-readiness-endpoints",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/configuration/health-readiness-endpoints",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/configuration/observability",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/configuration/observability",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/configuration/observability",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/configuration/transactional-emails",
+      "sourcePages": [
+        "/self-hosting",
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/configuration/transactional-emails",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/configuration/transactional-emails",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/administration/ui-customization",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/administration/ui-customization",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/administration/ui-customization",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/upgrade/versioning",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/upgrade/versioning",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/upgrade/versioning",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/issues",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "https://github.com/langfuse/langfuse/issues",
+      "hopCount": 1,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/issues",
+          "status": 307,
+          "location": "https://github.com/langfuse/langfuse/issues"
+        },
+        {
+          "url": "https://github.com/langfuse/langfuse/issues",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/guides/cookbook/example_data_migration",
+      "sourcePages": [
+        "/self-hosting"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/guides/cookbook/example_data_migration",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/cookbook/example_data_migration",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/self-hosting/security/deployment-strategies",
+      "sourcePages": [
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/self-hosting/security/deployment-strategies",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/security/deployment-strategies",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/administration/rbac",
+      "sourcePages": [
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/administration/rbac",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/administration/rbac",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/administration/data-retention",
+      "sourcePages": [
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/administration/data-retention",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/administration/data-retention",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/administration/authentication-and-sso",
+      "sourcePages": [
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/administration/authentication-and-sso",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/administration/authentication-and-sso",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/ideas",
+      "sourcePages": [
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "https://github.com/orgs/langfuse/discussions/categories/ideas",
+      "hopCount": 1,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/ideas",
+          "status": 307,
+          "location": "https://github.com/orgs/langfuse/discussions/categories/ideas"
+        },
+        {
+          "url": "https://github.com/orgs/langfuse/discussions/categories/ideas",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": true,
+      "homepageLanding": false
+    },
+    {
+      "target": "/docs/administration/scim-and-org-api",
+      "sourcePages": [
+        "/self-hosting/security/authentication-and-sso"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/docs/administration/scim-and-org-api",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/administration/scim-and-org-api",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/cannot-see-organization",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/cannot-see-organization",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/cannot-see-organization",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/delete-account-langfuse",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/delete-account-langfuse",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/delete-account-langfuse",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/enforcing-2fa",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/enforcing-2fa",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/enforcing-2fa",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/forgot-password",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/forgot-password",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/forgot-password",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/inviting-in-langfuse",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/inviting-in-langfuse",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/inviting-in-langfuse",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/tag/administration",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/tag/administration",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/tag/administration",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/ai-research-assistant-monitoring",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/ai-research-assistant-monitoring",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/ai-research-assistant-monitoring",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/challenges-of-building-llm-applications",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/challenges-of-building-llm-applications",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/challenges-of-building-llm-applications",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/chatbot-analytics",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/chatbot-analytics",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/chatbot-analytics",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/llm-analytics-101",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/llm-analytics-101",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/llm-analytics-101",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/llm-observability",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/llm-observability",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/llm-observability",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/tag/article",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/tag/article",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/tag/article",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/where-is-my-project",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/where-is-my-project",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/where-is-my-project",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/tag/auth",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/tag/auth",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/tag/auth",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/cutting-costs",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/cutting-costs",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/cutting-costs",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/managing-different-environments",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/managing-different-environments",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/managing-different-environments",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/upgrade-langfuse",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/upgrade-langfuse",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/upgrade-langfuse",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/tag/cloud",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/tag/cloud",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/tag/cloud",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/best-braintrustdata-alternatives",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/best-braintrustdata-alternatives",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/best-braintrustdata-alternatives",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/best-galileo-ai-alternatives",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/best-galileo-ai-alternatives",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/best-galileo-ai-alternatives",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/best-phoenix-arize-alternatives",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/best-phoenix-arize-alternatives",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/best-phoenix-arize-alternatives",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/tag/comparison",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/tag/comparison",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/tag/comparison",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/evaluating-sessions-conversations",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/evaluating-sessions-conversations",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/evaluating-sessions-conversations",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/langfuse-evaluators-on-dataset-runs",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/langfuse-evaluators-on-dataset-runs",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/langfuse-evaluators-on-dataset-runs",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/llm-as-a-judge-migration",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/llm-as-a-judge-migration",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/llm-as-a-judge-migration",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/manage-score-configs",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/manage-score-configs",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/manage-score-configs",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/missing-traces",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/missing-traces",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/missing-traces",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/tag/evaluation",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/tag/evaluation",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/tag/evaluation",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/tag/integration",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/tag/integration",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/tag/integration",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/tag/migration",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/tag/migration",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/tag/migration",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    },
+    {
+      "target": "/faq/all/aws-lambda-and-serverless-functions",
+      "sourcePages": [
+        "/faq"
+      ],
+      "finalStatus": 200,
+      "finalPath": "/faq/all/aws-lambda-and-serverless-functions",
+      "hopCount": 0,
+      "loopDetected": false,
+      "chain": [
+        {
+          "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/aws-lambda-and-serverless-functions",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "redirects": false,
+      "homepageLanding": false
+    }
+  ]
+}

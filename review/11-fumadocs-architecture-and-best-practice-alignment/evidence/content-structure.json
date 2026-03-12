@@ -1,0 +1,497 @@
+{
+  "collections": [
+    {
+      "collectionDir": "content/docs",
+      "directories": [
+        {
+          "directory": "content/docs",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 7,
+          "childSectionCount": 7
+        },
+        {
+          "directory": "content/docs/administration",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 10,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/docs/api-and-data-platform",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 1,
+          "childSectionCount": 1
+        },
+        {
+          "directory": "content/docs/api-and-data-platform/features",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 7,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/docs/evaluation",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 3,
+          "childSectionCount": 2
+        },
+        {
+          "directory": "content/docs/evaluation/evaluation-methods",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 5,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/docs/evaluation/experiments",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 4,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/docs/metrics",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 1,
+          "childSectionCount": 1
+        },
+        {
+          "directory": "content/docs/metrics/features",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 2,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/docs/observability",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 4,
+          "childSectionCount": 2
+        },
+        {
+          "directory": "content/docs/observability/features",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 20,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/docs/observability/sdk",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 5,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/docs/prompt-management",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 4,
+          "childSectionCount": 1
+        },
+        {
+          "directory": "content/docs/prompt-management/features",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 15,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/docs/references",
+          "hasMeta": true,
+          "expectMeta": false,
+          "childPageCount": 0,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": []
+    },
+    {
+      "collectionDir": "content/self-hosting",
+      "directories": [
+        {
+          "directory": "content/self-hosting",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 3,
+          "childSectionCount": 6
+        },
+        {
+          "directory": "content/self-hosting/administration",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 6,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/self-hosting/configuration",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 9,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/self-hosting/deployment",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 6,
+          "childSectionCount": 1
+        },
+        {
+          "directory": "content/self-hosting/deployment/infrastructure",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 6,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/self-hosting/security",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 4,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/self-hosting/upgrade",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 3,
+          "childSectionCount": 2
+        },
+        {
+          "directory": "content/self-hosting/upgrade/release-notes",
+          "hasMeta": true,
+          "expectMeta": false,
+          "childPageCount": 0,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/self-hosting/upgrade/upgrade-guides",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 2,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/self-hosting/v2",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 3,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": []
+    },
+    {
+      "collectionDir": "content/blog",
+      "directories": [
+        {
+          "directory": "content/blog",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 60,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": []
+    },
+    {
+      "collectionDir": "content/changelog",
+      "directories": [
+        {
+          "directory": "content/changelog",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 240,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": []
+    },
+    {
+      "collectionDir": "content/guides",
+      "directories": [
+        {
+          "directory": "content/guides",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 1,
+          "childSectionCount": 2
+        },
+        {
+          "directory": "content/guides/cookbook",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 48,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/guides/videos",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 11,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": []
+    },
+    {
+      "collectionDir": "content/faq",
+      "directories": [
+        {
+          "directory": "content/faq",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 1,
+          "childSectionCount": 2
+        },
+        {
+          "directory": "content/faq/all",
+          "hasMeta": false,
+          "expectMeta": true,
+          "childPageCount": 71,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/faq/tag",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 6,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": [
+        "content/faq/all"
+      ]
+    },
+    {
+      "collectionDir": "content/integrations",
+      "directories": [
+        {
+          "directory": "content/integrations",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 1,
+          "childSectionCount": 8
+        },
+        {
+          "directory": "content/integrations/analytics",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 4,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/integrations/data-platform",
+          "hasMeta": true,
+          "expectMeta": false,
+          "childPageCount": 0,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/integrations/frameworks",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 36,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/integrations/gateways",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 8,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/integrations/model-providers",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 26,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/integrations/native",
+          "hasMeta": true,
+          "expectMeta": false,
+          "childPageCount": 1,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/integrations/no-code",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 10,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/integrations/other",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 15,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": []
+    },
+    {
+      "collectionDir": "content/security",
+      "directories": [
+        {
+          "directory": "content/security",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 25,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": []
+    },
+    {
+      "collectionDir": "content/library",
+      "directories": [
+        {
+          "directory": "content/library",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 1,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": []
+    },
+    {
+      "collectionDir": "content/customers",
+      "directories": [
+        {
+          "directory": "content/customers",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 6,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": []
+    },
+    {
+      "collectionDir": "content/handbook",
+      "directories": [
+        {
+          "directory": "content/handbook",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 2,
+          "childSectionCount": 9
+        },
+        {
+          "directory": "content/handbook/chapters",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 7,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/handbook/devrel",
+          "hasMeta": true,
+          "expectMeta": false,
+          "childPageCount": 1,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/handbook/how-we-hire",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 5,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/handbook/how-we-work",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 5,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/handbook/operations",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 2,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/handbook/product-engineering",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 5,
+          "childSectionCount": 3
+        },
+        {
+          "directory": "content/handbook/product-engineering/how-we-work",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 5,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/handbook/product-engineering/infrastructure",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 2,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/handbook/product-engineering/playbooks",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 4,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/handbook/sales-and-cs",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 3,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/handbook/support",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 2,
+          "childSectionCount": 0
+        },
+        {
+          "directory": "content/handbook/tools-and-processes",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 4,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": []
+    },
+    {
+      "collectionDir": "content/marketing",
+      "directories": [
+        {
+          "directory": "content/marketing",
+          "hasMeta": true,
+          "expectMeta": true,
+          "childPageCount": 22,
+          "childSectionCount": 0
+        }
+      ],
+      "missingExpectedMeta": []
+    }
+  ],
+  "missingMetaDirectories": [
+    {
+      "collection": "content/faq",
+      "directory": "content/faq/all"
+    }
+  ]
+}

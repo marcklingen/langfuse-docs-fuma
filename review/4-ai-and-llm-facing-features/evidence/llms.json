@@ -1,0 +1,70 @@
+{
+  "preview": {
+    "status": 200,
+    "ok": true,
+    "contentType": "text/plain; charset=utf-8",
+    "bodyLength": 4290,
+    "sha256": "ad9afaabd1b6cc39765862d0bc31f8e35b4f4c30c0ebd1b322e37df5282b7163",
+    "matchesRepoPublicLlmsTxt": true,
+    "missingMentions": [],
+    "subfiles": {
+      "llms-docs.txt": {
+        "status": 200,
+        "ok": true,
+        "firstLine": "# Langfuse Docs",
+        "hasMarkdownLinks": true,
+        "sha256": "3de48904355b1e627c026bc342c346a84afc077375430c988a636b01c422285e"
+      },
+      "llms-integrations.txt": {
+        "status": 200,
+        "ok": true,
+        "firstLine": "# Langfuse Integrations",
+        "hasMarkdownLinks": true,
+        "sha256": "c1be8d344be6bf041728423e34f84d8081cc7de095d9043ab9038c22114047e7"
+      },
+      "llms-self-hosting.txt": {
+        "status": 200,
+        "ok": true,
+        "firstLine": "# Langfuse Self-Hosting",
+        "hasMarkdownLinks": true,
+        "sha256": "822ff4898924e66224b72be1dd44f8d812f9af5978c6f232575a42c5d0e4141f"
+      }
+    },
+    "body": "# Langfuse\n\n> Langfuse is an **open-source LLM engineering platform** ([GitHub](https://github.com/langfuse/langfuse)) that helps teams collaboratively debug, analyze, and iterate on their LLM applications. All platform features are natively integrated to accelerate the development workflow.\n\n## Langfuse Docs MCP Server\n\nConnect to the Langfuse Docs MCP server to access documentation directly in your AI editor:\n\n- **Endpoint**: `https://langfuse.com/api/mcp`\n- **Transport**: `streamableHttp`\n- **Documentation**: [Langfuse Docs MCP Server](https://langfuse.com/docs/docs-mcp)\n\nThe MCP server provides tools to search Langfuse documentation, GitHub issues, and discussions. See the [installation guide](https://langfuse.com/docs/docs-mcp) for setup instructions in Cursor, VS Code, Claude Desktop, and other MCP clients.\n\n## Docs\n\nFor the full list with links to each page, see: https://langfuse.com/llms-docs.txt\n\nPages: Docs, Audit Logs, Authentication And Sso, Billable Units, Data Deletion, Data Retention, Llm Connection, Rbac, Scim And Org Api, Spend Alerts, Troubleshooting And Faq, Cli, Export From Ui, Export To Blob Storage, Mcp Server, Observations Api, Public Api, Query Via Sdk, Overview, Ask Ai, Demo, Docs Mcp, Core Concepts, Annotation Queues, Llm As A Judge, Score Analytics, Scores Via Sdk, Scores Via Ui, Data Model, Datasets, Experiments Via Sdk, Experiments Via Ui, Overview, Troubleshooting And Faq, Glossary, Custom Dashboards, Metrics Api, Overview, Data Model, Agent Graphs, Comments, Corrections, Environments, Log Levels, Masking, Mcp Tracing, Metadata, Multi Modality, Observation Types, Queuing Batching, Releases And Versioning, Sampling, Sessions, Tags, Token And Cost Tracking, Trace Ids And Distributed Tracing, Url, User Feedback, Users, Get Started, Overview, Advanced Features, Instrumentation, Overview, Troubleshooting And Faq, Upgrade Path, Troubleshooting And Faq, Data Model, A B Testing, Caching, Composability, Config, Folders, Github Integration, Guaranteed Availability, Link To Traces, Mcp Server, Message Placeholders, N8n Node, Playground, Prompt Version Control, Variables, Webhooks Slack Integrations, Get Started, Overview, Troubleshooting And Faq, Roadmap, Security And Guardrails\n\n## Integrations\n\nFor the full list with links to each page, see: https://langfuse.com/llms-integrations.txt\n\nPages: Integrations, Coval, Mixpanel, Posthog, Trubrics, Agno Agents, Amazon Agentcore, Autogen, Beeai, Claude Agent Sdk, Crewai, Dspy, Embabel, Google Adk, Haystack, Instructor, Koog, Langchain, Langchain Deepagents, Langserve, Litellm Sdk, Livekit, Llamaindex, Llamaindex Workflows, Mastra, Microsoft Agent Framework, Mirascope, Openai Agents, Pipecat, Pydantic Ai, Quarkus Langchain4j, Ragas, Semantic Kernel, Smolagents, Spring Ai, Strands Agents, Swiftide, Temporal, Vercel Ai Sdk, Voltagent, Watsonx Orchestrate, Anannas, Helicone, Kong Ai Plugin, Litellm, Openrouter, Portkey, Truefoundry, Vercel Ai Gateway, Amazon Bedrock, Amazon Bedrock Agents, Anthropic, Anthropic Js, Baseten, Byteplus, Cerebras, Cleanlab, Cohere, Cometapi, Databricks, Deepseek, Fireworks Ai, Google Gemini, Google Vertex Ai, Groq, Huggingface, Mistral Sdk, Novitaai, Ollama, Openai Assistants Api, Openai Js, Openai Py, Togetherai, Vllm, Xai Grok, Opentelemetry, Dify, Flowise, Goose, Langdock, Langflow, Lobechat, N8n, Openwebui, Ragflow, Vapi, Claude Code, Cognee, Cursor, Exa, Firecrawl, Gradio, Inferable, Librechat, Mcp Use, Milvus, Openclaw, Parallel Ai, Promptfoo, Testable Minds, Zapier\n\n## Optional: Self-Hosting\n\nFor the full list with links to each page, see: https://langfuse.com/llms-self-hosting.txt\n\nPages: Self Hosting, Administration, Automated Access Provisioning, Headless Initialization, Instance Management Api, Organization Creators, Ui Customization, Configuration, Backups, Caching, Custom Base Path, Encryption, Health Readiness Endpoints, Observability, Scaling, Transactional Emails, Aws, Azure, Docker Compose, Gcp, Blobstorage, Cache, Clickhouse, Containers, Llm Api, Postgres, Kubernetes Helm, Railway, License Key, Authentication And Sso, Data Masking, Deployment Strategies, Networking, Troubleshooting And Faq, Upgrade, Background Migrations, Upgrade V1 To V2, Upgrade V2 To V3, Versioning, V2, Deployment Guide, Docker Compose\n\n",
+    "pass": true
+  },
+  "production": {
+    "status": 200,
+    "ok": true,
+    "contentType": "text/plain; charset=utf-8",
+    "bodyLength": 4354,
+    "sha256": "c9a94a8ce7ae6ae27ff9f65c4f524f9fc5f78b4da9cb7bd9e71b47ce12785792",
+    "matchesRepoPublicLlmsTxt": false,
+    "missingMentions": [],
+    "subfiles": {
+      "llms-docs.txt": {
+        "status": 200,
+        "ok": true,
+        "firstLine": "# Langfuse Docs",
+        "hasMarkdownLinks": true,
+        "sha256": "19376e9424a735add65c2f3334b205377a89a5eb05f7535c624f2862152ad709"
+      },
+      "llms-integrations.txt": {
+        "status": 200,
+        "ok": true,
+        "firstLine": "# Langfuse Integrations",
+        "hasMarkdownLinks": true,
+        "sha256": "c1be8d344be6bf041728423e34f84d8081cc7de095d9043ab9038c22114047e7"
+      },
+      "llms-self-hosting.txt": {
+        "status": 200,
+        "ok": true,
+        "firstLine": "# Langfuse Self-Hosting",
+        "hasMarkdownLinks": true,
+        "sha256": "822ff4898924e66224b72be1dd44f8d812f9af5978c6f232575a42c5d0e4141f"
+      }
+    },
+    "body": "# Langfuse\n\n> Langfuse is an **open-source LLM engineering platform** ([GitHub](https://github.com/langfuse/langfuse)) that helps teams collaboratively debug, analyze, and iterate on their LLM applications. All platform features are natively integrated to accelerate the development workflow.\n\n## Langfuse Docs MCP Server\n\nConnect to the Langfuse Docs MCP server to access documentation directly in your AI editor:\n\n- **Endpoint**: `https://langfuse.com/api/mcp`\n- **Transport**: `streamableHttp`\n- **Documentation**: [Langfuse Docs MCP Server](https://langfuse.com/docs/docs-mcp)\n\nThe MCP server provides tools to search Langfuse documentation, GitHub issues, and discussions. See the [installation guide](https://langfuse.com/docs/docs-mcp) for setup instructions in Cursor, VS Code, Claude Desktop, and other MCP clients.\n\n## Docs\n\nFor the full list with links to each page, see: https://langfuse.com/llms-docs.txt\n\nPages: Docs, Audit Logs, Authentication And Sso, Billable Units, Data Deletion, Data Retention, Llm Connection, Rbac, Scim And Org Api, Spend Alerts, Troubleshooting And Faq, Cli, Export From Ui, Export To Blob Storage, Mcp Server, Observations Api, Public Api, Query Via Sdk, Overview, Ask Ai, Demo, Docs Mcp, Core Concepts, Annotation Queues, Llm As A Judge, Score Analytics, Scores Via Sdk, Scores Via Ui, Data Model, Datasets, Experiments Via Sdk, Experiments Via Ui, Overview, Troubleshooting And Faq, Glossary, Custom Dashboards, Metrics Api, Overview, Data Model, Agent Graphs, Comments, Corrections, Environments, Log Levels, Masking, Mcp Tracing, Metadata, Multi Modality, Observation Types, Queuing Batching, Releases And Versioning, Sampling, Sessions, Tags, Token And Cost Tracking, Trace Ids And Distributed Tracing, Url, User Feedback, Users, Get Started, Overview, Advanced Features, Instrumentation, Overview, Troubleshooting And Faq, Upgrade Path, Js V3 To V4, Js V4 To V5, Python V2 To V3, Python V3 To V4, Troubleshooting And Faq, Data Model, A B Testing, Caching, Composability, Config, Folders, Github Integration, Guaranteed Availability, Link To Traces, Mcp Server, Message Placeholders, N8n Node, Playground, Prompt Version Control, Variables, Webhooks Slack Integrations, Get Started, Overview, Troubleshooting And Faq, Roadmap, Security And Guardrails, V4\n\n## Integrations\n\nFor the full list with links to each page, see: https://langfuse.com/llms-integrations.txt\n\nPages: Integrations, Coval, Mixpanel, Posthog, Trubrics, Agno Agents, Amazon Agentcore, Autogen, Beeai, Claude Agent Sdk, Crewai, Dspy, Embabel, Google Adk, Haystack, Instructor, Koog, Langchain, Langchain Deepagents, Langserve, Litellm Sdk, Livekit, Llamaindex, Llamaindex Workflows, Mastra, Microsoft Agent Framework, Mirascope, Openai Agents, Pipecat, Pydantic Ai, Quarkus Langchain4j, Ragas, Semantic Kernel, Smolagents, Spring Ai, Strands Agents, Swiftide, Temporal, Vercel Ai Sdk, Voltagent, Watsonx Orchestrate, Anannas, Helicone, Kong Ai Plugin, Litellm, Openrouter, Portkey, Truefoundry, Vercel Ai Gateway, Amazon Bedrock, Amazon Bedrock Agents, Anthropic, Anthropic Js, Baseten, Byteplus, Cerebras, Cleanlab, Cohere, Cometapi, Databricks, Deepseek, Fireworks Ai, Google Gemini, Google Vertex Ai, Groq, Huggingface, Mistral Sdk, Novitaai, Ollama, Openai Assistants Api, Openai Js, Openai Py, Togetherai, Vllm, Xai Grok, Opentelemetry, Dify, Flowise, Goose, Langdock, Langflow, Lobechat, N8n, Openwebui, Ragflow, Vapi, Claude Code, Cognee, Cursor, Exa, Firecrawl, Gradio, Inferable, Librechat, Mcp Use, Milvus, Openclaw, Parallel Ai, Promptfoo, Testable Minds, Zapier\n\n## Optional: Self-Hosting\n\nFor the full list with links to each page, see: https://langfuse.com/llms-self-hosting.txt\n\nPages: Self Hosting, Administration, Automated Access Provisioning, Headless Initialization, Instance Management Api, Organization Creators, Ui Customization, Configuration, Backups, Caching, Custom Base Path, Encryption, Health Readiness Endpoints, Observability, Scaling, Transactional Emails, Aws, Azure, Docker Compose, Gcp, Blobstorage, Cache, Clickhouse, Containers, Llm Api, Postgres, Kubernetes Helm, Railway, License Key, Authentication And Sso, Data Masking, Deployment Strategies, Networking, Troubleshooting And Faq, Upgrade, Background Migrations, Upgrade V1 To V2, Upgrade V2 To V3, Versioning, V2, Deployment Guide, Docker Compose\n\n",
+    "pass": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-03-12T04:12:39.003Z",
+  "baseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "expectations": {
+    "expectProductionScripts": true,
+    "expectAnalyticsEvents": false
+  },
+  "uniqueHosts": [
+    "js-eu1.hs-scripts.com",
+    "cdn-cookieyes.com"
+  ],
+  "observedRequests": [
+    {
+      "url": "https://js-eu1.hs-scripts.com/143255669.js",
+      "method": "GET",
+      "resourceType": "script"
+    },
+    {
+      "url": "https://cdn-cookieyes.com/client_data/40247147630c6589ad01a874/script.js",
+      "method": "GET",
+      "resourceType": "script"
+    }
+  ],
+  "posthogEvents": [],
+  "assertions": [
+    {
+      "label": "HubSpot script loads on production-style deployments",
+      "pass": true,
+      "details": {
+        "observedRequests": [
+          {
+            "url": "https://js-eu1.hs-scripts.com/143255669.js",
+            "method": "GET",
+            "resourceType": "script"
+          },
+          {
+            "url": "https://cdn-cookieyes.com/client_data/40247147630c6589ad01a874/script.js",
+            "method": "GET",
+            "resourceType": "script"
+          }
+        ],
+        "EXPECT_PRODUCTION_SCRIPTS": true
+      }
+    },
+    {
+      "label": "CookieYes script loads on production-style deployments",
+      "pass": true,
+      "details": {
+        "observedRequests": [
+          {
+            "url": "https://js-eu1.hs-scripts.com/143255669.js",
+            "method": "GET",
+            "resourceType": "script"
+          },
+          {
+            "url": "https://cdn-cookieyes.com/client_data/40247147630c6589ad01a874/script.js",
+            "method": "GET",
+            "resourceType": "script"
+          }
+        ],
+        "EXPECT_PRODUCTION_SCRIPTS": true
+      }
+    },
+    {
+      "label": "PostHog pageview and copy_page events are observed when analytics parity is required",
+      "pass": true,
+      "details": {
+        "posthogEvents": [],
+        "EXPECT_ANALYTICS_EVENTS": false
+      }
+    }
+  ],
+  "pass": true
+}

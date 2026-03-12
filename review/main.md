@@ -194,6 +194,14 @@ Test this on the preview deployment.
 
 Confirm that content renders fully and correctly across all major content types and component patterns.
 
+Run this chapter on the preview deployment by default. Do not spin up a separate local dev server just to execute these checks.
+
+### Scope
+
+- Use a fixed sample set that covers docs, changelog, blog, FAQ, guide, cookbook, integration, and self-hosting routes.
+- Include at least one notebook-derived cookbook page and one page with mermaid diagrams.
+- Validate rendered DOM structure, not just source markdown, because this chapter is about runtime fidelity.
+
 ### Checklist
 
 - Verify docs, changelog, blog, FAQ, guides, integrations, and self-hosting pages all render correctly.
@@ -207,11 +215,24 @@ Confirm that content renders fully and correctly across all major content types 
 - Verify one H1 is used per page and subsection order remains valid.
 - Verify repeated or shared content blocks still behave consistently across related pages.
 
+### Representative sample pages
+
+- Docs: `/docs/prompt-management/get-started`, `/docs/observability/data-model`
+- Changelog: `/changelog/2025-05-21-custom-dashboards`
+- Blog: `/blog/2026-02-26-evaluate-ai-agent-skills`
+- FAQ: `/faq/all/unwanted-http-database-spans`
+- Guides: `/guides/videos/introducing-datasets-v2`
+- Cookbook: `/guides/cookbook/example_simulated_multi_turn_conversations`
+- Integrations: `/integrations/no-code/goose`
+- Self-hosting: `/self-hosting/deployment/docker-compose`
+
 ### Suggested tests
 
-- Manual QA on a curated sample of complex pages using the richest component combinations.
-- HTML or DOM assertions for code-block copy buttons, tabs, and callouts.
-- Link and asset validation for images, videos, and embedded media.
+- Run `node review/6-content-rendering-and-documentation-fidelity/tests/run-content-fidelity-review.mjs` against the preview deployment to audit the sample set automatically.
+- Use browser-based DOM assertions for H1 counts, heading order, mermaid rendering, code-block copy buttons, tabs, tables, and media embeds.
+- Validate remote `video` and `iframe` hosts so docs videos stay on `static.langfuse.com` and YouTube embeds stay on `www.youtube-nocookie.com`.
+- Follow up with manual QA for clipboard behavior, tab switching, long-page truncation, and shared `components-mdx` partials.
+- Use `review/6-content-rendering-and-documentation-fidelity/README.md` as the Chapter 6 runbook and evidence index.
 
 ## Chapter 7: Metadata, Structured Data, and Social Sharing
 
@@ -257,6 +278,8 @@ Confirm that measurement, feedback collection, and related external integrations
 - Manual submission of feedback flows using a test webhook sink.
 - Network inspection for analytics and webhook requests.
 - Deployment configuration review against the required environment variable set.
+
+Detailed chapter implementation: [review/8-feedback-analytics-and-operational-integrations/README.md](/Users/marcklingen/repos/github/marcklingen/langfuse-docs-fuma/review/8-feedback-analytics-and-operational-integrations/README.md)
 
 ## Chapter 9: Security Headers, Policies, and Public Surface Area
 
@@ -306,7 +329,47 @@ Confirm that the new implementation does not regress usability under realistic d
 - Accessibility scans with axe or an equivalent tool.
 - Manual keyboard and screen-size QA across critical journeys.
 
-## Chapter 11: Build Pipeline and Release Readiness
+## Chapter 11: Fumadocs Architecture and Best-Practice Alignment
+
+### Review objective
+
+Verify that the migrated site uses Fumadocs in a way that stays close to the framework's recommended architecture, and that any deviations are intentional, documented, and low-risk.
+
+Before executing this chapter, study the official Fumadocs documentation so the review uses the framework's current recommendations as the baseline rather than assumptions from the migration work.
+
+### Scope
+
+This chapter covers:
+
+- The core Fumadocs wiring expected from the official docs: `source.config.ts`, `next.config.mjs`, `app/layout.tsx`, `lib/source.ts`, `mdx-components.tsx`, docs layouts, docs page routes, and optional search route wiring.
+- Content-collection structure under `content/`, use of `meta.json`, and how page trees are generated.
+- Shared layout configuration patterns, custom route registries, and page-tree rewriting added on top of Fumadocs.
+- Migration-era compatibility layers such as `nextra` shims and custom MDX compatibility code.
+- Generated-artifact hygiene for `.source` and other Fumadocs-derived outputs.
+
+This chapter does not own search relevance, rendering fidelity, or release-pipeline correctness. Those remain with the existing search, content fidelity, and build/release chapters.
+
+### Checklist
+
+- Verify the repository keeps the baseline files and wiring recommended by Fumadocs.
+- Verify `source.config.ts` is the single source of truth for collections and frontmatter schema.
+- Verify docs-like routes are backed by Fumadocs loaders rather than ad-hoc filesystem logic.
+- Verify `content/**` trees and `meta.json` files are structured so Fumadocs can generate navigation predictably.
+- Verify shared `DocsLayout` configuration is centralized where possible; duplicated layout logic should be justified.
+- Verify search is either implemented with the documented Fumadocs search route or intentionally replaced with an equivalent design.
+- Verify custom page-tree rewrites and section registries are minimal and do not fight Fumadocs conventions.
+- Verify generated `.source` output is not partially committed or manually maintained.
+- Verify migration shims from Nextra or previous tooling are still required and isolated.
+- Verify MDX component overrides extend Fumadocs cleanly without replacing core behavior unnecessarily.
+
+### Suggested tests
+
+- Static repository audit against the official Fumadocs setup and architecture docs.
+- Trace representative sections from `content/*` through `source.config.ts`, `lib/source.ts`, and the corresponding `app/**/layout.tsx` and `page.tsx` files.
+- Diff all docs-style layouts to identify duplicated or drifting Fumadocs configuration.
+- Inspect tracked/generated state for `.source` and other framework-generated files.
+
+## Chapter 12: Build Pipeline and Release Readiness
 
 ### Review objective
 
@@ -329,7 +392,7 @@ Verify that build-time outputs and release-time behaviors required by the curren
 - CI assertions for generated files and headers.
 - Deployment configuration review against the expected feature matrix.
 
-## Chapter 12: Final Go/No-Go Gates
+## Chapter 13: Final Go/No-Go Gates
 
 ### Launch gates
 
@@ -340,12 +403,13 @@ Do not approve launch until all of the following are true:
 - Langfuse AI/LLM features pass their endpoint and UI checks.
 - Core docs UX and navigation pass both desktop and mobile review.
 - Content fidelity is confirmed for representative pages across all major content types.
+- Fumadocs architecture deviations are documented, intentional, and acceptable for long-term maintenance.
 - Feedback, search, and required analytics or webhook integrations are operational.
 - Required security headers and preview protections are verified.
 - Performance and accessibility checks show no major regression on representative pages.
 - Build outputs and deployment configuration match the intended feature set.
 
-## Chapter 13: Post-Deployment Monitoring
+## Chapter 14: Post-Deployment Monitoring
 
 ### Review objective
 
@@ -366,13 +430,14 @@ Catch issues that are difficult to detect before launch, especially around crawl
 Run the review in this order:
 
 1. Build and deployment readiness.
-2. URL and redirect validation.
-3. Indexability and metadata validation.
-4. Langfuse AI/LLM feature validation.
-5. Core docs UX and content fidelity review.
-6. Search, feedback, and analytics validation.
-7. Security, performance, accessibility, and mobile QA.
-8. Final go/no-go decision based on unresolved findings.
+2. Fumadocs architecture alignment review.
+3. URL and redirect validation.
+4. Indexability and metadata validation.
+5. Langfuse AI/LLM feature validation.
+6. Core docs UX and content fidelity review.
+7. Search, feedback, and analytics validation.
+8. Security, performance, accessibility, and mobile QA.
+9. Final go/no-go decision based on unresolved findings.
 
 ## Expected Output of the Review
 

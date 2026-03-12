@@ -1,0 +1,101 @@
+{
+  "generatedAt": "2026-03-12T04:21:43.519Z",
+  "overallStatus": "fail",
+  "checklist": [
+    {
+      "item": "Repository keeps the baseline files and wiring recommended by Fumadocs",
+      "status": "pass",
+      "evidence": [
+        "official-baseline.json",
+        "architecture-audit.json"
+      ],
+      "notes": "All baseline Fumadocs entry points are present."
+    },
+    {
+      "item": "source.config.ts is the single source of truth for collections and frontmatter schema",
+      "status": "fail",
+      "evidence": [
+        "source-trace.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Multiple manual registries still duplicate the Fumadocs collection graph."
+    },
+    {
+      "item": "Docs-like routes are backed by Fumadocs loaders rather than ad-hoc filesystem logic",
+      "status": "fail",
+      "evidence": [
+        "source-trace.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Route lookup uses Fumadocs sources, but page bodies still render through custom client loader registries."
+    },
+    {
+      "item": "content/** trees and meta.json files are structured so Fumadocs can generate navigation predictably",
+      "status": "fail",
+      "evidence": [
+        "content-structure.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Some collection sections that should carry meta.json are missing it."
+    },
+    {
+      "item": "Shared DocsLayout configuration is centralized where possible",
+      "status": "fail",
+      "evidence": [
+        "layout-duplication.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Five docs-style section layouts still repeat the same DocsLayout shell configuration."
+    },
+    {
+      "item": "Search is either implemented with the documented Fumadocs search route or intentionally replaced with an equivalent design",
+      "status": "deviation",
+      "evidence": [
+        "search-and-shims.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Repo uses an Inkeep-backed replacement instead of the documented Fumadocs search route."
+    },
+    {
+      "item": "Custom page-tree rewrites and section registries are minimal and do not fight Fumadocs conventions",
+      "status": "deviation",
+      "evidence": [
+        "source-trace.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Only two explicit page-tree rewrite helpers exist, but they sit next to broader manual route registries."
+    },
+    {
+      "item": "Generated .source output is not partially committed or manually maintained",
+      "status": "fail",
+      "evidence": [
+        "generated-artifacts.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Git still tracks .source/source.config.mjs even though .source is ignored."
+    },
+    {
+      "item": "Migration shims from Nextra or previous tooling are still required and isolated",
+      "status": "fail",
+      "evidence": [
+        "search-and-shims.json",
+        "architecture-audit.json"
+      ],
+      "notes": "30 live files still import Nextra compatibility modules directly."
+    },
+    {
+      "item": "MDX component overrides extend Fumadocs cleanly without replacing core behavior unnecessarily",
+      "status": "pass",
+      "evidence": [
+        "architecture-audit.json"
+      ],
+      "notes": "mdx-components.tsx extends fumadocs-ui/mdx, although some overrides still delegate to shimmed Nextra components."
+    }
+  ],
+  "keyFindings": [
+    "source.config.ts does not stand alone as the content registry because docs bodies, section loaders, and route registries are duplicated elsewhere.",
+    "Docs-style layouts repeat the same DocsLayout shell across five dedicated section layouts.",
+    "Nextra compatibility shims are still live in content and components rather than isolated to a narrow migration edge.",
+    ".source hygiene is inconsistent because the directory is ignored but one generated file remains tracked."
+  ]
+}

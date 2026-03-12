@@ -1,0 +1,522 @@
+[
+  {
+    "id": "docs-observability-overview",
+    "label": "Docs overview",
+    "route": "/docs/observability/overview",
+    "category": "docs-overview",
+    "source": {
+      "filePath": "content/docs/observability/overview.mdx",
+      "route": "/docs/observability/overview",
+      "title": "Overview",
+      "description": "Open source application tracing and observability for LLM apps. Capture traces, monitor latency, track costs, and debug issues across OpenAI, LangChain, LlamaIndex, and more.",
+      "canonical": null,
+      "ogImage": null,
+      "ogVideo": null
+    },
+    "previewVsProduction": {
+      "titleMatches": false,
+      "descriptionMatches": true,
+      "canonicalMatches": true,
+      "ogUrlMatches": false,
+      "ogImageMatches": false,
+      "ogVideoMatches": true,
+      "structuredDataTypesMatch": true
+    },
+    "sourceChecks": {
+      "previewCanonicalMatches": null,
+      "productionCanonicalMatches": null,
+      "previewOgImageMatches": null,
+      "productionOgImageMatches": null,
+      "previewOgVideoMatches": null,
+      "productionOgVideoMatches": null,
+      "previewDescriptionMatches": true,
+      "productionDescriptionMatches": true
+    },
+    "consistency": {
+      "previewOgUrlMatchesCanonicalOrPage": false,
+      "productionOgUrlMatchesCanonicalOrPage": true,
+      "previewLeaksPreviewDomain": false,
+      "productionLeaksPreviewDomain": false
+    },
+    "assetChecks": {
+      "preview": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      },
+      "production": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      }
+    }
+  },
+  {
+    "id": "docs-prompt-management-overview",
+    "label": "Prompt management overview",
+    "route": "/docs/prompt-management/overview",
+    "category": "docs-overview",
+    "source": {
+      "filePath": "content/docs/prompt-management/overview.mdx",
+      "route": "/docs/prompt-management/overview",
+      "title": "Overview",
+      "description": "Manage and version your prompts in Langfuse (open source). When retrieved, they are cached by the Langfuse SDKs for low latency.",
+      "canonical": null,
+      "ogImage": null,
+      "ogVideo": null
+    },
+    "previewVsProduction": {
+      "titleMatches": false,
+      "descriptionMatches": true,
+      "canonicalMatches": true,
+      "ogUrlMatches": false,
+      "ogImageMatches": false,
+      "ogVideoMatches": true,
+      "structuredDataTypesMatch": true
+    },
+    "sourceChecks": {
+      "previewCanonicalMatches": null,
+      "productionCanonicalMatches": null,
+      "previewOgImageMatches": null,
+      "productionOgImageMatches": null,
+      "previewOgVideoMatches": null,
+      "productionOgVideoMatches": null,
+      "previewDescriptionMatches": true,
+      "productionDescriptionMatches": true
+    },
+    "consistency": {
+      "previewOgUrlMatchesCanonicalOrPage": false,
+      "productionOgUrlMatchesCanonicalOrPage": true,
+      "previewLeaksPreviewDomain": false,
+      "productionLeaksPreviewDomain": false
+    },
+    "assetChecks": {
+      "preview": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      },
+      "production": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      }
+    }
+  },
+  {
+    "id": "docs-evaluation-overview",
+    "label": "Evaluation overview",
+    "route": "/docs/evaluation/overview",
+    "category": "docs-overview",
+    "source": {
+      "filePath": "content/docs/evaluation/overview.mdx",
+      "route": "/docs/evaluation/overview",
+      "title": "Overview",
+      "description": "With Langfuse you can capture all your LLM evaluations in one place. You can combine a variety of different evaluation metrics like model-based evaluations (LLM-as-a-Judge), human annotations or fully custom evaluation workflows via API/SDKs. This allows you to measure quality, tonality, factual accuracy, completeness, and other dimensions of your LLM application.",
+      "canonical": null,
+      "ogImage": null,
+      "ogVideo": null
+    },
+    "previewVsProduction": {
+      "titleMatches": false,
+      "descriptionMatches": true,
+      "canonicalMatches": true,
+      "ogUrlMatches": false,
+      "ogImageMatches": false,
+      "ogVideoMatches": true,
+      "structuredDataTypesMatch": true
+    },
+    "sourceChecks": {
+      "previewCanonicalMatches": null,
+      "productionCanonicalMatches": null,
+      "previewOgImageMatches": null,
+      "productionOgImageMatches": null,
+      "previewOgVideoMatches": null,
+      "productionOgVideoMatches": null,
+      "previewDescriptionMatches": true,
+      "productionDescriptionMatches": true
+    },
+    "consistency": {
+      "previewOgUrlMatchesCanonicalOrPage": false,
+      "productionOgUrlMatchesCanonicalOrPage": true,
+      "previewLeaksPreviewDomain": false,
+      "productionLeaksPreviewDomain": false
+    },
+    "assetChecks": {
+      "preview": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      },
+      "production": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      }
+    }
+  },
+  {
+    "id": "docs-api-platform-overview",
+    "label": "API and data platform overview",
+    "route": "/docs/api-and-data-platform/overview",
+    "category": "docs-overview",
+    "source": {
+      "filePath": "content/docs/api-and-data-platform/overview.mdx",
+      "route": "/docs/api-and-data-platform/overview",
+      "title": "Overview",
+      "description": "Langfuse is designed to be extensible and flexible. People using Langfuse are building all kinds of workflows and customizations on top of it. This is powered by our open data platform.",
+      "canonical": null,
+      "ogImage": null,
+      "ogVideo": null
+    },
+    "previewVsProduction": {
+      "titleMatches": false,
+      "descriptionMatches": true,
+      "canonicalMatches": true,
+      "ogUrlMatches": false,
+      "ogImageMatches": false,
+      "ogVideoMatches": true,
+      "structuredDataTypesMatch": true
+    },
+    "sourceChecks": {
+      "previewCanonicalMatches": null,
+      "productionCanonicalMatches": null,
+      "previewOgImageMatches": null,
+      "productionOgImageMatches": null,
+      "previewOgVideoMatches": null,
+      "productionOgVideoMatches": null,
+      "previewDescriptionMatches": true,
+      "productionDescriptionMatches": true
+    },
+    "consistency": {
+      "previewOgUrlMatchesCanonicalOrPage": false,
+      "productionOgUrlMatchesCanonicalOrPage": true,
+      "previewLeaksPreviewDomain": false,
+      "productionLeaksPreviewDomain": false
+    },
+    "assetChecks": {
+      "preview": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      },
+      "production": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      }
+    }
+  },
+  {
+    "id": "guides-run-langfuse-locally",
+    "label": "Guide video with custom OG image",
+    "route": "/guides/videos/run-langfuse-locally",
+    "category": "guides",
+    "source": {
+      "filePath": "content/guides/videos/run-langfuse-locally.mdx",
+      "route": "/guides/videos/run-langfuse-locally",
+      "title": "Run Langfuse Locally in 3 Minutes",
+      "description": "Run Langfuse locally with Docker Compose.",
+      "canonical": null,
+      "ogImage": "https://langfuse.com/images/videos/local-langfuse-v3.jpg",
+      "ogVideo": null
+    },
+    "previewVsProduction": {
+      "titleMatches": true,
+      "descriptionMatches": true,
+      "canonicalMatches": true,
+      "ogUrlMatches": false,
+      "ogImageMatches": false,
+      "ogVideoMatches": true,
+      "structuredDataTypesMatch": true
+    },
+    "sourceChecks": {
+      "previewCanonicalMatches": null,
+      "productionCanonicalMatches": null,
+      "previewOgImageMatches": false,
+      "productionOgImageMatches": true,
+      "previewOgVideoMatches": null,
+      "productionOgVideoMatches": null,
+      "previewDescriptionMatches": true,
+      "productionDescriptionMatches": true
+    },
+    "consistency": {
+      "previewOgUrlMatchesCanonicalOrPage": false,
+      "productionOgUrlMatchesCanonicalOrPage": true,
+      "previewLeaksPreviewDomain": false,
+      "productionLeaksPreviewDomain": false
+    },
+    "assetChecks": {
+      "preview": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      },
+      "production": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      }
+    }
+  },
+  {
+    "id": "blog-ai-agent-comparison",
+    "label": "Blog post with custom OG image",
+    "route": "/blog/2025-03-19-ai-agent-comparison",
+    "category": "blog",
+    "source": {
+      "filePath": "content/blog/2025-03-19-ai-agent-comparison.mdx",
+      "route": "/blog/2025-03-19-ai-agent-comparison",
+      "title": "Comparing Open-Source AI Agent Frameworks",
+      "description": "Get an overview of the leading open-source AI agent frameworks—LangGraph, OpenAI Agents SDK, Google ADK, Smolagents, CrewAI, AutoGen, Semantic Kernel, Strands Agents, Pydantic AI, Agno, Mastra, and Microsoft Agent Framework. Compare features, learn when to use each, and see how to track agent behavior with Langfuse",
+      "canonical": null,
+      "ogImage": "https://langfuse.com/images/blog/2025-03-19-ai-agent-comparison/agent-comparison.png",
+      "ogVideo": null
+    },
+    "previewVsProduction": {
+      "titleMatches": false,
+      "descriptionMatches": true,
+      "canonicalMatches": true,
+      "ogUrlMatches": false,
+      "ogImageMatches": true,
+      "ogVideoMatches": true,
+      "structuredDataTypesMatch": true
+    },
+    "sourceChecks": {
+      "previewCanonicalMatches": null,
+      "productionCanonicalMatches": null,
+      "previewOgImageMatches": true,
+      "productionOgImageMatches": true,
+      "previewOgVideoMatches": null,
+      "productionOgVideoMatches": null,
+      "previewDescriptionMatches": true,
+      "productionDescriptionMatches": true
+    },
+    "consistency": {
+      "previewOgUrlMatchesCanonicalOrPage": false,
+      "productionOgUrlMatchesCanonicalOrPage": true,
+      "previewLeaksPreviewDomain": false,
+      "productionLeaksPreviewDomain": false
+    },
+    "assetChecks": {
+      "preview": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      },
+      "production": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      }
+    }
+  },
+  {
+    "id": "changelog-comments",
+    "label": "Changelog entry with canonical and OG video",
+    "route": "/changelog/2024-08-20-comments",
+    "category": "changelog",
+    "source": {
+      "filePath": "content/changelog/2024-08-20-comments.mdx",
+      "route": "/changelog/2024-08-20-comments",
+      "title": "Comments on Langfuse objects",
+      "description": "Add comments to traces, observations, sessions and prompts via the Langfuse UI.",
+      "canonical": "https://langfuse.com/docs/observability/features/comments",
+      "ogImage": null,
+      "ogVideo": "https://static.langfuse.com/docs-videos/comments.mp4"
+    },
+    "previewVsProduction": {
+      "titleMatches": true,
+      "descriptionMatches": true,
+      "canonicalMatches": false,
+      "ogUrlMatches": false,
+      "ogImageMatches": false,
+      "ogVideoMatches": false,
+      "structuredDataTypesMatch": true
+    },
+    "sourceChecks": {
+      "previewCanonicalMatches": false,
+      "productionCanonicalMatches": true,
+      "previewOgImageMatches": null,
+      "productionOgImageMatches": null,
+      "previewOgVideoMatches": false,
+      "productionOgVideoMatches": false,
+      "previewDescriptionMatches": true,
+      "productionDescriptionMatches": true
+    },
+    "consistency": {
+      "previewOgUrlMatchesCanonicalOrPage": false,
+      "productionOgUrlMatchesCanonicalOrPage": false,
+      "previewLeaksPreviewDomain": false,
+      "productionLeaksPreviewDomain": false
+    },
+    "assetChecks": {
+      "preview": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      },
+      "production": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": false
+      }
+    }
+  },
+  {
+    "id": "changelog-open-source",
+    "label": "Changelog entry with custom OG image",
+    "route": "/changelog/2025-06-04-open-sourcing-langfuse",
+    "category": "changelog",
+    "source": {
+      "filePath": "content/changelog/2025-06-04-open-sourcing-langfuse.mdx",
+      "route": "/changelog/2025-06-04-open-sourcing-langfuse",
+      "title": "Open Sourcing all Product Features",
+      "description": "We have Open Sourced all Remaining Product Features under the MIT License",
+      "canonical": null,
+      "ogImage": "https://langfuse.com/images/blog/2025-06-04-open-sourcing-langfuse-product/langfuse-open-source-og.png",
+      "ogVideo": null
+    },
+    "previewVsProduction": {
+      "titleMatches": true,
+      "descriptionMatches": true,
+      "canonicalMatches": true,
+      "ogUrlMatches": false,
+      "ogImageMatches": true,
+      "ogVideoMatches": true,
+      "structuredDataTypesMatch": true
+    },
+    "sourceChecks": {
+      "previewCanonicalMatches": null,
+      "productionCanonicalMatches": null,
+      "previewOgImageMatches": true,
+      "productionOgImageMatches": true,
+      "previewOgVideoMatches": null,
+      "productionOgVideoMatches": null,
+      "previewDescriptionMatches": true,
+      "productionDescriptionMatches": true
+    },
+    "consistency": {
+      "previewOgUrlMatchesCanonicalOrPage": false,
+      "productionOgUrlMatchesCanonicalOrPage": true,
+      "previewLeaksPreviewDomain": false,
+      "productionLeaksPreviewDomain": false
+    },
+    "assetChecks": {
+      "preview": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      },
+      "production": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      }
+    }
+  },
+  {
+    "id": "pricing",
+    "label": "Wide marketing page",
+    "route": "/pricing",
+    "category": "wide-marketing",
+    "source": {
+      "filePath": "content/marketing/pricing.mdx",
+      "route": "/pricing",
+      "title": "Pricing",
+      "description": "Simple pricing for projects of all sizes. Get started on our Hobby plan without a credit card.",
+      "canonical": null,
+      "ogImage": null,
+      "ogVideo": null
+    },
+    "previewVsProduction": {
+      "titleMatches": true,
+      "descriptionMatches": true,
+      "canonicalMatches": true,
+      "ogUrlMatches": false,
+      "ogImageMatches": false,
+      "ogVideoMatches": true,
+      "structuredDataTypesMatch": true
+    },
+    "sourceChecks": {
+      "previewCanonicalMatches": null,
+      "productionCanonicalMatches": null,
+      "previewOgImageMatches": null,
+      "productionOgImageMatches": null,
+      "previewOgVideoMatches": null,
+      "productionOgVideoMatches": null,
+      "previewDescriptionMatches": true,
+      "productionDescriptionMatches": true
+    },
+    "consistency": {
+      "previewOgUrlMatchesCanonicalOrPage": false,
+      "productionOgUrlMatchesCanonicalOrPage": true,
+      "previewLeaksPreviewDomain": false,
+      "productionLeaksPreviewDomain": false
+    },
+    "assetChecks": {
+      "preview": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      },
+      "production": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      }
+    }
+  },
+  {
+    "id": "faq-support",
+    "label": "FAQ article",
+    "route": "/faq/all/langfuse-support",
+    "category": "faq",
+    "source": {
+      "filePath": "content/faq/all/langfuse-support.mdx",
+      "route": "/faq/all/langfuse-support",
+      "title": "How can I receive support?",
+      "description": null,
+      "canonical": null,
+      "ogImage": null,
+      "ogVideo": null
+    },
+    "previewVsProduction": {
+      "titleMatches": true,
+      "descriptionMatches": true,
+      "canonicalMatches": true,
+      "ogUrlMatches": false,
+      "ogImageMatches": false,
+      "ogVideoMatches": true,
+      "structuredDataTypesMatch": true
+    },
+    "sourceChecks": {
+      "previewCanonicalMatches": null,
+      "productionCanonicalMatches": null,
+      "previewOgImageMatches": null,
+      "productionOgImageMatches": null,
+      "previewOgVideoMatches": null,
+      "productionOgVideoMatches": null,
+      "previewDescriptionMatches": null,
+      "productionDescriptionMatches": null
+    },
+    "consistency": {
+      "previewOgUrlMatchesCanonicalOrPage": false,
+      "productionOgUrlMatchesCanonicalOrPage": true,
+      "previewLeaksPreviewDomain": false,
+      "productionLeaksPreviewDomain": false
+    },
+    "assetChecks": {
+      "preview": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      },
+      "production": {
+        "ogImageOk": true,
+        "twitterImageOk": null,
+        "ogVideoOk": null
+      }
+    }
+  }
+]

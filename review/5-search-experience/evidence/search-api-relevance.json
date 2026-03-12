@@ -1,0 +1,445 @@
+{
+  "generatedAt": "2026-03-12T05:10:52.049Z",
+  "previewBaseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionBaseUrl": "https://langfuse.com",
+  "previewQueries": [
+    {
+      "id": "docs",
+      "label": "Docs",
+      "query": "prompt management",
+      "expectedUrl": "https://langfuse.com/docs/prompt-management/overview",
+      "status": 200,
+      "topUrl": "https://langfuse.com/docs/prompt-management/overview",
+      "topUrlMatchesExpectation": true,
+      "hosts": [
+        "langfuse.com",
+        "github.com"
+      ],
+      "hasPreviewHost": false,
+      "duplicateUrls": [],
+      "topDocuments": [
+        {
+          "recordType": "documentation",
+          "title": "Prompt Management",
+          "url": "https://langfuse.com/docs/prompt-management/overview"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Glossary",
+          "url": "https://langfuse.com/docs/glossary"
+        },
+        {
+          "recordType": "documentation",
+          "title": "What is prompt engineering?",
+          "url": "https://langfuse.com/faq/all/what-is-prompt-engineering"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Promptfoo Integration with Langfuse Prompt Management",
+          "url": "https://langfuse.com/integrations/other/promptfoo"
+        },
+        {
+          "recordType": "site",
+          "title": "Prompt Management - Langfuse",
+          "url": "https://langfuse.com/changelog/2024-01-03-prompt-management"
+        }
+      ]
+    },
+    {
+      "id": "integrations",
+      "label": "Integrations",
+      "query": "goose integration",
+      "expectedUrl": "https://langfuse.com/integrations/no-code/goose",
+      "status": 200,
+      "topUrl": "https://langfuse.com/integrations/no-code/goose",
+      "topUrlMatchesExpectation": true,
+      "hosts": [
+        "langfuse.com",
+        "github.com"
+      ],
+      "hasPreviewHost": false,
+      "duplicateUrls": [
+        {
+          "value": "https://github.com/langfuse/langfuse/blob/main/README.kr.md",
+          "count": 2
+        }
+      ],
+      "topDocuments": [
+        {
+          "recordType": "documentation",
+          "title": "Integrating Goose with Langfuse",
+          "url": "https://langfuse.com/integrations/no-code/goose"
+        },
+        {
+          "recordType": "site",
+          "title": "[ **Langfuse Is Doubling Down On Open Source**",
+          "url": "https://github.com/langfuse/langfuse/blob/main/README.md"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Integrations",
+          "url": "https://langfuse.com/integrations"
+        },
+        {
+          "recordType": "documentation",
+          "title": "PostHog Integration",
+          "url": "https://langfuse.com/integrations/analytics/posthog"
+        },
+        {
+          "recordType": "github_discussion",
+          "title": "Updated Goose Langfuse Integration",
+          "url": "https://github.com/orgs/langfuse/discussions/7866"
+        }
+      ]
+    },
+    {
+      "id": "self-hosting",
+      "label": "Self-hosting",
+      "query": "docker compose",
+      "expectedUrl": "https://langfuse.com/self-hosting/deployment/docker-compose",
+      "status": 200,
+      "topUrl": "https://langfuse.com/self-hosting/deployment/docker-compose",
+      "topUrlMatchesExpectation": true,
+      "hosts": [
+        "langfuse.com"
+      ],
+      "hasPreviewHost": false,
+      "duplicateUrls": [
+        {
+          "value": "https://langfuse.com/self-hosting/v2/docker-compose",
+          "count": 2
+        }
+      ],
+      "topDocuments": [
+        {
+          "recordType": "documentation",
+          "title": "Docker Compose",
+          "url": "https://langfuse.com/self-hosting/deployment/docker-compose"
+        },
+        {
+          "recordType": "documentation",
+          "title": "⛓️ Langflow Integration",
+          "url": "https://langfuse.com/integrations/no-code/langflow"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Local Deployment (v2, docker compose)",
+          "url": "https://langfuse.com/self-hosting/v2/docker-compose"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Local Deployment (v2, docker compose)",
+          "url": "https://langfuse.com/self-hosting/v2/docker-compose"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Scaling",
+          "url": "https://langfuse.com/self-hosting/configuration/scaling"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "label": "FAQ",
+      "query": "unwanted http database spans",
+      "expectedUrl": "https://langfuse.com/faq/all/unwanted-http-database-spans",
+      "status": 200,
+      "topUrl": "https://langfuse.com/faq/all/unwanted-http-database-spans",
+      "topUrlMatchesExpectation": true,
+      "hosts": [
+        "langfuse.com",
+        "github.com"
+      ],
+      "hasPreviewHost": false,
+      "duplicateUrls": [],
+      "topDocuments": [
+        {
+          "recordType": "documentation",
+          "title": "Why do I see HTTP requests or database queries in my Langfuse traces?",
+          "url": "https://langfuse.com/faq/all/unwanted-http-database-spans"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Observability for LlamaIndex Workflows",
+          "url": "https://langfuse.com/integrations/frameworks/llamaindex-workflows"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Using Langfuse with an Existing OpenTelemetry Setup",
+          "url": "https://langfuse.com/faq/all/existing-otel-setup"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Observability for Baseten with Langfuse",
+          "url": "https://langfuse.com/integrations/model-providers/baseten"
+        },
+        {
+          "recordType": "github_issue",
+          "title": "bug: NoName Span ON UI when use blocked_instrumentation_scopes",
+          "url": "https://github.com/langfuse/langfuse/issues/10718"
+        }
+      ]
+    },
+    {
+      "id": "handbook",
+      "label": "Handbook",
+      "query": "open source handbook",
+      "expectedUrl": "https://langfuse.com/handbook/chapters/open-source",
+      "status": 200,
+      "topUrl": "https://langfuse.com/handbook/chapters/open-source",
+      "topUrlMatchesExpectation": true,
+      "hosts": [
+        "langfuse.com"
+      ],
+      "hasPreviewHost": false,
+      "duplicateUrls": [],
+      "topDocuments": [
+        {
+          "recordType": "site",
+          "title": "Why is Langfuse Open Source? - Langfuse Handbook",
+          "url": "https://langfuse.com/handbook/chapters/open-source"
+        },
+        {
+          "recordType": "site",
+          "title": "How did we get here? - Langfuse Handbook",
+          "url": "https://langfuse.com/handbook/chapters/story"
+        },
+        {
+          "recordType": "site",
+          "title": "Architecture - Langfuse Handbook",
+          "url": "https://langfuse.com/handbook/product-engineering/architecture"
+        },
+        {
+          "recordType": "site",
+          "title": "Why do customers choose Langfuse? - Langfuse Handbook",
+          "url": "https://langfuse.com/handbook/chapters/why"
+        },
+        {
+          "recordType": "site",
+          "title": "Langfuse Company Handbook - Langfuse",
+          "url": "https://langfuse.com/handbook"
+        }
+      ]
+    }
+  ],
+  "productionQueries": [
+    {
+      "id": "docs",
+      "label": "Docs",
+      "query": "prompt management",
+      "expectedUrl": "https://langfuse.com/docs/prompt-management/overview",
+      "status": 200,
+      "topUrl": "https://langfuse.com/docs/prompt-management/overview",
+      "topUrlMatchesExpectation": true,
+      "hosts": [
+        "langfuse.com",
+        "github.com"
+      ],
+      "hasPreviewHost": false,
+      "duplicateUrls": [],
+      "topDocuments": [
+        {
+          "recordType": "documentation",
+          "title": "Prompt Management",
+          "url": "https://langfuse.com/docs/prompt-management/overview"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Glossary",
+          "url": "https://langfuse.com/docs/glossary"
+        },
+        {
+          "recordType": "documentation",
+          "title": "What is prompt engineering?",
+          "url": "https://langfuse.com/faq/all/what-is-prompt-engineering"
+        },
+        {
+          "recordType": "site",
+          "title": "Prompt Management - Langfuse",
+          "url": "https://langfuse.com/changelog/2024-01-03-prompt-management"
+        },
+        {
+          "recordType": "github_discussion",
+          "title": "prompt management technique",
+          "url": "https://github.com/orgs/langfuse/discussions/9302"
+        }
+      ]
+    },
+    {
+      "id": "integrations",
+      "label": "Integrations",
+      "query": "goose integration",
+      "expectedUrl": "https://langfuse.com/integrations/no-code/goose",
+      "status": 200,
+      "topUrl": "https://langfuse.com/integrations/no-code/goose",
+      "topUrlMatchesExpectation": true,
+      "hosts": [
+        "langfuse.com",
+        "github.com"
+      ],
+      "hasPreviewHost": false,
+      "duplicateUrls": [
+        {
+          "value": "https://github.com/langfuse/langfuse/blob/main/README.kr.md",
+          "count": 2
+        }
+      ],
+      "topDocuments": [
+        {
+          "recordType": "documentation",
+          "title": "Integrating Goose with Langfuse",
+          "url": "https://langfuse.com/integrations/no-code/goose"
+        },
+        {
+          "recordType": "site",
+          "title": "[ **Langfuse Is Doubling Down On Open Source**",
+          "url": "https://github.com/langfuse/langfuse/blob/main/README.md"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Integrations",
+          "url": "https://langfuse.com/integrations"
+        },
+        {
+          "recordType": "documentation",
+          "title": "PostHog Integration",
+          "url": "https://langfuse.com/integrations/analytics/posthog"
+        },
+        {
+          "recordType": "github_discussion",
+          "title": "Updated Goose Langfuse Integration",
+          "url": "https://github.com/orgs/langfuse/discussions/7866"
+        }
+      ]
+    },
+    {
+      "id": "self-hosting",
+      "label": "Self-hosting",
+      "query": "docker compose",
+      "expectedUrl": "https://langfuse.com/self-hosting/deployment/docker-compose",
+      "status": 200,
+      "topUrl": "https://langfuse.com/self-hosting/deployment/docker-compose",
+      "topUrlMatchesExpectation": true,
+      "hosts": [
+        "langfuse.com"
+      ],
+      "hasPreviewHost": false,
+      "duplicateUrls": [
+        {
+          "value": "https://langfuse.com/self-hosting/v2/docker-compose",
+          "count": 2
+        }
+      ],
+      "topDocuments": [
+        {
+          "recordType": "documentation",
+          "title": "Docker Compose",
+          "url": "https://langfuse.com/self-hosting/deployment/docker-compose"
+        },
+        {
+          "recordType": "documentation",
+          "title": "⛓️ Langflow Integration",
+          "url": "https://langfuse.com/integrations/no-code/langflow"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Local Deployment (v2, docker compose)",
+          "url": "https://langfuse.com/self-hosting/v2/docker-compose"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Local Deployment (v2, docker compose)",
+          "url": "https://langfuse.com/self-hosting/v2/docker-compose"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Scaling",
+          "url": "https://langfuse.com/self-hosting/configuration/scaling"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "label": "FAQ",
+      "query": "unwanted http database spans",
+      "expectedUrl": "https://langfuse.com/faq/all/unwanted-http-database-spans",
+      "status": 200,
+      "topUrl": "https://langfuse.com/faq/all/unwanted-http-database-spans",
+      "topUrlMatchesExpectation": true,
+      "hosts": [
+        "langfuse.com",
+        "github.com"
+      ],
+      "hasPreviewHost": false,
+      "duplicateUrls": [],
+      "topDocuments": [
+        {
+          "recordType": "documentation",
+          "title": "Why do I see HTTP requests or database queries in my Langfuse traces?",
+          "url": "https://langfuse.com/faq/all/unwanted-http-database-spans"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Observability for LlamaIndex Workflows",
+          "url": "https://langfuse.com/integrations/frameworks/llamaindex-workflows"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Using Langfuse with an Existing OpenTelemetry Setup",
+          "url": "https://langfuse.com/faq/all/existing-otel-setup"
+        },
+        {
+          "recordType": "documentation",
+          "title": "Observability for Baseten with Langfuse",
+          "url": "https://langfuse.com/integrations/model-providers/baseten"
+        },
+        {
+          "recordType": "github_issue",
+          "title": "bug: NoName Span ON UI when use blocked_instrumentation_scopes",
+          "url": "https://github.com/langfuse/langfuse/issues/10718"
+        }
+      ]
+    },
+    {
+      "id": "handbook",
+      "label": "Handbook",
+      "query": "open source handbook",
+      "expectedUrl": "https://langfuse.com/handbook/chapters/open-source",
+      "status": 200,
+      "topUrl": "https://langfuse.com/handbook/chapters/open-source",
+      "topUrlMatchesExpectation": true,
+      "hosts": [
+        "langfuse.com"
+      ],
+      "hasPreviewHost": false,
+      "duplicateUrls": [],
+      "topDocuments": [
+        {
+          "recordType": "site",
+          "title": "Why is Langfuse Open Source? - Langfuse Handbook",
+          "url": "https://langfuse.com/handbook/chapters/open-source"
+        },
+        {
+          "recordType": "site",
+          "title": "How did we get here? - Langfuse Handbook",
+          "url": "https://langfuse.com/handbook/chapters/story"
+        },
+        {
+          "recordType": "site",
+          "title": "Architecture - Langfuse Handbook",
+          "url": "https://langfuse.com/handbook/product-engineering/architecture"
+        },
+        {
+          "recordType": "site",
+          "title": "Why do customers choose Langfuse? - Langfuse Handbook",
+          "url": "https://langfuse.com/handbook/chapters/why"
+        },
+        {
+          "recordType": "site",
+          "title": "Langfuse Company Handbook - Langfuse",
+          "url": "https://langfuse.com/handbook"
+        }
+      ]
+    }
+  ]
+}

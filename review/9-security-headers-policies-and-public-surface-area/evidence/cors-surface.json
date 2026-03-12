@@ -1,0 +1,54 @@
+{
+  "source": {
+    "wildcardEndpoints": [
+      {
+        "route": "/api/search-docs",
+        "sourceFile": "app/api/search-docs/route.ts",
+        "methods": [
+          "GET",
+          "OPTIONS"
+        ],
+        "documentedIn": [
+          "content/blog/2026-02-13-will-you-be-my-cli.mdx",
+          "content/docs/docs-mcp.mdx"
+        ],
+        "wildcardOrigin": true
+      }
+    ],
+    "pass": true
+  },
+  "preview": {
+    "route": "/api/search-docs",
+    "get": {
+      "status": 200,
+      "contentType": "application/json",
+      "corsOrigin": "*",
+      "corsMethods": "GET, OPTIONS",
+      "corsHeaders": "Content-Type"
+    },
+    "options": {
+      "status": 204,
+      "corsOrigin": "*",
+      "corsMethods": "GET, OPTIONS",
+      "corsHeaders": "Content-Type"
+    },
+    "pass": true
+  },
+  "production": {
+    "route": "/api/search-docs",
+    "get": {
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "corsOrigin": "*",
+      "corsMethods": "GET, OPTIONS",
+      "corsHeaders": "Content-Type"
+    },
+    "options": {
+      "status": 204,
+      "corsOrigin": "*",
+      "corsMethods": "GET, OPTIONS",
+      "corsHeaders": "Content-Type"
+    },
+    "pass": true
+  }
+}

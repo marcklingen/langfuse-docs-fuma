@@ -1,0 +1,544 @@
+{
+  "generatedAt": "2026-03-12T04:21:43.519Z",
+  "chapter": "Chapter 11: Fumadocs Architecture and Best-Practice Alignment",
+  "baselineFilesAudit": [
+    {
+      "path": "source.config.ts",
+      "exists": true,
+      "checks": {
+        "defineConfig": true,
+        "defineDocs": true,
+        "providerImportSource": true
+      },
+      "passed": true
+    },
+    {
+      "path": "next.config.mjs",
+      "exists": true,
+      "checks": {
+        "createMDX": true,
+        "mdxImport": true
+      },
+      "passed": true
+    },
+    {
+      "path": "app/layout.tsx",
+      "exists": true,
+      "checks": {
+        "rootProvider": true
+      },
+      "passed": true
+    },
+    {
+      "path": "lib/source.ts",
+      "exists": true,
+      "checks": {
+        "loader": true,
+        "sourceServerImport": true
+      },
+      "passed": true
+    },
+    {
+      "path": "mdx-components.tsx",
+      "exists": true,
+      "checks": {
+        "defaultMdxComponents": true,
+        "getMDXComponents": true
+      },
+      "passed": true
+    }
+  ],
+  "collections": [
+    {
+      "exportName": "docs",
+      "dir": "content/docs",
+      "hasCustomSchema": false
+    },
+    {
+      "exportName": "selfHosting",
+      "dir": "content/self-hosting",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "blog",
+      "dir": "content/blog",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "changelog",
+      "dir": "content/changelog",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "guides",
+      "dir": "content/guides",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "faq",
+      "dir": "content/faq",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "integrations",
+      "dir": "content/integrations",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "security",
+      "dir": "content/security",
+      "hasCustomSchema": false
+    },
+    {
+      "exportName": "library",
+      "dir": "content/library",
+      "hasCustomSchema": false
+    },
+    {
+      "exportName": "customers",
+      "dir": "content/customers",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "handbook",
+      "dir": "content/handbook",
+      "hasCustomSchema": false
+    },
+    {
+      "exportName": "marketing",
+      "dir": "content/marketing",
+      "hasCustomSchema": false
+    }
+  ],
+  "docsLoaderCoverage": {
+    "collection": "docs",
+    "expectedCount": 88,
+    "actualCount": 88,
+    "missing": [],
+    "extra": []
+  },
+  "generatedLoaderCoverage": [
+    {
+      "collection": "selfHosting",
+      "dir": "content/self-hosting",
+      "expectedCount": 42,
+      "actualCount": 42,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "blog",
+      "dir": "content/blog",
+      "expectedCount": 60,
+      "actualCount": 60,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "changelog",
+      "dir": "content/changelog",
+      "expectedCount": 240,
+      "actualCount": 240,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "guides",
+      "dir": "content/guides",
+      "expectedCount": 60,
+      "actualCount": 60,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "faq",
+      "dir": "content/faq",
+      "expectedCount": 78,
+      "actualCount": 78,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "integrations",
+      "dir": "content/integrations",
+      "expectedCount": 101,
+      "actualCount": 101,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "security",
+      "dir": "content/security",
+      "expectedCount": 25,
+      "actualCount": 25,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "library",
+      "dir": "content/library",
+      "expectedCount": 1,
+      "actualCount": 1,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "customers",
+      "dir": "content/customers",
+      "expectedCount": 6,
+      "actualCount": 6,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "handbook",
+      "dir": "content/handbook",
+      "expectedCount": 47,
+      "actualCount": 47,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "marketing",
+      "dir": "content/marketing",
+      "expectedCount": 22,
+      "actualCount": 22,
+      "missing": [],
+      "extra": []
+    }
+  ],
+  "manualRegistries": [
+    {
+      "path": "app/docs/[[...slug]]/doc-loaders.client.ts",
+      "purpose": "Manual docs MDX body import registry"
+    },
+    {
+      "path": "scripts/generate-section-loaders.js",
+      "purpose": "Custom filesystem traversal that rebuilds section body registries"
+    },
+    {
+      "path": "lib/section-loaders.generated.ts",
+      "purpose": "Tracked generated section body registry"
+    },
+    {
+      "path": "lib/source.ts",
+      "purpose": "Manual MARKETING_SLUGS, routeToSource, and page-tree rewrite helpers"
+    },
+    {
+      "path": "lib/sections.ts",
+      "purpose": "Manual SECTION_CONFIG and app-route section groupings"
+    }
+  ],
+  "routeTrace": [
+    {
+      "file": "app/docs/[[...slug]]/page.tsx",
+      "sourceAccessor": "source",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "DocBodyClient",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    },
+    {
+      "file": "app/guides/[[...slug]]/page.tsx",
+      "sourceAccessor": "guidesSource",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "SectionDocBodyClientWithDocsBody",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    },
+    {
+      "file": "app/self-hosting/[[...slug]]/page.tsx",
+      "sourceAccessor": "selfHostingSource",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "SectionDocBodyClientWithDocsBody",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    },
+    {
+      "file": "app/integrations/[[...slug]]/page.tsx",
+      "sourceAccessor": "integrationsSource",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "SectionDocBodyClientWithDocsBody",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    },
+    {
+      "file": "app/library/[[...slug]]/page.tsx",
+      "sourceAccessor": "librarySource",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "SectionDocBodyClientWithDocsBody",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    },
+    {
+      "file": "app/[section]/[[...slug]]/page.tsx",
+      "sourceAccessor": "config.source",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "SectionDocBodyClient",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    }
+  ],
+  "contentStructureSummary": {
+    "collectionsAudited": 12,
+    "missingMetaDirectories": [
+      {
+        "collection": "content/faq",
+        "directory": "content/faq/all"
+      }
+    ]
+  },
+  "layoutAudit": {
+    "entries": [
+      {
+        "file": "app/docs/layout.tsx",
+        "signature": {
+          "usesDocsLayout": true,
+          "githubUrl": true,
+          "navDisabled": true,
+          "searchDisabled": true,
+          "sidebarBanner": true,
+          "sidebarConditional": false,
+          "themeSwitchConditional": false,
+          "layoutWrapper": true
+        }
+      },
+      {
+        "file": "app/guides/layout.tsx",
+        "signature": {
+          "usesDocsLayout": true,
+          "githubUrl": true,
+          "navDisabled": true,
+          "searchDisabled": true,
+          "sidebarBanner": true,
+          "sidebarConditional": false,
+          "themeSwitchConditional": false,
+          "layoutWrapper": true
+        }
+      },
+      {
+        "file": "app/self-hosting/layout.tsx",
+        "signature": {
+          "usesDocsLayout": true,
+          "githubUrl": true,
+          "navDisabled": true,
+          "searchDisabled": true,
+          "sidebarBanner": true,
+          "sidebarConditional": false,
+          "themeSwitchConditional": false,
+          "layoutWrapper": true
+        }
+      },
+      {
+        "file": "app/integrations/layout.tsx",
+        "signature": {
+          "usesDocsLayout": true,
+          "githubUrl": true,
+          "navDisabled": true,
+          "searchDisabled": true,
+          "sidebarBanner": true,
+          "sidebarConditional": false,
+          "themeSwitchConditional": false,
+          "layoutWrapper": true
+        }
+      },
+      {
+        "file": "app/library/layout.tsx",
+        "signature": {
+          "usesDocsLayout": true,
+          "githubUrl": true,
+          "navDisabled": true,
+          "searchDisabled": true,
+          "sidebarBanner": true,
+          "sidebarConditional": false,
+          "themeSwitchConditional": false,
+          "layoutWrapper": true
+        }
+      },
+      {
+        "file": "app/[section]/layout.tsx",
+        "signature": {
+          "usesDocsLayout": true,
+          "githubUrl": true,
+          "navDisabled": true,
+          "searchDisabled": true,
+          "sidebarBanner": false,
+          "sidebarConditional": true,
+          "themeSwitchConditional": true,
+          "layoutWrapper": true
+        }
+      }
+    ],
+    "duplicatedGroups": [
+      {
+        "signature": {
+          "usesDocsLayout": true,
+          "githubUrl": true,
+          "navDisabled": true,
+          "searchDisabled": true,
+          "sidebarBanner": true,
+          "sidebarConditional": false,
+          "themeSwitchConditional": false,
+          "layoutWrapper": true
+        },
+        "files": [
+          "app/docs/layout.tsx",
+          "app/guides/layout.tsx",
+          "app/self-hosting/layout.tsx",
+          "app/integrations/layout.tsx",
+          "app/library/layout.tsx"
+        ]
+      }
+    ]
+  },
+  "searchAudit": {
+    "usesDocumentedFumadocsSearchRoute": false,
+    "officialSearchFiles": [],
+    "customReplacementFiles": [
+      "components/NavLinks.tsx",
+      "components/docs/DocsNavbar.tsx",
+      "components/inkeep/InkeepChatButton.tsx",
+      "components/inkeep/InkeepCustomTrigger.tsx",
+      "components/inkeep/InkeepEmbeddedChat.tsx",
+      "components/inkeep/InkeepSearchBar.tsx",
+      "components/inkeep/useInkeepSettings.ts",
+      "components/layout/Navbar.tsx",
+      "content/blog/2026-02-13-will-you-be-my-cli.mdx",
+      "content/docs/ask-ai.mdx",
+      "content/docs/docs-mcp.mdx",
+      "content/faq/index.mdx"
+    ],
+    "hasCustomSearchRoute": true
+  },
+  "shimAudit": {
+    "aliasedInNextConfig": true,
+    "aliasedInTsconfig": true,
+    "totalFiles": 30,
+    "countsByBucket": {
+      "components": 14,
+      "content": 16
+    }
+  },
+  "generatedArtifactsAudit": {
+    "gitignoreIgnoresSource": true,
+    "liveSourceFiles": [
+      ".source/browser.ts",
+      ".source/dynamic.ts",
+      ".source/server.ts",
+      ".source/source.config.mjs"
+    ],
+    "trackedSourceFiles": [
+      ".source/source.config.mjs"
+    ],
+    "trackedGeneratedFiles": [
+      "lib/section-loaders.generated.ts"
+    ]
+  },
+  "mdxOverrideAudit": {
+    "extendsDefaultComponents": true,
+    "reExportsUseMDXComponents": true,
+    "dependsOnShimmedComponents": true
+  },
+  "documentationAudit": {
+    "readmeStillMentionsNextra": true,
+    "readmeStillMentionsPagesDir": true
+  },
+  "checklist": [
+    {
+      "item": "Repository keeps the baseline files and wiring recommended by Fumadocs",
+      "status": "pass",
+      "evidence": [
+        "official-baseline.json",
+        "architecture-audit.json"
+      ],
+      "notes": "All baseline Fumadocs entry points are present."
+    },
+    {
+      "item": "source.config.ts is the single source of truth for collections and frontmatter schema",
+      "status": "fail",
+      "evidence": [
+        "source-trace.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Multiple manual registries still duplicate the Fumadocs collection graph."
+    },
+    {
+      "item": "Docs-like routes are backed by Fumadocs loaders rather than ad-hoc filesystem logic",
+      "status": "fail",
+      "evidence": [
+        "source-trace.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Route lookup uses Fumadocs sources, but page bodies still render through custom client loader registries."
+    },
+    {
+      "item": "content/** trees and meta.json files are structured so Fumadocs can generate navigation predictably",
+      "status": "fail",
+      "evidence": [
+        "content-structure.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Some collection sections that should carry meta.json are missing it."
+    },
+    {
+      "item": "Shared DocsLayout configuration is centralized where possible",
+      "status": "fail",
+      "evidence": [
+        "layout-duplication.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Five docs-style section layouts still repeat the same DocsLayout shell configuration."
+    },
+    {
+      "item": "Search is either implemented with the documented Fumadocs search route or intentionally replaced with an equivalent design",
+      "status": "deviation",
+      "evidence": [
+        "search-and-shims.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Repo uses an Inkeep-backed replacement instead of the documented Fumadocs search route."
+    },
+    {
+      "item": "Custom page-tree rewrites and section registries are minimal and do not fight Fumadocs conventions",
+      "status": "deviation",
+      "evidence": [
+        "source-trace.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Only two explicit page-tree rewrite helpers exist, but they sit next to broader manual route registries."
+    },
+    {
+      "item": "Generated .source output is not partially committed or manually maintained",
+      "status": "fail",
+      "evidence": [
+        "generated-artifacts.json",
+        "architecture-audit.json"
+      ],
+      "notes": "Git still tracks .source/source.config.mjs even though .source is ignored."
+    },
+    {
+      "item": "Migration shims from Nextra or previous tooling are still required and isolated",
+      "status": "fail",
+      "evidence": [
+        "search-and-shims.json",
+        "architecture-audit.json"
+      ],
+      "notes": "30 live files still import Nextra compatibility modules directly."
+    },
+    {
+      "item": "MDX component overrides extend Fumadocs cleanly without replacing core behavior unnecessarily",
+      "status": "pass",
+      "evidence": [
+        "architecture-audit.json"
+      ],
+      "notes": "mdx-components.tsx extends fumadocs-ui/mdx, although some overrides still delegate to shimmed Nextra components."
+    }
+  ],
+  "overallStatus": "fail"
+}

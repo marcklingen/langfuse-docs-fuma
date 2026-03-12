@@ -1,0 +1,103 @@
+{
+  "entries": [
+    {
+      "file": "app/docs/layout.tsx",
+      "signature": {
+        "usesDocsLayout": true,
+        "githubUrl": true,
+        "navDisabled": true,
+        "searchDisabled": true,
+        "sidebarBanner": true,
+        "sidebarConditional": false,
+        "themeSwitchConditional": false,
+        "layoutWrapper": true
+      }
+    },
+    {
+      "file": "app/guides/layout.tsx",
+      "signature": {
+        "usesDocsLayout": true,
+        "githubUrl": true,
+        "navDisabled": true,
+        "searchDisabled": true,
+        "sidebarBanner": true,
+        "sidebarConditional": false,
+        "themeSwitchConditional": false,
+        "layoutWrapper": true
+      }
+    },
+    {
+      "file": "app/self-hosting/layout.tsx",
+      "signature": {
+        "usesDocsLayout": true,
+        "githubUrl": true,
+        "navDisabled": true,
+        "searchDisabled": true,
+        "sidebarBanner": true,
+        "sidebarConditional": false,
+        "themeSwitchConditional": false,
+        "layoutWrapper": true
+      }
+    },
+    {
+      "file": "app/integrations/layout.tsx",
+      "signature": {
+        "usesDocsLayout": true,
+        "githubUrl": true,
+        "navDisabled": true,
+        "searchDisabled": true,
+        "sidebarBanner": true,
+        "sidebarConditional": false,
+        "themeSwitchConditional": false,
+        "layoutWrapper": true
+      }
+    },
+    {
+      "file": "app/library/layout.tsx",
+      "signature": {
+        "usesDocsLayout": true,
+        "githubUrl": true,
+        "navDisabled": true,
+        "searchDisabled": true,
+        "sidebarBanner": true,
+        "sidebarConditional": false,
+        "themeSwitchConditional": false,
+        "layoutWrapper": true
+      }
+    },
+    {
+      "file": "app/[section]/layout.tsx",
+      "signature": {
+        "usesDocsLayout": true,
+        "githubUrl": true,
+        "navDisabled": true,
+        "searchDisabled": true,
+        "sidebarBanner": false,
+        "sidebarConditional": true,
+        "themeSwitchConditional": true,
+        "layoutWrapper": true
+      }
+    }
+  ],
+  "duplicatedGroups": [
+    {
+      "signature": {
+        "usesDocsLayout": true,
+        "githubUrl": true,
+        "navDisabled": true,
+        "searchDisabled": true,
+        "sidebarBanner": true,
+        "sidebarConditional": false,
+        "themeSwitchConditional": false,
+        "layoutWrapper": true
+      },
+      "files": [
+        "app/docs/layout.tsx",
+        "app/guides/layout.tsx",
+        "app/self-hosting/layout.tsx",
+        "app/integrations/layout.tsx",
+        "app/library/layout.tsx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "generatedAt": "2026-03-12T05:10:52.050Z",
+  "previewBaseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionBaseUrl": "https://langfuse.com",
+  "previewDesktop": {
+    "path": "/docs/prompt-management/get-started",
+    "triggerInventory": {
+      "visibleCount": 1,
+      "entries": [
+        {
+          "hostId": "inkeep-shadowradix-_r_0_",
+          "text": "Search...K",
+          "visible": false
+        },
+        {
+          "hostId": "inkeep-shadowradix-_r_1_",
+          "text": "Search...K",
+          "visible": true
+        }
+      ]
+    },
+    "keyboardShortcut": {
+      "opened": true,
+      "dialogState": {
+        "isOpen": true,
+        "hostId": "inkeep-shadowradix-_r_3_",
+        "inputValue": "",
+        "tabs": [
+          {
+            "label": "Docs (0)",
+            "selected": true,
+            "count": 0
+          }
+        ],
+        "options": [
+          {
+            "text": "Ask AIStart conversation",
+            "selected": false
+          }
+        ],
+        "optionCount": 1,
+        "dialogBackground": "rgb(255, 255, 255)",
+        "dialogColor": "rgb(55, 65, 81)",
+        "documentClassName": "geistsans_d5a4f12f-module__Ons9Aa__variable geistmono_157ca88a-module__aJlv9q__variable light",
+        "graphqlWarnings": []
+      }
+    },
+    "queries": [
+      {
+        "id": "docker-compose",
+        "query": "docker compose",
+        "expectedScopes": [
+          "Integrations",
+          "Self Hosting",
+          "FAQ & Guides",
+          "All",
+          "GitHub"
+        ],
+        "dialogState": {
+          "isOpen": true,
+          "hostId": "inkeep-shadowradix-_r_4_",
+          "inputValue": "docker compose",
+          "tabs": [
+            {
+              "label": "Docs (0)",
+              "selected": true,
+              "count": 0
+            }
+          ],
+          "options": [
+            {
+              "text": "Ask AIdocker composeStart conversation",
+              "selected": false
+            }
+          ],
+          "optionCount": 1,
+          "dialogBackground": "rgb(255, 255, 255)",
+          "dialogColor": "rgb(55, 65, 81)",
+          "documentClassName": "geistsans_d5a4f12f-module__Ons9Aa__variable geistmono_157ca88a-module__aJlv9q__variable light",
+          "graphqlWarnings": [
+            {
+              "type": "warn",
+              "text": "Error in graphqlRequest: JSHandle@error"
+            }
+          ]
+        },
+        "screenshot": "screenshots/preview-desktop-search-light.png"
+      },
+      {
+        "id": "open-source-handbook",
+        "query": "open source handbook",
+        "expectedScopes": [
+          "Handbook",
+          "All"
+        ],
+        "dialogState": {
+          "isOpen": true,
+          "hostId": "inkeep-shadowradix-_r_4_",
+          "inputValue": "open source handbook",
+          "tabs": [
+            {
+              "label": "Docs (0)",
+              "selected": true,
+              "count": 0
+            }
+          ],
+          "options": [
+            {
+              "text": "Ask AIopen source handbookStart conversation",
+              "selected": false
+            }
+          ],
+          "optionCount": 1,
+          "dialogBackground": "rgb(255, 255, 255)",
+          "dialogColor": "rgb(55, 65, 81)",
+          "documentClassName": "geistsans_d5a4f12f-module__Ons9Aa__variable geistmono_157ca88a-module__aJlv9q__variable light",
+          "graphqlWarnings": [
+            {
+              "type": "warn",
+              "text": "Error in graphqlRequest: JSHandle@error"
+            }
+          ]
+        },
+        "screenshot": null
+      }
+    ],
+    "consoleMessages": [
+      {
+        "type": "error",
+        "text": "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()"
+      },
+      {
+        "type": "error",
+        "text": "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value."
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "type": "error",
+        "text": "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value."
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "type": "error",
+        "text": "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value."
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "type": "info",
+        "text": "Noise was added to a canvas readback. If this has caused breakage, please file a bug at https://issues.chromium.org/issues/new?component=1456351&title=Canvas%20noise%20breakage. This feature can be disabled through chrome://flags/#enable-canvas-noise"
+      },
+      {
+        "type": "info",
+        "text": "Noise was added to a canvas readback. If this has caused breakage, please file a bug at https://issues.chromium.org/issues/new?component=1456351&title=Canvas%20noise%20breakage. This feature can be disabled through chrome://flags/#enable-canvas-noise"
+      },
+      {
+        "type": "info",
+        "text": "Noise was added to a canvas readback. If this has caused breakage, please file a bug at https://issues.chromium.org/issues/new?component=1456351&title=Canvas%20noise%20breakage. This feature can be disabled through chrome://flags/#enable-canvas-noise"
+      },
+      {
+        "type": "warn",
+        "text": "Error in graphqlRequest: JSHandle@error"
+      },
+      {
+        "type": "warn",
+        "text": "Error in graphqlRequest: JSHandle@error"
+      }
+    ],
+    "assertions": [
+      {
+        "name": "Preview desktop docs page renders at least one visible search trigger",
+        "pass": true,
+        "details": {
+          "visibleCount": 1,
+          "entries": [
+            {
+              "hostId": "inkeep-shadowradix-_r_0_",
+              "text": "Search...K",
+              "visible": false
+            },
+            {
+              "hostId": "inkeep-shadowradix-_r_1_",
+              "text": "Search...K",
+              "visible": true
+            }
+          ]
+        }
+      },
+      {
+        "name": "Preview desktop search opens via keyboard shortcut",
+        "pass": true,
+        "details": {
+          "opened": true,
+          "dialogState": {
+            "isOpen": true,
+            "hostId": "inkeep-shadowradix-_r_3_",
+            "inputValue": "",
+            "tabs": [
+              {
+                "label": "Docs (0)",
+                "selected": true,
+                "count": 0
+              }
+            ],
+            "options": [
+              {
+                "text": "Ask AIStart conversation",
+                "selected": false
+              }
+            ],
+            "optionCount": 1,
+            "dialogBackground": "rgb(255, 255, 255)",
+            "dialogColor": "rgb(55, 65, 81)",
+            "documentClassName": "geistsans_d5a4f12f-module__Ons9Aa__variable geistmono_157ca88a-module__aJlv9q__variable light",
+            "graphqlWarnings": []
+          }
+        }
+      }
+    ],
+    "pass": true
+  },
+  "productionDesktop": {
+    "path": "/docs/prompt-management/get-started",
+    "queries": [
+      {
+        "id": "docker-compose",
+        "query": "docker compose",
+        "expectedScopes": [
+          "Integrations",
+          "Self Hosting",
+          "FAQ & Guides",
+          "All",
+          "GitHub"
+        ],
+        "dialogState": {
+          "isOpen": true,
+          "hostId": "inkeep-shadowradix-:r3:",
+          "inputValue": "docker compose",
+          "tabs": [
+            {
+              "label": "Docs (0)",
+              "selected": false,
+              "count": 0
+            },
+            {
+              "label": "Integrations (2)",
+              "selected": true,
+              "count": 2
+            },
+            {
+              "label": "Self Hosting (9)",
+              "selected": false,
+              "count": 9
+            },
+            {
+              "label": "FAQ & Guides (1)",
+              "selected": false,
+              "count": 1
+            },
+            {
+              "label": "All (27)",
+              "selected": false,
+              "count": 27
+            },
+            {
+              "label": "GitHub (13)",
+              "selected": false,
+              "count": 13
+            }
+          ],
+          "options": [
+            {
+              "text": "Ask AIdocker composeStart conversation",
+              "selected": false
+            },
+            {
+              "text": "DocsIntegrationsNo-Code Agent BuildersLangflow⛓️ Langflow IntegrationRunning Langfuse and Langflow with Docker Compose If you prefer to self-host Langfuse, ...",
+              "selected": true
+            },
+            {
+              "text": "DocsIntegrationsModel ProvidersOllamaTrace your local Ollama model with LangfuseLangfuse on your local machine using Docker Compose. This method is ideal for testing ...",
+              "selected": false
+            }
+          ],
+          "optionCount": 3,
+          "dialogBackground": "rgb(255, 255, 255)",
+          "dialogColor": "rgb(55, 65, 81)",
+          "documentClassName": "light",
+          "graphqlWarnings": []
+        },
+        "screenshot": "screenshots/production-desktop-search-light.png"
+      },
+      {
+        "id": "open-source-handbook",
+        "query": "open source handbook",
+        "expectedScopes": [
+          "Handbook",
+          "All"
+        ],
+        "dialogState": {
+          "isOpen": true,
+          "hostId": "inkeep-shadowradix-:r3:",
+          "inputValue": "open source handbook",
+          "tabs": [
+            {
+              "label": "Docs (1)",
+              "selected": true,
+              "count": 1
+            },
+            {
+              "label": "Integrations (5)",
+              "selected": false,
+              "count": 5
+            },
+            {
+              "label": "FAQ & Guides (5)",
+              "selected": false,
+              "count": 5
+            },
+            {
+              "label": "Handbook (5)",
+              "selected": false,
+              "count": 5
+            },
+            {
+              "label": "Blog (7)",
+              "selected": false,
+              "count": 7
+            },
+            {
+              "label": "All (58)",
+              "selected": false,
+              "count": 58
+            },
+            {
+              "label": "GitHub (22)",
+              "selected": false,
+              "count": 22
+            }
+          ],
+          "options": [
+            {
+              "text": "Ask AIopen source handbookStart conversation",
+              "selected": false
+            },
+            {
+              "text": "DocsRoadmapLangfuse RoadmapLangfuse is open source and we want to be fully transparent what we’re working on and what’s next. This roadmap is a living ...",
+              "selected": true
+            }
+          ],
+          "optionCount": 2,
+          "dialogBackground": "rgb(255, 255, 255)",
+          "dialogColor": "rgb(55, 65, 81)",
+          "documentClassName": "light",
+          "graphqlWarnings": []
+        },
+        "screenshot": null
+      }
+    ]
+  },
+  "previewThemeSync": {
+    "lightDialog": {
+      "isOpen": true,
+      "hostId": "inkeep-shadowradix-_r_2_",
+      "inputValue": "docker compose",
+      "tabs": [
+        {
+          "label": "Docs (0)",
+          "selected": true,
+          "count": 0
+        }
+      ],
+      "options": [
+        {
+          "text": "Ask AIdocker composeStart conversation",
+          "selected": false
+        }
+      ],
+      "optionCount": 1,
+      "dialogBackground": "rgb(255, 255, 255)",
+      "dialogColor": "rgb(55, 65, 81)",
+      "documentClassName": "geistsans_d5a4f12f-module__Ons9Aa__variable geistmono_157ca88a-module__aJlv9q__variable light",
+      "graphqlWarnings": []
+    },
+    "darkDialog": {
+      "isOpen": true,
+      "hostId": "inkeep-shadowradix-_r_2_",
+      "inputValue": "docker compose",
+      "tabs": [
+        {
+          "label": "Docs (0)",
+          "selected": true,
+          "count": 0
+        }
+      ],
+      "options": [
+        {
+          "text": "Ask AIdocker composeStart conversation",
+          "selected": false
+        }
+      ],
+      "optionCount": 1,
+      "dialogBackground": "rgb(25, 25, 25)",
+      "dialogColor": "rgba(255, 255, 255, 0.9)",
+      "documentClassName": "geistsans_d5a4f12f-module__Ons9Aa__variable geistmono_157ca88a-module__aJlv9q__variable dark",
+      "graphqlWarnings": []
+    },
+    "assertions": [
+      {
+        "name": "Preview search modal follows the site theme toggle",
+        "pass": true,
+        "details": {
+          "lightDialog": {
+            "isOpen": true,
+            "hostId": "inkeep-shadowradix-_r_2_",
+            "inputValue": "docker compose",
+            "tabs": [
+              {
+                "label": "Docs (0)",
+                "selected": true,
+                "count": 0
+              }
+            ],
+            "options": [
+              {
+                "text": "Ask AIdocker composeStart conversation",
+                "selected": false
+              }
+            ],
+            "optionCount": 1,
+            "dialogBackground": "rgb(255, 255, 255)",
+            "dialogColor": "rgb(55, 65, 81)",
+            "documentClassName": "geistsans_d5a4f12f-module__Ons9Aa__variable geistmono_157ca88a-module__aJlv9q__variable light",
+            "graphqlWarnings": []
+          },
+          "darkDialog": {
+            "isOpen": true,
+            "hostId": "inkeep-shadowradix-_r_2_",
+            "inputValue": "docker compose",
+            "tabs": [
+              {
+                "label": "Docs (0)",
+                "selected": true,
+                "count": 0
+              }
+            ],
+            "options": [
+              {
+                "text": "Ask AIdocker composeStart conversation",
+                "selected": false
+              }
+            ],
+            "optionCount": 1,
+            "dialogBackground": "rgb(25, 25, 25)",
+            "dialogColor": "rgba(255, 255, 255, 0.9)",
+            "documentClassName": "geistsans_d5a4f12f-module__Ons9Aa__variable geistmono_157ca88a-module__aJlv9q__variable dark",
+            "graphqlWarnings": []
+          }
+        }
+      }
+    ],
+    "pass": true
+  },
+  "previewMobile": {
+    "path": "/docs/prompt-management/get-started",
+    "dialogState": {
+      "isOpen": true,
+      "hostId": "inkeep-shadowradix-_r_h_",
+      "inputValue": "docker compose",
+      "tabs": [
+        {
+          "label": "Docs (0)",
+          "selected": true,
+          "count": 0
+        }
+      ],
+      "options": [
+        {
+          "text": "Ask AIdocker composeStart conversation",
+          "selected": false
+        }
+      ],
+      "optionCount": 1,
+      "dialogBackground": "rgb(25, 25, 25)",
+      "dialogColor": "rgba(255, 255, 255, 0.9)",
+      "documentClassName": "geistsans_d5a4f12f-module__Ons9Aa__variable geistmono_157ca88a-module__aJlv9q__variable dark",
+      "graphqlWarnings": [
+        {
+          "type": "warn",
+          "text": "Error in graphqlRequest: JSHandle@error"
+        }
+      ]
+    },
+    "consoleMessages": [
+      {
+        "type": "error",
+        "text": "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()"
+      },
+      {
+        "type": "error",
+        "text": "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value."
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "type": "error",
+        "text": "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value."
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "type": "info",
+        "text": "Noise was added to a canvas readback. If this has caused breakage, please file a bug at https://issues.chromium.org/issues/new?component=1456351&title=Canvas%20noise%20breakage. This feature can be disabled through chrome://flags/#enable-canvas-noise"
+      },
+      {
+        "type": "info",
+        "text": "Noise was added to a canvas readback. If this has caused breakage, please file a bug at https://issues.chromium.org/issues/new?component=1456351&title=Canvas%20noise%20breakage. This feature can be disabled through chrome://flags/#enable-canvas-noise"
+      },
+      {
+        "type": "info",
+        "text": "Noise was added to a canvas readback. If this has caused breakage, please file a bug at https://issues.chromium.org/issues/new?component=1456351&title=Canvas%20noise%20breakage. This feature can be disabled through chrome://flags/#enable-canvas-noise"
+      },
+      {
+        "type": "error",
+        "text": "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value."
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "type": "warn",
+        "text": "Error in graphqlRequest: JSHandle@error"
+      }
+    ],
+    "assertions": [
+      {
+        "name": "Preview mobile search modal opens from the docs page",
+        "pass": true,
+        "details": {
+          "isOpen": true,
+          "hostId": "inkeep-shadowradix-_r_h_",
+          "inputValue": "docker compose",
+          "tabs": [
+            {
+              "label": "Docs (0)",
+              "selected": true,
+              "count": 0
+            }
+          ],
+          "options": [
+            {
+              "text": "Ask AIdocker composeStart conversation",
+              "selected": false
+            }
+          ],
+          "optionCount": 1,
+          "dialogBackground": "rgb(25, 25, 25)",
+          "dialogColor": "rgba(255, 255, 255, 0.9)",
+          "documentClassName": "geistsans_d5a4f12f-module__Ons9Aa__variable geistmono_157ca88a-module__aJlv9q__variable dark",
+          "graphqlWarnings": [
+            {
+              "type": "warn",
+              "text": "Error in graphqlRequest: JSHandle@error"
+            }
+          ]
+        }
+      }
+    ],
+    "pass": true
+  }
+}

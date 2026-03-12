@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "baseline": {
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "permissions-policy": "autoplay=*, fullscreen=*, microphone=*",
+      "x-frame-options": "SAMEORIGIN"
+    },
+    "hasProductionCsp": true,
+    "cspTokens": {
+      "frameAncestorsNone": true,
+      "objectSrcNone": true,
+      "upgradeInsecureRequests": true,
+      "blockAllMixedContent": true
+    },
+    "previewNoindexGuard": true
+  },
+  "pdfAllowlist": [
+    "langfuse.com",
+    "raw.githubusercontent.com",
+    "github.com"
+  ],
+  "corsSurface": {
+    "wildcardEndpoints": [
+      {
+        "route": "/api/search-docs",
+        "sourceFile": "app/api/search-docs/route.ts",
+        "methods": [
+          "GET",
+          "OPTIONS"
+        ],
+        "documentedIn": [
+          "content/blog/2026-02-13-will-you-be-my-cli.mdx",
+          "content/docs/docs-mcp.mdx"
+        ],
+        "wildcardOrigin": true
+      }
+    ],
+    "pass": true
+  },
+  "clientEnvAudit": {
+    "scannedFiles": 295,
+    "violations": [],
+    "pass": true
+  }
+}

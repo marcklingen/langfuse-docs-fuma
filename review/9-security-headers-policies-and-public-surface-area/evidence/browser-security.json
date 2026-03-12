@@ -1,0 +1,127 @@
+{
+  "preview": {
+    "baseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+    "pages": [
+      {
+        "id": "docs-overview",
+        "label": "Docs overview",
+        "path": "/docs/observability/overview",
+        "securityMessages": [],
+        "insecureRequestFailures": [],
+        "insecureResources": [],
+        "observedHosts": [
+          "cdn-cookieyes.com",
+          "js-eu1.hs-analytics.net",
+          "js-eu1.hs-banner.com",
+          "js-eu1.hs-scripts.com",
+          "langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+          "vercel.live"
+        ],
+        "missingExpectedHosts": [],
+        "pass": true
+      },
+      {
+        "id": "guide-video",
+        "label": "Guide video",
+        "path": "/guides/videos/run-langfuse-locally",
+        "securityMessages": [],
+        "insecureRequestFailures": [],
+        "insecureResources": [],
+        "observedHosts": [
+          "cdn-cookieyes.com",
+          "js-eu1.hs-analytics.net",
+          "js-eu1.hs-banner.com",
+          "js-eu1.hs-scripts.com",
+          "langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+          "vercel.live",
+          "www.youtube-nocookie.com"
+        ],
+        "missingExpectedHosts": [],
+        "pass": true
+      },
+      {
+        "id": "pricing",
+        "label": "Pricing",
+        "path": "/pricing",
+        "securityMessages": [],
+        "insecureRequestFailures": [],
+        "insecureResources": [],
+        "observedHosts": [
+          "cdn-cookieyes.com",
+          "js-eu1.hs-analytics.net",
+          "js-eu1.hs-banner.com",
+          "js-eu1.hs-scripts.com",
+          "langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+          "vercel.live"
+        ],
+        "missingExpectedHosts": [],
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "production": {
+    "baseUrl": "https://langfuse.com",
+    "pages": [
+      {
+        "id": "docs-overview",
+        "label": "Docs overview",
+        "path": "/docs/observability/overview",
+        "securityMessages": [],
+        "insecureRequestFailures": [],
+        "insecureResources": [],
+        "observedHosts": [
+          "cdn-cookieyes.com",
+          "js-eu1.hs-analytics.net",
+          "js-eu1.hs-banner.com",
+          "js-eu1.hs-scripts.com",
+          "langfuse.com",
+          "ph.langfuse.com",
+          "www.googletagmanager.com"
+        ],
+        "missingExpectedHosts": [],
+        "pass": true
+      },
+      {
+        "id": "guide-video",
+        "label": "Guide video",
+        "path": "/guides/videos/run-langfuse-locally",
+        "securityMessages": [],
+        "insecureRequestFailures": [],
+        "insecureResources": [],
+        "observedHosts": [
+          "cdn-cookieyes.com",
+          "js-eu1.hs-analytics.net",
+          "js-eu1.hs-banner.com",
+          "js-eu1.hs-scripts.com",
+          "langfuse.com",
+          "ph.langfuse.com",
+          "www.googletagmanager.com",
+          "www.youtube-nocookie.com"
+        ],
+        "missingExpectedHosts": [],
+        "pass": true
+      },
+      {
+        "id": "pricing",
+        "label": "Pricing",
+        "path": "/pricing",
+        "securityMessages": [],
+        "insecureRequestFailures": [],
+        "insecureResources": [],
+        "observedHosts": [
+          "cdn-cookieyes.com",
+          "js-eu1.hs-analytics.net",
+          "js-eu1.hs-banner.com",
+          "js-eu1.hs-scripts.com",
+          "langfuse.com",
+          "ph.langfuse.com",
+          "www.googletagmanager.com"
+        ],
+        "missingExpectedHosts": [],
+        "pass": true
+      }
+    ],
+    "pass": true
+  }
+}

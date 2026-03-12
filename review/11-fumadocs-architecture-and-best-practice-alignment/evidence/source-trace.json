@@ -1,0 +1,239 @@
+{
+  "collections": [
+    {
+      "exportName": "docs",
+      "dir": "content/docs",
+      "hasCustomSchema": false
+    },
+    {
+      "exportName": "selfHosting",
+      "dir": "content/self-hosting",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "blog",
+      "dir": "content/blog",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "changelog",
+      "dir": "content/changelog",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "guides",
+      "dir": "content/guides",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "faq",
+      "dir": "content/faq",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "integrations",
+      "dir": "content/integrations",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "security",
+      "dir": "content/security",
+      "hasCustomSchema": false
+    },
+    {
+      "exportName": "library",
+      "dir": "content/library",
+      "hasCustomSchema": false
+    },
+    {
+      "exportName": "customers",
+      "dir": "content/customers",
+      "hasCustomSchema": true
+    },
+    {
+      "exportName": "handbook",
+      "dir": "content/handbook",
+      "hasCustomSchema": false
+    },
+    {
+      "exportName": "marketing",
+      "dir": "content/marketing",
+      "hasCustomSchema": false
+    }
+  ],
+  "manualRegistries": [
+    {
+      "path": "app/docs/[[...slug]]/doc-loaders.client.ts",
+      "purpose": "Manual docs MDX body import registry"
+    },
+    {
+      "path": "scripts/generate-section-loaders.js",
+      "purpose": "Custom filesystem traversal that rebuilds section body registries"
+    },
+    {
+      "path": "lib/section-loaders.generated.ts",
+      "purpose": "Tracked generated section body registry"
+    },
+    {
+      "path": "lib/source.ts",
+      "purpose": "Manual MARKETING_SLUGS, routeToSource, and page-tree rewrite helpers"
+    },
+    {
+      "path": "lib/sections.ts",
+      "purpose": "Manual SECTION_CONFIG and app-route section groupings"
+    }
+  ],
+  "routeTrace": [
+    {
+      "file": "app/docs/[[...slug]]/page.tsx",
+      "sourceAccessor": "source",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "DocBodyClient",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    },
+    {
+      "file": "app/guides/[[...slug]]/page.tsx",
+      "sourceAccessor": "guidesSource",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "SectionDocBodyClientWithDocsBody",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    },
+    {
+      "file": "app/self-hosting/[[...slug]]/page.tsx",
+      "sourceAccessor": "selfHostingSource",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "SectionDocBodyClientWithDocsBody",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    },
+    {
+      "file": "app/integrations/[[...slug]]/page.tsx",
+      "sourceAccessor": "integrationsSource",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "SectionDocBodyClientWithDocsBody",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    },
+    {
+      "file": "app/library/[[...slug]]/page.tsx",
+      "sourceAccessor": "librarySource",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "SectionDocBodyClientWithDocsBody",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    },
+    {
+      "file": "app/[section]/[[...slug]]/page.tsx",
+      "sourceAccessor": "config.source",
+      "usesFumadocsPageLookup": true,
+      "usesFumadocsGenerateParams": true,
+      "bodyRenderer": "SectionDocBodyClient",
+      "rendersRecommendedPageBody": false,
+      "usesCustomBodyClient": true
+    }
+  ],
+  "docsLoaderCoverage": {
+    "collection": "docs",
+    "expectedCount": 88,
+    "actualCount": 88,
+    "missing": [],
+    "extra": []
+  },
+  "generatedLoaderCoverage": [
+    {
+      "collection": "selfHosting",
+      "dir": "content/self-hosting",
+      "expectedCount": 42,
+      "actualCount": 42,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "blog",
+      "dir": "content/blog",
+      "expectedCount": 60,
+      "actualCount": 60,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "changelog",
+      "dir": "content/changelog",
+      "expectedCount": 240,
+      "actualCount": 240,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "guides",
+      "dir": "content/guides",
+      "expectedCount": 60,
+      "actualCount": 60,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "faq",
+      "dir": "content/faq",
+      "expectedCount": 78,
+      "actualCount": 78,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "integrations",
+      "dir": "content/integrations",
+      "expectedCount": 101,
+      "actualCount": 101,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "security",
+      "dir": "content/security",
+      "expectedCount": 25,
+      "actualCount": 25,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "library",
+      "dir": "content/library",
+      "expectedCount": 1,
+      "actualCount": 1,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "customers",
+      "dir": "content/customers",
+      "expectedCount": 6,
+      "actualCount": 6,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "handbook",
+      "dir": "content/handbook",
+      "expectedCount": 47,
+      "actualCount": 47,
+      "missing": [],
+      "extra": []
+    },
+    {
+      "collection": "marketing",
+      "dir": "content/marketing",
+      "expectedCount": 22,
+      "actualCount": 22,
+      "missing": [],
+      "extra": []
+    }
+  ]
+}

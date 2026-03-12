@@ -1,0 +1,39 @@
+{
+  "sourceAllowlist": [
+    "langfuse.com",
+    "raw.githubusercontent.com",
+    "github.com"
+  ],
+  "preview": {
+    "blocked": {
+      "status": 400,
+      "error": "Fetching from example.com is not permitted.",
+      "allowed": [
+        "langfuse.com",
+        "raw.githubusercontent.com",
+        "github.com"
+      ]
+    },
+    "allowlisted": {
+      "status": 500,
+      "contentType": "application/json"
+    },
+    "pass": true
+  },
+  "production": {
+    "blocked": {
+      "status": 400,
+      "error": "Fetching from example.com is not permitted.",
+      "allowed": [
+        "langfuse.com",
+        "raw.githubusercontent.com",
+        "github.com"
+      ]
+    },
+    "allowlisted": {
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    "pass": true
+  }
+}

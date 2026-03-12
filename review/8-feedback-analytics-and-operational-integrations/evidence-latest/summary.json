@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-03-12T04:13:01.012Z",
+  "baseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "checks": [
+    {
+      "label": "feedback widget surface",
+      "result": "FAIL"
+    },
+    {
+      "label": "positive feedback dialog flow",
+      "result": "PASS"
+    },
+    {
+      "label": "negative feedback dialog flow",
+      "result": "PASS"
+    },
+    {
+      "label": "analytics surface",
+      "result": "PASS"
+    },
+    {
+      "label": "feedback API live POST",
+      "result": "SKIP"
+    },
+    {
+      "label": "UTM retention",
+      "result": "PASS"
+    },
+    {
+      "label": "environment contract",
+      "result": "FAIL"
+    }
+  ],
+  "notes": [
+    "Live /api/feedback verification was skipped. Enable ENABLE_FEEDBACK_API_POST only against a safe webhook sink.",
+    "Inkeep search-event parity and MCP PostHog parity still require the manual checks documented in manual/notes.md."
+  ]
+}

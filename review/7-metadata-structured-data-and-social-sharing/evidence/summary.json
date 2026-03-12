@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-03-12T03:57:32.337Z",
+  "previewBaseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionBaseUrl": "https://langfuse.com",
+  "findings": [
+    {
+      "severity": "HIGH",
+      "title": "Preview omits canonical tags and/or `og:url` on representative pages",
+      "evidence": "comparisons.json, page-metadata.json",
+      "details": [
+        {
+          "route": "/docs/observability/overview",
+          "previewCanonical": null,
+          "productionCanonical": null,
+          "previewOgUrl": null,
+          "productionOgUrl": "https://langfuse.com/docs/observability/overview"
+        },
+        {
+          "route": "/docs/prompt-management/overview",
+          "previewCanonical": null,
+          "productionCanonical": null,
+          "previewOgUrl": null,
+          "productionOgUrl": "https://langfuse.com/docs/prompt-management/overview"
+        },
+        {
+          "route": "/docs/evaluation/overview",
+          "previewCanonical": null,
+          "productionCanonical": null,
+          "previewOgUrl": null,
+          "productionOgUrl": "https://langfuse.com/docs/evaluation/overview"
+        },
+        {
+          "route": "/docs/api-and-data-platform/overview",
+          "previewCanonical": null,
+          "productionCanonical": null,
+          "previewOgUrl": null,
+          "productionOgUrl": "https://langfuse.com/docs/api-and-data-platform/overview"
+        },
+        {
+          "route": "/guides/videos/run-langfuse-locally",
+          "previewCanonical": null,
+          "productionCanonical": null,
+          "previewOgUrl": null,
+          "productionOgUrl": "https://langfuse.com/guides/videos/run-langfuse-locally"
+        },
+        {
+          "route": "/blog/2025-03-19-ai-agent-comparison",
+          "previewCanonical": null,
+          "productionCanonical": null,
+          "previewOgUrl": null,
+          "productionOgUrl": "https://langfuse.com/blog/2025-03-19-ai-agent-comparison"
+        },
+        {
+          "route": "/changelog/2024-08-20-comments",
+          "previewCanonical": null,
+          "productionCanonical": "https://langfuse.com/docs/observability/features/comments",
+          "previewOgUrl": null,
+          "productionOgUrl": "https://langfuse.com/changelog/2024-08-20-comments"
+        },
+        {
+          "route": "/changelog/2025-06-04-open-sourcing-langfuse",
+          "previewCanonical": null,
+          "productionCanonical": null,
+          "previewOgUrl": null,
+          "productionOgUrl": "https://langfuse.com/changelog/2025-06-04-open-sourcing-langfuse"
+        },
+        {
+          "route": "/pricing",
+          "previewCanonical": null,
+          "productionCanonical": null,
+          "previewOgUrl": null,
+          "productionOgUrl": "https://langfuse.com/pricing"
+        },
+        {
+          "route": "/faq/all/langfuse-support",
+          "previewCanonical": null,
+          "productionCanonical": null,
+          "previewOgUrl": null,
+          "productionOgUrl": "https://langfuse.com/faq/all/langfuse-support"
+        }
+      ]
+    },
+    {
+      "severity": "MEDIUM",
+      "title": "Representative docs overview pages regress to generic `Overview - Langfuse` titles",
+      "evidence": "comparisons.json, page-metadata.json",
+      "details": [
+        {
+          "route": "/docs/observability/overview",
+          "previewTitle": "Overview - Langfuse",
+          "productionTitle": "LLM Observability & Application Tracing (Open Source) - Langfuse"
+        },
+        {
+          "route": "/docs/prompt-management/overview",
+          "previewTitle": "Overview - Langfuse",
+          "productionTitle": "Open Source Prompt Management - Langfuse"
+        },
+        {
+          "route": "/docs/evaluation/overview",
+          "previewTitle": "Overview - Langfuse",
+          "productionTitle": "Evaluation of LLM Applications - Langfuse"
+        },
+        {
+          "route": "/docs/api-and-data-platform/overview",
+          "previewTitle": "Overview - Langfuse",
+          "productionTitle": "Open Source LLM API & Data Platform - Langfuse"
+        }
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "title": "Preview loses page-specific social cards on guides and wide marketing pages",
+      "evidence": "comparisons.json, page-metadata.json",
+      "details": [
+        {
+          "route": "/guides/videos/run-langfuse-locally",
+          "previewOgImage": "https://langfuse.com/api/og?title=Run+Langfuse+Locally+in+3+Minutes&description=Run+Langfuse+locally+with+Docker+Compose.&section=Guides",
+          "productionOgImage": "https://langfuse.com/images/videos/local-langfuse-v3.jpg",
+          "sourceOgImage": "https://langfuse.com/images/videos/local-langfuse-v3.jpg"
+        },
+        {
+          "route": "/pricing",
+          "previewOgImage": "https://langfuse.com/og.png",
+          "productionOgImage": "https://langfuse.com/api/og?title=Pricing&description=Simple%20pricing%20for%20projects%20of%20all%20sizes.%20Get%20started%20on%20our%20Hobby%20plan%20without%20a%20credit%20card.&section=",
+          "sourceOgImage": null
+        }
+      ]
+    },
+    {
+      "severity": "MEDIUM",
+      "title": "Preview drops changelog `og:video` overrides",
+      "evidence": "comparisons.json, page-metadata.json",
+      "details": [
+        {
+          "route": "/changelog/2024-08-20-comments",
+          "previewOgVideo": null,
+          "productionOgVideo": "https://langfuse.comhttps//static.langfuse.com/docs-videos/comments.mp4",
+          "sourceOgVideo": "https://static.langfuse.com/docs-videos/comments.mp4"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "title": "Current production `og:video` URLs are malformed for absolute frontmatter values",
+      "evidence": "asset-checks.json, comparisons.json",
+      "details": [
+        {
+          "route": "/changelog/2024-08-20-comments",
+          "productionOgVideo": "https://langfuse.comhttps//static.langfuse.com/docs-videos/comments.mp4",
+          "sourceOgVideo": "https://static.langfuse.com/docs-videos/comments.mp4"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "Representative head metadata parity",
+      "preview": "FAIL",
+      "production": "PASS"
+    },
+    {
+      "name": "Canonical and `og:url` coverage",
+      "preview": "FAIL",
+      "production": "PASS"
+    },
+    {
+      "name": "Custom OG image overrides",
+      "preview": "FAIL",
+      "production": "PASS"
+    },
+    {
+      "name": "Custom `og:video` overrides",
+      "preview": "FAIL",
+      "production": "FAIL"
+    },
+    {
+      "name": "Emitted OG/Twitter assets reachable",
+      "preview": "PASS",
+      "production": "FAIL"
+    },
+    {
+      "name": "JSON-LD structured-data parity",
+      "preview": "PASS",
+      "production": "PASS"
+    }
+  ],
+  "observations": {
+    "previewStructuredDataTypes": [],
+    "productionStructuredDataTypes": [],
+    "previewStructuredDataCount": 0,
+    "productionStructuredDataCount": 0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "preview": {
+    "allowed": {
+      "status": 500,
+      "ok": false,
+      "contentType": "application/json",
+      "contentDisposition": null,
+      "byteLength": 96,
+      "isPdf": false,
+      "bodyPreview": "{\"error\":\"Internal server error while generating PDF\",\"message\":\"An unexpected error occurred.\"}"
+    },
+    "blocked": {
+      "status": 400,
+      "ok": false,
+      "contentType": "application/json",
+      "error": "Fetching from example.com is not permitted.",
+      "allowed": [
+        "langfuse.com",
+        "raw.githubusercontent.com",
+        "github.com"
+      ]
+    },
+    "pass": false
+  },
+  "production": {
+    "allowed": {
+      "status": 200,
+      "ok": true,
+      "contentType": "application/pdf",
+      "contentDisposition": "inline; filename=\"Langfuse - overview.pdf\"",
+      "byteLength": 58697,
+      "isPdf": true,
+      "bodyPreview": null
+    },
+    "blocked": {
+      "status": 400,
+      "ok": false,
+      "contentType": "application/json; charset=utf-8",
+      "error": "Fetching from example.com is not permitted.",
+      "allowed": [
+        "langfuse.com",
+        "raw.githubusercontent.com",
+        "github.com"
+      ]
+    },
+    "pass": true
+  }
+}

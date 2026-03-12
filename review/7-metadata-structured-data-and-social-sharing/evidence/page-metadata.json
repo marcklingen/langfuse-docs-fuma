@@ -1,0 +1,774 @@
+{
+  "preview": {
+    "docs-observability-overview": {
+      "route": "/docs/observability/overview",
+      "label": "Docs overview",
+      "category": "docs-overview",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview",
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Overview - Langfuse",
+        "description": "Open source application tracing and observability for LLM apps. Capture traces, monitor latency, track costs, and debug issues across OpenAI, LangChain, LlamaIndex, and more.",
+        "canonical": null,
+        "ogUrl": null,
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=Overview&description=Open+source+application+tracing+and+observability+for+LLM+apps.+Capture+traces%2C+monitor+latency%2C+track+costs%2C+and+debug+issues+across+OpenAI%2C+LangChain%2C+LlamaIndex%2C+and+more.&section=Docs",
+        "twitterCard": "summary_large_image",
+        "twitterImage": "https://langfuse.com/api/og?title=Overview&description=Open+source+application+tracing+and+observability+for+LLM+apps.+Capture+traces%2C+monitor+latency%2C+track+costs%2C+and+debug+issues+across+OpenAI%2C+LangChain%2C+LlamaIndex%2C+and+more.&section=Docs",
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=Overview&description=Open+source+application+tracing+and+observability+for+LLM+apps.+Capture+traces%2C+monitor+latency%2C+track+costs%2C+and+debug+issues+across+OpenAI%2C+LangChain%2C+LlamaIndex%2C+and+more.&section=Docs",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=Overview&description=Open+source+application+tracing+and+observability+for+LLM+apps.+Capture+traces%2C+monitor+latency%2C+track+costs%2C+and+debug+issues+across+OpenAI%2C+LangChain%2C+LlamaIndex%2C+and+more.&section=Docs",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "docs-prompt-management-overview": {
+      "route": "/docs/prompt-management/overview",
+      "label": "Prompt management overview",
+      "category": "docs-overview",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/overview",
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/overview",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Overview - Langfuse",
+        "description": "Manage and version your prompts in Langfuse (open source). When retrieved, they are cached by the Langfuse SDKs for low latency.",
+        "canonical": null,
+        "ogUrl": null,
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=Overview&description=Manage+and+version+your+prompts+in+Langfuse+%28open+source%29.+When+retrieved%2C+they+are+cached+by+the+Langfuse+SDKs+for+low+latency.&section=Docs",
+        "twitterCard": "summary_large_image",
+        "twitterImage": "https://langfuse.com/api/og?title=Overview&description=Manage+and+version+your+prompts+in+Langfuse+%28open+source%29.+When+retrieved%2C+they+are+cached+by+the+Langfuse+SDKs+for+low+latency.&section=Docs",
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=Overview&description=Manage+and+version+your+prompts+in+Langfuse+%28open+source%29.+When+retrieved%2C+they+are+cached+by+the+Langfuse+SDKs+for+low+latency.&section=Docs",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=Overview&description=Manage+and+version+your+prompts+in+Langfuse+%28open+source%29.+When+retrieved%2C+they+are+cached+by+the+Langfuse+SDKs+for+low+latency.&section=Docs",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "docs-evaluation-overview": {
+      "route": "/docs/evaluation/overview",
+      "label": "Evaluation overview",
+      "category": "docs-overview",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/overview",
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/evaluation/overview",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Overview - Langfuse",
+        "description": "With Langfuse you can capture all your LLM evaluations in one place. You can combine a variety of different evaluation metrics like model-based evaluations (LLM-as-a-Judge), human annotations or fully custom evaluation workflows via API/SDKs. This allows you to measure quality, tonality, factual accuracy, completeness, and other dimensions of your LLM application.",
+        "canonical": null,
+        "ogUrl": null,
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=Overview&description=With+Langfuse+you+can+capture+all+your+LLM+evaluations+in+one+place.+You+can+combine+a+variety+of+different+evaluation+metrics+like+model-based+evaluations+%28LLM-as-a-Judge%29%2C+human+annotations+or+fully+custom+evaluation+workflows+via+API%2FSDKs.+This+allows+you+to+measure+quality%2C+tonality%2C+factual+accuracy%2C+completeness%2C+and+other+dimensions+of+your+LLM+application.&section=Docs",
+        "twitterCard": "summary_large_image",
+        "twitterImage": "https://langfuse.com/api/og?title=Overview&description=With+Langfuse+you+can+capture+all+your+LLM+evaluations+in+one+place.+You+can+combine+a+variety+of+different+evaluation+metrics+like+model-based+evaluations+%28LLM-as-a-Judge%29%2C+human+annotations+or+fully+custom+evaluation+workflows+via+API%2FSDKs.+This+allows+you+to+measure+quality%2C+tonality%2C+factual+accuracy%2C+completeness%2C+and+other+dimensions+of+your+LLM+application.&section=Docs",
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=Overview&description=With+Langfuse+you+can+capture+all+your+LLM+evaluations+in+one+place.+You+can+combine+a+variety+of+different+evaluation+metrics+like+model-based+evaluations+%28LLM-as-a-Judge%29%2C+human+annotations+or+fully+custom+evaluation+workflows+via+API%2FSDKs.+This+allows+you+to+measure+quality%2C+tonality%2C+factual+accuracy%2C+completeness%2C+and+other+dimensions+of+your+LLM+application.&section=Docs",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=Overview&description=With+Langfuse+you+can+capture+all+your+LLM+evaluations+in+one+place.+You+can+combine+a+variety+of+different+evaluation+metrics+like+model-based+evaluations+%28LLM-as-a-Judge%29%2C+human+annotations+or+fully+custom+evaluation+workflows+via+API%2FSDKs.+This+allows+you+to+measure+quality%2C+tonality%2C+factual+accuracy%2C+completeness%2C+and+other+dimensions+of+your+LLM+application.&section=Docs",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "docs-api-platform-overview": {
+      "route": "/docs/api-and-data-platform/overview",
+      "label": "API and data platform overview",
+      "category": "docs-overview",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/api-and-data-platform/overview",
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/api-and-data-platform/overview",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Overview - Langfuse",
+        "description": "Langfuse is designed to be extensible and flexible. People using Langfuse are building all kinds of workflows and customizations on top of it. This is powered by our open data platform.",
+        "canonical": null,
+        "ogUrl": null,
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=Overview&description=Langfuse+is+designed+to+be+extensible+and+flexible.+People+using+Langfuse+are+building+all+kinds+of+workflows+and+customizations+on+top+of+it.+This+is+powered+by+our+open+data+platform.&section=Docs",
+        "twitterCard": "summary_large_image",
+        "twitterImage": "https://langfuse.com/api/og?title=Overview&description=Langfuse+is+designed+to+be+extensible+and+flexible.+People+using+Langfuse+are+building+all+kinds+of+workflows+and+customizations+on+top+of+it.+This+is+powered+by+our+open+data+platform.&section=Docs",
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=Overview&description=Langfuse+is+designed+to+be+extensible+and+flexible.+People+using+Langfuse+are+building+all+kinds+of+workflows+and+customizations+on+top+of+it.+This+is+powered+by+our+open+data+platform.&section=Docs",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=Overview&description=Langfuse+is+designed+to+be+extensible+and+flexible.+People+using+Langfuse+are+building+all+kinds+of+workflows+and+customizations+on+top+of+it.+This+is+powered+by+our+open+data+platform.&section=Docs",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "guides-run-langfuse-locally": {
+      "route": "/guides/videos/run-langfuse-locally",
+      "label": "Guide video with custom OG image",
+      "category": "guides",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/run-langfuse-locally",
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/run-langfuse-locally",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Run Langfuse Locally in 3 Minutes - Langfuse",
+        "description": "Run Langfuse locally with Docker Compose.",
+        "canonical": null,
+        "ogUrl": null,
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=Run+Langfuse+Locally+in+3+Minutes&description=Run+Langfuse+locally+with+Docker+Compose.&section=Guides",
+        "twitterCard": "summary_large_image",
+        "twitterImage": "https://langfuse.com/api/og?title=Run+Langfuse+Locally+in+3+Minutes&description=Run+Langfuse+locally+with+Docker+Compose.&section=Guides",
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=Run+Langfuse+Locally+in+3+Minutes&description=Run+Langfuse+locally+with+Docker+Compose.&section=Guides",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=Run+Langfuse+Locally+in+3+Minutes&description=Run+Langfuse+locally+with+Docker+Compose.&section=Guides",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "blog-ai-agent-comparison": {
+      "route": "/blog/2025-03-19-ai-agent-comparison",
+      "label": "Blog post with custom OG image",
+      "category": "blog",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/blog/2025-03-19-ai-agent-comparison",
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/blog/2025-03-19-ai-agent-comparison",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Comparing Open-Source AI Agent Frameworks - Langfuse",
+        "description": "Get an overview of the leading open-source AI agent frameworks—LangGraph, OpenAI Agents SDK, Google ADK, Smolagents, CrewAI, AutoGen, Semantic Kernel, Strands Agents, Pydantic AI, Agno, Mastra, and Microsoft Agent Framework. Compare features, learn when to use each, and see how to track agent behavior with Langfuse",
+        "canonical": null,
+        "ogUrl": null,
+        "ogType": null,
+        "ogImage": "https://langfuse.com/images/blog/2025-03-19-ai-agent-comparison/agent-comparison.png",
+        "twitterCard": "summary_large_image",
+        "twitterImage": "https://langfuse.com/images/blog/2025-03-19-ai-agent-comparison/agent-comparison.png",
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/images/blog/2025-03-19-ai-agent-comparison/agent-comparison.png",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/images/blog/2025-03-19-ai-agent-comparison/agent-comparison.png",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "changelog-comments": {
+      "route": "/changelog/2024-08-20-comments",
+      "label": "Changelog entry with canonical and OG video",
+      "category": "changelog",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog/2024-08-20-comments",
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog/2024-08-20-comments",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Comments on Langfuse objects - Langfuse",
+        "description": "Add comments to traces, observations, sessions and prompts via the Langfuse UI.",
+        "canonical": null,
+        "ogUrl": null,
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=Comments+on+Langfuse+objects&description=Add+comments+to+traces%2C+observations%2C+sessions+and+prompts+via+the+Langfuse+UI.&section=Changelog",
+        "twitterCard": "summary_large_image",
+        "twitterImage": "https://langfuse.com/api/og?title=Comments+on+Langfuse+objects&description=Add+comments+to+traces%2C+observations%2C+sessions+and+prompts+via+the+Langfuse+UI.&section=Changelog",
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=Comments+on+Langfuse+objects&description=Add+comments+to+traces%2C+observations%2C+sessions+and+prompts+via+the+Langfuse+UI.&section=Changelog",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=Comments+on+Langfuse+objects&description=Add+comments+to+traces%2C+observations%2C+sessions+and+prompts+via+the+Langfuse+UI.&section=Changelog",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "changelog-open-source": {
+      "route": "/changelog/2025-06-04-open-sourcing-langfuse",
+      "label": "Changelog entry with custom OG image",
+      "category": "changelog",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog/2025-06-04-open-sourcing-langfuse",
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog/2025-06-04-open-sourcing-langfuse",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Open Sourcing all Product Features - Langfuse",
+        "description": "We have Open Sourced all Remaining Product Features under the MIT License",
+        "canonical": null,
+        "ogUrl": null,
+        "ogType": null,
+        "ogImage": "https://langfuse.com/images/blog/2025-06-04-open-sourcing-langfuse-product/langfuse-open-source-og.png",
+        "twitterCard": "summary_large_image",
+        "twitterImage": "https://langfuse.com/images/blog/2025-06-04-open-sourcing-langfuse-product/langfuse-open-source-og.png",
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/images/blog/2025-06-04-open-sourcing-langfuse-product/langfuse-open-source-og.png",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/images/blog/2025-06-04-open-sourcing-langfuse-product/langfuse-open-source-og.png",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "pricing": {
+      "route": "/pricing",
+      "label": "Wide marketing page",
+      "category": "wide-marketing",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/pricing",
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/pricing",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Pricing - Langfuse",
+        "description": "Simple pricing for projects of all sizes. Get started on our Hobby plan without a credit card.",
+        "canonical": null,
+        "ogUrl": null,
+        "ogType": null,
+        "ogImage": "https://langfuse.com/og.png",
+        "twitterCard": "summary_large_image",
+        "twitterImage": "https://langfuse.com/og.png",
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/og.png",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/og.png",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "faq-support": {
+      "route": "/faq/all/langfuse-support",
+      "label": "FAQ article",
+      "category": "faq",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/langfuse-support",
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/langfuse-support",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "How can I receive support? - Langfuse",
+        "description": null,
+        "canonical": null,
+        "ogUrl": null,
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=How+can+I+receive+support%3F&section=FAQ",
+        "twitterCard": "summary_large_image",
+        "twitterImage": "https://langfuse.com/api/og?title=How+can+I+receive+support%3F&section=FAQ",
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=How+can+I+receive+support%3F&section=FAQ",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=How+can+I+receive+support%3F&section=FAQ",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    }
+  },
+  "production": {
+    "docs-observability-overview": {
+      "route": "/docs/observability/overview",
+      "label": "Docs overview",
+      "category": "docs-overview",
+      "url": "https://langfuse.com/docs/observability/overview",
+      "finalUrl": "https://langfuse.com/docs/observability/overview",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "LLM Observability & Application Tracing (Open Source) - Langfuse",
+        "description": "Open source application tracing and observability for LLM apps. Capture traces, monitor latency, track costs, and debug issues across OpenAI, LangChain, LlamaIndex, and more.",
+        "canonical": null,
+        "ogUrl": "https://langfuse.com/docs/observability/overview",
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=LLM%20Observability%20%26%20Application%20Tracing%20(Open%20Source)&description=Open%20source%20application%20tracing%20and%20observability%20for%20LLM%20apps.%20Capture%20traces%2C%20monitor%20latency%2C%20track%20costs%2C%20and%20debug%20issues%20across%20OpenAI%2C%20LangChain%2C%20LlamaIndex%2C%20and%20more.&section=Docs",
+        "twitterCard": "summary_large_image",
+        "twitterImage": null,
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=LLM%20Observability%20%26%20Application%20Tracing%20(Open%20Source)&description=Open%20source%20application%20tracing%20and%20observability%20for%20LLM%20apps.%20Capture%20traces%2C%20monitor%20latency%2C%20track%20costs%2C%20and%20debug%20issues%20across%20OpenAI%2C%20LangChain%2C%20LlamaIndex%2C%20and%20more.&section=Docs",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=LLM%20Observability%20%26%20Application%20Tracing%20(Open%20Source)&description=Open%20source%20application%20tracing%20and%20observability%20for%20LLM%20apps.%20Capture%20traces%2C%20monitor%20latency%2C%20track%20costs%2C%20and%20debug%20issues%20across%20OpenAI%2C%20LangChain%2C%20LlamaIndex%2C%20and%20more.&section=Docs",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "docs-prompt-management-overview": {
+      "route": "/docs/prompt-management/overview",
+      "label": "Prompt management overview",
+      "category": "docs-overview",
+      "url": "https://langfuse.com/docs/prompt-management/overview",
+      "finalUrl": "https://langfuse.com/docs/prompt-management/overview",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Open Source Prompt Management - Langfuse",
+        "description": "Manage and version your prompts in Langfuse (open source). When retrieved, they are cached by the Langfuse SDKs for low latency.",
+        "canonical": null,
+        "ogUrl": "https://langfuse.com/docs/prompt-management/overview",
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=Open%20Source%20Prompt%20Management&description=Manage%20and%20version%20your%20prompts%20in%20Langfuse%20(open%20source).%20When%20retrieved%2C%20they%20are%20cached%20by%20the%20Langfuse%20SDKs%20for%20low%20latency.&section=Docs",
+        "twitterCard": "summary_large_image",
+        "twitterImage": null,
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=Open%20Source%20Prompt%20Management&description=Manage%20and%20version%20your%20prompts%20in%20Langfuse%20(open%20source).%20When%20retrieved%2C%20they%20are%20cached%20by%20the%20Langfuse%20SDKs%20for%20low%20latency.&section=Docs",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=Open%20Source%20Prompt%20Management&description=Manage%20and%20version%20your%20prompts%20in%20Langfuse%20(open%20source).%20When%20retrieved%2C%20they%20are%20cached%20by%20the%20Langfuse%20SDKs%20for%20low%20latency.&section=Docs",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "docs-evaluation-overview": {
+      "route": "/docs/evaluation/overview",
+      "label": "Evaluation overview",
+      "category": "docs-overview",
+      "url": "https://langfuse.com/docs/evaluation/overview",
+      "finalUrl": "https://langfuse.com/docs/evaluation/overview",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Evaluation of LLM Applications - Langfuse",
+        "description": "With Langfuse you can capture all your LLM evaluations in one place. You can combine a variety of different evaluation metrics like model-based evaluations (LLM-as-a-Judge), human annotations or fully custom evaluation workflows via API/SDKs. This allows you to measure quality, tonality, factual accuracy, completeness, and other dimensions of your LLM application.",
+        "canonical": null,
+        "ogUrl": "https://langfuse.com/docs/evaluation/overview",
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=Evaluation%20of%20LLM%20Applications&description=With%20Langfuse%20you%20can%20capture%20all%20your%20LLM%20evaluations%20in%20one%20place.%20You%20can%20combine%20a%20variety%20of%20different%20evaluation%20metrics%20like%20model-based%20evaluations%20(LLM-as-a-Judge)%2C%20human%20annotations%20or%20fully%20custom%20evaluation%20workflows%20via%20API%2FSDKs.%20This%20allows%20you%20to%20measure%20quality%2C%20tonality%2C%20factual%20accuracy%2C%20completeness%2C%20and%20other%20dimensions%20of%20your%20LLM%20application.&section=Docs",
+        "twitterCard": "summary_large_image",
+        "twitterImage": null,
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=Evaluation%20of%20LLM%20Applications&description=With%20Langfuse%20you%20can%20capture%20all%20your%20LLM%20evaluations%20in%20one%20place.%20You%20can%20combine%20a%20variety%20of%20different%20evaluation%20metrics%20like%20model-based%20evaluations%20(LLM-as-a-Judge)%2C%20human%20annotations%20or%20fully%20custom%20evaluation%20workflows%20via%20API%2FSDKs.%20This%20allows%20you%20to%20measure%20quality%2C%20tonality%2C%20factual%20accuracy%2C%20completeness%2C%20and%20other%20dimensions%20of%20your%20LLM%20application.&section=Docs",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=Evaluation%20of%20LLM%20Applications&description=With%20Langfuse%20you%20can%20capture%20all%20your%20LLM%20evaluations%20in%20one%20place.%20You%20can%20combine%20a%20variety%20of%20different%20evaluation%20metrics%20like%20model-based%20evaluations%20(LLM-as-a-Judge)%2C%20human%20annotations%20or%20fully%20custom%20evaluation%20workflows%20via%20API%2FSDKs.%20This%20allows%20you%20to%20measure%20quality%2C%20tonality%2C%20factual%20accuracy%2C%20completeness%2C%20and%20other%20dimensions%20of%20your%20LLM%20application.&section=Docs",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "docs-api-platform-overview": {
+      "route": "/docs/api-and-data-platform/overview",
+      "label": "API and data platform overview",
+      "category": "docs-overview",
+      "url": "https://langfuse.com/docs/api-and-data-platform/overview",
+      "finalUrl": "https://langfuse.com/docs/api-and-data-platform/overview",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Open Source LLM API & Data Platform - Langfuse",
+        "description": "Langfuse is designed to be extensible and flexible. People using Langfuse are building all kinds of workflows and customizations on top of it. This is powered by our open data platform.",
+        "canonical": null,
+        "ogUrl": "https://langfuse.com/docs/api-and-data-platform/overview",
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=Open%20Source%20LLM%20API%20%26%20Data%20Platform&description=Langfuse%20is%20designed%20to%20be%20extensible%20and%20flexible.%20People%20using%20Langfuse%20are%20building%20all%20kinds%20of%20workflows%20and%20customizations%20on%20top%20of%20it.%20This%20is%20powered%20by%20our%20open%20data%20platform.&section=Docs",
+        "twitterCard": "summary_large_image",
+        "twitterImage": null,
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=Open%20Source%20LLM%20API%20%26%20Data%20Platform&description=Langfuse%20is%20designed%20to%20be%20extensible%20and%20flexible.%20People%20using%20Langfuse%20are%20building%20all%20kinds%20of%20workflows%20and%20customizations%20on%20top%20of%20it.%20This%20is%20powered%20by%20our%20open%20data%20platform.&section=Docs",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=Open%20Source%20LLM%20API%20%26%20Data%20Platform&description=Langfuse%20is%20designed%20to%20be%20extensible%20and%20flexible.%20People%20using%20Langfuse%20are%20building%20all%20kinds%20of%20workflows%20and%20customizations%20on%20top%20of%20it.%20This%20is%20powered%20by%20our%20open%20data%20platform.&section=Docs",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "guides-run-langfuse-locally": {
+      "route": "/guides/videos/run-langfuse-locally",
+      "label": "Guide video with custom OG image",
+      "category": "guides",
+      "url": "https://langfuse.com/guides/videos/run-langfuse-locally",
+      "finalUrl": "https://langfuse.com/guides/videos/run-langfuse-locally",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Run Langfuse Locally in 3 Minutes - Langfuse",
+        "description": "Run Langfuse locally with Docker Compose.",
+        "canonical": null,
+        "ogUrl": "https://langfuse.com/guides/videos/run-langfuse-locally",
+        "ogType": null,
+        "ogImage": "https://langfuse.com/images/videos/local-langfuse-v3.jpg",
+        "twitterCard": "summary_large_image",
+        "twitterImage": null,
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/images/videos/local-langfuse-v3.jpg",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/images/videos/local-langfuse-v3.jpg",
+          "contentType": "image/jpeg",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "blog-ai-agent-comparison": {
+      "route": "/blog/2025-03-19-ai-agent-comparison",
+      "label": "Blog post with custom OG image",
+      "category": "blog",
+      "url": "https://langfuse.com/blog/2025-03-19-ai-agent-comparison",
+      "finalUrl": "https://langfuse.com/blog/2025-03-19-ai-agent-comparison",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Comparing Open-Source AI Agent Frameworks - Langfuse Blog",
+        "description": "Get an overview of the leading open-source AI agent frameworks—LangGraph, OpenAI Agents SDK, Google ADK, Smolagents, CrewAI, AutoGen, Semantic Kernel, Strands Agents, Pydantic AI, Agno, Mastra, and Microsoft Agent Framework. Compare features, learn when to use each, and see how to track agent behavior with Langfuse",
+        "canonical": null,
+        "ogUrl": "https://langfuse.com/blog/2025-03-19-ai-agent-comparison",
+        "ogType": null,
+        "ogImage": "https://langfuse.com/images/blog/2025-03-19-ai-agent-comparison/agent-comparison.png",
+        "twitterCard": "summary_large_image",
+        "twitterImage": null,
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/images/blog/2025-03-19-ai-agent-comparison/agent-comparison.png",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/images/blog/2025-03-19-ai-agent-comparison/agent-comparison.png",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "changelog-comments": {
+      "route": "/changelog/2024-08-20-comments",
+      "label": "Changelog entry with canonical and OG video",
+      "category": "changelog",
+      "url": "https://langfuse.com/changelog/2024-08-20-comments",
+      "finalUrl": "https://langfuse.com/changelog/2024-08-20-comments",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Comments on Langfuse objects - Langfuse",
+        "description": "Add comments to traces, observations, sessions and prompts via the Langfuse UI.",
+        "canonical": "https://langfuse.com/docs/observability/features/comments",
+        "ogUrl": "https://langfuse.com/changelog/2024-08-20-comments",
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=Comments%20on%20Langfuse%20objects&description=Add%20comments%20to%20traces%2C%20observations%2C%20sessions%20and%20prompts%20via%20the%20Langfuse%20UI.&section=Changelog",
+        "twitterCard": "summary_large_image",
+        "twitterImage": null,
+        "ogVideo": "https://langfuse.comhttps//static.langfuse.com/docs-videos/comments.mp4"
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=Comments%20on%20Langfuse%20objects&description=Add%20comments%20to%20traces%2C%20observations%2C%20sessions%20and%20prompts%20via%20the%20Langfuse%20UI.&section=Changelog",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=Comments%20on%20Langfuse%20objects&description=Add%20comments%20to%20traces%2C%20observations%2C%20sessions%20and%20prompts%20via%20the%20Langfuse%20UI.&section=Changelog",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": {
+          "url": "https://langfuse.comhttps//static.langfuse.com/docs-videos/comments.mp4",
+          "ok": false,
+          "status": null,
+          "finalUrl": null,
+          "contentType": null,
+          "method": "HEAD",
+          "error": "fetch failed"
+        }
+      }
+    },
+    "changelog-open-source": {
+      "route": "/changelog/2025-06-04-open-sourcing-langfuse",
+      "label": "Changelog entry with custom OG image",
+      "category": "changelog",
+      "url": "https://langfuse.com/changelog/2025-06-04-open-sourcing-langfuse",
+      "finalUrl": "https://langfuse.com/changelog/2025-06-04-open-sourcing-langfuse",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Open Sourcing all Product Features - Langfuse",
+        "description": "We have Open Sourced all Remaining Product Features under the MIT License",
+        "canonical": null,
+        "ogUrl": "https://langfuse.com/changelog/2025-06-04-open-sourcing-langfuse",
+        "ogType": null,
+        "ogImage": "https://langfuse.com/images/blog/2025-06-04-open-sourcing-langfuse-product/langfuse-open-source-og.png",
+        "twitterCard": "summary_large_image",
+        "twitterImage": null,
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/images/blog/2025-06-04-open-sourcing-langfuse-product/langfuse-open-source-og.png",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/images/blog/2025-06-04-open-sourcing-langfuse-product/langfuse-open-source-og.png",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "pricing": {
+      "route": "/pricing",
+      "label": "Wide marketing page",
+      "category": "wide-marketing",
+      "url": "https://langfuse.com/pricing",
+      "finalUrl": "https://langfuse.com/pricing",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "Pricing - Langfuse",
+        "description": "Simple pricing for projects of all sizes. Get started on our Hobby plan without a credit card.",
+        "canonical": null,
+        "ogUrl": "https://langfuse.com/pricing",
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=Pricing&description=Simple%20pricing%20for%20projects%20of%20all%20sizes.%20Get%20started%20on%20our%20Hobby%20plan%20without%20a%20credit%20card.&section=",
+        "twitterCard": "summary_large_image",
+        "twitterImage": null,
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=Pricing&description=Simple%20pricing%20for%20projects%20of%20all%20sizes.%20Get%20started%20on%20our%20Hobby%20plan%20without%20a%20credit%20card.&section=",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=Pricing&description=Simple%20pricing%20for%20projects%20of%20all%20sizes.%20Get%20started%20on%20our%20Hobby%20plan%20without%20a%20credit%20card.&section=",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    },
+    "faq-support": {
+      "route": "/faq/all/langfuse-support",
+      "label": "FAQ article",
+      "category": "faq",
+      "url": "https://langfuse.com/faq/all/langfuse-support",
+      "finalUrl": "https://langfuse.com/faq/all/langfuse-support",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "metadata": {
+        "title": "How can I receive support? - Langfuse",
+        "description": null,
+        "canonical": null,
+        "ogUrl": "https://langfuse.com/faq/all/langfuse-support",
+        "ogType": null,
+        "ogImage": "https://langfuse.com/api/og?title=How%20can%20I%20receive%20support%3F&description=&section=FAQ",
+        "twitterCard": "summary_large_image",
+        "twitterImage": null,
+        "ogVideo": null
+      },
+      "structuredData": {
+        "count": 0,
+        "types": [],
+        "parseErrors": []
+      },
+      "assets": {
+        "ogImage": {
+          "url": "https://langfuse.com/api/og?title=How%20can%20I%20receive%20support%3F&description=&section=FAQ",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://langfuse.com/api/og?title=How%20can%20I%20receive%20support%3F&description=&section=FAQ",
+          "contentType": "image/png",
+          "method": "HEAD",
+          "error": null
+        },
+        "twitterImage": null,
+        "ogVideo": null
+      }
+    }
+  }
+}

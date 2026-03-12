@@ -1,0 +1,49 @@
+[
+  {
+    "topic": "MDX / Next.js setup",
+    "url": "https://fumadocs.dev/docs/mdx/next",
+    "checkedAt": "2026-03-11",
+    "expectations": [
+      "Use createMDX() in next.config.mjs",
+      "Define collections in source.config.ts",
+      "Generate .source and keep it out of normal hand-maintained source files",
+      "Provide app/layout.tsx and mdx-components.tsx integration"
+    ]
+  },
+  {
+    "topic": "Page conventions and meta.json",
+    "url": "https://fumadocs.dev/docs/page-conventions",
+    "checkedAt": "2026-03-11",
+    "expectations": [
+      "Use content/ with page files and meta.json for predictable navigation",
+      "Rely on page slugs and page tree generated from the content structure"
+    ]
+  },
+  {
+    "topic": "Navigation and page tree",
+    "url": "https://fumadocs.dev/docs/navigation",
+    "checkedAt": "2026-03-11",
+    "expectations": [
+      "Prefer page-tree generation from loader-backed sources",
+      "Use loader plugins or equivalent source-layer hooks for page-tree customization"
+    ]
+  },
+  {
+    "topic": "Docs layout shared options",
+    "url": "https://fumadocs.dev/docs/ui/layouts/docs",
+    "checkedAt": "2026-03-11",
+    "expectations": [
+      "Keep DocsLayout configuration centralized where possible",
+      "Share base layout options instead of repeating identical config per section"
+    ]
+  },
+  {
+    "topic": "Search server route",
+    "url": "https://fumadocs.dev/docs/search/server",
+    "checkedAt": "2026-03-11",
+    "expectations": [
+      "Use the documented Fumadocs search route or an intentional equivalent",
+      "Keep search wiring obvious and isolated from unrelated route logic"
+    ]
+  }
+]

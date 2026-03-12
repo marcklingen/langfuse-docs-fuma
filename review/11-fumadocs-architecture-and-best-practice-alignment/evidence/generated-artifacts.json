@@ -1,0 +1,15 @@
+{
+  "gitignoreIgnoresSource": true,
+  "liveSourceFiles": [
+    ".source/browser.ts",
+    ".source/dynamic.ts",
+    ".source/server.ts",
+    ".source/source.config.mjs"
+  ],
+  "trackedSourceFiles": [
+    ".source/source.config.mjs"
+  ],
+  "trackedGeneratedFiles": [
+    "lib/section-loaders.generated.ts"
+  ]
+}

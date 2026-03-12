@@ -1,0 +1,166 @@
+{
+  "generatedAt": "2026-03-12T04:47:44.979Z",
+  "baseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "pages": [
+    {
+      "id": "docs-overview",
+      "label": "Docs overview",
+      "path": "/docs/observability/overview",
+      "assertions": [
+        {
+          "name": "Docs overview: no visible buttons are missing an accessible name",
+          "pass": false,
+          "details": [
+            {
+              "selector": "#radix-_R_12qav5u75ujb_",
+              "text": "",
+              "ariaLabel": null,
+              "title": null,
+              "accessibleName": ""
+            }
+          ]
+        },
+        {
+          "name": "Docs overview: no visible form fields are missing an accessible name",
+          "pass": true,
+          "details": []
+        },
+        {
+          "name": "Docs overview: every visible iframe exposes a title",
+          "pass": true,
+          "details": []
+        }
+      ],
+      "audit": {
+        "visibleButtonsWithoutName": [
+          {
+            "selector": "#radix-_R_12qav5u75ujb_",
+            "text": "",
+            "ariaLabel": null,
+            "title": null,
+            "accessibleName": ""
+          }
+        ],
+        "formFieldsWithoutLabel": [],
+        "iframesMissingTitle": []
+      },
+      "pass": false
+    },
+    {
+      "id": "docs-prompt-management",
+      "label": "Deep docs page",
+      "path": "/docs/prompt-management/get-started",
+      "assertions": [
+        {
+          "name": "Deep docs page: no visible buttons are missing an accessible name",
+          "pass": false,
+          "details": [
+            {
+              "selector": "#radix-_R_12qav5u75ujb_",
+              "text": "",
+              "ariaLabel": null,
+              "title": null,
+              "accessibleName": ""
+            }
+          ]
+        },
+        {
+          "name": "Deep docs page: no visible form fields are missing an accessible name",
+          "pass": true,
+          "details": []
+        },
+        {
+          "name": "Deep docs page: every visible iframe exposes a title",
+          "pass": true,
+          "details": []
+        }
+      ],
+      "audit": {
+        "visibleButtonsWithoutName": [
+          {
+            "selector": "#radix-_R_12qav5u75ujb_",
+            "text": "",
+            "ariaLabel": null,
+            "title": null,
+            "accessibleName": ""
+          }
+        ],
+        "formFieldsWithoutLabel": [],
+        "iframesMissingTitle": []
+      },
+      "pass": false
+    },
+    {
+      "id": "pricing",
+      "label": "Pricing",
+      "path": "/pricing",
+      "assertions": [
+        {
+          "name": "Pricing: no visible buttons are missing an accessible name",
+          "pass": true,
+          "details": []
+        },
+        {
+          "name": "Pricing: no visible form fields are missing an accessible name",
+          "pass": true,
+          "details": []
+        },
+        {
+          "name": "Pricing: every visible iframe exposes a title",
+          "pass": true,
+          "details": []
+        }
+      ],
+      "audit": {
+        "visibleButtonsWithoutName": [],
+        "formFieldsWithoutLabel": [],
+        "iframesMissingTitle": []
+      },
+      "pass": true
+    },
+    {
+      "id": "integration-goose",
+      "label": "Integration page",
+      "path": "/integrations/no-code/goose",
+      "assertions": [
+        {
+          "name": "Integration page: no visible buttons are missing an accessible name",
+          "pass": false,
+          "details": [
+            {
+              "selector": "#radix-_R_12qav5u75ujb_",
+              "text": "",
+              "ariaLabel": null,
+              "title": null,
+              "accessibleName": ""
+            }
+          ]
+        },
+        {
+          "name": "Integration page: no visible form fields are missing an accessible name",
+          "pass": true,
+          "details": []
+        },
+        {
+          "name": "Integration page: every visible iframe exposes a title",
+          "pass": true,
+          "details": []
+        }
+      ],
+      "audit": {
+        "visibleButtonsWithoutName": [
+          {
+            "selector": "#radix-_R_12qav5u75ujb_",
+            "text": "",
+            "ariaLabel": null,
+            "title": null,
+            "accessibleName": ""
+          }
+        ],
+        "formFieldsWithoutLabel": [],
+        "iframesMissingTitle": []
+      },
+      "pass": false
+    }
+  ]
+}

@@ -1,0 +1,3191 @@
+{
+  "generatedAt": "2026-03-12T04:07:13.100Z",
+  "baseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "samples": [
+    {
+      "id": "docs-prompt-management-get-started",
+      "label": "Docs: Prompt Management Get Started",
+      "contentType": "docs",
+      "path": "/docs/prompt-management/get-started",
+      "sourceFile": "content/docs/prompt-management/get-started.mdx",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started",
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "dom": {
+        "title": "Get Started - Langfuse",
+        "articleTag": "ARTICLE",
+        "textLength": 2133,
+        "textSample": "DocsUse Prompt ManagementCopy pageGet Started with Prompt Management This guide walks you through creating and using a prompt with Langfuse. If you're looking to understand what prompt management is a",
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "id": "get-started-with-prompt-management",
+            "text": "Get Started with Prompt Management"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "get-api-keys",
+            "text": "Get API keys"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "create-update-prompt",
+            "text": "Create a prompt"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "use-prompt",
+            "text": "Use the prompt in your code"
+          },
+          {
+            "tag": "H4",
+            "level": 4,
+            "id": "not-seeing-what-you-expected",
+            "text": "Not seeing what you expected?"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "next-steps",
+            "text": "Next steps"
+          }
+        ],
+        "metrics": {
+          "tabs": 2,
+          "tablists": 1,
+          "codeBlocks": 4,
+          "highlightedCodeBlocks": 4,
+          "tables": 0,
+          "details": 0,
+          "videos": 0,
+          "iframes": 0,
+          "images": 0,
+          "mermaidSvgs": 0
+        },
+        "copyButtons": [
+          {
+            "label": "Copy page"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          }
+        ],
+        "textContent": "DocsUse Prompt ManagementCopy pageGet Started with Prompt Management This guide walks you through creating and using a prompt with Langfuse. If you're looking to understand what prompt management is and why it matters, check out the Prompt Management Overview first. For details on how prompts are structured in Langfuse and how it works in the background, see Core Concepts. ✨ Use AIDo it yourselfGet API keys Create Langfuse account or self-host Langfuse. Create new API credentials in the project settings. Create a promptUse the agent mode of your editor to create prompts in Langfuse. Install the Langfuse Skill: # Cursor plugin /add-plugin langfuse # skills CLI npx skills add langfuse/skills --skill \"langfuse\" # Manual: clone and symlink git clone https://github.com/langfuse/skills.git /path/to/langfuse-skills ln -s /path/to/langfuse-skills/skills/langfuse ~/.skills/langfuse Ask the agent to create your prompt: Create a prompt in Langfuse called \"movie-critic\" that takes a movie name and critic level as variables.Use the prompt in your codeUse the agent mode of your editor to write the code to fetch Langfuse prompts in your application. Install the Langfuse Skill: # Cursor plugin /add-plugin langfuse # skills CLI npx skills add langfuse/skills --skill \"langfuse\" # Manual: clone and symlink git clone https://github.com/langfuse/skills.git /path/to/langfuse-skills ln -s /path/to/langfuse-skills/skills/langfuse ~/.skills/langfuse Ask the agent to integrate prompt fetching: Fetch the \"movie-critic\" prompt, production version, from Langfuse and use it in my application. Not seeing what you expected? I'm not seeing the latest version of my prompt. Why? Next steps Now that you've used your first prompt, there are a couple of things we recommend you do next to make the most of Langfuse Prompt Management: Link prompts to traces to analyze performance by prompt version Use version control and labels to manage deployments across environments Looking for something specific? Take a look under Features for guides on specific topics.Was this page helpful?YesNoSupportStart TracingPrevious PageSet up EvalsNext Page",
+        "mediaItems": [],
+        "imageStates": []
+      },
+      "pageErrors": [],
+      "consoleErrors": [
+        "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+        "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "requestFailures": [],
+      "assertions": [
+        {
+          "label": "Page returns HTTP 200",
+          "pass": true,
+          "details": {
+            "status": 200
+          }
+        },
+        {
+          "label": "Rendered page is not a 404 shell",
+          "pass": true,
+          "details": {
+            "firstHeading": "Get Started with Prompt Management"
+          }
+        },
+        {
+          "label": "Page uses exactly one H1",
+          "pass": true,
+          "details": {
+            "h1Count": 1,
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "get-started-with-prompt-management",
+                "text": "Get Started with Prompt Management"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "get-api-keys",
+                "text": "Get API keys"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "create-update-prompt",
+                "text": "Create a prompt"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "use-prompt",
+                "text": "Use the prompt in your code"
+              },
+              {
+                "tag": "H4",
+                "level": 4,
+                "id": "not-seeing-what-you-expected",
+                "text": "Not seeing what you expected?"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "next-steps",
+                "text": "Next steps"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Heading levels do not skip within article content",
+          "pass": false,
+          "details": {
+            "headingIssues": [
+              {
+                "previous": {
+                  "level": 2,
+                  "text": "Use the prompt in your code",
+                  "id": "use-prompt"
+                },
+                "current": {
+                  "level": 4,
+                  "text": "Not seeing what you expected?",
+                  "id": "not-seeing-what-you-expected"
+                }
+              }
+            ],
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "get-started-with-prompt-management",
+                "text": "Get Started with Prompt Management"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "get-api-keys",
+                "text": "Get API keys"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "create-update-prompt",
+                "text": "Create a prompt"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "use-prompt",
+                "text": "Use the prompt in your code"
+              },
+              {
+                "tag": "H4",
+                "level": 4,
+                "id": "not-seeing-what-you-expected",
+                "text": "Not seeing what you expected?"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "next-steps",
+                "text": "Next steps"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Page exposes at least 1 tabs",
+          "pass": true,
+          "details": {
+            "actual": 2,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Page exposes at least 1 code blocks",
+          "pass": true,
+          "details": {
+            "actual": 4,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Page exposes at least 2 copy buttons",
+          "pass": true,
+          "details": {
+            "actual": 5,
+            "minimum": 2
+          }
+        },
+        {
+          "label": "Code blocks include syntax-highlighting markup",
+          "pass": true,
+          "details": {
+            "codeBlocks": 4,
+            "highlightedCodeBlocks": 4
+          }
+        },
+        {
+          "label": "Images do not report load failures",
+          "pass": true,
+          "details": {
+            "brokenImages": [],
+            "imageCount": 0
+          }
+        },
+        {
+          "label": "Page does not throw runtime errors during load",
+          "pass": true,
+          "details": {
+            "pageErrors": []
+          }
+        },
+        {
+          "label": "Page does not fail article-related requests during load",
+          "pass": true,
+          "details": {
+            "requestFailures": []
+          }
+        }
+      ],
+      "failedAssertions": [
+        {
+          "label": "Heading levels do not skip within article content",
+          "pass": false,
+          "details": {
+            "headingIssues": [
+              {
+                "previous": {
+                  "level": 2,
+                  "text": "Use the prompt in your code",
+                  "id": "use-prompt"
+                },
+                "current": {
+                  "level": 4,
+                  "text": "Not seeing what you expected?",
+                  "id": "not-seeing-what-you-expected"
+                }
+              }
+            ],
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "get-started-with-prompt-management",
+                "text": "Get Started with Prompt Management"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "get-api-keys",
+                "text": "Get API keys"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "create-update-prompt",
+                "text": "Create a prompt"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "use-prompt",
+                "text": "Use the prompt in your code"
+              },
+              {
+                "tag": "H4",
+                "level": 4,
+                "id": "not-seeing-what-you-expected",
+                "text": "Not seeing what you expected?"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "next-steps",
+                "text": "Next steps"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "docs-observability-data-model",
+      "label": "Docs: Observability Data Model",
+      "contentType": "docs",
+      "path": "/docs/observability/data-model",
+      "sourceFile": "content/docs/observability/data-model.mdx",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/data-model",
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "dom": {
+        "title": "Concepts - Langfuse",
+        "articleTag": "ARTICLE",
+        "textLength": 25736,
+        "textSample": "DocsObservabilityConceptsCopy pageCore Concepts This page digs into the underlying concepts of how Langfuse structures and captures your data. Understanding these will make debugging and working with ",
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "id": "core-concepts",
+            "text": "Core Concepts"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "observations-traces-and-sessions",
+            "text": "Observations, Traces, and Sessions"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "observations",
+            "text": "Observations"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "traces",
+            "text": "Traces"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "sessions",
+            "text": "Sessions"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "adding-attributes",
+            "text": "Adding Attributes"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "how-langfuse-captures-data",
+            "text": "How Langfuse Captures Data"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "built-on-opentelemetry",
+            "text": "Built on OpenTelemetry"
+          },
+          {
+            "tag": "H4",
+            "level": 4,
+            "id": "instrumentation",
+            "text": "Instrumentation"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "background-processing",
+            "text": "Background Processing"
+          },
+          {
+            "tag": "H4",
+            "level": 4,
+            "id": "long-running-applications",
+            "text": "Long-running applications"
+          },
+          {
+            "tag": "H4",
+            "level": 4,
+            "id": "short-lived-applications",
+            "text": "Short-lived applications"
+          }
+        ],
+        "metrics": {
+          "tabs": 0,
+          "tablists": 0,
+          "codeBlocks": 0,
+          "highlightedCodeBlocks": 0,
+          "tables": 1,
+          "details": 0,
+          "videos": 0,
+          "iframes": 0,
+          "images": 3,
+          "mermaidSvgs": 31
+        },
+        "copyButtons": [
+          {
+            "label": "Copy page"
+          }
+        ],
+        "textContent": "DocsObservabilityConceptsCopy pageCore Concepts This page digs into the underlying concepts of how Langfuse structures and captures your data. Understanding these will make debugging and working with traces easier. Ready to start? Check out the Get Started guide to ingest your first trace. Observations, Traces, and Sessions Langfuse organizes an application's data into three core concepts: observations, traces, and sessions. #mermaid-diagram-1{font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-diagram-1 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-diagram-1 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-diagram-1 .error-icon{fill:#552222;}#mermaid-diagram-1 .error-text{fill:#552222;stroke:#552222;}#mermaid-diagram-1 .edge-thickness-normal{stroke-width:1px;}#mermaid-diagram-1 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-diagram-1 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-diagram-1 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-diagram-1 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-diagram-1 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-diagram-1 .marker{fill:#333333;stroke:#333333;}#mermaid-diagram-1 .marker.cross{stroke:#333333;}#mermaid-diagram-1 svg{font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:16px;}#mermaid-diagram-1 p{margin:0;}#mermaid-diagram-1 .label{font-family:\"trebuchet ms\",verdana,arial,sans-serif;color:#333;}#mermaid-diagram-1 .cluster-label text{fill:#333;}#mermaid-diagram-1 .cluster-label span{color:#333;}#mermaid-diagram-1 .cluster-label span p{background-color:transparent;}#mermaid-diagram-1 .label text,#mermaid-diagram-1 span{fill:#333;color:#333;}#mermaid-diagram-1 .node rect,#mermaid-diagram-1 .node circle,#mermaid-diagram-1 .node ellipse,#mermaid-diagram-1 .node polygon,#mermaid-diagram-1 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-diagram-1 .rough-node .label text,#mermaid-diagram-1 .node .label text,#mermaid-diagram-1 .image-shape .label,#mermaid-diagram-1 .icon-shape .label{text-anchor:middle;}#mermaid-diagram-1 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mermaid-diagram-1 .rough-node .label,#mermaid-diagram-1 .node .label,#mermaid-diagram-1 .image-shape .label,#mermaid-diagram-1 .icon-shape .label{text-align:center;}#mermaid-diagram-1 .node.clickable{cursor:pointer;}#mermaid-diagram-1 .root .anchor path{fill:#333333!important;stroke-width:0;stroke:#333333;}#mermaid-diagram-1 .arrowheadPath{fill:#333333;}#mermaid-diagram-1 .edgePath .path{stroke:#333333;stroke-width:2.0px;}#mermaid-diagram-1 .flowchart-link{stroke:#333333;fill:none;}#mermaid-diagram-1 .edgeLabel{background-color:rgba(232,232,232, 0.8);text-align:center;}#mermaid-diagram-1 .edgeLabel p{background-color:rgba(232,232,232, 0.8);}#mermaid-diagram-1 .edgeLabel rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#mermaid-diagram-1 .labelBkg{background-color:rgba(232, 232, 232, 0.5);}#mermaid-diagram-1 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-diagram-1 .cluster text{fill:#333;}#mermaid-diagram-1 .cluster span{color:#333;}#mermaid-diagram-1 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:12px;background:hsl(80, 100%, 96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-diagram-1 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:#333;}#mermaid-diagram-1 rect.text{fill:none;stroke-width:0;}#mermaid-diagram-1 .icon-shape,#mermaid-diagram-1 .image-shape{background-color:rgba(232,232,232, 0.8);text-align:center;}#mermaid-diagram-1 .icon-shape p,#mermaid-diagram-1 .image-shape p{background-color:rgba(232,232,232, 0.8);padding:2px;}#mermaid-diagram-1 .icon-shape .label rect,#mermaid-diagram-1 .image-shape .label rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#mermaid-diagram-1 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mermaid-diagram-1 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mermaid-diagram-1 :root{--mermaid-font-family:\"trebuchet ms\",verdana,arial,sans-serif;}#mermaid-diagram-1 .sessionBox>*{fill:none!important;stroke:#888!important;stroke-width:2px!important;}#mermaid-diagram-1 .sessionBox span{fill:none!important;stroke:#888!important;stroke-width:2px!important;}#mermaid-diagram-1 .traceBox>*{fill:none!important;stroke:#aaa!important;stroke-width:1.5px!important;}#mermaid-diagram-1 .traceBox span{fill:none!important;stroke:#aaa!important;stroke-width:1.5px!important;}sessiontraceobservationobservationobservationtraceobservationobservationobservationtraceobservationobservationobservation Observations Observations are the individual steps within a trace. Langfuse supports a number of LLM application specific observation types, for example generations, toolcalls, RAG retrieval steps, etc. Observations can be nested. The example below shows a trace with a nested observation. Hierarchical structure of observations in Langfuse#mermaid-diagram-2{font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-diagram-2 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-diagram-2 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-diagram-2 .error-icon{fill:#552222;}#mermaid-diagram-2 .error-text{fill:#552222;stroke:#552222;}#mermaid-diagram-2 .edge-thickness-normal{stroke-width:1px;}#mermaid-diagram-2 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-diagram-2 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-diagram-2 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-diagram-2 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-diagram-2 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-diagram-2 .marker{fill:#333333;stroke:#333333;}#mermaid-diagram-2 .marker.cross{stroke:#333333;}#mermaid-diagram-2 svg{font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:16px;}#mermaid-diagram-2 p{margin:0;}#mermaid-diagram-2 g.classGroup text{fill:#9370DB;stroke:none;font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:10px;}#mermaid-diagram-2 g.classGroup text .title{font-weight:bolder;}#mermaid-diagram-2 .cluster-label text{fill:#333;}#mermaid-diagram-2 .cluster-label span{color:#333;}#mermaid-diagram-2 .cluster-label span p{background-color:transparent;}#mermaid-diagram-2 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-diagram-2 .cluster text{fill:#333;}#mermaid-diagram-2 .cluster span{color:#333;}#mermaid-diagram-2 .nodeLabel,#mermaid-diagram-2 .edgeLabel{color:#131300;}#mermaid-diagram-2 .edgeLabel .label rect{fill:#ECECFF;}#mermaid-diagram-2 .label text{fill:#131300;}#mermaid-diagram-2 .labelBkg{background:#ECECFF;}#mermaid-diagram-2 .edgeLabel .label span{background:#ECECFF;}#mermaid-diagram-2 .classTitle{font-weight:bolder;}#mermaid-diagram-2 .node rect,#mermaid-diagram-2 .node circle,#mermaid-diagram-2 .node ellipse,#mermaid-diagram-2 .node polygon,#mermaid-diagram-2 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-diagram-2 .divider{stroke:#9370DB;stroke-width:1;}#mermaid-diagram-2 g.clickable{cursor:pointer;}#mermaid-diagram-2 g.classGroup rect{fill:#ECECFF;stroke:#9370DB;}#mermaid-diagram-2 g.classGroup line{stroke:#9370DB;stroke-width:1;}#mermaid-diagram-2 .classLabel .box{stroke:none;stroke-width:0;fill:#ECECFF;opacity:0.5;}#mermaid-diagram-2 .classLabel .label{fill:#9370DB;font-size:10px;}#mermaid-diagram-2 .relation{stroke:#333333;stroke-width:1;fill:none;}#mermaid-diagram-2 .dashed-line{stroke-dasharray:3;}#mermaid-diagram-2 .dotted-line{stroke-dasharray:1 2;}#mermaid-diagram-2 #compositionStart,#mermaid-diagram-2 .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-2 #compositionEnd,#mermaid-diagram-2 .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-2 #dependencyStart,#mermaid-diagram-2 .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-2 #dependencyStart,#mermaid-diagram-2 .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-2 #extensionStart,#mermaid-diagram-2 .extension{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-2 #extensionEnd,#mermaid-diagram-2 .extension{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-2 #aggregationStart,#mermaid-diagram-2 .aggregation{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-2 #aggregationEnd,#mermaid-diagram-2 .aggregation{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-2 #lollipopStart,#mermaid-diagram-2 .lollipop{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-2 #lollipopEnd,#mermaid-diagram-2 .lollipop{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-2 .edgeTerminals{font-size:11px;line-height:initial;}#mermaid-diagram-2 .classTitleText{text-anchor:middle;font-size:18px;fill:#333;}#mermaid-diagram-2 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mermaid-diagram-2 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mermaid-diagram-2 :root{--mermaid-font-family:\"trebuchet ms\",verdana,arial,sans-serif;}Nesting1nTraceObservationExample trace in Langfuse UIExample trace in Langfuse UI Traces A trace typically represents a single request or operation. For example, when a user asks a question to a chatbot, that interaction, from the user's question to the bot's response, is captured as one trace. It contains the overall input and output of the function, as well as metadata about the request ( i.e. user, session, tags, etc.). Sessions Optionally, traces can be grouped into sessions. Sessions are used to group traces that are part of the same user interaction. A common example is a thread in a chat interface. Optionally, sessions aggregate traces#mermaid-diagram-3{font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-diagram-3 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-diagram-3 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-diagram-3 .error-icon{fill:#552222;}#mermaid-diagram-3 .error-text{fill:#552222;stroke:#552222;}#mermaid-diagram-3 .edge-thickness-normal{stroke-width:1px;}#mermaid-diagram-3 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-diagram-3 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-diagram-3 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-diagram-3 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-diagram-3 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-diagram-3 .marker{fill:#333333;stroke:#333333;}#mermaid-diagram-3 .marker.cross{stroke:#333333;}#mermaid-diagram-3 svg{font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:16px;}#mermaid-diagram-3 p{margin:0;}#mermaid-diagram-3 g.classGroup text{fill:#9370DB;stroke:none;font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:10px;}#mermaid-diagram-3 g.classGroup text .title{font-weight:bolder;}#mermaid-diagram-3 .cluster-label text{fill:#333;}#mermaid-diagram-3 .cluster-label span{color:#333;}#mermaid-diagram-3 .cluster-label span p{background-color:transparent;}#mermaid-diagram-3 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-diagram-3 .cluster text{fill:#333;}#mermaid-diagram-3 .cluster span{color:#333;}#mermaid-diagram-3 .nodeLabel,#mermaid-diagram-3 .edgeLabel{color:#131300;}#mermaid-diagram-3 .edgeLabel .label rect{fill:#ECECFF;}#mermaid-diagram-3 .label text{fill:#131300;}#mermaid-diagram-3 .labelBkg{background:#ECECFF;}#mermaid-diagram-3 .edgeLabel .label span{background:#ECECFF;}#mermaid-diagram-3 .classTitle{font-weight:bolder;}#mermaid-diagram-3 .node rect,#mermaid-diagram-3 .node circle,#mermaid-diagram-3 .node ellipse,#mermaid-diagram-3 .node polygon,#mermaid-diagram-3 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-diagram-3 .divider{stroke:#9370DB;stroke-width:1;}#mermaid-diagram-3 g.clickable{cursor:pointer;}#mermaid-diagram-3 g.classGroup rect{fill:#ECECFF;stroke:#9370DB;}#mermaid-diagram-3 g.classGroup line{stroke:#9370DB;stroke-width:1;}#mermaid-diagram-3 .classLabel .box{stroke:none;stroke-width:0;fill:#ECECFF;opacity:0.5;}#mermaid-diagram-3 .classLabel .label{fill:#9370DB;font-size:10px;}#mermaid-diagram-3 .relation{stroke:#333333;stroke-width:1;fill:none;}#mermaid-diagram-3 .dashed-line{stroke-dasharray:3;}#mermaid-diagram-3 .dotted-line{stroke-dasharray:1 2;}#mermaid-diagram-3 #compositionStart,#mermaid-diagram-3 .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-3 #compositionEnd,#mermaid-diagram-3 .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-3 #dependencyStart,#mermaid-diagram-3 .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-3 #dependencyStart,#mermaid-diagram-3 .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-3 #extensionStart,#mermaid-diagram-3 .extension{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-3 #extensionEnd,#mermaid-diagram-3 .extension{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-3 #aggregationStart,#mermaid-diagram-3 .aggregation{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-3 #aggregationEnd,#mermaid-diagram-3 .aggregation{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-3 #lollipopStart,#mermaid-diagram-3 .lollipop{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-3 #lollipopEnd,#mermaid-diagram-3 .lollipop{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaid-diagram-3 .edgeTerminals{font-size:11px;line-height:initial;}#mermaid-diagram-3 .classTitleText{text-anchor:middle;font-size:18px;fill:#333;}#mermaid-diagram-3 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mermaid-diagram-3 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mermaid-diagram-3 :root{--mermaid-font-family:\"trebuchet ms\",verdana,arial,sans-serif;}1nSessionTraceExample session in Langfuse UI Using sessions is recommended for applications with multi-turn conversations or workflows. Please refer to the Sessions documentation to add sessions to your traces. Adding Attributes Once you've structured your data into traces and observations, you can enrich them with additional attributes. These attributes act as labels that help you filter, segment, and analyze your traces for specific use cases. There are different types of attributes you can add: AttributeDescriptionEnvironmentsSeparate data from different deployment contexts like production, staging, or developmentTagsFlexible labels to categorize traces by feature, API endpoint, or workflowUserTrack which end-user triggered each traceMetadataFlexible key-value store for custom informationReleases & VersionsTrack application versions and component changes How Langfuse Captures Data Now that you understand the data model, let's explore how Langfuse actually captures and processes your traces. Built on OpenTelemetry Langfuse is built on OpenTelemetry, an open standard for collecting telemetry data from applications. This means you're not locked into using only Langfuse-specific SDKs. You can also send your traces to multiple destinations at once, like Langfuse for LLM observability and Datadog for infrastructure monitoring. See the OpenTelemetry integration guide for detailed documentation on integrating OpenTelemetry with Langfuse. Instrumentation Instrumentation is the process of adding code to record its behavior. Once this recording is turned on, Langfuse (through OpenTelemetry) can automatically capture these events and structure them into traces and observations. The Get Started guide walks you through the process of instrumenting a function in your application. Background Processing In order to avoid slowing down your application, Langfuse doesn't send traces synchronously the moment they're created. Instead, Langfuse batches traces locally and sends them in the background, keeping your application fast and responsive. Langfuse backendBackground exporterLangfuse SDKApplicationEnd userLangfuse backendBackground exporterLangfuse SDKApplicationEnd user#mermaid-diagram-4{font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-diagram-4 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-diagram-4 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-diagram-4 .error-icon{fill:#552222;}#mermaid-diagram-4 .error-text{fill:#552222;stroke:#552222;}#mermaid-diagram-4 .edge-thickness-normal{stroke-width:1px;}#mermaid-diagram-4 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-diagram-4 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-diagram-4 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-diagram-4 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-diagram-4 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-diagram-4 .marker{fill:#333333;stroke:#333333;}#mermaid-diagram-4 .marker.cross{stroke:#333333;}#mermaid-diagram-4 svg{font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:16px;}#mermaid-diagram-4 p{margin:0;}#mermaid-diagram-4 .actor{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-diagram-4 text.actor>tspan{fill:black;stroke:none;}#mermaid-diagram-4 .actor-line{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);}#mermaid-diagram-4 .innerArc{stroke-width:1.5;stroke-dasharray:none;}#mermaid-diagram-4 .messageLine0{stroke-width:1.5;stroke-dasharray:none;stroke:#333;}#mermaid-diagram-4 .messageLine1{stroke-width:1.5;stroke-dasharray:2,2;stroke:#333;}#mermaid-diagram-4 #arrowhead path{fill:#333;stroke:#333;}#mermaid-diagram-4 .sequenceNumber{fill:white;}#mermaid-diagram-4 #sequencenumber{fill:#333;}#mermaid-diagram-4 #crosshead path{fill:#333;stroke:#333;}#mermaid-diagram-4 .messageText{fill:#333;stroke:none;}#mermaid-diagram-4 .labelBox{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-diagram-4 .labelText,#mermaid-diagram-4 .labelText>tspan{fill:black;stroke:none;}#mermaid-diagram-4 .loopText,#mermaid-diagram-4 .loopText>tspan{fill:black;stroke:none;}#mermaid-diagram-4 .loopLine{stroke-width:2px;stroke-dasharray:2,2;stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);}#mermaid-diagram-4 .note{stroke:#aaaa33;fill:#fff5ad;}#mermaid-diagram-4 .noteText,#mermaid-diagram-4 .noteText>tspan{fill:black;stroke:none;}#mermaid-diagram-4 .activation0{fill:#f4f4f4;stroke:#666;}#mermaid-diagram-4 .activation1{fill:#f4f4f4;stroke:#666;}#mermaid-diagram-4 .activation2{fill:#f4f4f4;stroke:#666;}#mermaid-diagram-4 .actorPopupMenu{position:absolute;}#mermaid-diagram-4 .actorPopupMenuPanel{position:absolute;fill:#ECECFF;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);filter:drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));}#mermaid-diagram-4 .actor-man line{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-diagram-4 .actor-man circle,#mermaid-diagram-4 line{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;stroke-width:2px;}#mermaid-diagram-4 :root{--mermaid-font-family:\"trebuchet ms\",verdana,arial,sans-serif;}Tracing is non-blockingApp continues handling requestloop[Incoming requests over time]Runs on a timer / batch sizeloop[In the background]send request1createTrace() / log events2enqueue(trace/events)3response4send(batched traces)5ack6 Long-running applications The approach above works well for long-running applications (like web servers or APIs) because the background exporter continuously runs and has plenty of time to flush batches on its own. Short-lived applications For applications that start, execute something, and shut down quickly (short-lived applications), there's a risk that the application terminates while there are still unsent traces in the queue. To avoid losing data, short-lived applications must explicitly call flush() before exiting. This forces the exporter to send all buffered traces immediately, so nothing is lost when the process terminates. Langfuse backendBackground exporterLangfuse SDKApplicationEnd userLangfuse backendBackground exporterLangfuse SDKApplicationEnd user#mermaid-diagram-5{font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-diagram-5 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-diagram-5 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-diagram-5 .error-icon{fill:#552222;}#mermaid-diagram-5 .error-text{fill:#552222;stroke:#552222;}#mermaid-diagram-5 .edge-thickness-normal{stroke-width:1px;}#mermaid-diagram-5 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-diagram-5 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-diagram-5 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-diagram-5 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-diagram-5 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-diagram-5 .marker{fill:#333333;stroke:#333333;}#mermaid-diagram-5 .marker.cross{stroke:#333333;}#mermaid-diagram-5 svg{font-family:\"trebuchet ms\",verdana,arial,sans-serif;font-size:16px;}#mermaid-diagram-5 p{margin:0;}#mermaid-diagram-5 .actor{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-diagram-5 text.actor>tspan{fill:black;stroke:none;}#mermaid-diagram-5 .actor-line{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);}#mermaid-diagram-5 .innerArc{stroke-width:1.5;stroke-dasharray:none;}#mermaid-diagram-5 .messageLine0{stroke-width:1.5;stroke-dasharray:none;stroke:#333;}#mermaid-diagram-5 .messageLine1{stroke-width:1.5;stroke-dasharray:2,2;stroke:#333;}#mermaid-diagram-5 #arrowhead path{fill:#333;stroke:#333;}#mermaid-diagram-5 .sequenceNumber{fill:white;}#mermaid-diagram-5 #sequencenumber{fill:#333;}#mermaid-diagram-5 #crosshead path{fill:#333;stroke:#333;}#mermaid-diagram-5 .messageText{fill:#333;stroke:none;}#mermaid-diagram-5 .labelBox{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-diagram-5 .labelText,#mermaid-diagram-5 .labelText>tspan{fill:black;stroke:none;}#mermaid-diagram-5 .loopText,#mermaid-diagram-5 .loopText>tspan{fill:black;stroke:none;}#mermaid-diagram-5 .loopLine{stroke-width:2px;stroke-dasharray:2,2;stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);}#mermaid-diagram-5 .note{stroke:#aaaa33;fill:#fff5ad;}#mermaid-diagram-5 .noteText,#mermaid-diagram-5 .noteText>tspan{fill:black;stroke:none;}#mermaid-diagram-5 .activation0{fill:#f4f4f4;stroke:#666;}#mermaid-diagram-5 .activation1{fill:#f4f4f4;stroke:#666;}#mermaid-diagram-5 .activation2{fill:#f4f4f4;stroke:#666;}#mermaid-diagram-5 .actorPopupMenu{position:absolute;}#mermaid-diagram-5 .actorPopupMenuPanel{position:absolute;fill:#ECECFF;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);filter:drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));}#mermaid-diagram-5 .actor-man line{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;}#mermaid-diagram-5 .actor-man circle,#mermaid-diagram-5 line{stroke:hsl(259.6261682243, 59.7765363128%, 87.9019607843%);fill:#ECECFF;stroke-width:2px;}#mermaid-diagram-5 :root{--mermaid-font-family:\"trebuchet ms\",verdana,arial,sans-serif;}Trace buffered in memoryExporter waits for nextbackground sendProcess terminates beforebuffer is sent → traces lostBuffer is now emptyalt[No flush() used][flush() used]start script / job1createTrace()2enqueue(trace)3job finished4process exits5flush() before exit6flush()7send(all buffered traces)8ack9job finished10process exits11Was this page helpful?YesNoSupportGet StartedGet started with LLM observability with Langfuse in minutes before diving into all platform features.SessionsTrack LLM chat conversations or threads across multiple observations and traces into a single session. Replay the entire interaction to debug or analyze the conversation.",
+        "mediaItems": [
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/tracing-observation-tree-light.png",
+            "resolvedMediaUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/tracing-observation-tree-light.png"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/tracing-observation-tree-dark.png",
+            "resolvedMediaUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/tracing-observation-tree-dark.png"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/session.png",
+            "resolvedMediaUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/session.png"
+          }
+        ],
+        "imageStates": [
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/tracing-observation-tree-light.png",
+            "complete": true,
+            "naturalWidth": 509,
+            "naturalHeight": 520
+          },
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/tracing-observation-tree-dark.png",
+            "complete": true,
+            "naturalWidth": 512,
+            "naturalHeight": 522
+          },
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/session.png",
+            "complete": true,
+            "naturalWidth": 2166,
+            "naturalHeight": 1924
+          }
+        ]
+      },
+      "pageErrors": [],
+      "consoleErrors": [
+        "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+        "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "requestFailures": [],
+      "assertions": [
+        {
+          "label": "Page returns HTTP 200",
+          "pass": true,
+          "details": {
+            "status": 200
+          }
+        },
+        {
+          "label": "Rendered page is not a 404 shell",
+          "pass": true,
+          "details": {
+            "firstHeading": "Core Concepts"
+          }
+        },
+        {
+          "label": "Page uses exactly one H1",
+          "pass": true,
+          "details": {
+            "h1Count": 1,
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "core-concepts",
+                "text": "Core Concepts"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "observations-traces-and-sessions",
+                "text": "Observations, Traces, and Sessions"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "observations",
+                "text": "Observations"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "traces",
+                "text": "Traces"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "sessions",
+                "text": "Sessions"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "adding-attributes",
+                "text": "Adding Attributes"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "how-langfuse-captures-data",
+                "text": "How Langfuse Captures Data"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "built-on-opentelemetry",
+                "text": "Built on OpenTelemetry"
+              },
+              {
+                "tag": "H4",
+                "level": 4,
+                "id": "instrumentation",
+                "text": "Instrumentation"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "background-processing",
+                "text": "Background Processing"
+              },
+              {
+                "tag": "H4",
+                "level": 4,
+                "id": "long-running-applications",
+                "text": "Long-running applications"
+              },
+              {
+                "tag": "H4",
+                "level": 4,
+                "id": "short-lived-applications",
+                "text": "Short-lived applications"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Heading levels do not skip within article content",
+          "pass": true,
+          "details": {
+            "headingIssues": [],
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "core-concepts",
+                "text": "Core Concepts"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "observations-traces-and-sessions",
+                "text": "Observations, Traces, and Sessions"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "observations",
+                "text": "Observations"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "traces",
+                "text": "Traces"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "sessions",
+                "text": "Sessions"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "adding-attributes",
+                "text": "Adding Attributes"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "how-langfuse-captures-data",
+                "text": "How Langfuse Captures Data"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "built-on-opentelemetry",
+                "text": "Built on OpenTelemetry"
+              },
+              {
+                "tag": "H4",
+                "level": 4,
+                "id": "instrumentation",
+                "text": "Instrumentation"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "background-processing",
+                "text": "Background Processing"
+              },
+              {
+                "tag": "H4",
+                "level": 4,
+                "id": "long-running-applications",
+                "text": "Long-running applications"
+              },
+              {
+                "tag": "H4",
+                "level": 4,
+                "id": "short-lived-applications",
+                "text": "Short-lived applications"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Page exposes at least 1 tables",
+          "pass": true,
+          "details": {
+            "actual": 1,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Page exposes at least 1 mermaid diagrams",
+          "pass": true,
+          "details": {
+            "actual": 31,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Images do not report load failures",
+          "pass": true,
+          "details": {
+            "brokenImages": [],
+            "imageCount": 3
+          }
+        },
+        {
+          "label": "Page does not throw runtime errors during load",
+          "pass": true,
+          "details": {
+            "pageErrors": []
+          }
+        },
+        {
+          "label": "Page does not fail article-related requests during load",
+          "pass": true,
+          "details": {
+            "requestFailures": []
+          }
+        }
+      ],
+      "failedAssertions": []
+    },
+    {
+      "id": "changelog-custom-dashboards",
+      "label": "Changelog: Custom Dashboards",
+      "contentType": "changelog",
+      "path": "/changelog/2025-05-21-custom-dashboards",
+      "sourceFile": "content/changelog/2025-05-21-custom-dashboards.mdx",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog/2025-05-21-custom-dashboards",
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "dom": {
+        "title": "Custom Dashboards - Langfuse",
+        "articleTag": "ARTICLE",
+        "textLength": 1605,
+        "textSample": "← Back to changelogMay 21, 2025Custom DashboardsSteffen SchmitzCreate your own custom dashboards or use Langfuse-curated dashboards to analyze and understand your AI application deeply. Overview On Da",
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "id": null,
+            "text": "Custom Dashboards"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "overview",
+            "text": "Overview"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "key-features",
+            "text": "Key Features"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "explore",
+            "text": "Explore"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "learn-more",
+            "text": "Learn More"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "questions-or-feedback",
+            "text": "Questions or feedback?"
+          }
+        ],
+        "metrics": {
+          "tabs": 3,
+          "tablists": 1,
+          "codeBlocks": 0,
+          "highlightedCodeBlocks": 0,
+          "tables": 0,
+          "details": 0,
+          "videos": 0,
+          "iframes": 1,
+          "images": 3,
+          "mermaidSvgs": 0
+        },
+        "copyButtons": [],
+        "textContent": "← Back to changelogMay 21, 2025Custom DashboardsSteffen SchmitzCreate your own custom dashboards or use Langfuse-curated dashboards to analyze and understand your AI application deeply. Overview On Day 3 of Launch Week #3 we're launching custom dashboards to unlock a deeper understanding of your AI application. They enable you to turn raw data into insights and make data-driven decisions. Spin up and save custom views that show the numbers you care about and keep every team on top of what matters most. This includes quality, cost, and latency metrics. With custom dashboards you can view the data you need, when you need it. In addition, we're sharing a set of Langfuse-curated dashboards, focused on Latency, Cost, and your Langfuse usage, to get started. Key Features Various Charts: Pick from a wide range of chart types to represent the data exactly how you need it. Flexible Metrics: Choose from a variety of metrics around cost, latency, and quality and aggregate them how you need it. Rich Filtering: Filter by metadata, timestamps, and other properties. Dynamic Layout: Customize the dashboard layout to exactly fit your needs. Curated Dashboards: Understand your LLM costs, Latency, and also your Langfuse billing metrics. Explore DashboardWidget BuilderCurated Dashboards Learn More Refer to Custom Dashboards for more information. Interested in how we built this? Check out the technical deep dive. Questions or feedback? GitHub discussions is where the Langfuse community collaborates, and we'd love to hear from you in this thread. Please open a GitHub issue if you run into any issues.",
+        "mediaItems": [
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/image?url=%2Fimages%2Fpeople%2Fsteffenschmitz.jpg&w=48&q=75",
+            "resolvedMediaUrl": "/images/people/steffenschmitz.jpg"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/image?url=%2Fimages%2Fchangelog%2F2025-05-21-custom-dashboards%2Fcustom-dashboard.png&w=1200&q=75",
+            "resolvedMediaUrl": "/images/changelog/2025-05-21-custom-dashboards/custom-dashboard.png"
+          },
+          {
+            "tag": "iframe",
+            "src": "https://www.youtube.com/embed/z6g9xmciaBE",
+            "resolvedMediaUrl": "https://www.youtube.com/embed/z6g9xmciaBE"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/changelog/2025-05-21-custom-dashboards/custom-dashboard.png",
+            "resolvedMediaUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/changelog/2025-05-21-custom-dashboards/custom-dashboard.png"
+          }
+        ],
+        "imageStates": [
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/image?url=%2Fimages%2Fpeople%2Fsteffenschmitz.jpg&w=48&q=75",
+            "complete": true,
+            "naturalWidth": 48,
+            "naturalHeight": 48
+          },
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/image?url=%2Fimages%2Fchangelog%2F2025-05-21-custom-dashboards%2Fcustom-dashboard.png&w=1200&q=75",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 670
+          },
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/changelog/2025-05-21-custom-dashboards/custom-dashboard.png",
+            "complete": true,
+            "naturalWidth": 3366,
+            "naturalHeight": 1880
+          }
+        ]
+      },
+      "pageErrors": [],
+      "consoleErrors": [
+        "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+        "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "requestFailures": [],
+      "assertions": [
+        {
+          "label": "Page returns HTTP 200",
+          "pass": true,
+          "details": {
+            "status": 200
+          }
+        },
+        {
+          "label": "Rendered page is not a 404 shell",
+          "pass": true,
+          "details": {
+            "firstHeading": "Custom Dashboards"
+          }
+        },
+        {
+          "label": "Page uses exactly one H1",
+          "pass": true,
+          "details": {
+            "h1Count": 1,
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": null,
+                "text": "Custom Dashboards"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "overview",
+                "text": "Overview"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "key-features",
+                "text": "Key Features"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "explore",
+                "text": "Explore"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "learn-more",
+                "text": "Learn More"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "questions-or-feedback",
+                "text": "Questions or feedback?"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Page exposes at least 1 tabs",
+          "pass": true,
+          "details": {
+            "actual": 3,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Page exposes at least 1 iframes",
+          "pass": true,
+          "details": {
+            "actual": 1,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Images do not report load failures",
+          "pass": true,
+          "details": {
+            "brokenImages": [],
+            "imageCount": 3
+          }
+        },
+        {
+          "label": "Remote media uses approved hosts",
+          "pass": false,
+          "details": {
+            "remoteMedia": [
+              {
+                "tag": "iframe",
+                "src": "https://www.youtube.com/embed/z6g9xmciaBE",
+                "resolvedMediaUrl": "https://www.youtube.com/embed/z6g9xmciaBE",
+                "host": "www.youtube.com"
+              }
+            ],
+            "disallowedHosts": [
+              {
+                "tag": "iframe",
+                "src": "https://www.youtube.com/embed/z6g9xmciaBE",
+                "resolvedMediaUrl": "https://www.youtube.com/embed/z6g9xmciaBE",
+                "host": "www.youtube.com"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Page does not throw runtime errors during load",
+          "pass": true,
+          "details": {
+            "pageErrors": []
+          }
+        },
+        {
+          "label": "Page does not fail article-related requests during load",
+          "pass": true,
+          "details": {
+            "requestFailures": []
+          }
+        }
+      ],
+      "failedAssertions": [
+        {
+          "label": "Remote media uses approved hosts",
+          "pass": false,
+          "details": {
+            "remoteMedia": [
+              {
+                "tag": "iframe",
+                "src": "https://www.youtube.com/embed/z6g9xmciaBE",
+                "resolvedMediaUrl": "https://www.youtube.com/embed/z6g9xmciaBE",
+                "host": "www.youtube.com"
+              }
+            ],
+            "disallowedHosts": [
+              {
+                "tag": "iframe",
+                "src": "https://www.youtube.com/embed/z6g9xmciaBE",
+                "resolvedMediaUrl": "https://www.youtube.com/embed/z6g9xmciaBE",
+                "host": "www.youtube.com"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "blog-evaluate-ai-agent-skills",
+      "label": "Blog: Evaluating AI Agent Skills",
+      "contentType": "blog",
+      "path": "/blog/2026-02-26-evaluate-ai-agent-skills",
+      "sourceFile": "content/blog/2026-02-26-evaluate-ai-agent-skills.mdx",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/blog/2026-02-26-evaluate-ai-agent-skills",
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "dom": {
+        "title": "Evaluating AI Agent Skills - Langfuse",
+        "articleTag": "ARTICLE",
+        "textLength": 10131,
+        "textSample": "February 26, 2026Evaluating AI Agent SkillsHow we used Langfuse datasets, tracing, and the cloud agent SDK to iteratively evaluate and improve our AI agent skill.Lotte Verheyden We built an AI agent s",
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "id": null,
+            "text": "Evaluating AI Agent Skills"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "the-evaluation-setup",
+            "text": "The Evaluation Setup"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "the-dataset",
+            "text": "The dataset"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "experiment-setup",
+            "text": "Experiment setup"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "the-langfuse-skill",
+            "text": "The Langfuse Skill"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "improving-the-skill",
+            "text": "Improving the Skill"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "iteration-1-not-enforcing-langfuse-url",
+            "text": "Iteration 1: Not enforcing Langfuse URL"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "iteration-2-hallucinated-cli-parameters",
+            "text": "Iteration 2: Hallucinated CLI parameters"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "iteration-3-skill-invocation-issues",
+            "text": "Iteration 3: Skill invocation issues"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "evaluating-auto-instrumentation",
+            "text": "Iteration 4: Evaluating auto-instrumentation"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "takeaways",
+            "text": "Takeaways"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "whats-next",
+            "text": "What's Next"
+          }
+        ],
+        "metrics": {
+          "tabs": 0,
+          "tablists": 0,
+          "codeBlocks": 3,
+          "highlightedCodeBlocks": 3,
+          "tables": 2,
+          "details": 0,
+          "videos": 0,
+          "iframes": 0,
+          "images": 5,
+          "mermaidSvgs": 0
+        },
+        "copyButtons": [
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          }
+        ],
+        "textContent": "February 26, 2026Evaluating AI Agent SkillsHow we used Langfuse datasets, tracing, and the cloud agent SDK to iteratively evaluate and improve our AI agent skill.Lotte Verheyden We built an AI agent skill for Langfuse so agents can use Langfuse: access the API via the CLI, look up documentation, follow observability best practices. But how do you know the agent actually uses the skill correctly? And when you change the skill, how do you know it got better and not worse? We used Langfuse to find out. The Evaluation Setup You can evaluate a skill systematically by storing a list of user prompts as a Dataset in Langfuse, run an experiment by spinning up coding agents with these prompts, and tracing the agent's behavior. Based the results, you can improve the skill and measure the quality by running the pipeline again. This approach treats skill evaluation like prompt evaluation: define inputs, capture behavior, score the output, and iterate. OpenAI describes a similar loop for Codex skills, using JSONL traces and deterministic graders. The core idea is the same: make skill quality measurable so you can improve it systematically. The dataset We created 2 datasets: DatasetDescriptioncli-testsA set with user prompts where the agent should use the CLI to access Langfuse.instrumentation-testsA set with the same user prompt \"instrument my application with Langfuse\" every time, and a folder name that points to a folder with a small existing application. The expected output is a list of things the LLM as a judge should verify. Experiment setup We used Claude Agent SDK to run the agents. You can easily integrate Langfuse with Claude Agent SDK by following this integration guide. Want to follow along? The full code for this evaluation setup is available in this example repository. Repository structure The repository consists of the script to run the experiment, and repositories to spin up the agents. The skill is intalled globally on the Claude account. run-experiment-auto.py.envagent-sandbox-reposdefault-hello-worldlangchain-chain... Spinning up an agent Each experiment run spins up an agent inside a test repository. A couple of things to note: Injecting context The Langfuse credentials are injected as environment variables so the agent can interact with the API and the CLI out of the box. The Langfuse skill is installed globally on the Claude account, so we need to set setting_sources=[\"user\", \"project\"] in ClaudeAgentOptions to give the agent access to the global skill. Permissions are set to bypassPermissions to avoid the agent getting stuck waiting for user input. options = ClaudeAgentOptions( max_turns=args.max_turns, cwd=item_cwd, permission_mode=\"bypassPermissions\", # we don't want the agent to be stuck asking for permissions setting_sources=[\"user\", \"project\"], stderr=lambda line: stderr_lines.append(line), env=_load_agent_env(item_cwd), ) Resetting the repository After each run, the repository is reset to its original state so the next run starts from a clean slate. This is especially important for the instrumentation dataset, where the agent modifies application code: you want every run to start from the same baseline. Tracing the agent The agent's behavior is traced to Langfuse, which gives us a full record of every tool call, CLI command, and file edit. The Langfuse Skill The Langfuse skill gives AI agents two core capabilities: programmatic API access via the Langfuse CLI, and documentation retrieval via llms.txt, page fetching, and search. You can read more about the skill in this Valentine's Day blog post and this post about automatic prompt improvement. At the time of writing, we also have separate skills for more specific use cases like prompt migration and instrumenting existing code. The goal is to eventually merge these into the main Langfuse skill so users only need to install one. Improving the Skill Before knowing what to improve, we need to look at the traces of the first dataset run. This is what a trace from a Claude Agent SDK run looks like: You can immediately see that the skill was invoked relatively early in the trace, which is a good sign. Going deeper into each step reveals more about the agent's behavior. A couple of things immediately stand out: A high number of CLI commands resulted in an error. Sometimes the agent would switch to using Curl commands instead of the CLI. The agent would sometimes invent CLI resources and actions that didn't exist. The agent would sometimes not use the skill at all. From these observations we derived initial metrics to track each iteration: the number of CLI errors per run, the number of retries before succeeding, and whether the agent fell back to Curl or skipped the skill entirely. Once the CLI usage is solid, we can move on to more advanced questions, like whether the agent is actually following best practices when it instruments an application. Iteration 1: Not enforcing Langfuse URL The first experiment run showed the same pattern in over 90% of the cases: the agent would check if credentials were set, use a CLI command and then get the error No server URL found. At some point it would attempt a workaround by explicitly setting the server with --server instead of using the environment variable. This behavior would introduce 1-2 unnecessary round trips to the CLI. The root cause was in the skill itself. In our example showing how to set environment variables, we had a comment saying the Langfuse host was optional. export LANGFUSE_PUBLIC_KEY=pk-lf-... export LANGFUSE_SECRET_KEY=sk-lf-... export LANGFUSE_HOST=https://cloud.langfuse.com # optional, default is EU By changing that one comment to say the host is mandatory, the agent started checking for it upfront and setting it when missing. The number of retries for that specific error went to zero immediately. You can see the before and after in this commit. Iteration 2: Hallucinated CLI parameters With the server issue fixed, a second pattern stood out: the agent would invent CLI resources and actions that didn't exist. > npx langfuse-cli api prompts get --name summarizer Exit code 1 error: unknown option '--name' The CLI has --help at every level to let you discover what's available, but the agent only used it after experiencing an error. It didn't use it proactively. This caused an avg error rate of 25% on Langfuse CLI commands. Adding explicit instructions to the skill telling the agent to always use --help to discover what's available brought Langfuse CLI errors down to zero. Interesting to note here is that the number of actions the agent needed didn't actually decrease. The retries were gone, but replaced by --help calls before each command. No errors is better than constant retries, but the efficiency gap tells us where to invest next: surfacing more information at the top level of the CLI so the agent needs fewer discovery steps. Iteration 3: Skill invocation issues Now it was time to move on to the second goal: folding observability best practices into the main skill. We added a new reference doc with instrumentation guidance and rewrote the main SKILL.md to be more conceptual by framing the skill as \"use Langfuse effectively\" instead of just listing the CLI and docs access. DescriptionBeforeInteract with Langfuse and access its documentation. Use when needing to (1) query or modify Langfuse data programmatically via the CLI — traces, prompts, datasets, scores, sessions, and any other API resource, (2) look up Langfuse documentation, concepts, integration guides, or SDK usage, or (3) understand how any Langfuse feature works. This skill covers CLI-based API access (via npx) and multiple documentation retrieval methods.AfterSkill for working with Langfuse effectively across use cases: instrumentation, prompt management, debugging, and data access. Includes core principles, workflows, and use-case-specific best practices. The result was that the skill stopped being invoked entirely. User prompts like \"fetch the last ten traces,\" which had worked before, now led the agent to look for logs in a local repository, or reach for a competitor product instead of Langfuse. The skill wasn't even being considered. After some iterations we settled onto a very similar description as before, but with the new reference doc added. This commit shows the before and after. Iteration 4: Evaluating auto-instrumentation How do you evaluate whether the outcome of a complex task is correct? We did the following to verify whether the agent could correctly instrument an existing application with Langfuse observability: This requires a slightly different evaluation setup. Each Claude Agent SDK run starts with the same prompt, but in a different subfolder, containing a small existing application. One folder might have a basic OpenAI chat app, another a LangChain RAG pipeline. The dataset input and expected output are adjusted accordingly. This is where LLM-as-a-judge becomes useful. Checking whether instrumentation is correct can't be done by string match. An LLM judge can compare the agent's changes against the expected output and score whether the instrumentation is correct. Takeaways A few things learned from the process: The devil is in the details. A single comment saying \"optional\" instead of \"mandatory\" caused consistent failures across every test case. Be explicit about the value of the skill. When we made the skill description more abstract, the agent stopped recognizing when to use it. Specific keyword matching is super important. Manual trace review is very valuable. The numbers tell you something is wrong, but stepping through individual traces is how you find out why. What's Next There's more to improve. A couple of things to consider: adding specific best practices under the references folder. This comes with specific datasets to test the skill against. improving the efficiency of the skill, so bringing the number of CLI calls down. there's still room to improve the auto-instrumentation skill, especially in complex scenarios. If you're interested in trying the out skill yourself, you can find them in the Langfuse Skills GitHub repository.",
+        "mediaItems": [
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/image?url=%2Fimages%2Fpeople%2Flotteverheyden.jpg&w=48&q=75",
+            "resolvedMediaUrl": "/images/people/lotteverheyden.jpg"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/og.jpg",
+            "resolvedMediaUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/og.jpg"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/evaluation-pipeline.png",
+            "resolvedMediaUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/evaluation-pipeline.png"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/trace-example.png",
+            "resolvedMediaUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/trace-example.png"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/observability-dataset.png",
+            "resolvedMediaUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/observability-dataset.png"
+          }
+        ],
+        "imageStates": [
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/image?url=%2Fimages%2Fpeople%2Flotteverheyden.jpg&w=48&q=75",
+            "complete": true,
+            "naturalWidth": 48,
+            "naturalHeight": 48
+          },
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/og.jpg",
+            "complete": true,
+            "naturalWidth": 2212,
+            "naturalHeight": 1307
+          },
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/evaluation-pipeline.png",
+            "complete": true,
+            "naturalWidth": 1368,
+            "naturalHeight": 562
+          },
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/trace-example.png",
+            "complete": true,
+            "naturalWidth": 1782,
+            "naturalHeight": 932
+          },
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/blog/2026-02-26-evaluate-ai-agent-skills/observability-dataset.png",
+            "complete": true,
+            "naturalWidth": 1672,
+            "naturalHeight": 438
+          }
+        ]
+      },
+      "pageErrors": [],
+      "consoleErrors": [
+        "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+        "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "requestFailures": [],
+      "assertions": [
+        {
+          "label": "Page returns HTTP 200",
+          "pass": true,
+          "details": {
+            "status": 200
+          }
+        },
+        {
+          "label": "Rendered page is not a 404 shell",
+          "pass": true,
+          "details": {
+            "firstHeading": "Evaluating AI Agent Skills"
+          }
+        },
+        {
+          "label": "Page uses exactly one H1",
+          "pass": true,
+          "details": {
+            "h1Count": 1,
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": null,
+                "text": "Evaluating AI Agent Skills"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "the-evaluation-setup",
+                "text": "The Evaluation Setup"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "the-dataset",
+                "text": "The dataset"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "experiment-setup",
+                "text": "Experiment setup"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "the-langfuse-skill",
+                "text": "The Langfuse Skill"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "improving-the-skill",
+                "text": "Improving the Skill"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "iteration-1-not-enforcing-langfuse-url",
+                "text": "Iteration 1: Not enforcing Langfuse URL"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "iteration-2-hallucinated-cli-parameters",
+                "text": "Iteration 2: Hallucinated CLI parameters"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "iteration-3-skill-invocation-issues",
+                "text": "Iteration 3: Skill invocation issues"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "evaluating-auto-instrumentation",
+                "text": "Iteration 4: Evaluating auto-instrumentation"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "takeaways",
+                "text": "Takeaways"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "whats-next",
+                "text": "What's Next"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Heading levels do not skip within article content",
+          "pass": true,
+          "details": {
+            "headingIssues": [],
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": null,
+                "text": "Evaluating AI Agent Skills"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "the-evaluation-setup",
+                "text": "The Evaluation Setup"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "the-dataset",
+                "text": "The dataset"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "experiment-setup",
+                "text": "Experiment setup"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "the-langfuse-skill",
+                "text": "The Langfuse Skill"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "improving-the-skill",
+                "text": "Improving the Skill"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "iteration-1-not-enforcing-langfuse-url",
+                "text": "Iteration 1: Not enforcing Langfuse URL"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "iteration-2-hallucinated-cli-parameters",
+                "text": "Iteration 2: Hallucinated CLI parameters"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "iteration-3-skill-invocation-issues",
+                "text": "Iteration 3: Skill invocation issues"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "evaluating-auto-instrumentation",
+                "text": "Iteration 4: Evaluating auto-instrumentation"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "takeaways",
+                "text": "Takeaways"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "whats-next",
+                "text": "What's Next"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Page exposes at least 2 code blocks",
+          "pass": true,
+          "details": {
+            "actual": 3,
+            "minimum": 2
+          }
+        },
+        {
+          "label": "Page exposes at least 2 copy buttons",
+          "pass": true,
+          "details": {
+            "actual": 3,
+            "minimum": 2
+          }
+        },
+        {
+          "label": "Page exposes at least 1 tables",
+          "pass": true,
+          "details": {
+            "actual": 2,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Code blocks include syntax-highlighting markup",
+          "pass": true,
+          "details": {
+            "codeBlocks": 3,
+            "highlightedCodeBlocks": 3
+          }
+        },
+        {
+          "label": "Sample-specific text markers survive rendering",
+          "pass": true,
+          "details": {
+            "missingText": []
+          }
+        },
+        {
+          "label": "Images do not report load failures",
+          "pass": true,
+          "details": {
+            "brokenImages": [],
+            "imageCount": 5
+          }
+        },
+        {
+          "label": "Page does not throw runtime errors during load",
+          "pass": true,
+          "details": {
+            "pageErrors": []
+          }
+        },
+        {
+          "label": "Page does not fail article-related requests during load",
+          "pass": true,
+          "details": {
+            "requestFailures": []
+          }
+        }
+      ],
+      "failedAssertions": []
+    },
+    {
+      "id": "faq-unwanted-http-database-spans",
+      "label": "FAQ: Unwanted HTTP/Database Spans",
+      "contentType": "faq",
+      "path": "/faq/all/unwanted-http-database-spans",
+      "sourceFile": "content/faq/all/unwanted-http-database-spans.mdx",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/unwanted-http-database-spans",
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "dom": {
+        "title": "Why do I see HTTP requests or database queries in my Langfuse traces? - Langfuse",
+        "articleTag": "ARTICLE",
+        "textLength": 3407,
+        "textSample": "All FAQsWhy do I see HTTP requests or database queries in my Langfuse traces?Copy pageWhy do I see HTTP requests or database queries in my Langfuse traces? When your application uses other OpenTelemet",
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "id": "why-do-i-see-http-requests-or-database-queries-in-my-langfuse-traces",
+            "text": "Why do I see HTTP requests or database queries in my Langfuse traces?"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "why-this-happens",
+            "text": "Why this happens"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "how-to-fix-it",
+            "text": "How to fix it"
+          }
+        ],
+        "metrics": {
+          "tabs": 2,
+          "tablists": 1,
+          "codeBlocks": 2,
+          "highlightedCodeBlocks": 2,
+          "tables": 0,
+          "details": 0,
+          "videos": 0,
+          "iframes": 0,
+          "images": 1,
+          "mermaidSvgs": 0
+        },
+        "copyButtons": [
+          {
+            "label": "Copy page"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          }
+        ],
+        "textContent": "All FAQsWhy do I see HTTP requests or database queries in my Langfuse traces?Copy pageWhy do I see HTTP requests or database queries in my Langfuse traces? When your application uses other OpenTelemetry-instrumented libraries, you might see observations showing up in Langfuse that aren't relevant for monitoring or improving the AI side of your app. They still count toward your billable units, so you'll want to remove these from your Langfuse setup. You can often recognize these spans by their names: GET /api/..., sql, put_with_retries, /ping, or similar. Why this happens The Langfuse SDKs (Python v3+, JS/TS v4+) are built on OpenTelemetry (OTEL). By default, the SDK attaches to the global TracerProvider, which is a single hub that all OTEL-instrumented libraries in your app share. Every span from every library flows through every processor attached to that provider. There's no automatic filtering, so Langfuse can't tell the difference between an LLM call and a database query. ┌────────────────────────────────────────────────┐ │ Global TracerProvider │ │ │ │ All spans from all libraries: │ │ ├── LLM calls (OpenAI, Anthropic, ...) ✅ │ │ ├── HTTP requests (axios, fetch, ...) ❌ │ │ ├── Database queries (SQL, Redis, ...) ❌ │ │ └── Framework spans (FastAPI, Express) ❌ │ │ │ │ → ALL of these get sent to Langfuse │ └────────────────────────────────────────────────┘ This typically happens when: You're using OTEL auto-instrumentation (e.g. getNodeAutoInstrumentations() in JS or Python auto-instrumentation), which automatically instruments every library it can find, including HTTP clients, databases, and web frameworks. See unwanted spans in Langfuse. Another observability tool (Sentry, Datadog, Logfire) already set up the global TracerProvider, and Langfuse is attached to it too. See using Langfuse with an existing OTEL setup or with Sentry. Your deployment environment injects OTEL automatically (e.g. AWS Bedrock AgentCore with ADOT). See AWS Bedrock AgentCore. For a deeper explanation of how the global TracerProvider works and how multiple tools interact, see Using Langfuse with an existing OpenTelemetry setup. How to fix it You need to tell Langfuse which spans to keep and which to ignore. Each span carries an instrumentation scope, a label identifying which library created it. You can filter on these. To find the scope name of a span, click on any observation in the Langfuse UI and look for metadata.scope.name. PythonJS/TSBlock specific scopes you don't want:from langfuse import Langfuse langfuse = Langfuse( blocked_instrumentation_scopes=[ # HTTP clients \"opentelemetry.instrumentation.requests\", \"opentelemetry.instrumentation.httpx\", # Web frameworks \"opentelemetry.instrumentation.fastapi\", \"opentelemetry.instrumentation.starlette\", \"flask\", \"django\", # Databases \"sqlalchemy\", \"psycopg\", \"psycopg2\", ] ) For the full list of filtering options, see the SDK advanced features docs. The exact scope names depend on the libraries you use, so always check metadata.scope.name in the Langfuse UI to confirm which scopes to filter. If you filter out a parent span (e.g. a FastAPI request that wraps your LLM call), its children will appear as disconnected top-level traces. See orphaned traces for workarounds. Still seeing unexpected spans? Reach out to support.How to update traces, observations, and scores?Previous PageHow do I upgrade my Langfuse account?Next Page",
+        "mediaItems": [
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/faq-unwanted-http-database-spans.png",
+            "resolvedMediaUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/faq-unwanted-http-database-spans.png"
+          }
+        ],
+        "imageStates": [
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/faq-unwanted-http-database-spans.png",
+            "complete": true,
+            "naturalWidth": 1893,
+            "naturalHeight": 1064
+          }
+        ]
+      },
+      "pageErrors": [],
+      "consoleErrors": [
+        "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+        "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "requestFailures": [],
+      "assertions": [
+        {
+          "label": "Page returns HTTP 200",
+          "pass": true,
+          "details": {
+            "status": 200
+          }
+        },
+        {
+          "label": "Rendered page is not a 404 shell",
+          "pass": true,
+          "details": {
+            "firstHeading": "Why do I see HTTP requests or database queries in my Langfuse traces?"
+          }
+        },
+        {
+          "label": "Page uses exactly one H1",
+          "pass": true,
+          "details": {
+            "h1Count": 1,
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "why-do-i-see-http-requests-or-database-queries-in-my-langfuse-traces",
+                "text": "Why do I see HTTP requests or database queries in my Langfuse traces?"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "why-this-happens",
+                "text": "Why this happens"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "how-to-fix-it",
+                "text": "How to fix it"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Heading levels do not skip within article content",
+          "pass": true,
+          "details": {
+            "headingIssues": [],
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "why-do-i-see-http-requests-or-database-queries-in-my-langfuse-traces",
+                "text": "Why do I see HTTP requests or database queries in my Langfuse traces?"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "why-this-happens",
+                "text": "Why this happens"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "how-to-fix-it",
+                "text": "How to fix it"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Page exposes at least 1 tabs",
+          "pass": true,
+          "details": {
+            "actual": 2,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Page exposes at least 1 code blocks",
+          "pass": true,
+          "details": {
+            "actual": 2,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Page exposes at least 2 copy buttons",
+          "pass": true,
+          "details": {
+            "actual": 3,
+            "minimum": 2
+          }
+        },
+        {
+          "label": "Code blocks include syntax-highlighting markup",
+          "pass": true,
+          "details": {
+            "codeBlocks": 2,
+            "highlightedCodeBlocks": 2
+          }
+        },
+        {
+          "label": "Sample-specific text markers survive rendering",
+          "pass": true,
+          "details": {
+            "missingText": []
+          }
+        },
+        {
+          "label": "Images do not report load failures",
+          "pass": true,
+          "details": {
+            "brokenImages": [],
+            "imageCount": 1
+          }
+        },
+        {
+          "label": "Page does not throw runtime errors during load",
+          "pass": true,
+          "details": {
+            "pageErrors": []
+          }
+        },
+        {
+          "label": "Page does not fail article-related requests during load",
+          "pass": true,
+          "details": {
+            "requestFailures": []
+          }
+        }
+      ],
+      "failedAssertions": []
+    },
+    {
+      "id": "guides-video-introducing-datasets-v2",
+      "label": "Guides: Introducing Datasets v2",
+      "contentType": "guides",
+      "path": "/guides/videos/introducing-datasets-v2",
+      "sourceFile": "content/guides/videos/introducing-datasets-v2.mdx",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/introducing-datasets-v2",
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "dom": {
+        "title": "Introducing Datasets v2 - Langfuse",
+        "articleTag": "ARTICLE",
+        "textLength": 423,
+        "textSample": "GuidesVideosIntroducing Datasets v2Copy pageIntroducing Datasets v2 Overview of the dataset-related changes released during Launch Week Learn more Dataset docsChangelog v2Example NotebookWas this page",
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "id": "introducing-datasets-v2",
+            "text": "Introducing Datasets v2"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "learn-more",
+            "text": "Learn more"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Dataset docs"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Changelog v2"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Example Notebook"
+          }
+        ],
+        "metrics": {
+          "tabs": 0,
+          "tablists": 0,
+          "codeBlocks": 0,
+          "highlightedCodeBlocks": 0,
+          "tables": 0,
+          "details": 0,
+          "videos": 1,
+          "iframes": 0,
+          "images": 0,
+          "mermaidSvgs": 0
+        },
+        "copyButtons": [
+          {
+            "label": "Copy page"
+          }
+        ],
+        "textContent": "GuidesVideosIntroducing Datasets v2Copy pageIntroducing Datasets v2 Overview of the dataset-related changes released during Launch Week Learn more Dataset docsChangelog v2Example NotebookWas this page helpful?YesNoSupportExternal Evaluation PipelinesIntroduction to building fully cusotmizable evaluation pipelines on top of Langfuse.Introducing Langfuse 2.0Reintroducing Langfuse – the Open Source LLM Engineering Platform",
+        "mediaItems": [
+          {
+            "tag": "video",
+            "src": "https://static.langfuse.com/docs-videos/launch-week-datasets.mp4",
+            "resolvedMediaUrl": "https://static.langfuse.com/docs-videos/launch-week-datasets.mp4"
+          }
+        ],
+        "imageStates": []
+      },
+      "pageErrors": [],
+      "consoleErrors": [
+        "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+        "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "requestFailures": [],
+      "assertions": [
+        {
+          "label": "Page returns HTTP 200",
+          "pass": true,
+          "details": {
+            "status": 200
+          }
+        },
+        {
+          "label": "Rendered page is not a 404 shell",
+          "pass": true,
+          "details": {
+            "firstHeading": "Introducing Datasets v2"
+          }
+        },
+        {
+          "label": "Page uses exactly one H1",
+          "pass": true,
+          "details": {
+            "h1Count": 1,
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "introducing-datasets-v2",
+                "text": "Introducing Datasets v2"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "learn-more",
+                "text": "Learn more"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Dataset docs"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Changelog v2"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Example Notebook"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Page exposes at least 1 videos",
+          "pass": true,
+          "details": {
+            "actual": 1,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Images do not report load failures",
+          "pass": true,
+          "details": {
+            "brokenImages": [],
+            "imageCount": 0
+          }
+        },
+        {
+          "label": "Remote media uses approved hosts",
+          "pass": true,
+          "details": {
+            "remoteMedia": [
+              {
+                "tag": "video",
+                "src": "https://static.langfuse.com/docs-videos/launch-week-datasets.mp4",
+                "resolvedMediaUrl": "https://static.langfuse.com/docs-videos/launch-week-datasets.mp4",
+                "host": "static.langfuse.com"
+              }
+            ],
+            "disallowedHosts": []
+          }
+        },
+        {
+          "label": "Page does not throw runtime errors during load",
+          "pass": true,
+          "details": {
+            "pageErrors": []
+          }
+        },
+        {
+          "label": "Page does not fail article-related requests during load",
+          "pass": true,
+          "details": {
+            "requestFailures": []
+          }
+        }
+      ],
+      "failedAssertions": []
+    },
+    {
+      "id": "cookbook-simulated-multi-turn-conversations",
+      "label": "Cookbook: Simulated Multi-Turn Conversations",
+      "contentType": "cookbook",
+      "path": "/guides/cookbook/example_simulated_multi_turn_conversations",
+      "sourceFile": "content/guides/cookbook/example_simulated_multi_turn_conversations.mdx",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/cookbook/example_simulated_multi_turn_conversations",
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "dom": {
+        "title": "Evaluating Multi-Turn Conversations (Simulation) - Langfuse",
+        "articleTag": "ARTICLE",
+        "textLength": 11853,
+        "textSample": "GuidesCookbookEvaluating Multi-Turn Conversations (Simulation)Copy pageThis is a Jupyter notebookOpen on GitHubRun on Google ColabEvaluating Multi-Turn Conversations (Simulation) AI applications with ",
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "id": "evaluating-multi-turn-conversations-simulation",
+            "text": "Evaluating Multi-Turn Conversations (Simulation)"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "setup",
+            "text": "Setup"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "step-1---create-a-chat-app-and-generate-traces-in-langfuse",
+            "text": "Step 1 - Create a chat app and generate traces in Langfuse"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "step-2---create-a-structured-dataset-of-user-scenarios",
+            "text": "Step 2 - Create a structured Dataset of user scenarios"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "step-3---prepare-your-application-to-run-against-the-simulator",
+            "text": "Step 3 - Prepare your application to run against the simulator"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "step-4---run-an-experiment",
+            "text": "Step 4 - Run an experiment"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "step-5---run-evaluations-against-your-dataset-runs",
+            "text": "Step 5 - Run evaluations against your Dataset runs"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "conclusion",
+            "text": "Conclusion"
+          }
+        ],
+        "metrics": {
+          "tabs": 0,
+          "tablists": 0,
+          "codeBlocks": 7,
+          "highlightedCodeBlocks": 7,
+          "tables": 1,
+          "details": 0,
+          "videos": 0,
+          "iframes": 1,
+          "images": 3,
+          "mermaidSvgs": 0
+        },
+        "copyButtons": [
+          {
+            "label": "Copy page"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          }
+        ],
+        "textContent": "GuidesCookbookEvaluating Multi-Turn Conversations (Simulation)Copy pageThis is a Jupyter notebookOpen on GitHubRun on Google ColabEvaluating Multi-Turn Conversations (Simulation) AI applications with conversational interfaces, such as chatbots, engage in multiple interactions with a user, which are also known as conversation turns. There are multiple ways of evaluating the performance of these apps in a structured way, like N+1 Evaluations. In this cookbook we'll cover how to use agents that simulate a user having a conversation with your chatbot, and measure the output of these conversations. We'll cover: Creating structured datasets of features to test, scenarios, personas... Using OpenEvals to simulate a specific use-case. Running the simulations against the production application Evaluating the output of the simulation with an LLM-as-a-Judge. Not using Langfuse yet? Get started by capturing LLM events. Setup In this example, we’ll build a cooking assistant chatbot and then simulate conversations against it. Step 1 - Create a chat app and generate traces in Langfuse First you need to install Langfuse via pip and then set the environment variables. %pip install langfuse openevals --upgrade import os # Get keys for your project from the project settings page: https://cloud.langfuse.com os.environ[\"LANGFUSE_PUBLIC_KEY\"] = \"pk-lf-1234\" os.environ[\"LANGFUSE_SECRET_KEY\"] = \"sk-lf-1234\" os.environ[\"LANGFUSE_BASE_URL\"] = \"https://cloud.langfuse.com\" # 🇪🇺 EU region # os.environ[\"LANGFUSE_BASE_URL\"] = \"https://us.cloud.langfuse.com\" # 🇺🇸 US region # Your openai key os.environ[\"OPENAI_API_KEY\"] = 'sk-proj-1234' Now we’ll create a simple cooking assistant chatbot that uses OpenAI as the LLM and trace it with Langfuse. # This is a simple cooking assistant chatbot traced with Langfuse and uses OpenAI as the LLM. from langfuse.openai import openai from langfuse import get_client, observe class SimpleChat: def __init__(self, model=\"gpt-3.5-turbo\"): self.conversation_history = [ { \"role\": \"system\", \"content\": \"You are a helpful cooking assistant that answers questions about recipes and cooking.\" } ] self.model = model @observe def add_message(self, messages): \"\"\" Args: messages: Either a string (single user message) or a list of message dictionaries \"\"\" try: # Handle both string and array inputs if isinstance(messages, str): messages = [{\"role\": \"user\", \"content\": messages}] # Add messages to history self.conversation_history.extend(messages) # Call OpenAI API using the new client response = openai.chat.completions.create( model=self.model, messages=self.conversation_history, max_tokens=500, temperature=0.7 ) # Extract and add assistant response assistant_message = response.choices[0].message.content self.conversation_history.append({\"role\": \"assistant\", \"content\": assistant_message}) get_client().update_current_trace(input=messages, output=assistant_message) return assistant_message except Exception as e: return f\"Error: {str(e)}\" def show_history(self): import json print(\"Conversation history:\") print(json.dumps(self.conversation_history, indent=2)) print() def clear_history(self): self.conversation_history = [ { \"role\": \"system\", \"content\": \"You are a helpful cooking assistant that answers questions about recipes and cooking.\" } ] print(\"Conversation cleared!\") # Create a chat instance chat = SimpleChat() Now if you run a simple question, you should see traces in Langfuse: chat.add_message(\"I want to make a chocolate cake\") 'That sounds delicious! Do you have a specific recipe in mind, or would you like me to suggest one for you?' Step 2 - Create a structured Dataset of user scenarios Define relevant dimensions for your use case, such as: Features: Specific functionalities of your AI product. Scenarios: Situations or problems the AI may encounter and needs to handle. Personas: Representative user profiles with distinct characteristics and needs. For our cooking assistant chatbot, we'll create pairs of Scenarios and Personas, as follows: PersonaScenarioA nervous first-time host cooking multiple dishes for a dinner party at 6:30 PM. Anxious about timing, unfamiliar with multitasking in the kitchen, needs reassurance and asks many clarifying questions.It's 4:30 PM and they need to coordinate: roasted chicken (1.5 hours), roasted vegetables (45 min), mashed potatoes (30 min), and gravy. They only have one oven and are worried everything won't be ready on time.A stressed home cook whose beef stroganoff sauce just curdled when they added sour cream. Guests arrive in 20 minutes. Frustrated, urgent, needs quick realistic solutions.The sour cream curdled in the hot pan, making the sauce grainy and separated. They have heavy cream, butter, flour, beef broth, and more sour cream available. Need to know if it can be salvaged or if they need a backup plan. You can add more columns for your specific use-case, like adding data to test against your system. For example, if you're running a customer service chatbot for a logistics company, you might want to simulate the scenario of providing a non-existent order tracking ID to see how your chatbot handles the scenario. Once you've defined your dataset, create it in Langfuse's Dataset, this way you can assign performance scores to measure how the system improves on the dataset with every new update: from langfuse import get_client langfuse = get_client() dataset = langfuse.create_dataset( name=\"simulated-conversations\", description=\"Synthetic conversations from persona/scenario pairs\" ) langfuse.create_dataset_item( dataset_name=\"simulated-conversations\", input={ \"persona\": \"A nervous first-time host cooking multiple dishes for a dinner party at 6:30 PM. Anxious about timing, unfamiliar with multitasking in the kitchen, needs reassurance and asks many clarifying questions.\", \"scenario\": \"It's 4:30 PM and they need to coordinate: roasted chicken (1.5 hours), roasted vegetables (45 min), mashed potatoes (30 min), and gravy. They only have one oven and are worried everything won't be ready on time.\" } ) langfuse.create_dataset_item( dataset_name=\"simulated-conversations\", input={ \"persona\": \"A stressed home cook whose beef stroganoff sauce just curdled when they added sour cream. Guests arrive in 20 minutes. Frustrated, urgent, needs quick realistic solutions.\", \"scenario\": \"The sour cream curdled in the hot pan, making the sauce grainy and separated. They have heavy cream, butter, flour, beef broth, and more sour cream available. Need to know if it can be salvaged or if they need a backup plan.\" } ) Step 3 - Prepare your application to run against the simulator The OpenEvals library requires a specific input and output format. It also needs conversation history management, which is why we'll store instances of our chatbot together with a thread_id provided by OpenEvals. from openevals.simulators import run_multiturn_simulation, create_llm_simulated_user def create_app_wrapper(): \"\"\" Creates an app function that works with OpenEvals multiturn simulation. Manages conversation history per thread_id internally. OpenEvals expects: - Input: ChatCompletionMessage (dict-like with 'role' and 'content') - Output: ChatCompletionMessage (dict-like with 'role' and 'content') \"\"\" # Store chat instances per thread chat_instances = {} def app(inputs, *, thread_id: str, **kwargs): if thread_id not in chat_instances: chat_instances[thread_id] = SimpleChat() chat = chat_instances[thread_id] # inputs is a message dict/object with 'role' and 'content' # Access content - handle both dict and object content = inputs.get(\"content\") if isinstance(inputs, dict) else inputs.content response_text = chat.add_message(content) return { \"role\": \"assistant\", \"content\": response_text } return app def generate_synthetic_conversation(persona: str, scenario: str, max_turns: int = 3): \"\"\" Generate a synthetic conversation from persona/scenario pair. Args: persona: User characteristics/personality scenario: The cooking situation max_turns: Max conversation turns Returns: Simulation result with trajectory and evaluation scores \"\"\" # Create app function (manages chat instances internally) app = create_app_wrapper() # Create simulated user # The system prompt should include the scenario so the user naturally introduces it system_prompt = f\"\"\"You are a user in the following situation: {scenario} You have these characteristics: {persona} Start the conversation by naturally describing your situation and asking for help. Then behave naturally based on your emotional state and ask follow-up questions.\"\"\" user = create_llm_simulated_user( system=system_prompt, model=\"openai:gpt-4o-mini\", ) # Run simulation (evaluators will be configured in Langfuse) result = run_multiturn_simulation( app=app, user=user, max_turns=max_turns, ) return result Step 4 - Run an experiment We'll use Langfuse's Dataset Experiments SDK to fetch the scenario/persona pairs we've created and trace and store the output of the experiment so we can then evaluate. from langfuse import get_client def run_dataset_experiment(dataset_name: str, experiment_name: str): \"\"\" Load persona/scenario pairs from Langfuse Dataset and run experiment. Args: dataset_name: Name of dataset in Langfuse containing persona/scenario pairs experiment_name: Name for this experiment run \"\"\" langfuse = get_client() dataset = langfuse.get_dataset(dataset_name) print(f\"Loaded dataset '{dataset_name}' with {len(dataset.items)} items\") def run_task(*, item, **kwargs): \"\"\" Task function for Langfuse experiment. Item input should be: {\"persona\": \"...\", \"scenario\": \"...\"} \"\"\" # Extract persona and scenario from dataset item persona = item.input.get(\"persona\") scenario = item.input.get(\"scenario\") if not persona or not scenario: raise ValueError(f\"Dataset item must have 'persona' and 'scenario' fields. Got: {item.input}\") print(f\"\\nGenerating conversation for scenario: {scenario[:80]}...\") result = generate_synthetic_conversation( persona=persona, scenario=scenario ) return { \"trajectory\": result[\"trajectory\"], \"num_turns\": len([m for m in result[\"trajectory\"] if m.get(\"role\") == \"user\"]) } print(f\"\\nRunning experiment '{experiment_name}'...\") result = dataset.run_experiment( name=experiment_name, description=\"Synthetic conversations from persona/scenario pairs\", task=run_task ) get_client().flush() print(f\"\\n✅ Experiment complete!\") print(f\"View results in Langfuse: {os.environ.get('LANGFUSE_BASE_URL')}\") return result run_dataset_experiment( dataset_name=\"simulated-conversations\", experiment_name=\"synthetic-conversations-v1\" ) Once you run the experiment, you should see the results in your Dataset runs tab: Step 5 - Run evaluations against your Dataset runs To evaluate the output, you can create LLM-as-a-Judge that runs against your Dataset Runs and scores the output, giving an individual score and reason for the specific scenario/persona pair and an overall average score for the entire dataset run. In this case, I create a simple \"Conciseness\" evaluator from the pre-made library of evaluators, but you could create one (or multiple of them!) that evaluate based on your use-case and needs. In the following image, you can see the overall score assigned to multiple Dataset runs, and how over time that score improves given changes to the prompt. Conclusion This notebook demonstrated a systematic approach to simulate and evaluate multi-turn conversations, specifically addressing use-cases and scenarios that are relevant to the chatbot. You can read more about effective ways to create datasets for experiments here.Was this page helpful?YesNoSupportQuery Data in Langfuse via the SDKAll data in Langfuse is available via API. This Python notebook includes a number of examples of how to use the Langfuse SDK to query data.Synthetic DatasetsNotebook on generating synthetic datasets for LLM application and AI agents evaluation.",
+        "mediaItems": [
+          {
+            "tag": "iframe",
+            "src": "https://www.youtube.com/embed/3ODizwXu-uk",
+            "resolvedMediaUrl": "https://www.youtube.com/embed/3ODizwXu-uk"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse.com/images/cookbook/example-simulated-multi-turn-conversations/traced-application.png",
+            "resolvedMediaUrl": "https://langfuse.com/images/cookbook/example-simulated-multi-turn-conversations/traced-application.png"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse.com/images/cookbook/example-simulated-multi-turn-conversations/dataset-run.png",
+            "resolvedMediaUrl": "https://langfuse.com/images/cookbook/example-simulated-multi-turn-conversations/dataset-run.png"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse.com/images/cookbook/example-simulated-multi-turn-conversations/evaluated-runs.png",
+            "resolvedMediaUrl": "https://langfuse.com/images/cookbook/example-simulated-multi-turn-conversations/evaluated-runs.png"
+          }
+        ],
+        "imageStates": [
+          {
+            "src": "https://langfuse.com/images/cookbook/example-simulated-multi-turn-conversations/traced-application.png",
+            "complete": true,
+            "naturalWidth": 3094,
+            "naturalHeight": 632
+          },
+          {
+            "src": "https://langfuse.com/images/cookbook/example-simulated-multi-turn-conversations/dataset-run.png",
+            "complete": true,
+            "naturalWidth": 2416,
+            "naturalHeight": 1736
+          },
+          {
+            "src": "https://langfuse.com/images/cookbook/example-simulated-multi-turn-conversations/evaluated-runs.png",
+            "complete": true,
+            "naturalWidth": 1880,
+            "naturalHeight": 1408
+          }
+        ]
+      },
+      "pageErrors": [],
+      "consoleErrors": [
+        "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+        "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "requestFailures": [],
+      "assertions": [
+        {
+          "label": "Page returns HTTP 200",
+          "pass": true,
+          "details": {
+            "status": 200
+          }
+        },
+        {
+          "label": "Rendered page is not a 404 shell",
+          "pass": true,
+          "details": {
+            "firstHeading": "Evaluating Multi-Turn Conversations (Simulation)"
+          }
+        },
+        {
+          "label": "Page uses exactly one H1",
+          "pass": true,
+          "details": {
+            "h1Count": 1,
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "evaluating-multi-turn-conversations-simulation",
+                "text": "Evaluating Multi-Turn Conversations (Simulation)"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "setup",
+                "text": "Setup"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "step-1---create-a-chat-app-and-generate-traces-in-langfuse",
+                "text": "Step 1 - Create a chat app and generate traces in Langfuse"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "step-2---create-a-structured-dataset-of-user-scenarios",
+                "text": "Step 2 - Create a structured Dataset of user scenarios"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "step-3---prepare-your-application-to-run-against-the-simulator",
+                "text": "Step 3 - Prepare your application to run against the simulator"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "step-4---run-an-experiment",
+                "text": "Step 4 - Run an experiment"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "step-5---run-evaluations-against-your-dataset-runs",
+                "text": "Step 5 - Run evaluations against your Dataset runs"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "conclusion",
+                "text": "Conclusion"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Heading levels do not skip within article content",
+          "pass": true,
+          "details": {
+            "headingIssues": [],
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "evaluating-multi-turn-conversations-simulation",
+                "text": "Evaluating Multi-Turn Conversations (Simulation)"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "setup",
+                "text": "Setup"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "step-1---create-a-chat-app-and-generate-traces-in-langfuse",
+                "text": "Step 1 - Create a chat app and generate traces in Langfuse"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "step-2---create-a-structured-dataset-of-user-scenarios",
+                "text": "Step 2 - Create a structured Dataset of user scenarios"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "step-3---prepare-your-application-to-run-against-the-simulator",
+                "text": "Step 3 - Prepare your application to run against the simulator"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "step-4---run-an-experiment",
+                "text": "Step 4 - Run an experiment"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "step-5---run-evaluations-against-your-dataset-runs",
+                "text": "Step 5 - Run evaluations against your Dataset runs"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "conclusion",
+                "text": "Conclusion"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Page exposes at least 3 code blocks",
+          "pass": true,
+          "details": {
+            "actual": 7,
+            "minimum": 3
+          }
+        },
+        {
+          "label": "Page exposes at least 2 copy buttons",
+          "pass": true,
+          "details": {
+            "actual": 8,
+            "minimum": 2
+          }
+        },
+        {
+          "label": "Page exposes at least 1 iframes",
+          "pass": true,
+          "details": {
+            "actual": 1,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Code blocks include syntax-highlighting markup",
+          "pass": true,
+          "details": {
+            "codeBlocks": 7,
+            "highlightedCodeBlocks": 7
+          }
+        },
+        {
+          "label": "Images do not report load failures",
+          "pass": true,
+          "details": {
+            "brokenImages": [],
+            "imageCount": 3
+          }
+        },
+        {
+          "label": "Remote media uses approved hosts",
+          "pass": false,
+          "details": {
+            "remoteMedia": [
+              {
+                "tag": "iframe",
+                "src": "https://www.youtube.com/embed/3ODizwXu-uk",
+                "resolvedMediaUrl": "https://www.youtube.com/embed/3ODizwXu-uk",
+                "host": "www.youtube.com"
+              }
+            ],
+            "disallowedHosts": [
+              {
+                "tag": "iframe",
+                "src": "https://www.youtube.com/embed/3ODizwXu-uk",
+                "resolvedMediaUrl": "https://www.youtube.com/embed/3ODizwXu-uk",
+                "host": "www.youtube.com"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Page does not throw runtime errors during load",
+          "pass": true,
+          "details": {
+            "pageErrors": []
+          }
+        },
+        {
+          "label": "Page does not fail article-related requests during load",
+          "pass": true,
+          "details": {
+            "requestFailures": []
+          }
+        }
+      ],
+      "failedAssertions": [
+        {
+          "label": "Remote media uses approved hosts",
+          "pass": false,
+          "details": {
+            "remoteMedia": [
+              {
+                "tag": "iframe",
+                "src": "https://www.youtube.com/embed/3ODizwXu-uk",
+                "resolvedMediaUrl": "https://www.youtube.com/embed/3ODizwXu-uk",
+                "host": "www.youtube.com"
+              }
+            ],
+            "disallowedHosts": [
+              {
+                "tag": "iframe",
+                "src": "https://www.youtube.com/embed/3ODizwXu-uk",
+                "resolvedMediaUrl": "https://www.youtube.com/embed/3ODizwXu-uk",
+                "host": "www.youtube.com"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "integrations-goose",
+      "label": "Integrations: Goose",
+      "contentType": "integrations",
+      "path": "/integrations/no-code/goose",
+      "sourceFile": "content/integrations/no-code/goose.mdx",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/goose",
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "dom": {
+        "title": "Integrating Goose with Langfuse - Langfuse",
+        "articleTag": "ARTICLE",
+        "textLength": 2939,
+        "textSample": "IntegrationsNo-Code Agent BuildersCodename GooseCopy pageIntegrating Goose with Langfuse Goose is an open-source, on-machine AI agent that automates engineering tasks seamlessly. By integrating Goose ",
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "id": "integrating-goose-with-langfuse",
+            "text": "Integrating Goose with Langfuse"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "about-goose",
+            "text": "About Goose"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "get-started",
+            "text": "Get Started"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "set-up-langfuse",
+            "text": "Set up Langfuse"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "configure-goose-to-connect-to-langfuse",
+            "text": "Configure Goose to Connect to Langfuse"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "run-goose-with-langfuse-integration",
+            "text": "Run Goose with Langfuse Integration"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "demo",
+            "text": "Demo"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "references",
+            "text": "References"
+          }
+        ],
+        "metrics": {
+          "tabs": 0,
+          "tablists": 0,
+          "codeBlocks": 1,
+          "highlightedCodeBlocks": 1,
+          "tables": 0,
+          "details": 0,
+          "videos": 1,
+          "iframes": 1,
+          "images": 1,
+          "mermaidSvgs": 0
+        },
+        "copyButtons": [
+          {
+            "label": "Copy page"
+          },
+          {
+            "label": "Copy Text"
+          }
+        ],
+        "textContent": "IntegrationsNo-Code Agent BuildersCodename GooseCopy pageIntegrating Goose with Langfuse Goose is an open-source, on-machine AI agent that automates engineering tasks seamlessly. By integrating Goose with Langfuse, you can monitor your Goose requests and understand how the agent is performing. About Goose Goose is a powerful, open-source AI agent that runs locally on your machine to automate common engineering workflows. It's designed to help developers spend more time building and less time on repetitive tasks. Core capabilities: Fully open source and extensible, enabling you to customize Goose for your specific needs Local-first architecture that keeps you in control of execution and data Flexible integration options with your preferred LLM providers and Model Context Protocol (MCP) servers Built-in intelligence to handle complex engineering tasks with minimal supervision Here are some real-world examples of how developers use Goose: Generate comprehensive test data that accurately reflects complex API business logic Build automation scripts for Google Workspace to streamline team coordination Execute large-scale codebase migrations, such as React component updates Create and manage custom CLI tools to optimize development workflows GitHub: https://github.com/block/goose Get Started This guide will walk you through the steps to integrate Goose with Langfuse. Set up LangfuseSign up for Langfuse Cloud here or self-host Langfuse Docker Compose to get your Langfuse API keys.Configure Goose to Connect to LangfuseSet the environment variables so that Goose (written in Rust) can connect to the Langfuse server.export LANGFUSE_INIT_PROJECT_PUBLIC_KEY=pk-lf-... export LANGFUSE_INIT_PROJECT_SECRET_KEY=sk-lf-... export LANGFUSE_HOST=https://cloud.langfuse.com # EU data region 🇪🇺 # https://us.cloud.langfuse.com if you're using the US region 🇺🇸 # https://localhost:3000 if you're self-hostingRun Goose with Langfuse IntegrationNow, you can run Goose and monitor your AI requests and actions through Langfuse.With Goose running and the environment variables set, Langfuse will start capturing traces of your Goose activities.Example trace (public) in Langfuse Demo Alice (Goose) and Marc (Langfuse) demo how Langfuse enables observability into Goose's actions—letting you trace LLM behavior and catch errors on the Goose YouTube channel: References Goose Docs: https://block.github.io/goose/docs/category/getting-started Langfuse Docs: https://langfuse.com/docs Was this page helpful?YesNoSupportFlowiseMonitor and trace your Flowise LLM applications with Langfuse. Automatically capture detailed traces, costs, and metrics for every request in your no-code AI workflows.LangdockLangdock is an enterprise-ready AI platform for creating private assistants in minutes—no code required. Deploy via secure chat, Slack, or API. When connected to Langfuse, every assistant execution is automatically traced and visualized.",
+        "mediaItems": [
+          {
+            "tag": "video",
+            "src": "https://static.langfuse.com/docs-videos/goose_hero.mp4",
+            "resolvedMediaUrl": "https://static.langfuse.com/docs-videos/goose_hero.mp4"
+          },
+          {
+            "tag": "img",
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/goose-integration/goose-example-trace.png",
+            "resolvedMediaUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/goose-integration/goose-example-trace.png"
+          },
+          {
+            "tag": "iframe",
+            "src": "https://www.youtube-nocookie.com/embed/W39BQjsTS9E?si=wLDFwDmfMBEOHQ2A",
+            "resolvedMediaUrl": "https://www.youtube-nocookie.com/embed/W39BQjsTS9E?si=wLDFwDmfMBEOHQ2A"
+          }
+        ],
+        "imageStates": [
+          {
+            "src": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/goose-integration/goose-example-trace.png",
+            "complete": true,
+            "naturalWidth": 2038,
+            "naturalHeight": 1025
+          }
+        ]
+      },
+      "pageErrors": [],
+      "consoleErrors": [
+        "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+        "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "requestFailures": [],
+      "assertions": [
+        {
+          "label": "Page returns HTTP 200",
+          "pass": true,
+          "details": {
+            "status": 200
+          }
+        },
+        {
+          "label": "Rendered page is not a 404 shell",
+          "pass": true,
+          "details": {
+            "firstHeading": "Integrating Goose with Langfuse"
+          }
+        },
+        {
+          "label": "Page uses exactly one H1",
+          "pass": true,
+          "details": {
+            "h1Count": 1,
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "integrating-goose-with-langfuse",
+                "text": "Integrating Goose with Langfuse"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "about-goose",
+                "text": "About Goose"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "get-started",
+                "text": "Get Started"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "set-up-langfuse",
+                "text": "Set up Langfuse"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "configure-goose-to-connect-to-langfuse",
+                "text": "Configure Goose to Connect to Langfuse"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "run-goose-with-langfuse-integration",
+                "text": "Run Goose with Langfuse Integration"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "demo",
+                "text": "Demo"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "references",
+                "text": "References"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Heading levels do not skip within article content",
+          "pass": true,
+          "details": {
+            "headingIssues": [],
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "integrating-goose-with-langfuse",
+                "text": "Integrating Goose with Langfuse"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "about-goose",
+                "text": "About Goose"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "get-started",
+                "text": "Get Started"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "set-up-langfuse",
+                "text": "Set up Langfuse"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "configure-goose-to-connect-to-langfuse",
+                "text": "Configure Goose to Connect to Langfuse"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "run-goose-with-langfuse-integration",
+                "text": "Run Goose with Langfuse Integration"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "demo",
+                "text": "Demo"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "references",
+                "text": "References"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Page exposes at least 1 code blocks",
+          "pass": true,
+          "details": {
+            "actual": 1,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Page exposes at least 1 videos",
+          "pass": true,
+          "details": {
+            "actual": 1,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Page exposes at least 1 iframes",
+          "pass": true,
+          "details": {
+            "actual": 1,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Code blocks include syntax-highlighting markup",
+          "pass": true,
+          "details": {
+            "codeBlocks": 1,
+            "highlightedCodeBlocks": 1
+          }
+        },
+        {
+          "label": "Images do not report load failures",
+          "pass": true,
+          "details": {
+            "brokenImages": [],
+            "imageCount": 1
+          }
+        },
+        {
+          "label": "Remote media uses approved hosts",
+          "pass": true,
+          "details": {
+            "remoteMedia": [
+              {
+                "tag": "video",
+                "src": "https://static.langfuse.com/docs-videos/goose_hero.mp4",
+                "resolvedMediaUrl": "https://static.langfuse.com/docs-videos/goose_hero.mp4",
+                "host": "static.langfuse.com"
+              },
+              {
+                "tag": "iframe",
+                "src": "https://www.youtube-nocookie.com/embed/W39BQjsTS9E?si=wLDFwDmfMBEOHQ2A",
+                "resolvedMediaUrl": "https://www.youtube-nocookie.com/embed/W39BQjsTS9E?si=wLDFwDmfMBEOHQ2A",
+                "host": "www.youtube-nocookie.com"
+              }
+            ],
+            "disallowedHosts": []
+          }
+        },
+        {
+          "label": "Page does not throw runtime errors during load",
+          "pass": true,
+          "details": {
+            "pageErrors": []
+          }
+        },
+        {
+          "label": "Page does not fail article-related requests during load",
+          "pass": true,
+          "details": {
+            "requestFailures": []
+          }
+        }
+      ],
+      "failedAssertions": []
+    },
+    {
+      "id": "self-hosting-docker-compose",
+      "label": "Self-Hosting: Docker Compose",
+      "contentType": "self-hosting",
+      "path": "/self-hosting/deployment/docker-compose",
+      "sourceFile": "content/self-hosting/deployment/docker-compose.mdx",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/docker-compose",
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "dom": {
+        "title": "Docker Compose Deployment (Self-Hosted) - Langfuse",
+        "articleTag": "ARTICLE",
+        "textLength": 3243,
+        "textSample": "Self HostingDeploymentLocal/VM (Docker Compose)Copy pageDocker Compose This guide will walk you through deploying Langfuse locally or on a VM using Docker Compose. We will use the docker-compose.yml f",
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "id": "docker-compose",
+            "text": "Docker Compose"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "walkthrough",
+            "text": "Walkthrough"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "get-started",
+            "text": "Get Started"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "requirements",
+            "text": "Requirements"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "clone-langfuse-repository",
+            "text": "Clone Langfuse Repository"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "start-the-application",
+            "text": "Start the application"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": "done",
+            "text": "Done"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "features",
+            "text": "Features"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Authentication & SSO"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Automated Access Provisioning"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Caching"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Custom Base Path"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Encryption"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Headless Initialization"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Data Masking"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Networking"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Organization Creators (EE)"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Instance Management API (EE)"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Health and Readiness Check"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Observability via OpenTelemetry"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "Transactional Emails"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "id": null,
+            "text": "UI Customization (EE)"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "scaling",
+            "text": "Scaling"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "shutdown",
+            "text": "Shutdown"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "troubleshooting",
+            "text": "Troubleshooting"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "id": "how-to-upgrade",
+            "text": "How to Upgrade"
+          }
+        ],
+        "metrics": {
+          "tabs": 2,
+          "tablists": 1,
+          "codeBlocks": 3,
+          "highlightedCodeBlocks": 3,
+          "tables": 0,
+          "details": 0,
+          "videos": 0,
+          "iframes": 1,
+          "images": 0,
+          "mermaidSvgs": 0
+        },
+        "copyButtons": [
+          {
+            "label": "Copy page"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          },
+          {
+            "label": "Copy Text"
+          }
+        ],
+        "textContent": "Self HostingDeploymentLocal/VM (Docker Compose)Copy pageDocker Compose This guide will walk you through deploying Langfuse locally or on a VM using Docker Compose. We will use the docker-compose.yml file. This is the simplest way to run Langfuse to give it a try. If you use a cloud provider like AWS, GCP, or Azure, you will need permissions to deploy virtual machines. For high-availability and high-throughput, we recommend using Kubernetes (deployment guide). The docker compose setup lacks high-availability, scaling capabilities, and backup functionality. Coming from docker-compose v2? See our upgrade guide for docker compose. Walkthrough Watch this 2:15 minute walkthrough for a step-by-step guide on running Langfuse locally with Docker Compose. Get Started LocalVMRequirements git docker & docker compose -> use Docker Desktop on Mac or Windows Clone Langfuse RepositoryGet a copy of the latest Langfuse repository:git clone https://github.com/langfuse/langfuse.git cd langfuseStart the applicationUpdate the secrets in the docker-compose.yml and then run the langfuse docker compose using:docker compose upWatch the containers being started and the logs flowing in. After about 2-3 minutes, the langfuse-web-1 container should log \"Ready\". At this point you can proceed to the next step.DoneAnd you are ready to go! Open http://localhost:3000 in your browser to access the Langfuse UI. Features Langfuse supports many configuration options and self-hosted features. For more details, please refer to the configuration guide. Authentication & SSOAutomated Access ProvisioningCachingCustom Base PathEncryptionHeadless InitializationData MaskingNetworkingOrganization Creators (EE)Instance Management API (EE)Health and Readiness CheckObservability via OpenTelemetryTransactional EmailsUI Customization (EE) Scaling Docker compose does not support horizontal scaling without an additional Load Balancer component. We recommend to use one of the other deployment options if your load exceeds single-instance scale or requires high availability. To add more throughput on a docker compose setup, you can usually use a larger virtual machine, i.e. scale vertically. Shutdown You can stop the containers by hitting Ctrl+C in the terminal. If you started docker-compose in the background (-d flag), you can stop all instance using: docker compose down Adding the -v flag will also remove the volumes. Ensure to stop the VM instance in your cloud provider interface to avoid unnecessary costs. Troubleshooting Multimodal tracing is not working: This docker compose setup by default uses MinIO for blob storage which is not accessible from outside the Docker network for direct uploads. Please refer to the blob storage guide for more details on how to configure MinIO for media uploads. Make sure that the VM has enough disk space for accumulating traces. How to Upgrade To upgrade Langfuse, you can stop the containers and run docker compose up --pull always. For more details on upgrading, please refer to the upgrade guide.Was this page helpful?YesNoSupportTransactional EmailsLearn how to configure transactional emails for your self-hosted Langfuse deployment.Kubernetes (Helm)Step-by-step guide to run Langfuse on Kubernetes via Helm.",
+        "mediaItems": [
+          {
+            "tag": "iframe",
+            "src": "https://www.youtube-nocookie.com/embed/we52x5-a_Ac?si=2rqAs0LNwqeq767W",
+            "resolvedMediaUrl": "https://www.youtube-nocookie.com/embed/we52x5-a_Ac?si=2rqAs0LNwqeq767W"
+          }
+        ],
+        "imageStates": []
+      },
+      "pageErrors": [],
+      "consoleErrors": [
+        "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+        "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "requestFailures": [],
+      "assertions": [
+        {
+          "label": "Page returns HTTP 200",
+          "pass": true,
+          "details": {
+            "status": 200
+          }
+        },
+        {
+          "label": "Rendered page is not a 404 shell",
+          "pass": true,
+          "details": {
+            "firstHeading": "Docker Compose"
+          }
+        },
+        {
+          "label": "Page uses exactly one H1",
+          "pass": true,
+          "details": {
+            "h1Count": 1,
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "docker-compose",
+                "text": "Docker Compose"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "walkthrough",
+                "text": "Walkthrough"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "get-started",
+                "text": "Get Started"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "requirements",
+                "text": "Requirements"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "clone-langfuse-repository",
+                "text": "Clone Langfuse Repository"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "start-the-application",
+                "text": "Start the application"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "done",
+                "text": "Done"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "features",
+                "text": "Features"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Authentication & SSO"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Automated Access Provisioning"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Caching"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Custom Base Path"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Encryption"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Headless Initialization"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Data Masking"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Networking"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Organization Creators (EE)"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Instance Management API (EE)"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Health and Readiness Check"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Observability via OpenTelemetry"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Transactional Emails"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "UI Customization (EE)"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "scaling",
+                "text": "Scaling"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "shutdown",
+                "text": "Shutdown"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "troubleshooting",
+                "text": "Troubleshooting"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "how-to-upgrade",
+                "text": "How to Upgrade"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Heading levels do not skip within article content",
+          "pass": true,
+          "details": {
+            "headingIssues": [],
+            "headings": [
+              {
+                "tag": "H1",
+                "level": 1,
+                "id": "docker-compose",
+                "text": "Docker Compose"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "walkthrough",
+                "text": "Walkthrough"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "get-started",
+                "text": "Get Started"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "requirements",
+                "text": "Requirements"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "clone-langfuse-repository",
+                "text": "Clone Langfuse Repository"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "start-the-application",
+                "text": "Start the application"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": "done",
+                "text": "Done"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "features",
+                "text": "Features"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Authentication & SSO"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Automated Access Provisioning"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Caching"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Custom Base Path"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Encryption"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Headless Initialization"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Data Masking"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Networking"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Organization Creators (EE)"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Instance Management API (EE)"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Health and Readiness Check"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Observability via OpenTelemetry"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "Transactional Emails"
+              },
+              {
+                "tag": "H3",
+                "level": 3,
+                "id": null,
+                "text": "UI Customization (EE)"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "scaling",
+                "text": "Scaling"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "shutdown",
+                "text": "Shutdown"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "troubleshooting",
+                "text": "Troubleshooting"
+              },
+              {
+                "tag": "H2",
+                "level": 2,
+                "id": "how-to-upgrade",
+                "text": "How to Upgrade"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Page exposes at least 1 tabs",
+          "pass": true,
+          "details": {
+            "actual": 2,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Page exposes at least 1 code blocks",
+          "pass": true,
+          "details": {
+            "actual": 3,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Page exposes at least 2 copy buttons",
+          "pass": true,
+          "details": {
+            "actual": 4,
+            "minimum": 2
+          }
+        },
+        {
+          "label": "Page exposes at least 1 iframes",
+          "pass": true,
+          "details": {
+            "actual": 1,
+            "minimum": 1
+          }
+        },
+        {
+          "label": "Code blocks include syntax-highlighting markup",
+          "pass": true,
+          "details": {
+            "codeBlocks": 3,
+            "highlightedCodeBlocks": 3
+          }
+        },
+        {
+          "label": "Images do not report load failures",
+          "pass": true,
+          "details": {
+            "brokenImages": [],
+            "imageCount": 0
+          }
+        },
+        {
+          "label": "Remote media uses approved hosts",
+          "pass": true,
+          "details": {
+            "remoteMedia": [
+              {
+                "tag": "iframe",
+                "src": "https://www.youtube-nocookie.com/embed/we52x5-a_Ac?si=2rqAs0LNwqeq767W",
+                "resolvedMediaUrl": "https://www.youtube-nocookie.com/embed/we52x5-a_Ac?si=2rqAs0LNwqeq767W",
+                "host": "www.youtube-nocookie.com"
+              }
+            ],
+            "disallowedHosts": []
+          }
+        },
+        {
+          "label": "Page does not throw runtime errors during load",
+          "pass": true,
+          "details": {
+            "pageErrors": []
+          }
+        },
+        {
+          "label": "Page does not fail article-related requests during load",
+          "pass": true,
+          "details": {
+            "requestFailures": []
+          }
+        }
+      ],
+      "failedAssertions": []
+    }
+  ]
+}

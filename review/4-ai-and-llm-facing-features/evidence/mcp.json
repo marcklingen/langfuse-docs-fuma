@@ -1,0 +1,94 @@
+{
+  "preview": {
+    "initialize": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/event-stream"
+    },
+    "toolsList": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/event-stream",
+      "toolNames": [
+        "getLangfuseDocsPage",
+        "getLangfuseOverview",
+        "searchLangfuseDocs"
+      ],
+      "missingTools": []
+    },
+    "overviewCall": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/event-stream",
+      "contentSha256": "c9a94a8ce7ae6ae27ff9f65c4f524f9fc5f78b4da9cb7bd9e71b47ce12785792",
+      "matchesLlmsTxt": false
+    },
+    "docsPageCall": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/event-stream",
+      "metaUrl": "https://langfuse.com/docs/observability/overview.md",
+      "samplePath": "/docs/observability/overview",
+      "contentSha256": "5bdb851e148b287f230799e60423e4db7933da1a5f47d0dfc6d69d1b79b10d2d",
+      "endpointSha256": "65a7b9309c9f120d0ea550202f0b107c282e048c71352d3cbde0a3636ec2a53c",
+      "matchesMarkdownEndpoint": false,
+      "firstDifference": {
+        "line": 2,
+        "left": "title: \"LLM Observability & Application Tracing (Open Source)\"",
+        "right": "title: \"Overview\""
+      }
+    },
+    "searchCall": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/event-stream",
+      "isError": false,
+      "textLength": 72442
+    },
+    "pass": false
+  },
+  "production": {
+    "initialize": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/event-stream"
+    },
+    "toolsList": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/event-stream",
+      "toolNames": [
+        "getLangfuseDocsPage",
+        "getLangfuseOverview",
+        "searchLangfuseDocs"
+      ],
+      "missingTools": []
+    },
+    "overviewCall": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/event-stream",
+      "contentSha256": "c9a94a8ce7ae6ae27ff9f65c4f524f9fc5f78b4da9cb7bd9e71b47ce12785792",
+      "matchesLlmsTxt": true
+    },
+    "docsPageCall": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/event-stream",
+      "metaUrl": "https://langfuse.com/docs/observability/overview.md",
+      "samplePath": "/docs/observability/overview",
+      "contentSha256": "5bdb851e148b287f230799e60423e4db7933da1a5f47d0dfc6d69d1b79b10d2d",
+      "endpointSha256": "5bdb851e148b287f230799e60423e4db7933da1a5f47d0dfc6d69d1b79b10d2d",
+      "matchesMarkdownEndpoint": true,
+      "firstDifference": null
+    },
+    "searchCall": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/event-stream",
+      "isError": false,
+      "textLength": 58816
+    },
+    "pass": true
+  }
+}

@@ -1,0 +1,1847 @@
+{
+  "generatedAt": "2026-03-12T04:47:41.185Z",
+  "previewBaseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionBaseUrl": "https://langfuse.com",
+  "samples": [
+    {
+      "id": "docs-overview",
+      "label": "Docs overview",
+      "path": "/docs/observability/overview",
+      "type": "docs",
+      "maxPreviewLcp": 2500,
+      "preview": {
+        "environment": "preview",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview",
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview",
+        "status": 200,
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "requestFailures": [
+          {
+            "requestId": "24286.177",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24286.178",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24286.176",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "911A963147B92B5940AD813892B7E2BA",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Document"
+          }
+        ],
+        "domMetrics": {
+          "title": "Overview - Langfuse",
+          "h1Text": "Observability & Application Tracing",
+          "h1Count": 1,
+          "pageOverflowX": 0,
+          "codeBlockCount": 0,
+          "codeBlocks": [],
+          "imagesLoaded": 1,
+          "imageCount": 1,
+          "paints": {
+            "firstPaint": 360,
+            "firstContentfulPaint": 360
+          },
+          "navigation": {
+            "domContentLoaded": 313.3999999985099,
+            "loadEventEnd": 1554.5,
+            "responseEnd": 86.39999999850988
+          },
+          "webVitals": {
+            "cls": 0.0020795896930459103,
+            "lcp": 360
+          }
+        },
+        "resourceSummary": {
+          "requestCount": 182,
+          "sameOriginTransferredBytes": 7011136,
+          "thirdPartyTransferredBytes": 79552,
+          "sameOriginNextScriptBytes": 5980756,
+          "sameOriginImageBytes": 530822,
+          "sameOriginFontBytes": 115349,
+          "sameOriginScriptBytes": 5980756,
+          "largestSameOriginScripts": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+              "transferredBytes": 1912454
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+              "transferredBytes": 1911916
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+              "transferredBytes": 269396
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+              "transferredBytes": 230100
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+              "transferredBytes": 206481
+            }
+          ],
+          "largestRequests": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+              "type": "Script",
+              "transferredBytes": 1912454
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+              "type": "Script",
+              "transferredBytes": 1911916
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/tracing-overview.png",
+              "type": "Image",
+              "transferredBytes": 512002
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+              "type": "Script",
+              "transferredBytes": 269396
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+              "type": "Script",
+              "transferredBytes": 230100
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+              "type": "Script",
+              "transferredBytes": 206481
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/111375817f09c3cd.js",
+              "type": "Script",
+              "transferredBytes": 77347
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/3dc6cead67de2c85.js",
+              "type": "Script",
+              "transferredBytes": 71464
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6f32f3bf6c2a6d23.js",
+              "type": "Script",
+              "transferredBytes": 68481
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/a9a2640e18a904d8.js",
+              "type": "Script",
+              "transferredBytes": 67875
+            }
+          ]
+        }
+      },
+      "production": {
+        "environment": "production",
+        "url": "https://langfuse.com/docs/observability/overview",
+        "finalUrl": "https://langfuse.com/docs/observability/overview",
+        "status": 200,
+        "consoleErrors": [],
+        "requestFailures": [
+          {
+            "requestId": "24299.168",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24299.169",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "A79CDB5F3EC21A56BEAA8B6E928FD5D3",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Document"
+          }
+        ],
+        "domMetrics": {
+          "title": "LLM Observability & Application Tracing (Open Source) - Langfuse",
+          "h1Text": "Observability & Application Tracing",
+          "h1Count": 1,
+          "pageOverflowX": 0,
+          "codeBlockCount": 0,
+          "codeBlocks": [],
+          "imagesLoaded": 1,
+          "imageCount": 1,
+          "paints": {
+            "firstPaint": 272,
+            "firstContentfulPaint": 272
+          },
+          "navigation": {
+            "domContentLoaded": 394.09999999403954,
+            "loadEventEnd": 397.09999999403954,
+            "responseEnd": 114.09999999403954
+          },
+          "webVitals": {
+            "cls": 0.07945223846435547,
+            "lcp": 388
+          }
+        },
+        "resourceSummary": {
+          "requestCount": 94,
+          "sameOriginTransferredBytes": 2212767,
+          "thirdPartyTransferredBytes": 408552,
+          "sameOriginNextScriptBytes": 847578,
+          "sameOriginImageBytes": 532364,
+          "sameOriginFontBytes": 115788,
+          "sameOriginScriptBytes": 847578,
+          "largestSameOriginScripts": [
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-b55024183c4d90af.js",
+              "transferredBytes": 282576
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/21149.839e70f75fe8753f.js",
+              "transferredBytes": 250762
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "transferredBytes": 61680
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-f5648a8120c67562.js",
+              "transferredBytes": 61148
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+              "transferredBytes": 58788
+            }
+          ],
+          "largestRequests": [
+            {
+              "url": "https://langfuse.com/images/docs/tracing-overview.png",
+              "type": "Image",
+              "transferredBytes": 512003
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-b55024183c4d90af.js",
+              "type": "Script",
+              "transferredBytes": 282576
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/21149.839e70f75fe8753f.js",
+              "type": "Script",
+              "transferredBytes": 250762
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/78840-0d85a9d463193951.js",
+              "type": "Other",
+              "transferredBytes": 231150
+            },
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=AW-10855791654&cx=c&gtm=4e63a1",
+              "type": "Script",
+              "transferredBytes": 176640
+            },
+            {
+              "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NGLK4TZX",
+              "type": "Script",
+              "transferredBytes": 117436
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/87c43235-f2ddc8a56daeb8fd.js",
+              "type": "Other",
+              "transferredBytes": 79556
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "type": "Script",
+              "transferredBytes": 61680
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-f5648a8120c67562.js",
+              "type": "Script",
+              "transferredBytes": 61148
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/422-13a2afb42d290ffb.js",
+              "type": "Other",
+              "transferredBytes": 59261
+            }
+          ]
+        }
+      },
+      "assertions": [
+        {
+          "name": "Docs overview: preview returns 200 and renders an H1",
+          "pass": true,
+          "details": {
+            "status": 200,
+            "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview",
+            "h1Count": 1,
+            "h1Text": "Observability & Application Tracing"
+          }
+        },
+        {
+          "name": "Docs overview: preview CLS stays below 0.1",
+          "pass": true,
+          "details": {
+            "cls": 0.0020795896930459103
+          }
+        },
+        {
+          "name": "Docs overview: preview LCP stays below 2500ms",
+          "pass": true,
+          "details": {
+            "lcp": 360
+          }
+        },
+        {
+          "name": "Docs overview: preview same-origin page bytes do not exceed production by more than 50% and 400 KB",
+          "pass": false,
+          "details": {
+            "previewSameOriginTransferredBytes": 7011136,
+            "productionSameOriginTransferredBytes": 2212767,
+            "delta": 4798369
+          }
+        },
+        {
+          "name": "Docs overview: preview same-origin _next/static script bytes do not exceed production by more than 50% and 250 KB",
+          "pass": false,
+          "details": {
+            "previewNextScriptBytes": 5980756,
+            "productionNextScriptBytes": 847578,
+            "delta": 5133178
+          }
+        },
+        {
+          "name": "Docs overview: preview avoids same-origin script chunks over 1 MB transferred",
+          "pass": false,
+          "details": {
+            "largestSameOriginScripts": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+                "transferredBytes": 1912454
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+                "transferredBytes": 1911916
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+                "transferredBytes": 269396
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+                "transferredBytes": 230100
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+                "transferredBytes": 206481
+              }
+            ]
+          }
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": "docs-prompt-management",
+      "label": "Deep docs page",
+      "path": "/docs/prompt-management/get-started",
+      "type": "docs",
+      "maxPreviewLcp": 2500,
+      "preview": {
+        "environment": "preview",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started",
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started",
+        "status": 200,
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "requestFailures": [
+          {
+            "requestId": "24320.175",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24320.174",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24320.173",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "6DD9213A33D077767D1C77E43FAB907D",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Document"
+          }
+        ],
+        "domMetrics": {
+          "title": "Get Started - Langfuse",
+          "h1Text": "Get Started with Prompt Management",
+          "h1Count": 1,
+          "pageOverflowX": 0,
+          "codeBlockCount": 4,
+          "codeBlocks": [
+            {
+              "textLength": 267,
+              "clientWidth": 751,
+              "scrollWidth": 751,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 104,
+              "clientWidth": 859,
+              "scrollWidth": 859,
+              "scrollParentTag": "DIV",
+              "scrollParentOverflowX": "auto"
+            },
+            {
+              "textLength": 267,
+              "clientWidth": 751,
+              "scrollWidth": 751,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 96,
+              "clientWidth": 797,
+              "scrollWidth": 797,
+              "scrollParentTag": "DIV",
+              "scrollParentOverflowX": "auto"
+            }
+          ],
+          "imagesLoaded": 0,
+          "imageCount": 0,
+          "paints": {
+            "firstPaint": 400,
+            "firstContentfulPaint": 448
+          },
+          "navigation": {
+            "domContentLoaded": 383,
+            "loadEventEnd": 624.2999999970198,
+            "responseEnd": 173.79999999701977
+          },
+          "webVitals": {
+            "cls": 0.0020795896930459103,
+            "lcp": 448
+          }
+        },
+        "resourceSummary": {
+          "requestCount": 186,
+          "sameOriginTransferredBytes": 6504778,
+          "thirdPartyTransferredBytes": 79595,
+          "sameOriginNextScriptBytes": 5979824,
+          "sameOriginImageBytes": 19283,
+          "sameOriginFontBytes": 115301,
+          "sameOriginScriptBytes": 5979824,
+          "largestSameOriginScripts": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+              "transferredBytes": 1912465
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+              "transferredBytes": 1911843
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+              "transferredBytes": 269395
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+              "transferredBytes": 230154
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+              "transferredBytes": 206439
+            }
+          ],
+          "largestRequests": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+              "type": "Script",
+              "transferredBytes": 1912465
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+              "type": "Script",
+              "transferredBytes": 1911843
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+              "type": "Script",
+              "transferredBytes": 269395
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+              "type": "Script",
+              "transferredBytes": 230154
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+              "type": "Script",
+              "transferredBytes": 206439
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/111375817f09c3cd.js",
+              "type": "Script",
+              "transferredBytes": 77332
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/3dc6cead67de2c85.js",
+              "type": "Script",
+              "transferredBytes": 71437
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6f32f3bf6c2a6d23.js",
+              "type": "Script",
+              "transferredBytes": 68485
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/a9a2640e18a904d8.js",
+              "type": "Script",
+              "transferredBytes": 67926
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/5eef4c7ea21b4885.js",
+              "type": "Script",
+              "transferredBytes": 67705
+            }
+          ]
+        }
+      },
+      "production": {
+        "environment": "production",
+        "url": "https://langfuse.com/docs/prompt-management/get-started",
+        "finalUrl": "https://langfuse.com/docs/prompt-management/get-started",
+        "status": 200,
+        "consoleErrors": [],
+        "requestFailures": [
+          {
+            "requestId": "24327.35",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Media"
+          },
+          {
+            "requestId": "24327.165",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24327.166",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "299B61A737F99380DDB2D04CD24D55C8",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Document"
+          }
+        ],
+        "domMetrics": {
+          "title": "Get Started with Open Source Prompt Management - Langfuse",
+          "h1Text": "Get Started with Prompt Management",
+          "h1Count": 1,
+          "pageOverflowX": 0,
+          "codeBlockCount": 52,
+          "codeBlocks": [
+            {
+              "textLength": 71,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 73,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 25,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 72,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 65,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 73,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 25,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 72,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 49,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 70,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 73,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 43,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 90,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 106,
+              "clientWidth": 757,
+              "scrollWidth": 757,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 61,
+              "clientWidth": 757,
+              "scrollWidth": 757,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 98,
+              "clientWidth": 757,
+              "scrollWidth": 757,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 20,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 204,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 517,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 22,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 204,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 89,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 533,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 337,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 267,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 77,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 84,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 258,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 436,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 123,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 304,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 472,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 124,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 117,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 27,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 98,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 375,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 426,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 35,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 264,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 438,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 473,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 134,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 420,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 308,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 151,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 228,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 312,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 31,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 195,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 425,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            },
+            {
+              "textLength": 479,
+              "clientWidth": 0,
+              "scrollWidth": 0,
+              "scrollParentTag": null,
+              "scrollParentOverflowX": null
+            }
+          ],
+          "imagesLoaded": 0,
+          "imageCount": 0,
+          "paints": {
+            "firstPaint": 332,
+            "firstContentfulPaint": 332
+          },
+          "navigation": {
+            "domContentLoaded": 271.5,
+            "loadEventEnd": 1438,
+            "responseEnd": 45.30000000447035
+          },
+          "webVitals": {
+            "cls": 0.0012525707668728297,
+            "lcp": 332
+          }
+        },
+        "resourceSummary": {
+          "requestCount": 90,
+          "sameOriginTransferredBytes": 1704895,
+          "thirdPartyTransferredBytes": 408541,
+          "sameOriginNextScriptBytes": 857553,
+          "sameOriginImageBytes": 20554,
+          "sameOriginFontBytes": 115465,
+          "sameOriginScriptBytes": 857553,
+          "largestSameOriginScripts": [
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-b55024183c4d90af.js",
+              "transferredBytes": 282564
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/21149.839e70f75fe8753f.js",
+              "transferredBytes": 250257
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "transferredBytes": 61741
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-f5648a8120c67562.js",
+              "transferredBytes": 61170
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+              "transferredBytes": 58963
+            }
+          ],
+          "largestRequests": [
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-b55024183c4d90af.js",
+              "type": "Script",
+              "transferredBytes": 282564
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/21149.839e70f75fe8753f.js",
+              "type": "Script",
+              "transferredBytes": 250257
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/78840-0d85a9d463193951.js",
+              "type": "Other",
+              "transferredBytes": 231297
+            },
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=AW-10855791654&cx=c&gtm=4e63a1",
+              "type": "Script",
+              "transferredBytes": 176640
+            },
+            {
+              "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NGLK4TZX",
+              "type": "Script",
+              "transferredBytes": 117436
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/87c43235-f2ddc8a56daeb8fd.js",
+              "type": "Other",
+              "transferredBytes": 79115
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "type": "Script",
+              "transferredBytes": 61741
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-f5648a8120c67562.js",
+              "type": "Script",
+              "transferredBytes": 61170
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/422-13a2afb42d290ffb.js",
+              "type": "Other",
+              "transferredBytes": 59437
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+              "type": "Script",
+              "transferredBytes": 58963
+            }
+          ]
+        }
+      },
+      "assertions": [
+        {
+          "name": "Deep docs page: preview returns 200 and renders an H1",
+          "pass": true,
+          "details": {
+            "status": 200,
+            "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started",
+            "h1Count": 1,
+            "h1Text": "Get Started with Prompt Management"
+          }
+        },
+        {
+          "name": "Deep docs page: preview CLS stays below 0.1",
+          "pass": true,
+          "details": {
+            "cls": 0.0020795896930459103
+          }
+        },
+        {
+          "name": "Deep docs page: preview LCP stays below 2500ms",
+          "pass": true,
+          "details": {
+            "lcp": 448
+          }
+        },
+        {
+          "name": "Deep docs page: preview same-origin page bytes do not exceed production by more than 50% and 400 KB",
+          "pass": false,
+          "details": {
+            "previewSameOriginTransferredBytes": 6504778,
+            "productionSameOriginTransferredBytes": 1704895,
+            "delta": 4799883
+          }
+        },
+        {
+          "name": "Deep docs page: preview same-origin _next/static script bytes do not exceed production by more than 50% and 250 KB",
+          "pass": false,
+          "details": {
+            "previewNextScriptBytes": 5979824,
+            "productionNextScriptBytes": 857553,
+            "delta": 5122271
+          }
+        },
+        {
+          "name": "Deep docs page: preview avoids same-origin script chunks over 1 MB transferred",
+          "pass": false,
+          "details": {
+            "largestSameOriginScripts": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+                "transferredBytes": 1912465
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+                "transferredBytes": 1911843
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+                "transferredBytes": 269395
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+                "transferredBytes": 230154
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+                "transferredBytes": 206439
+              }
+            ]
+          }
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": "pricing",
+      "label": "Pricing",
+      "path": "/pricing",
+      "type": "marketing",
+      "maxPreviewLcp": 2500,
+      "preview": {
+        "environment": "preview",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/pricing",
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/pricing",
+        "status": 200,
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "requestFailures": [
+          {
+            "requestId": "24330.199",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24330.198",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24330.197",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "3A6108C5A7C3A0A4C5B256A41FB002F9",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Document"
+          }
+        ],
+        "domMetrics": {
+          "title": "Pricing - Langfuse",
+          "h1Text": "Pricing",
+          "h1Count": 1,
+          "pageOverflowX": 0,
+          "codeBlockCount": 0,
+          "codeBlocks": [],
+          "imagesLoaded": 7,
+          "imageCount": 8,
+          "paints": {
+            "firstPaint": 512,
+            "firstContentfulPaint": 556
+          },
+          "navigation": {
+            "domContentLoaded": 529.6000000014901,
+            "loadEventEnd": 570.9000000059605,
+            "responseEnd": 111
+          },
+          "webVitals": {
+            "cls": 0.0020795896930459103,
+            "lcp": 556
+          }
+        },
+        "resourceSummary": {
+          "requestCount": 135,
+          "sameOriginTransferredBytes": 6401723,
+          "thirdPartyTransferredBytes": 79604,
+          "sameOriginNextScriptBytes": 5975911,
+          "sameOriginImageBytes": 38897,
+          "sameOriginFontBytes": 115358,
+          "sameOriginScriptBytes": 5975911,
+          "largestSameOriginScripts": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+              "transferredBytes": 1912431
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+              "transferredBytes": 1912401
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+              "transferredBytes": 269491
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+              "transferredBytes": 230126
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+              "transferredBytes": 206456
+            }
+          ],
+          "largestRequests": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+              "type": "Script",
+              "transferredBytes": 1912431
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+              "type": "Script",
+              "transferredBytes": 1912401
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+              "type": "Script",
+              "transferredBytes": 269491
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+              "type": "Script",
+              "transferredBytes": 230126
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+              "type": "Script",
+              "transferredBytes": 206456
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/111375817f09c3cd.js",
+              "type": "Script",
+              "transferredBytes": 77349
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/3dc6cead67de2c85.js",
+              "type": "Script",
+              "transferredBytes": 71997
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6f32f3bf6c2a6d23.js",
+              "type": "Script",
+              "transferredBytes": 68165
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/a9a2640e18a904d8.js",
+              "type": "Script",
+              "transferredBytes": 67869
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/5eef4c7ea21b4885.js",
+              "type": "Script",
+              "transferredBytes": 67761
+            }
+          ]
+        }
+      },
+      "production": {
+        "environment": "production",
+        "url": "https://langfuse.com/pricing",
+        "finalUrl": "https://langfuse.com/pricing",
+        "status": 200,
+        "consoleErrors": [],
+        "requestFailures": [
+          {
+            "requestId": "24337.127",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24337.126",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "C5334ECF1FB0CC101C6B364CF75FDDAB",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Document"
+          }
+        ],
+        "domMetrics": {
+          "title": "Pricing - Langfuse",
+          "h1Text": "Pricing",
+          "h1Count": 1,
+          "pageOverflowX": 0,
+          "codeBlockCount": 0,
+          "codeBlocks": [],
+          "imagesLoaded": 8,
+          "imageCount": 9,
+          "paints": {
+            "firstPaint": 264,
+            "firstContentfulPaint": 324
+          },
+          "navigation": {
+            "domContentLoaded": 340.79999999701977,
+            "loadEventEnd": 1514.7999999970198,
+            "responseEnd": 84.39999999850988
+          },
+          "webVitals": {
+            "cls": 0.0012525707668728297,
+            "lcp": 848
+          }
+        },
+        "resourceSummary": {
+          "requestCount": 72,
+          "sameOriginTransferredBytes": 1444490,
+          "thirdPartyTransferredBytes": 408466,
+          "sameOriginNextScriptBytes": 876479,
+          "sameOriginImageBytes": 39214,
+          "sameOriginFontBytes": 115328,
+          "sameOriginScriptBytes": 876479,
+          "largestSameOriginScripts": [
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-b55024183c4d90af.js",
+              "transferredBytes": 283067
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/21149.839e70f75fe8753f.js",
+              "transferredBytes": 250259
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "transferredBytes": 61680
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-f5648a8120c67562.js",
+              "transferredBytes": 61163
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+              "transferredBytes": 58815
+            }
+          ],
+          "largestRequests": [
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-b55024183c4d90af.js",
+              "type": "Script",
+              "transferredBytes": 283067
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/21149.839e70f75fe8753f.js",
+              "type": "Script",
+              "transferredBytes": 250259
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/78840-0d85a9d463193951.js",
+              "type": "Other",
+              "transferredBytes": 231153
+            },
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=AW-10855791654&cx=c&gtm=4e63a1",
+              "type": "Script",
+              "transferredBytes": 176640
+            },
+            {
+              "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NGLK4TZX",
+              "type": "Script",
+              "transferredBytes": 117436
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "type": "Script",
+              "transferredBytes": 61680
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-f5648a8120c67562.js",
+              "type": "Script",
+              "transferredBytes": 61163
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+              "type": "Script",
+              "transferredBytes": 58815
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/66f30814ff6d7cdf.p.woff2",
+              "type": "Font",
+              "transferredBytes": 58253
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/e11418ac562b8ac1-s.p.woff2",
+              "type": "Font",
+              "transferredBytes": 57075
+            }
+          ]
+        }
+      },
+      "assertions": [
+        {
+          "name": "Pricing: preview returns 200 and renders an H1",
+          "pass": true,
+          "details": {
+            "status": 200,
+            "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/pricing",
+            "h1Count": 1,
+            "h1Text": "Pricing"
+          }
+        },
+        {
+          "name": "Pricing: preview CLS stays below 0.1",
+          "pass": true,
+          "details": {
+            "cls": 0.0020795896930459103
+          }
+        },
+        {
+          "name": "Pricing: preview LCP stays below 2500ms",
+          "pass": true,
+          "details": {
+            "lcp": 556
+          }
+        },
+        {
+          "name": "Pricing: preview same-origin page bytes do not exceed production by more than 50% and 400 KB",
+          "pass": false,
+          "details": {
+            "previewSameOriginTransferredBytes": 6401723,
+            "productionSameOriginTransferredBytes": 1444490,
+            "delta": 4957233
+          }
+        },
+        {
+          "name": "Pricing: preview same-origin _next/static script bytes do not exceed production by more than 50% and 250 KB",
+          "pass": false,
+          "details": {
+            "previewNextScriptBytes": 5975911,
+            "productionNextScriptBytes": 876479,
+            "delta": 5099432
+          }
+        },
+        {
+          "name": "Pricing: preview avoids same-origin script chunks over 1 MB transferred",
+          "pass": false,
+          "details": {
+            "largestSameOriginScripts": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+                "transferredBytes": 1912431
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+                "transferredBytes": 1912401
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+                "transferredBytes": 269491
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+                "transferredBytes": 230126
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+                "transferredBytes": 206456
+              }
+            ]
+          }
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": "guide-video",
+      "label": "Guide video",
+      "path": "/guides/videos/run-langfuse-locally",
+      "type": "guides",
+      "maxPreviewLcp": 3000,
+      "preview": {
+        "environment": "preview",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/run-langfuse-locally",
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/run-langfuse-locally",
+        "status": 200,
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "requestFailures": [
+          {
+            "requestId": "24344.175",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24344.176",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24344.174",
+            "errorText": "net::ERR_FAILED",
+            "canceled": false,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "B4C9ED5B2F51B5C9AA7CE03E81DFD969",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Document"
+          }
+        ],
+        "domMetrics": {
+          "title": "Run Langfuse Locally in 3 Minutes - Langfuse",
+          "h1Text": "Run Langfuse Locally",
+          "h1Count": 1,
+          "pageOverflowX": 0,
+          "codeBlockCount": 0,
+          "codeBlocks": [],
+          "imagesLoaded": 0,
+          "imageCount": 0,
+          "paints": {
+            "firstPaint": 644,
+            "firstContentfulPaint": 644
+          },
+          "navigation": {
+            "domContentLoaded": 575.3999999985099,
+            "loadEventEnd": 1409.1999999955297,
+            "responseEnd": 76.60000000149012
+          },
+          "webVitals": {
+            "cls": 0.0020796441348982443,
+            "lcp": 644
+          }
+        },
+        "resourceSummary": {
+          "requestCount": 193,
+          "sameOriginTransferredBytes": 6506347,
+          "thirdPartyTransferredBytes": 79533,
+          "sameOriginNextScriptBytes": 5978437,
+          "sameOriginImageBytes": 19313,
+          "sameOriginFontBytes": 115358,
+          "sameOriginScriptBytes": 5978437,
+          "largestSameOriginScripts": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+              "transferredBytes": 1912458
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+              "transferredBytes": 1911898
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+              "transferredBytes": 269413
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+              "transferredBytes": 230654
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+              "transferredBytes": 206439
+            }
+          ],
+          "largestRequests": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+              "type": "Script",
+              "transferredBytes": 1912458
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+              "type": "Script",
+              "transferredBytes": 1911898
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+              "type": "Script",
+              "transferredBytes": 269413
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+              "type": "Script",
+              "transferredBytes": 230654
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+              "type": "Script",
+              "transferredBytes": 206439
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/111375817f09c3cd.js",
+              "type": "Script",
+              "transferredBytes": 77332
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/3dc6cead67de2c85.js",
+              "type": "Script",
+              "transferredBytes": 72000
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6f32f3bf6c2a6d23.js",
+              "type": "Script",
+              "transferredBytes": 67951
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/a9a2640e18a904d8.js",
+              "type": "Script",
+              "transferredBytes": 67931
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/5eef4c7ea21b4885.js",
+              "type": "Script",
+              "transferredBytes": 67706
+            }
+          ]
+        }
+      },
+      "production": {
+        "environment": "production",
+        "url": "https://langfuse.com/guides/videos/run-langfuse-locally",
+        "finalUrl": "https://langfuse.com/guides/videos/run-langfuse-locally",
+        "status": 200,
+        "consoleErrors": [],
+        "requestFailures": [
+          {
+            "requestId": "24355.140",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "24355.141",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Fetch"
+          },
+          {
+            "requestId": "0E82A96BF1FACCFD55B7EA4E7B4C8956",
+            "errorText": "net::ERR_ABORTED",
+            "canceled": true,
+            "type": "Document"
+          }
+        ],
+        "domMetrics": {
+          "title": "Run Langfuse Locally in 3 Minutes - Langfuse",
+          "h1Text": "Run Langfuse Locally",
+          "h1Count": 1,
+          "pageOverflowX": 0,
+          "codeBlockCount": 0,
+          "codeBlocks": [],
+          "imagesLoaded": 0,
+          "imageCount": 0,
+          "paints": {
+            "firstPaint": 292,
+            "firstContentfulPaint": 292
+          },
+          "navigation": {
+            "domContentLoaded": 146.90000000596046,
+            "loadEventEnd": 1500.7000000029802,
+            "responseEnd": 48.20000000298023
+          },
+          "webVitals": {
+            "cls": 0.0012505779501832562,
+            "lcp": 580
+          }
+        },
+        "resourceSummary": {
+          "requestCount": 79,
+          "sameOriginTransferredBytes": 1466174,
+          "thirdPartyTransferredBytes": 408448,
+          "sameOriginNextScriptBytes": 845817,
+          "sameOriginImageBytes": 18808,
+          "sameOriginFontBytes": 115275,
+          "sameOriginScriptBytes": 845817,
+          "largestSameOriginScripts": [
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-b55024183c4d90af.js",
+              "transferredBytes": 282554
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/21149.839e70f75fe8753f.js",
+              "transferredBytes": 250770
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "transferredBytes": 61689
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-f5648a8120c67562.js",
+              "transferredBytes": 61156
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+              "transferredBytes": 58788
+            }
+          ],
+          "largestRequests": [
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-b55024183c4d90af.js",
+              "type": "Script",
+              "transferredBytes": 282554
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/21149.839e70f75fe8753f.js",
+              "type": "Script",
+              "transferredBytes": 250770
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/78840-0d85a9d463193951.js",
+              "type": "Other",
+              "transferredBytes": 231151
+            },
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=AW-10855791654&cx=c&gtm=4e63a1",
+              "type": "Script",
+              "transferredBytes": 176640
+            },
+            {
+              "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NGLK4TZX",
+              "type": "Script",
+              "transferredBytes": 117436
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "type": "Script",
+              "transferredBytes": 61689
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-f5648a8120c67562.js",
+              "type": "Script",
+              "transferredBytes": 61156
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+              "type": "Script",
+              "transferredBytes": 58788
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/66f30814ff6d7cdf.p.woff2",
+              "type": "Font",
+              "transferredBytes": 58262
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/e11418ac562b8ac1-s.p.woff2",
+              "type": "Font",
+              "transferredBytes": 57013
+            }
+          ]
+        }
+      },
+      "assertions": [
+        {
+          "name": "Guide video: preview returns 200 and renders an H1",
+          "pass": true,
+          "details": {
+            "status": 200,
+            "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/run-langfuse-locally",
+            "h1Count": 1,
+            "h1Text": "Run Langfuse Locally"
+          }
+        },
+        {
+          "name": "Guide video: preview CLS stays below 0.1",
+          "pass": true,
+          "details": {
+            "cls": 0.0020796441348982443
+          }
+        },
+        {
+          "name": "Guide video: preview LCP stays below 3000ms",
+          "pass": true,
+          "details": {
+            "lcp": 644
+          }
+        },
+        {
+          "name": "Guide video: preview same-origin page bytes do not exceed production by more than 50% and 400 KB",
+          "pass": false,
+          "details": {
+            "previewSameOriginTransferredBytes": 6506347,
+            "productionSameOriginTransferredBytes": 1466174,
+            "delta": 5040173
+          }
+        },
+        {
+          "name": "Guide video: preview same-origin _next/static script bytes do not exceed production by more than 50% and 250 KB",
+          "pass": false,
+          "details": {
+            "previewNextScriptBytes": 5978437,
+            "productionNextScriptBytes": 845817,
+            "delta": 5132620
+          }
+        },
+        {
+          "name": "Guide video: preview avoids same-origin script chunks over 1 MB transferred",
+          "pass": false,
+          "details": {
+            "largestSameOriginScripts": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f5b171131868de0a.js",
+                "transferredBytes": 1912458
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/73eb5f9cd66c61c3.js",
+                "transferredBytes": 1911898
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/70c8b3c775561420.js",
+                "transferredBytes": 269413
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d5eff678387daeb0.js",
+                "transferredBytes": 230654
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c15da3e6cb59f1f7.js",
+                "transferredBytes": 206439
+              }
+            ]
+          }
+        }
+      ],
+      "pass": false
+    }
+  ]
+}

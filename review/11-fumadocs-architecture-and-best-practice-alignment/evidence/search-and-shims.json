@@ -1,0 +1,249 @@
+{
+  "searchAudit": {
+    "usesDocumentedFumadocsSearchRoute": false,
+    "officialSearchFiles": [],
+    "customReplacementFiles": [
+      "components/NavLinks.tsx",
+      "components/docs/DocsNavbar.tsx",
+      "components/inkeep/InkeepChatButton.tsx",
+      "components/inkeep/InkeepCustomTrigger.tsx",
+      "components/inkeep/InkeepEmbeddedChat.tsx",
+      "components/inkeep/InkeepSearchBar.tsx",
+      "components/inkeep/useInkeepSettings.ts",
+      "components/layout/Navbar.tsx",
+      "content/blog/2026-02-13-will-you-be-my-cli.mdx",
+      "content/docs/ask-ai.mdx",
+      "content/docs/docs-mcp.mdx",
+      "content/faq/index.mdx"
+    ],
+    "hasCustomSearchRoute": true
+  },
+  "shimAudit": {
+    "aliasedInNextConfig": true,
+    "aliasedInTsconfig": true,
+    "directImportFiles": [
+      {
+        "file": "components/LangTabs.tsx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components/NotebookBanner.tsx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components/PropagationRestrictionsCallout.tsx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components/changelog/ChangelogHeader.tsx",
+        "imports": [
+          "nextra/context"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components/faq/FaqIndex.tsx",
+        "imports": [
+          "nextra",
+          "nextra/components",
+          "nextra/context"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components/faq/FaqPreview.tsx",
+        "imports": [
+          "nextra",
+          "nextra/components",
+          "nextra/context"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components/handbook/TeamsIndex.tsx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components/watchOrBookDemo/WatchWalkthroughsCards.tsx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components/wrapped/Customers.tsx",
+        "imports": [
+          "nextra",
+          "nextra/context"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components/wrapped/Launches.tsx",
+        "imports": [
+          "nextra",
+          "nextra/context"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components-mdx/get-started/next-steps.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components-mdx/integration-learn-more-js.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components-mdx/integration-learn-more.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "components-mdx/self-host-features.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "components"
+      },
+      {
+        "file": "content/blog/2024-11-most-used-oss-llmops.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/blog/2025-05-19-launch-week-3.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/blog/2025-10-29-launch-week-4.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/blog/2026-02-16-prompt-improvement-claude-skills.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/blog/2026-02-26-evaluate-ai-agent-skills.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/blog/qa-chatbot-for-langfuse-docs.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/changelog/2026-02-13-observation-level-evals.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/docs/prompt-management/features/n8n-node.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/docs/roadmap.mdx",
+        "imports": [
+          "nextra/components",
+          "nextra/context"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/integrations/gateways/kong-ai-plugin.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/integrations/model-providers/amazon-bedrock-agents.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/integrations/no-code/openwebui.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/marketing/careers.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/marketing/imprint.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/self-hosting/index.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      },
+      {
+        "file": "content/self-hosting/v2/docker-compose.mdx",
+        "imports": [
+          "nextra/components"
+        ],
+        "bucket": "content"
+      }
+    ],
+    "countsByBucket": {
+      "components": 14,
+      "content": 16
+    },
+    "totalFiles": 30
+  }
+}
