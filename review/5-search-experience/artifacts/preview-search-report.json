@@ -1,0 +1,1097 @@
+{
+  "generatedAt": "2026-03-19T23:00:57.397Z",
+  "baseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionUrl": "https://langfuse.com",
+  "samplePath": "/docs/observability/get-started",
+  "queries": [
+    {
+      "id": "docs",
+      "label": "Docs",
+      "query": "python decorator tracing",
+      "expectedPrefixes": [
+        "/docs/"
+      ]
+    },
+    {
+      "id": "integrations",
+      "label": "Integrations",
+      "query": "goose integration",
+      "expectedPrefixes": [
+        "/integrations/"
+      ]
+    },
+    {
+      "id": "self_hosting",
+      "label": "Self Hosting",
+      "query": "docker compose self hosting",
+      "expectedPrefixes": [
+        "/self-hosting/"
+      ]
+    },
+    {
+      "id": "faq_guides",
+      "label": "FAQ & Guides",
+      "query": "missing traces langfuse faq",
+      "expectedPrefixes": [
+        "/faq/",
+        "/guides/"
+      ]
+    },
+    {
+      "id": "handbook",
+      "label": "Handbook",
+      "query": "hiring process handbook",
+      "expectedPrefixes": [
+        "/handbook/"
+      ]
+    }
+  ],
+  "evidence": {
+    "theme": {
+      "dark": {
+        "screenshot": "review/5-search-experience/artifacts/preview-search-dark.png",
+        "request": {
+          "authorizationPresent": true,
+          "referer": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/"
+        },
+        "tabs": [
+          {
+            "text": "Docs (0)",
+            "selected": true
+          }
+        ],
+        "dialogStyles": {
+          "backgroundColor": "rgb(25, 25, 25)",
+          "color": "rgba(255, 255, 255, 0.9)"
+        },
+        "graphQl": {
+          "status": 200,
+          "errors": [
+            "(403, 'Not authenticated')"
+          ],
+          "hitCount": 0,
+          "hits": []
+        }
+      },
+      "light": {
+        "screenshot": "review/5-search-experience/artifacts/preview-search-light.png",
+        "tabs": [
+          {
+            "text": "Docs (0)",
+            "selected": true
+          }
+        ],
+        "dialogStyles": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(55, 65, 81)"
+        },
+        "graphQl": {
+          "status": 200,
+          "errors": [
+            "(403, 'Not authenticated')"
+          ],
+          "hitCount": 0,
+          "hits": []
+        }
+      }
+    },
+    "productionDocs": {
+      "screenshot": "review/5-search-experience/artifacts/production-search-dark.png",
+      "request": {
+        "authorizationPresent": true,
+        "referer": "https://langfuse.com/"
+      },
+      "tabs": [
+        {
+          "text": "Docs (5)",
+          "selected": true
+        },
+        {
+          "text": "Integrations (21)",
+          "selected": false
+        },
+        {
+          "text": "FAQ & Guides (5)",
+          "selected": false
+        },
+        {
+          "text": "Blog (2)",
+          "selected": false
+        },
+        {
+          "text": "All (57)",
+          "selected": false
+        },
+        {
+          "text": "GitHub (18)",
+          "selected": false
+        }
+      ],
+      "graphQl": {
+        "status": 200,
+        "errors": [],
+        "hitCount": 57,
+        "hits": [
+          {
+            "url": "https://langfuse.com/docs/observability/features/trace-ids-and-distributed-tracing",
+            "title": "Trace IDs & Distributed Tracing",
+            "preview": "APPLICATION CODE HERE Using the <em>Decorator</em> from langfuse import observe ..."
+          },
+          {
+            "url": "https://langfuse.com/docs/observability/features/url",
+            "title": "Trace URLs",
+            "preview": "... (JS/TS) When using the @observe() <em>decorator</em>: from langfuse import observe, ..."
+          },
+          {
+            "url": "https://langfuse.com/changelog/2024-03-24-python-decorator",
+            "title": "Decorator-based tracing for Python - Langfuse",
+            "preview": "Back to changelog March 24, 2024 <em>Decorator</em>-based <em>tracing</em> for <em>Python</em> Hassieb ..."
+          },
+          {
+            "url": "https://langfuse.com/blog/2024-04-python-decorator",
+            "title": "Trace complex LLM applications with the Langfuse decorator (Python) - Langfuse Blog",
+            "preview": "LLM applications with the Langfuse <em>decorator</em> (<em>Python</em>) When building RAG or agents, ..."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Pb8W9-1xX48",
+            "title": "Langfuse Launch Week 1: Decorator-based integration for Python",
+            "preview": "Title: \"Langfuse Launch Week 1: <em>Decorator</em>-based integration for <em>Python</em>\" Published ..."
+          },
+          {
+            "url": "https://langfuse.com/integrations/frameworks/langchain",
+            "title": "LangChain Tracing & LangGraph Integration",
+            "preview": "SDKJS/TS SDK Using the @observe() <em>decorator</em>: from langfuse import observe, ..."
+          },
+          {
+            "url": "https://langfuse.com/guides/cookbook/integration_anthropic",
+            "title": "Trace Anthropic Models in Langfuse",
+            "preview": "... additional attributes to the trace. <em>Decorator</em> Context Manager The @observe() ..."
+          },
+          {
+            "url": "https://langfuse.com/docs/observability/sdk/instrumentation",
+            "title": "Instrumentation",
+            "preview": "... input/output # Using the observe <em>decorator</em> @observe() def process_user_query(user_question: ..."
+          },
+          {
+            "url": "https://langfuse.com/integrations/model-providers/openai-py",
+            "title": "Observability for OpenAI SDK (Python)",
+            "preview": "... options: <em>Python</em> @observe() <em>decorator</em> - works with both v2 and v3 Use ..."
+          },
+          {
+            "url": "https://langfuse.com/integrations/frameworks/openai-agents",
+            "title": "Trace the OpenAI Agents SDK with Langfuse",
+            "preview": "... attributes to the observation. <em>Decorator</em> Context Manager The @observe() ..."
+          }
+        ]
+      }
+    },
+    "comparisons": [
+      {
+        "queryId": "docs",
+        "label": "Docs",
+        "query": "python decorator tracing",
+        "expectedPrefixes": [
+          "/docs/"
+        ],
+        "preview": {
+          "request": {
+            "authorizationPresent": true,
+            "referer": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/"
+          },
+          "tabs": [
+            {
+              "text": "Docs (0)",
+              "selected": true
+            }
+          ],
+          "graphQl": {
+            "status": 200,
+            "errors": [
+              "(403, 'Not authenticated')"
+            ],
+            "hitCount": 0,
+            "hits": []
+          },
+          "matchingHits": [],
+          "hosts": [],
+          "duplicateUrls": []
+        },
+        "production": {
+          "request": {
+            "authorizationPresent": true,
+            "referer": "https://langfuse.com/"
+          },
+          "tabs": [
+            {
+              "text": "Docs (5)",
+              "selected": true
+            },
+            {
+              "text": "Integrations (21)",
+              "selected": false
+            },
+            {
+              "text": "FAQ & Guides (5)",
+              "selected": false
+            },
+            {
+              "text": "Blog (2)",
+              "selected": false
+            },
+            {
+              "text": "All (57)",
+              "selected": false
+            },
+            {
+              "text": "GitHub (18)",
+              "selected": false
+            }
+          ],
+          "graphQl": {
+            "status": 200,
+            "errors": [],
+            "hitCount": 57,
+            "hits": [
+              {
+                "url": "https://langfuse.com/docs/observability/features/trace-ids-and-distributed-tracing",
+                "title": "Trace IDs & Distributed Tracing",
+                "preview": "APPLICATION CODE HERE Using the <em>Decorator</em> from langfuse import observe ..."
+              },
+              {
+                "url": "https://langfuse.com/docs/observability/features/url",
+                "title": "Trace URLs",
+                "preview": "... (JS/TS) When using the @observe() <em>decorator</em>: from langfuse import observe, ..."
+              },
+              {
+                "url": "https://langfuse.com/changelog/2024-03-24-python-decorator",
+                "title": "Decorator-based tracing for Python - Langfuse",
+                "preview": "Back to changelog March 24, 2024 <em>Decorator</em>-based <em>tracing</em> for <em>Python</em> Hassieb ..."
+              },
+              {
+                "url": "https://langfuse.com/blog/2024-04-python-decorator",
+                "title": "Trace complex LLM applications with the Langfuse decorator (Python) - Langfuse Blog",
+                "preview": "LLM applications with the Langfuse <em>decorator</em> (<em>Python</em>) When building RAG or agents, ..."
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=Pb8W9-1xX48",
+                "title": "Langfuse Launch Week 1: Decorator-based integration for Python",
+                "preview": "Title: \"Langfuse Launch Week 1: <em>Decorator</em>-based integration for <em>Python</em>\" Published ..."
+              },
+              {
+                "url": "https://langfuse.com/integrations/frameworks/langchain",
+                "title": "LangChain Tracing & LangGraph Integration",
+                "preview": "SDKJS/TS SDK Using the @observe() <em>decorator</em>: from langfuse import observe, ..."
+              },
+              {
+                "url": "https://langfuse.com/guides/cookbook/integration_anthropic",
+                "title": "Trace Anthropic Models in Langfuse",
+                "preview": "... additional attributes to the trace. <em>Decorator</em> Context Manager The @observe() ..."
+              },
+              {
+                "url": "https://langfuse.com/docs/observability/sdk/instrumentation",
+                "title": "Instrumentation",
+                "preview": "... input/output # Using the observe <em>decorator</em> @observe() def process_user_query(user_question: ..."
+              },
+              {
+                "url": "https://langfuse.com/integrations/model-providers/openai-py",
+                "title": "Observability for OpenAI SDK (Python)",
+                "preview": "... options: <em>Python</em> @observe() <em>decorator</em> - works with both v2 and v3 Use ..."
+              },
+              {
+                "url": "https://langfuse.com/integrations/frameworks/openai-agents",
+                "title": "Trace the OpenAI Agents SDK with Langfuse",
+                "preview": "... attributes to the observation. <em>Decorator</em> Context Manager The @observe() ..."
+              }
+            ]
+          },
+          "matchingHits": [
+            {
+              "url": "https://langfuse.com/docs/observability/features/trace-ids-and-distributed-tracing",
+              "title": "Trace IDs & Distributed Tracing",
+              "preview": "APPLICATION CODE HERE Using the <em>Decorator</em> from langfuse import observe ..."
+            },
+            {
+              "url": "https://langfuse.com/docs/observability/features/url",
+              "title": "Trace URLs",
+              "preview": "... (JS/TS) When using the @observe() <em>decorator</em>: from langfuse import observe, ..."
+            },
+            {
+              "url": "https://langfuse.com/docs/observability/sdk/instrumentation",
+              "title": "Instrumentation",
+              "preview": "... input/output # Using the observe <em>decorator</em> @observe() def process_user_query(user_question: ..."
+            }
+          ],
+          "hosts": [
+            "langfuse.com",
+            "www.youtube.com"
+          ],
+          "duplicateUrls": []
+        }
+      },
+      {
+        "queryId": "integrations",
+        "label": "Integrations",
+        "query": "goose integration",
+        "expectedPrefixes": [
+          "/integrations/"
+        ],
+        "preview": {
+          "request": null,
+          "tabs": [
+            {
+              "text": "Docs (0)",
+              "selected": true
+            }
+          ],
+          "graphQl": {
+            "status": 200,
+            "errors": [
+              "(403, 'Not authenticated')"
+            ],
+            "hitCount": 0,
+            "hits": []
+          },
+          "matchingHits": [],
+          "hosts": [],
+          "duplicateUrls": []
+        },
+        "production": {
+          "request": null,
+          "tabs": [
+            {
+              "text": "Docs (0)",
+              "selected": false
+            },
+            {
+              "text": "Integrations (27)",
+              "selected": true
+            },
+            {
+              "text": "FAQ & Guides (4)",
+              "selected": false
+            },
+            {
+              "text": "Blog (2)",
+              "selected": false
+            },
+            {
+              "text": "All (57)",
+              "selected": false
+            },
+            {
+              "text": "GitHub (17)",
+              "selected": false
+            }
+          ],
+          "graphQl": {
+            "status": 200,
+            "errors": [],
+            "hitCount": 57,
+            "hits": [
+              {
+                "url": "https://langfuse.com/integrations/no-code/goose",
+                "title": "Integrating Goose with Langfuse",
+                "preview": "... - Langfuse <em>Integration</em>s No-Code Agent Builders Codename <em>Goose</em> Copy page Integrating <em>Goose</em> with Langfuse <em>Goose</em> is an open-source, ..."
+              },
+              {
+                "url": "https://langfuse.com/integrations",
+                "title": "Integrations",
+                "preview": "... - Langfuse <em>Integration</em>s Overview Copy page <em>Integration</em>s Langfuse is designed to be the most open and flexible platform ..."
+              },
+              {
+                "url": "https://langfuse.com/changelog/2024-04-21-openai-integration-JS-SDK",
+                "title": "OpenAI SDK integration for JS/TS SDK - Langfuse",
+                "preview": "... 2024 | Launch Week 1 🚀 OpenAI SDK <em>integration</em> for JS/TS SDK Hassieb Pakzad Langfuse ..."
+              },
+              {
+                "url": "https://langfuse.com/integrations/no-code/langdock",
+                "title": "Langdock Integration",
+                "preview": "... for Langdock Assistants - Langfuse <em>Integration</em>s No-Code Agent Builders Langdock ..."
+              },
+              {
+                "url": "https://langfuse.com/integrations/other/parallel-ai",
+                "title": "Parallel Integration",
+                "preview": "Parallel Tasks with Langfuse - Langfuse <em>Integration</em>s Other Parallel Copy page This is ..."
+              },
+              {
+                "url": "https://langfuse.com/integrations/gateways/helicone",
+                "title": "Helicone Integration",
+                "preview": "... - Langfuse <em>Integration</em>s Gateways Helicone Copy page Helicone <em>Integration</em> Helicone has moved into maintenance mode following ..."
+              },
+              {
+                "url": "https://langfuse.com/integrations/gateways/openrouter",
+                "title": "OpenRouter Integration",
+                "preview": "OpenRouter with Langfuse - Langfuse <em>Integration</em>s Gateways OpenRouter Copy page OpenRouter ..."
+              },
+              {
+                "url": "https://langfuse.com/integrations/model-providers/vllm",
+                "title": "vLLM Integration",
+                "preview": "Langfuse via OpenTelemetry - Langfuse <em>Integration</em>s Model Providers vLLM Copy page ..."
+              },
+              {
+                "url": "https://langfuse.com/integrations/gateways/litellm",
+                "title": "LiteLLM Proxy Integration",
+                "preview": "Observability for LiteLLM Proxy - Langfuse <em>Integration</em>s Gateways LiteLLM Proxy Copy page ..."
+              },
+              {
+                "url": "https://langfuse.com/integrations/frameworks/semantic-kernel",
+                "title": "Integrate Langfuse with Semantic Kernel",
+                "preview": "... for Semantic Kernel with Langfuse <em>Integration</em> - Langfuse <em>Integration</em>s Frameworks ..."
+              }
+            ]
+          },
+          "matchingHits": [
+            {
+              "url": "https://langfuse.com/integrations/no-code/goose",
+              "title": "Integrating Goose with Langfuse",
+              "preview": "... - Langfuse <em>Integration</em>s No-Code Agent Builders Codename <em>Goose</em> Copy page Integrating <em>Goose</em> with Langfuse <em>Goose</em> is an open-source, ..."
+            },
+            {
+              "url": "https://langfuse.com/integrations/no-code/langdock",
+              "title": "Langdock Integration",
+              "preview": "... for Langdock Assistants - Langfuse <em>Integration</em>s No-Code Agent Builders Langdock ..."
+            },
+            {
+              "url": "https://langfuse.com/integrations/other/parallel-ai",
+              "title": "Parallel Integration",
+              "preview": "Parallel Tasks with Langfuse - Langfuse <em>Integration</em>s Other Parallel Copy page This is ..."
+            },
+            {
+              "url": "https://langfuse.com/integrations/gateways/helicone",
+              "title": "Helicone Integration",
+              "preview": "... - Langfuse <em>Integration</em>s Gateways Helicone Copy page Helicone <em>Integration</em> Helicone has moved into maintenance mode following ..."
+            },
+            {
+              "url": "https://langfuse.com/integrations/gateways/openrouter",
+              "title": "OpenRouter Integration",
+              "preview": "OpenRouter with Langfuse - Langfuse <em>Integration</em>s Gateways OpenRouter Copy page OpenRouter ..."
+            },
+            {
+              "url": "https://langfuse.com/integrations/model-providers/vllm",
+              "title": "vLLM Integration",
+              "preview": "Langfuse via OpenTelemetry - Langfuse <em>Integration</em>s Model Providers vLLM Copy page ..."
+            },
+            {
+              "url": "https://langfuse.com/integrations/gateways/litellm",
+              "title": "LiteLLM Proxy Integration",
+              "preview": "Observability for LiteLLM Proxy - Langfuse <em>Integration</em>s Gateways LiteLLM Proxy Copy page ..."
+            },
+            {
+              "url": "https://langfuse.com/integrations/frameworks/semantic-kernel",
+              "title": "Integrate Langfuse with Semantic Kernel",
+              "preview": "... for Semantic Kernel with Langfuse <em>Integration</em> - Langfuse <em>Integration</em>s Frameworks ..."
+            }
+          ],
+          "hosts": [
+            "langfuse.com"
+          ],
+          "duplicateUrls": []
+        }
+      },
+      {
+        "queryId": "self_hosting",
+        "label": "Self Hosting",
+        "query": "docker compose self hosting",
+        "expectedPrefixes": [
+          "/self-hosting/"
+        ],
+        "preview": {
+          "request": null,
+          "tabs": [
+            {
+              "text": "Docs (0)",
+              "selected": true
+            }
+          ],
+          "graphQl": {
+            "status": 200,
+            "errors": [
+              "(403, 'Not authenticated')"
+            ],
+            "hitCount": 0,
+            "hits": []
+          },
+          "matchingHits": [],
+          "hosts": [],
+          "duplicateUrls": []
+        },
+        "production": {
+          "request": null,
+          "tabs": [
+            {
+              "text": "Docs (0)",
+              "selected": false
+            },
+            {
+              "text": "Self Hosting (10)",
+              "selected": true
+            },
+            {
+              "text": "FAQ & Guides (1)",
+              "selected": false
+            },
+            {
+              "text": "All (31)",
+              "selected": false
+            },
+            {
+              "text": "GitHub (19)",
+              "selected": false
+            }
+          ],
+          "graphQl": {
+            "status": 200,
+            "errors": [],
+            "hitCount": 31,
+            "hits": [
+              {
+                "url": "https://langfuse.com/self-hosting/deployment/docker-compose",
+                "title": "Docker Compose",
+                "preview": "Deployment (<em>Self</em>-Hosted) - Langfuse <em>Self</em> <em>Hosting</em> Deployment Local/VM (<em>Docker</em> <em>Compose</em>) ..."
+              },
+              {
+                "url": "https://langfuse.com/self-hosting/v2/docker-compose",
+                "title": "Local Deployment (v2, docker compose)",
+                "preview": "... - Langfuse <em>Self</em> <em>Hosting</em> Legacy Docs (v2) Local Deployment (<em>docker</em> <em>compose</em>) Version: v2 Copy page Local Deployment (v2, <em>docker</em> ..."
+              },
+              {
+                "url": "https://langfuse.com/self-hosting/troubleshooting-and-faq",
+                "title": "Troubleshooting & FAQ",
+                "preview": "Langfuse deployment - Langfuse <em>Self</em> <em>Hosting</em> Troubleshooting & FAQ Version: v3 ..."
+              },
+              {
+                "url": "https://langfuse.com/self-hosting/configuration/scaling",
+                "title": "Scaling",
+                "preview": "Langfuse Deployments - Langfuse <em>Self</em> <em>Hosting</em> Configuration Sizing & Scaling Version: ..."
+              },
+              {
+                "url": "https://langfuse.com/self-hosting/v2/deployment-guide",
+                "title": "Deployment Guide (v2)",
+                "preview": "... from a Clickhouse DB backup <em>Self</em> <em>hosting</em> Langfuse within our Cloud provider ..."
+              },
+              {
+                "url": "https://langfuse.com/self-hosting",
+                "title": "Self-host Langfuse",
+                "preview": "LLM Observability) - Langfuse <em>Self</em> <em>Hosting</em> Overview Version: v3 Copy page <em>Self</em>-host ..."
+              },
+              {
+                "url": "https://langfuse.com/self-hosting/upgrade/upgrade-guides/upgrade-v2-to-v3",
+                "title": "Migrate Langfuse v2 to v3",
+                "preview": "... (<em>self</em>-hosted) - Langfuse <em>Self</em> <em>Hosting</em> Upgrade Upgrade Guides Upgrade v2 ..."
+              },
+              {
+                "url": "https://langfuse.com/self-hosting/configuration/transactional-emails",
+                "title": "Transactional Email",
+                "preview": "... s (<em>self</em>-hosted) - Langfuse <em>Self</em> <em>Hosting</em> Configuration Transactional Emails ..."
+              },
+              {
+                "url": "https://github.com/langfuse/langfuse/blob/main/README.md",
+                "title": "[ **Langfuse Is Doubling Down On Open Source**",
+                "preview": "... <em>compose</em>)](https://langfuse.com/<em>self</em>-<em>hosting</em>/local): Run Langfuse on your own ..."
+              },
+              {
+                "url": "https://langfuse.com/self-hosting/deployment/infrastructure/blobstorage",
+                "title": "S3 / Blob Storage",
+                "preview": "Configuration (<em>Self</em>-Hosted) - Langfuse <em>Self</em> <em>Hosting</em> Deployment Infrastructure Blob Storage ..."
+              }
+            ]
+          },
+          "matchingHits": [
+            {
+              "url": "https://langfuse.com/self-hosting/deployment/docker-compose",
+              "title": "Docker Compose",
+              "preview": "Deployment (<em>Self</em>-Hosted) - Langfuse <em>Self</em> <em>Hosting</em> Deployment Local/VM (<em>Docker</em> <em>Compose</em>) ..."
+            },
+            {
+              "url": "https://langfuse.com/self-hosting/v2/docker-compose",
+              "title": "Local Deployment (v2, docker compose)",
+              "preview": "... - Langfuse <em>Self</em> <em>Hosting</em> Legacy Docs (v2) Local Deployment (<em>docker</em> <em>compose</em>) Version: v2 Copy page Local Deployment (v2, <em>docker</em> ..."
+            },
+            {
+              "url": "https://langfuse.com/self-hosting/troubleshooting-and-faq",
+              "title": "Troubleshooting & FAQ",
+              "preview": "Langfuse deployment - Langfuse <em>Self</em> <em>Hosting</em> Troubleshooting & FAQ Version: v3 ..."
+            },
+            {
+              "url": "https://langfuse.com/self-hosting/configuration/scaling",
+              "title": "Scaling",
+              "preview": "Langfuse Deployments - Langfuse <em>Self</em> <em>Hosting</em> Configuration Sizing & Scaling Version: ..."
+            },
+            {
+              "url": "https://langfuse.com/self-hosting/v2/deployment-guide",
+              "title": "Deployment Guide (v2)",
+              "preview": "... from a Clickhouse DB backup <em>Self</em> <em>hosting</em> Langfuse within our Cloud provider ..."
+            },
+            {
+              "url": "https://langfuse.com/self-hosting/upgrade/upgrade-guides/upgrade-v2-to-v3",
+              "title": "Migrate Langfuse v2 to v3",
+              "preview": "... (<em>self</em>-hosted) - Langfuse <em>Self</em> <em>Hosting</em> Upgrade Upgrade Guides Upgrade v2 ..."
+            },
+            {
+              "url": "https://langfuse.com/self-hosting/configuration/transactional-emails",
+              "title": "Transactional Email",
+              "preview": "... s (<em>self</em>-hosted) - Langfuse <em>Self</em> <em>Hosting</em> Configuration Transactional Emails ..."
+            },
+            {
+              "url": "https://langfuse.com/self-hosting/deployment/infrastructure/blobstorage",
+              "title": "S3 / Blob Storage",
+              "preview": "Configuration (<em>Self</em>-Hosted) - Langfuse <em>Self</em> <em>Hosting</em> Deployment Infrastructure Blob Storage ..."
+            }
+          ],
+          "hosts": [
+            "langfuse.com",
+            "github.com"
+          ],
+          "duplicateUrls": []
+        }
+      },
+      {
+        "queryId": "faq_guides",
+        "label": "FAQ & Guides",
+        "query": "missing traces langfuse faq",
+        "expectedPrefixes": [
+          "/faq/",
+          "/guides/"
+        ],
+        "preview": {
+          "request": null,
+          "tabs": [
+            {
+              "text": "Docs (0)",
+              "selected": true
+            }
+          ],
+          "graphQl": {
+            "status": 200,
+            "errors": [
+              "(403, 'Not authenticated')"
+            ],
+            "hitCount": 0,
+            "hits": []
+          },
+          "matchingHits": [],
+          "hosts": [],
+          "duplicateUrls": []
+        },
+        "production": {
+          "request": null,
+          "tabs": [
+            {
+              "text": "Docs (8)",
+              "selected": true
+            },
+            {
+              "text": "Integrations (6)",
+              "selected": false
+            },
+            {
+              "text": "Self Hosting (2)",
+              "selected": false
+            },
+            {
+              "text": "FAQ & Guides (12)",
+              "selected": false
+            },
+            {
+              "text": "Security (2)",
+              "selected": false
+            },
+            {
+              "text": "Blog (3)",
+              "selected": false
+            },
+            {
+              "text": "All (55)",
+              "selected": false
+            },
+            {
+              "text": "GitHub (18)",
+              "selected": false
+            }
+          ],
+          "graphQl": {
+            "status": 200,
+            "errors": [],
+            "hitCount": 55,
+            "hits": [
+              {
+                "url": "https://langfuse.com/faq/all/empty-trace-input-and-output",
+                "title": "Why are the input and output of my trace empty?",
+                "preview": "... input and output of a trace empty? - <em>Langfuse</em> <em>FAQ</em> Copy page Why are the input ..."
+              },
+              {
+                "url": "https://langfuse.com/docs/observability/sdk/troubleshooting-and-faq",
+                "title": "Troubleshooting & FAQ",
+                "preview": "<em>Langfuse</em> SDK troubleshooting & <em>FAQ</em> - <em>Langfuse</em> Docs Observability SDKs Troubleshooting & <em>FAQ</em> Copy page Troubleshooting ..."
+              },
+              {
+                "url": "https://langfuse.com/faq/all/missing-traces",
+                "title": "I do not see any traces in Langfuse (“Tracing Pending”). How to solve this?",
+                "preview": "I have setup <em>Langfuse</em>, but I do not see any <em>traces</em> in the dashboard. How to solve this? - <em>Langfuse</em> <em>FAQ</em> Copy page I do ..."
+              },
+              {
+                "url": "https://langfuse.com/docs/observability/troubleshooting-and-faq",
+                "title": "Troubleshooting and FAQ",
+                "preview": "... for <em>Langfuse</em> Tracing - <em>Langfuse</em> Docs Observability Troubleshooting & <em>FAQ</em> Copy page Troubleshooting and <em>FAQ</em> This page ..."
+              },
+              {
+                "url": "https://langfuse.com/faq/all/existing-otel-setup",
+                "title": "Using Langfuse with an Existing OpenTelemetry Setup",
+                "preview": "How to integrate <em>Langfuse</em> with an existing OpenTelemetry setup - <em>Langfuse</em> <em>FAQ</em> Copy page Using <em>Langfuse</em> with an Existing OpenTelemetry ..."
+              },
+              {
+                "url": "https://langfuse.com/docs/observability/sdk/advanced-features",
+                "title": "Advanced features",
+                "preview": "... of the <em>Langfuse</em> SDKs - <em>Langfuse</em> Docs Observability SDKs Advanced Features Copy page Advanced features Use these methods ..."
+              },
+              {
+                "url": "https://langfuse.com/docs/evaluation/troubleshooting-and-faq",
+                "title": "Troubleshooting and FAQ",
+                "preview": "... for <em>Langfuse</em> Evaluation - <em>Langfuse</em> Docs Evaluation Troubleshooting & <em>FAQ</em> Copy page Troubleshooting and <em>FAQ</em> This page ..."
+              },
+              {
+                "url": "https://langfuse.com/faq/all/self-hosting-missing-events-after-ingestion",
+                "title": "Missing events after POST /api/public/ingestion in self-hosted Langfuse",
+                "preview": "... - <em>Langfuse</em> <em>FAQ</em> Copy page <em>Missing</em> events after POST /api/public/ingestion in self-hosted <em>Langfuse</em> If you are ..."
+              },
+              {
+                "url": "https://langfuse.com/self-hosting/troubleshooting-and-faq",
+                "title": "Troubleshooting & FAQ",
+                "preview": "... for a self-hosted <em>Langfuse</em> deployment - <em>Langfuse</em> Self Hosting Troubleshooting & <em>FAQ</em> Version: v3 Copy page Troubleshooting & <em>FAQ</em> ..."
+              },
+              {
+                "url": "https://langfuse.com/faq/all/existing-sentry-setup",
+                "title": "Using Langfuse with Sentry",
+                "preview": "How to integrate <em>Langfuse</em> with an existing Sentry setup - <em>Langfuse</em> <em>FAQ</em> Copy page Using <em>Langfuse</em> with Sentry This guide covers ..."
+              }
+            ]
+          },
+          "matchingHits": [
+            {
+              "url": "https://langfuse.com/faq/all/empty-trace-input-and-output",
+              "title": "Why are the input and output of my trace empty?",
+              "preview": "... input and output of a trace empty? - <em>Langfuse</em> <em>FAQ</em> Copy page Why are the input ..."
+            },
+            {
+              "url": "https://langfuse.com/faq/all/missing-traces",
+              "title": "I do not see any traces in Langfuse (“Tracing Pending”). How to solve this?",
+              "preview": "I have setup <em>Langfuse</em>, but I do not see any <em>traces</em> in the dashboard. How to solve this? - <em>Langfuse</em> <em>FAQ</em> Copy page I do ..."
+            },
+            {
+              "url": "https://langfuse.com/faq/all/existing-otel-setup",
+              "title": "Using Langfuse with an Existing OpenTelemetry Setup",
+              "preview": "How to integrate <em>Langfuse</em> with an existing OpenTelemetry setup - <em>Langfuse</em> <em>FAQ</em> Copy page Using <em>Langfuse</em> with an Existing OpenTelemetry ..."
+            },
+            {
+              "url": "https://langfuse.com/faq/all/self-hosting-missing-events-after-ingestion",
+              "title": "Missing events after POST /api/public/ingestion in self-hosted Langfuse",
+              "preview": "... - <em>Langfuse</em> <em>FAQ</em> Copy page <em>Missing</em> events after POST /api/public/ingestion in self-hosted <em>Langfuse</em> If you are ..."
+            },
+            {
+              "url": "https://langfuse.com/faq/all/existing-sentry-setup",
+              "title": "Using Langfuse with Sentry",
+              "preview": "How to integrate <em>Langfuse</em> with an existing Sentry setup - <em>Langfuse</em> <em>FAQ</em> Copy page Using <em>Langfuse</em> with Sentry This guide covers ..."
+            }
+          ],
+          "hosts": [
+            "langfuse.com"
+          ],
+          "duplicateUrls": []
+        }
+      },
+      {
+        "queryId": "handbook",
+        "label": "Handbook",
+        "query": "hiring process handbook",
+        "expectedPrefixes": [
+          "/handbook/"
+        ],
+        "preview": {
+          "request": null,
+          "tabs": [
+            {
+              "text": "Docs (0)",
+              "selected": true
+            }
+          ],
+          "graphQl": {
+            "status": 200,
+            "errors": [
+              "(403, 'Not authenticated')"
+            ],
+            "hitCount": 0,
+            "hits": []
+          },
+          "matchingHits": [],
+          "hosts": [],
+          "duplicateUrls": []
+        },
+        "production": {
+          "request": null,
+          "tabs": [
+            {
+              "text": "Docs (0)",
+              "selected": false
+            },
+            {
+              "text": "Security (1)",
+              "selected": true
+            },
+            {
+              "text": "Handbook (32)",
+              "selected": false
+            },
+            {
+              "text": "All (54)",
+              "selected": false
+            },
+            {
+              "text": "GitHub (20)",
+              "selected": false
+            }
+          ],
+          "graphQl": {
+            "status": 200,
+            "errors": [],
+            "hitCount": 54,
+            "hits": [
+              {
+                "url": "https://langfuse.com/handbook/how-we-hire/hiring-process",
+                "title": "Hiring Process - Langfuse Handbook",
+                "preview": "... <em>process</em> We are writing our <em>handbook</em> and docs for a purpose, having done ..."
+              },
+              {
+                "url": "https://langfuse.com/handbook/how-we-hire/philosophy",
+                "title": "How we Hire - Langfuse Handbook",
+                "preview": "How we hire Philosophy <em>Hiring</em> <em>Process</em> Engineering Super Day Perks and ..."
+              },
+              {
+                "url": "https://langfuse.com/handbook/how-we-hire/engineering-super-day",
+                "title": "Engineering Super Day - Langfuse Handbook",
+                "preview": "... preparation: Everyone: Read the <em>handbook</em> from top to bottom Read the ..."
+              },
+              {
+                "url": "https://langfuse.com/handbook/tools-and-processes/time-off",
+                "title": "Time off - Langfuse Handbook",
+                "preview": "How we hire Perks and Pay Tool & <em>Process</em>es Spending Money Time Off Using ..."
+              },
+              {
+                "url": "https://langfuse.com/handbook/how-we-hire/support-super-day",
+                "title": "Support Engineering Super Day - Langfuse Handbook",
+                "preview": "... the day: Everyone: Read the <em>handbook</em> from top to bottom Read the ..."
+              },
+              {
+                "url": "https://langfuse.com/handbook/sales-and-cs/overview",
+                "title": "Sales & CS - Langfuse Handbook",
+                "preview": "How we hire Perks and Pay Tool & <em>Process</em>es Spending Money Time Off Using ..."
+              },
+              {
+                "url": "https://langfuse.com/handbook/perks-and-pay",
+                "title": "Perks and Pay - Langfuse Handbook",
+                "preview": "How we hire Perks and Pay Tool & <em>Process</em>es Spending Money Time Off Using ..."
+              },
+              {
+                "url": "https://langfuse.com/handbook/product-engineering/how-we-work/roadmapping",
+                "title": "Roadmapping - Langfuse Handbook",
+                "preview": "Why do we have a roadmapping <em>process</em>? <em>Process</em> Question? Give us feedback ..."
+              },
+              {
+                "url": "https://langfuse.com/handbook/how-we-hire/cs-fde-super-day",
+                "title": "CS and Forward Deployed Engineering Super Day - Langfuse Handbook",
+                "preview": "... the day: Everyone: Read the <em>handbook</em> from top to bottom Read the ..."
+              },
+              {
+                "url": "https://langfuse.com/handbook/devrel/community-hour",
+                "title": "Langfuse Community Hour - Langfuse Handbook",
+                "preview": "How we hire Philosophy <em>Hiring</em> <em>Process</em> Engineering Super Day Perks and ..."
+              }
+            ]
+          },
+          "matchingHits": [
+            {
+              "url": "https://langfuse.com/handbook/how-we-hire/hiring-process",
+              "title": "Hiring Process - Langfuse Handbook",
+              "preview": "... <em>process</em> We are writing our <em>handbook</em> and docs for a purpose, having done ..."
+            },
+            {
+              "url": "https://langfuse.com/handbook/how-we-hire/philosophy",
+              "title": "How we Hire - Langfuse Handbook",
+              "preview": "How we hire Philosophy <em>Hiring</em> <em>Process</em> Engineering Super Day Perks and ..."
+            },
+            {
+              "url": "https://langfuse.com/handbook/how-we-hire/engineering-super-day",
+              "title": "Engineering Super Day - Langfuse Handbook",
+              "preview": "... preparation: Everyone: Read the <em>handbook</em> from top to bottom Read the ..."
+            },
+            {
+              "url": "https://langfuse.com/handbook/tools-and-processes/time-off",
+              "title": "Time off - Langfuse Handbook",
+              "preview": "How we hire Perks and Pay Tool & <em>Process</em>es Spending Money Time Off Using ..."
+            },
+            {
+              "url": "https://langfuse.com/handbook/how-we-hire/support-super-day",
+              "title": "Support Engineering Super Day - Langfuse Handbook",
+              "preview": "... the day: Everyone: Read the <em>handbook</em> from top to bottom Read the ..."
+            },
+            {
+              "url": "https://langfuse.com/handbook/sales-and-cs/overview",
+              "title": "Sales & CS - Langfuse Handbook",
+              "preview": "How we hire Perks and Pay Tool & <em>Process</em>es Spending Money Time Off Using ..."
+            },
+            {
+              "url": "https://langfuse.com/handbook/perks-and-pay",
+              "title": "Perks and Pay - Langfuse Handbook",
+              "preview": "How we hire Perks and Pay Tool & <em>Process</em>es Spending Money Time Off Using ..."
+            },
+            {
+              "url": "https://langfuse.com/handbook/product-engineering/how-we-work/roadmapping",
+              "title": "Roadmapping - Langfuse Handbook",
+              "preview": "Why do we have a roadmapping <em>process</em>? <em>Process</em> Question? Give us feedback ..."
+            },
+            {
+              "url": "https://langfuse.com/handbook/how-we-hire/cs-fde-super-day",
+              "title": "CS and Forward Deployed Engineering Super Day - Langfuse Handbook",
+              "preview": "... the day: Everyone: Read the <em>handbook</em> from top to bottom Read the ..."
+            },
+            {
+              "url": "https://langfuse.com/handbook/devrel/community-hour",
+              "title": "Langfuse Community Hour - Langfuse Handbook",
+              "preview": "How we hire Philosophy <em>Hiring</em> <em>Process</em> Engineering Super Day Perks and ..."
+            }
+          ],
+          "hosts": [
+            "langfuse.com"
+          ],
+          "duplicateUrls": []
+        }
+      }
+    ],
+    "mobile": {
+      "screenshot": "review/5-search-experience/artifacts/preview-search-mobile.png",
+      "tabs": [
+        {
+          "text": "Docs (0)",
+          "selected": true
+        }
+      ],
+      "dialogRect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "right": 390,
+        "bottom": 844
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "graphQl": {
+        "status": 200,
+        "errors": [
+          "(403, 'Not authenticated')"
+        ],
+        "hitCount": 0,
+        "hits": []
+      },
+      "request": {
+        "authorizationPresent": true,
+        "referer": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/"
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "Search modal loads on preview docs pages and the keyboard shortcut works",
+      "ok": true,
+      "startedAt": "2026-03-19T23:01:15.164Z",
+      "finishedAt": "2026-03-19T23:01:15.164Z",
+      "details": {
+        "pageUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/get-started",
+        "screenshot": "review/5-search-experience/artifacts/preview-search-dark.png",
+        "request": {
+          "authorizationPresent": true,
+          "referer": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/"
+        },
+        "tabs": [
+          {
+            "text": "Docs (0)",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Theme synchronization survives dark and light mode transitions",
+      "ok": true,
+      "startedAt": "2026-03-19T23:01:15.164Z",
+      "finishedAt": "2026-03-19T23:01:15.164Z",
+      "details": {
+        "dark": {
+          "screenshot": "review/5-search-experience/artifacts/preview-search-dark.png",
+          "dialogStyles": {
+            "backgroundColor": "rgb(25, 25, 25)",
+            "color": "rgba(255, 255, 255, 0.9)"
+          }
+        },
+        "light": {
+          "screenshot": "review/5-search-experience/artifacts/preview-search-light.png",
+          "dialogStyles": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(55, 65, 81)"
+          }
+        }
+      }
+    },
+    {
+      "name": "Representative preview queries return the same content groups production exposes",
+      "ok": false,
+      "startedAt": "2026-03-19T23:02:24.572Z",
+      "finishedAt": "2026-03-19T23:02:24.572Z",
+      "error": "Preview search returned a provider error for Docs",
+      "details": {
+        "query": "python decorator tracing",
+        "errors": [
+          "(403, 'Not authenticated')"
+        ],
+        "request": {
+          "authorizationPresent": true,
+          "referer": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/"
+        }
+      }
+    },
+    {
+      "name": "Preview search results stay canonical and deduplicated",
+      "ok": false,
+      "startedAt": "2026-03-19T23:02:24.572Z",
+      "finishedAt": "2026-03-19T23:02:24.572Z",
+      "error": "Preview search could not be validated for Docs because the provider returned an error",
+      "details": {
+        "query": "python decorator tracing",
+        "errors": [
+          "(403, 'Not authenticated')"
+        ],
+        "request": {
+          "authorizationPresent": true,
+          "referer": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/"
+        }
+      }
+    },
+    {
+      "name": "Mobile search overlay stays within the viewport and remains usable",
+      "ok": false,
+      "startedAt": "2026-03-19T23:02:31.899Z",
+      "finishedAt": "2026-03-19T23:02:31.900Z",
+      "error": "Mobile search returned a provider error",
+      "details": {
+        "errors": [
+          "(403, 'Not authenticated')"
+        ],
+        "request": {
+          "authorizationPresent": true,
+          "referer": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/"
+        }
+      }
+    }
+  ]
+}

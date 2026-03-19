@@ -1,0 +1,3678 @@
+{
+  "summary": {
+    "status": "fail",
+    "counts": {
+      "pass": 0,
+      "warn": 0,
+      "fail": 4
+    },
+    "generatedAt": "2026-03-19T22:53:36.005Z",
+    "previewBaseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+    "productionBaseUrl": "https://langfuse.com"
+  },
+  "config": {
+    "previewBaseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+    "productionBaseUrl": "https://langfuse.com",
+    "axeSourceUrl": "https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.10.2/axe.min.js",
+    "desktopViewport": {
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": false
+    },
+    "mobileViewport": {
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true
+    },
+    "networkProfile": {
+      "offline": false,
+      "latency": 150,
+      "downloadThroughput": 209715,
+      "uploadThroughput": 96000,
+      "connectionType": "cellular4g"
+    },
+    "cpuSlowdownRate": 4,
+    "samplePages": [
+      {
+        "label": "Docs landing",
+        "path": "/docs"
+      },
+      {
+        "label": "Deep docs page",
+        "path": "/docs/observability/get-started"
+      },
+      {
+        "label": "Video guide",
+        "path": "/guides/videos/introducing-datasets-v2"
+      },
+      {
+        "label": "Self-hosting long-form page",
+        "path": "/self-hosting/deployment/docker-compose"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "label": "Docs landing",
+      "path": "/docs",
+      "status": "fail",
+      "findings": [
+        {
+          "severity": "fail",
+          "message": "Largest Contentful Paint regressed by +2456 ms versus production."
+        },
+        {
+          "severity": "warn",
+          "message": "First Contentful Paint regressed by +2456 ms versus production."
+        },
+        {
+          "severity": "warn",
+          "message": "Script payload increased by +215.7 KB versus production."
+        },
+        {
+          "severity": "fail",
+          "message": "axe found 2 serious/critical accessibility issue(s) on preview."
+        },
+        {
+          "severity": "warn",
+          "message": "Preview surfaced browser errors (7 console, 1 page)."
+        }
+      ],
+      "previewDesktop": {
+        "ok": true,
+        "label": "Docs landing",
+        "path": "/docs",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs",
+        "status": 200,
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs",
+        "title": "Overview - Langfuse",
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false
+        },
+        "throttled": true,
+        "navigation": {
+          "domContentLoadedMs": 3794.9,
+          "loadMs": 0,
+          "responseStartMs": 83.6
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 3736,
+          "largestContentfulPaintMs": 3736,
+          "cumulativeLayoutShift": 0.017,
+          "longTaskDurationMs": 256
+        },
+        "resourceSummary": {
+          "requestCount": 84,
+          "totalBytes": 1068291,
+          "totalKilobytes": 1043.3,
+          "totalsByType": {
+            "Document": {
+              "bytes": 45746,
+              "kilobytes": 44.7
+            },
+            "Stylesheet": {
+              "bytes": 38810,
+              "kilobytes": 37.9
+            },
+            "Script": {
+              "bytes": 826838,
+              "kilobytes": 807.5
+            },
+            "Image": {
+              "bytes": 7509,
+              "kilobytes": 7.3
+            },
+            "Font": {
+              "bytes": 115292,
+              "kilobytes": 112.6
+            },
+            "Media": {
+              "bytes": 0,
+              "kilobytes": 0
+            },
+            "Fetch": {
+              "bytes": 34096,
+              "kilobytes": 33.3
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+              "type": "Script",
+              "encodedDataLength": 99850,
+              "kilobytes": 97.5
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+              "type": "Script",
+              "encodedDataLength": 83882,
+              "kilobytes": 81.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+              "type": "Script",
+              "encodedDataLength": 71430,
+              "kilobytes": 69.8
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+              "type": "Font",
+              "encodedDataLength": 58277,
+              "kilobytes": 56.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+              "type": "Script",
+              "encodedDataLength": 58276,
+              "kilobytes": 56.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+              "type": "Font",
+              "encodedDataLength": 57015,
+              "kilobytes": 55.7
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/687728ef8816569e.js",
+              "type": "Script",
+              "encodedDataLength": 53227,
+              "kilobytes": 52
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs",
+              "type": "Document",
+              "encodedDataLength": 45746,
+              "kilobytes": 44.7
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/77a14fa75a89c6b3.js",
+              "type": "Script",
+              "encodedDataLength": 31993,
+              "kilobytes": 31.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/384394ccd0f50512.css",
+              "type": "Stylesheet",
+              "encodedDataLength": 31855,
+              "kilobytes": 31.1
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+                "encodedDataLength": 99850,
+                "kilobytes": 97.5
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+                "encodedDataLength": 83882,
+                "kilobytes": 81.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+                "encodedDataLength": 71430,
+                "kilobytes": 69.8
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+                "encodedDataLength": 58276,
+                "kilobytes": 56.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/687728ef8816569e.js",
+                "encodedDataLength": 53227,
+                "kilobytes": 52
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/langfuse_logo_white.svg",
+                "encodedDataLength": 7509,
+                "kilobytes": 7.3
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/tracing-overview.png",
+                "encodedDataLength": 0,
+                "kilobytes": 0
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+                "encodedDataLength": 58277,
+                "kilobytes": 56.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+                "encodedDataLength": 57015,
+                "kilobytes": 55.7
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/384394ccd0f50512.css",
+                "encodedDataLength": 31855,
+                "kilobytes": 31.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/4b89e21b2d9ac1e0.css",
+                "encodedDataLength": 3520,
+                "kilobytes": 3.4
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/705d9a0af13706bf.css",
+                "encodedDataLength": 2218,
+                "kilobytes": 2.2
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88baf1354c110b1b.css",
+                "encodedDataLength": 1217,
+                "kilobytes": 1.2
+              }
+            ]
+          },
+          "failedRequests": 0
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 2,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": [
+            {
+              "textLength": 23,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 78,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            }
+          ]
+        },
+        "accessibility": {
+          "violationCount": 2,
+          "seriousOrCriticalCount": 2,
+          "moderateCount": 0,
+          "minorCount": 0,
+          "violations": [
+            {
+              "id": "button-name",
+              "impact": "critical",
+              "help": "Buttons must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#radix-_R_52qav5u75ujb_"
+                  ],
+                  "failureSummary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ]
+            },
+            {
+              "id": "link-name",
+              "impact": "serious",
+              "help": "Links must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".me-auto"
+                  ],
+                  "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            }
+          ]
+        },
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "pageErrors": [
+          "Uncaught Error: Looks like your website URL has changed. To ensure the proper functioning of your banner, update the registered URL on your CookieYes account (navigate to the Organizations & Sites page (https://app.cookieyes.com/settings/organizations-and-sites) and click the More button associated with your site). Then, reload this page to retry. If the issue persists, please contact us at https://www.cookieyes.com/support."
+        ],
+        "requestFailures": [
+          {
+            "url": "https://cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://us.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://hipaa.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          }
+        ],
+        "observerErrors": []
+      },
+      "productionDesktop": {
+        "ok": true,
+        "label": "Docs landing",
+        "path": "/docs",
+        "url": "https://langfuse.com/docs",
+        "status": 200,
+        "finalUrl": "https://langfuse.com/docs",
+        "title": "Langfuse Documentation - Langfuse",
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false
+        },
+        "throttled": true,
+        "navigation": {
+          "domContentLoadedMs": 10113,
+          "loadMs": 0,
+          "responseStartMs": 282.2
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 1280,
+          "largestContentfulPaintMs": 1280,
+          "cumulativeLayoutShift": 0.003,
+          "longTaskDurationMs": 649
+        },
+        "resourceSummary": {
+          "requestCount": 106,
+          "totalBytes": 1008902,
+          "totalKilobytes": 985.3,
+          "totalsByType": {
+            "Document": {
+              "bytes": 22913,
+              "kilobytes": 22.4
+            },
+            "Stylesheet": {
+              "bytes": 29774,
+              "kilobytes": 29.1
+            },
+            "Script": {
+              "bytes": 605912,
+              "kilobytes": 591.7
+            },
+            "Font": {
+              "bytes": 115275,
+              "kilobytes": 112.6
+            },
+            "Image": {
+              "bytes": 9143,
+              "kilobytes": 8.9
+            },
+            "Media": {
+              "bytes": 0,
+              "kilobytes": 0
+            },
+            "Fetch": {
+              "bytes": 11141,
+              "kilobytes": 10.9
+            },
+            "Other": {
+              "bytes": 214564,
+              "kilobytes": 209.5
+            },
+            "Ping": {
+              "bytes": 180,
+              "kilobytes": 0.2
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-866f060691a1a21d.js",
+              "type": "Script",
+              "encodedDataLength": 283151,
+              "kilobytes": 276.5
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "type": "Script",
+              "encodedDataLength": 61756,
+              "kilobytes": 60.3
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-e0c28f2b2d434d19.js",
+              "type": "Script",
+              "encodedDataLength": 61654,
+              "kilobytes": 60.2
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/66f30814ff6d7cdf.p.woff2",
+              "type": "Font",
+              "encodedDataLength": 58253,
+              "kilobytes": 56.9
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/e11418ac562b8ac1-s.p.woff2",
+              "type": "Font",
+              "encodedDataLength": 57022,
+              "kilobytes": 55.7
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/main-237a94cfa4fbf8f3.js",
+              "type": "Script",
+              "encodedDataLength": 40669,
+              "kilobytes": 39.7
+            },
+            {
+              "url": "https://langfuse.com/_next/static/css/0be6fcb0615f1091.css",
+              "type": "Stylesheet",
+              "encodedDataLength": 29774,
+              "kilobytes": 29.1
+            },
+            {
+              "url": "https://langfuse.com/_next/static/1NeelhLBRCX2muSQ78ZLV/_buildManifest.js",
+              "type": "Script",
+              "encodedDataLength": 27149,
+              "kilobytes": 26.5
+            },
+            {
+              "url": "https://langfuse.com/docs",
+              "type": "Document",
+              "encodedDataLength": 22913,
+              "kilobytes": 22.4
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/2363-567c99bcae56582e.js",
+              "type": "Other",
+              "encodedDataLength": 14283,
+              "kilobytes": 13.9
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse.com/_next/static/chunks/pages/_app-866f060691a1a21d.js",
+                "encodedDataLength": 283151,
+                "kilobytes": 276.5
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+                "encodedDataLength": 61756,
+                "kilobytes": 60.3
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/99633-e0c28f2b2d434d19.js",
+                "encodedDataLength": 61654,
+                "kilobytes": 60.2
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/main-237a94cfa4fbf8f3.js",
+                "encodedDataLength": 40669,
+                "kilobytes": 39.7
+              },
+              {
+                "url": "https://langfuse.com/_next/static/1NeelhLBRCX2muSQ78ZLV/_buildManifest.js",
+                "encodedDataLength": 27149,
+                "kilobytes": 26.5
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse.com/langfuse_logo_white.svg",
+                "encodedDataLength": 7157,
+                "kilobytes": 7
+              },
+              {
+                "url": "https://langfuse.com/_next/image?url=%2Fimages%2Fpeople%2Flotteverheyden.jpg&w=32&q=75",
+                "encodedDataLength": 805,
+                "kilobytes": 0.8
+              },
+              {
+                "url": "https://langfuse.com/_next/image?url=%2Fimages%2Fpeople%2Ffelixkrauth.jpg&w=32&q=75",
+                "encodedDataLength": 642,
+                "kilobytes": 0.6
+              },
+              {
+                "url": "https://langfuse.com/_next/image?url=%2Fimages%2Fpeople%2Fmarcklingen.jpg&w=32&q=75",
+                "encodedDataLength": 539,
+                "kilobytes": 0.5
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse.com/_next/static/media/66f30814ff6d7cdf.p.woff2",
+                "encodedDataLength": 58253,
+                "kilobytes": 56.9
+              },
+              {
+                "url": "https://langfuse.com/_next/static/media/e11418ac562b8ac1-s.p.woff2",
+                "encodedDataLength": 57022,
+                "kilobytes": 55.7
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse.com/_next/static/css/0be6fcb0615f1091.css",
+                "encodedDataLength": 29774,
+                "kilobytes": 29.1
+              }
+            ]
+          },
+          "failedRequests": 7
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 2,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": [
+            {
+              "textLength": 23,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 78,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            }
+          ]
+        },
+        "accessibility": null,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "requestFailures": [
+          {
+            "url": "https://static.langfuse.com/docs-videos/trace-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/timeline-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/users-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/langgraph-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/sessions-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/create-update-prompts.mp4%20MOVED%20TO%20R2.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/dashboard.mp4%20MOVED%20TO%20R2.mp4",
+            "failure": "net::ERR_ABORTED"
+          }
+        ],
+        "observerErrors": []
+      },
+      "previewMobile": {
+        "ok": true,
+        "label": "Docs landing",
+        "path": "/docs",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs",
+        "status": 200,
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs",
+        "title": "Overview - Langfuse",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true
+        },
+        "throttled": false,
+        "navigation": {
+          "domContentLoadedMs": 279.3,
+          "loadMs": 3891.7,
+          "responseStartMs": 25.1
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 304,
+          "largestContentfulPaintMs": 304,
+          "cumulativeLayoutShift": 0,
+          "longTaskDurationMs": 55
+        },
+        "resourceSummary": {
+          "requestCount": 134,
+          "totalBytes": 1880651,
+          "totalKilobytes": 1836.6,
+          "totalsByType": {
+            "Document": {
+              "bytes": 45405,
+              "kilobytes": 44.3
+            },
+            "Script": {
+              "bytes": 1455759,
+              "kilobytes": 1421.6
+            },
+            "Stylesheet": {
+              "bytes": 40151,
+              "kilobytes": 39.2
+            },
+            "Font": {
+              "bytes": 115385,
+              "kilobytes": 112.7
+            },
+            "Image": {
+              "bytes": 18200,
+              "kilobytes": 17.8
+            },
+            "Media": {
+              "bytes": 0,
+              "kilobytes": 0
+            },
+            "Fetch": {
+              "bytes": 201340,
+              "kilobytes": 196.6
+            },
+            "Other": {
+              "bytes": 4411,
+              "kilobytes": 4.3
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e3432b09d47a88e.js",
+              "type": "Script",
+              "encodedDataLength": 281778,
+              "kilobytes": 275.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+              "type": "Script",
+              "encodedDataLength": 99656,
+              "kilobytes": 97.3
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/46cf1d1fbdc89b0d.js",
+              "type": "Script",
+              "encodedDataLength": 83997,
+              "kilobytes": 82
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+              "type": "Script",
+              "encodedDataLength": 83831,
+              "kilobytes": 81.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+              "type": "Script",
+              "encodedDataLength": 71805,
+              "kilobytes": 70.1
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f143a231a28af1ba.js",
+              "type": "Script",
+              "encodedDataLength": 66330,
+              "kilobytes": 64.8
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6cf037b17a1543cf.js",
+              "type": "Script",
+              "encodedDataLength": 66327,
+              "kilobytes": 64.8
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+              "type": "Font",
+              "encodedDataLength": 58308,
+              "kilobytes": 56.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+              "type": "Script",
+              "encodedDataLength": 57963,
+              "kilobytes": 56.6
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+              "type": "Font",
+              "encodedDataLength": 57077,
+              "kilobytes": 55.7
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e3432b09d47a88e.js",
+                "encodedDataLength": 281778,
+                "kilobytes": 275.2
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+                "encodedDataLength": 99656,
+                "kilobytes": 97.3
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/46cf1d1fbdc89b0d.js",
+                "encodedDataLength": 83997,
+                "kilobytes": 82
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+                "encodedDataLength": 83831,
+                "kilobytes": 81.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+                "encodedDataLength": 71805,
+                "kilobytes": 70.1
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/icon256.png",
+                "encodedDataLength": 11041,
+                "kilobytes": 10.8
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/langfuse_logo_white.svg",
+                "encodedDataLength": 7159,
+                "kilobytes": 7
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+                "encodedDataLength": 58308,
+                "kilobytes": 56.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+                "encodedDataLength": 57077,
+                "kilobytes": 55.7
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/384394ccd0f50512.css",
+                "encodedDataLength": 31837,
+                "kilobytes": 31.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/4b89e21b2d9ac1e0.css",
+                "encodedDataLength": 3502,
+                "kilobytes": 3.4
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/705d9a0af13706bf.css",
+                "encodedDataLength": 2336,
+                "kilobytes": 2.3
+              },
+              {
+                "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap",
+                "encodedDataLength": 1311,
+                "kilobytes": 1.3
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88baf1354c110b1b.css",
+                "encodedDataLength": 1165,
+                "kilobytes": 1.1
+              }
+            ]
+          },
+          "failedRequests": 18
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 2,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": [
+            {
+              "textLength": 23,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 78,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            }
+          ]
+        },
+        "accessibility": null,
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "pageErrors": [
+          "Uncaught Error: Looks like your website URL has changed. To ensure the proper functioning of your banner, update the registered URL on your CookieYes account (navigate to the Organizations & Sites page (https://app.cookieyes.com/settings/organizations-and-sites) and click the More button associated with your site). Then, reload this page to retry. If the issue persists, please contact us at https://www.cookieyes.com/support."
+        ],
+        "requestFailures": [
+          {
+            "url": "https://cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://us.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://hipaa.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/trace-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/sessions-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/timeline-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/users-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/langgraph-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/dashboard.mp4%20MOVED%20TO%20R2.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/create-update-prompts.mp4%20MOVED%20TO%20R2.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/create-prompt-version.mp4%20MOVED%20TO%20R2.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/deploy-prompt.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/prompt-metrics.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/prompt-to-playground.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/linked-generations.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/track-changes.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/scores-dashboard.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/scores-user-feedback.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/scores-llm-as-a-judge.mp4%20MOVED%20TO%20R2.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/prompt-experiments.mp4",
+            "failure": "net::ERR_ABORTED"
+          }
+        ],
+        "observerErrors": []
+      },
+      "comparisons": {
+        "firstContentfulPaintMs": {
+          "preview": 3736,
+          "production": 1280,
+          "delta": 2456,
+          "deltaPercent": 191.9,
+          "unit": "ms"
+        },
+        "largestContentfulPaintMs": {
+          "preview": 3736,
+          "production": 1280,
+          "delta": 2456,
+          "deltaPercent": 191.9,
+          "unit": "ms"
+        },
+        "cumulativeLayoutShift": {
+          "preview": 0.017,
+          "production": 0.003,
+          "delta": 0.014,
+          "deltaPercent": 466.7,
+          "unit": "score"
+        },
+        "totalBytes": {
+          "preview": 1068291,
+          "production": 1008902,
+          "delta": 59389,
+          "deltaPercent": 5.9,
+          "unit": "bytes"
+        },
+        "scriptBytes": {
+          "preview": 826838,
+          "production": 605912,
+          "delta": 220926,
+          "deltaPercent": 36.5,
+          "unit": "bytes"
+        }
+      }
+    },
+    {
+      "label": "Deep docs page",
+      "path": "/docs/observability/get-started",
+      "status": "fail",
+      "findings": [
+        {
+          "severity": "fail",
+          "message": "Largest Contentful Paint regressed by +1612 ms versus production."
+        },
+        {
+          "severity": "warn",
+          "message": "First Contentful Paint regressed by +1612 ms versus production."
+        },
+        {
+          "severity": "fail",
+          "message": "axe found 3 serious/critical accessibility issue(s) on preview."
+        },
+        {
+          "severity": "warn",
+          "message": "Preview surfaced browser errors (8 console, 1 page)."
+        }
+      ],
+      "previewDesktop": {
+        "ok": true,
+        "label": "Deep docs page",
+        "path": "/docs/observability/get-started",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/get-started",
+        "status": 200,
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/get-started",
+        "title": "Get Started - Langfuse",
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false
+        },
+        "throttled": true,
+        "navigation": {
+          "domContentLoadedMs": 3785.1,
+          "loadMs": 0,
+          "responseStartMs": 55.9
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 3720,
+          "largestContentfulPaintMs": 3720,
+          "cumulativeLayoutShift": 0.005,
+          "longTaskDurationMs": 296
+        },
+        "resourceSummary": {
+          "requestCount": 164,
+          "totalBytes": 1108798,
+          "totalKilobytes": 1082.8,
+          "totalsByType": {
+            "Document": {
+              "bytes": 58947,
+              "kilobytes": 57.6
+            },
+            "Stylesheet": {
+              "bytes": 38729,
+              "kilobytes": 37.8
+            },
+            "Script": {
+              "bytes": 779131,
+              "kilobytes": 760.9
+            },
+            "Image": {
+              "bytes": 94211,
+              "kilobytes": 92
+            },
+            "Media": {
+              "bytes": 0,
+              "kilobytes": 0
+            },
+            "Font": {
+              "bytes": 115307,
+              "kilobytes": 112.6
+            },
+            "Fetch": {
+              "bytes": 22473,
+              "kilobytes": 21.9
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+              "type": "Script",
+              "encodedDataLength": 99561,
+              "kilobytes": 97.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+              "type": "Script",
+              "encodedDataLength": 83825,
+              "kilobytes": 81.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+              "type": "Script",
+              "encodedDataLength": 71445,
+              "kilobytes": 69.8
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/get-started",
+              "type": "Document",
+              "encodedDataLength": 58947,
+              "kilobytes": 57.6
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+              "type": "Font",
+              "encodedDataLength": 58292,
+              "kilobytes": 56.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+              "type": "Script",
+              "encodedDataLength": 57940,
+              "kilobytes": 56.6
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+              "type": "Font",
+              "encodedDataLength": 57015,
+              "kilobytes": 55.7
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/687728ef8816569e.js",
+              "type": "Script",
+              "encodedDataLength": 53004,
+              "kilobytes": 51.8
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/77a14fa75a89c6b3.js",
+              "type": "Script",
+              "encodedDataLength": 31982,
+              "kilobytes": 31.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/384394ccd0f50512.css",
+              "type": "Stylesheet",
+              "encodedDataLength": 31831,
+              "kilobytes": 31.1
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+                "encodedDataLength": 99561,
+                "kilobytes": 97.2
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+                "encodedDataLength": 83825,
+                "kilobytes": 81.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+                "encodedDataLength": 71445,
+                "kilobytes": 69.8
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+                "encodedDataLength": 57940,
+                "kilobytes": 56.6
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/687728ef8816569e.js",
+                "encodedDataLength": 53004,
+                "kilobytes": 51.8
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/langfuse_logo_white.svg",
+                "encodedDataLength": 7664,
+                "kilobytes": 7.5
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/langchain_icon.png",
+                "encodedDataLength": 5685,
+                "kilobytes": 5.6
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/cognee_icon.png",
+                "encodedDataLength": 5554,
+                "kilobytes": 5.4
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/openclaw_icon.png",
+                "encodedDataLength": 4831,
+                "kilobytes": 4.7
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/anannas_icon.png",
+                "encodedDataLength": 3714,
+                "kilobytes": 3.6
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+                "encodedDataLength": 58292,
+                "kilobytes": 56.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+                "encodedDataLength": 57015,
+                "kilobytes": 55.7
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/384394ccd0f50512.css",
+                "encodedDataLength": 31831,
+                "kilobytes": 31.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/4b89e21b2d9ac1e0.css",
+                "encodedDataLength": 3499,
+                "kilobytes": 3.4
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/705d9a0af13706bf.css",
+                "encodedDataLength": 2241,
+                "kilobytes": 2.2
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88baf1354c110b1b.css",
+                "encodedDataLength": 1158,
+                "kilobytes": 1.1
+              }
+            ]
+          },
+          "failedRequests": 0
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 5,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": [
+            {
+              "textLength": 71,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 73,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 25,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 72,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 65,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            }
+          ]
+        },
+        "accessibility": {
+          "violationCount": 3,
+          "seriousOrCriticalCount": 3,
+          "moderateCount": 0,
+          "minorCount": 0,
+          "violations": [
+            {
+              "id": "aria-valid-attr-value",
+              "impact": "critical",
+              "help": "ARIA attributes must conform to valid values",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#radix-_R_36qav5u75ujb_-trigger-✨-use\\ ai"
+                  ],
+                  "failureSummary": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"radix-_R_36qav5u75ujb_-content-✨-use ai\""
+                }
+              ]
+            },
+            {
+              "id": "button-name",
+              "impact": "critical",
+              "help": "Buttons must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#radix-_R_52qav5u75ujb_"
+                  ],
+                  "failureSummary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ]
+            },
+            {
+              "id": "link-name",
+              "impact": "serious",
+              "help": "Links must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".me-auto"
+                  ],
+                  "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            }
+          ]
+        },
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "pageErrors": [
+          "Uncaught Error: Looks like your website URL has changed. To ensure the proper functioning of your banner, update the registered URL on your CookieYes account (navigate to the Organizations & Sites page (https://app.cookieyes.com/settings/organizations-and-sites) and click the More button associated with your site). Then, reload this page to retry. If the issue persists, please contact us at https://www.cookieyes.com/support."
+        ],
+        "requestFailures": [
+          {
+            "url": "https://cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://us.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://hipaa.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          }
+        ],
+        "observerErrors": []
+      },
+      "productionDesktop": {
+        "ok": true,
+        "label": "Deep docs page",
+        "path": "/docs/observability/get-started",
+        "url": "https://langfuse.com/docs/observability/get-started",
+        "status": 200,
+        "finalUrl": "https://langfuse.com/docs/observability/get-started",
+        "title": "Get Started with Tracing - Langfuse",
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false
+        },
+        "throttled": true,
+        "navigation": {
+          "domContentLoadedMs": 5904.2,
+          "loadMs": 5910.5,
+          "responseStartMs": 36.8
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 2108,
+          "largestContentfulPaintMs": 2108,
+          "cumulativeLayoutShift": 0.006,
+          "longTaskDurationMs": 572
+        },
+        "resourceSummary": {
+          "requestCount": 116,
+          "totalBytes": 1373298,
+          "totalKilobytes": 1341.1,
+          "totalsByType": {
+            "Document": {
+              "bytes": 27235,
+              "kilobytes": 26.6
+            },
+            "Stylesheet": {
+              "bytes": 29914,
+              "kilobytes": 29.2
+            },
+            "Script": {
+              "bytes": 829849,
+              "kilobytes": 810.4
+            },
+            "Image": {
+              "bytes": 106181,
+              "kilobytes": 103.7
+            },
+            "Media": {
+              "bytes": 0,
+              "kilobytes": 0
+            },
+            "Ping": {
+              "bytes": 319,
+              "kilobytes": 0.3
+            },
+            "Fetch": {
+              "bytes": 12363,
+              "kilobytes": 12.1
+            },
+            "Font": {
+              "bytes": 115486,
+              "kilobytes": 112.8
+            },
+            "Other": {
+              "bytes": 251951,
+              "kilobytes": 246
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-866f060691a1a21d.js",
+              "type": "Script",
+              "encodedDataLength": 282648,
+              "kilobytes": 276
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "type": "Script",
+              "encodedDataLength": 61733,
+              "kilobytes": 60.3
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-e0c28f2b2d434d19.js",
+              "type": "Script",
+              "encodedDataLength": 61597,
+              "kilobytes": 60.2
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+              "type": "Script",
+              "encodedDataLength": 59123,
+              "kilobytes": 57.7
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/66f30814ff6d7cdf.p.woff2",
+              "type": "Font",
+              "encodedDataLength": 58271,
+              "kilobytes": 56.9
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/e11418ac562b8ac1-s.p.woff2",
+              "type": "Font",
+              "encodedDataLength": 57215,
+              "kilobytes": 55.9
+            },
+            {
+              "url": "https://langfuse.com/images/integrations/colab_icon.png",
+              "type": "Image",
+              "encodedDataLength": 53648,
+              "kilobytes": 52.4
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/main-237a94cfa4fbf8f3.js",
+              "type": "Script",
+              "encodedDataLength": 40656,
+              "kilobytes": 39.7
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/70622-3d28a0400de0d4ab.js",
+              "type": "Script",
+              "encodedDataLength": 38868,
+              "kilobytes": 38
+            },
+            {
+              "url": "https://langfuse.com/_next/static/css/0be6fcb0615f1091.css",
+              "type": "Stylesheet",
+              "encodedDataLength": 29914,
+              "kilobytes": 29.2
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse.com/_next/static/chunks/pages/_app-866f060691a1a21d.js",
+                "encodedDataLength": 282648,
+                "kilobytes": 276
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+                "encodedDataLength": 61733,
+                "kilobytes": 60.3
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/99633-e0c28f2b2d434d19.js",
+                "encodedDataLength": 61597,
+                "kilobytes": 60.2
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+                "encodedDataLength": 59123,
+                "kilobytes": 57.7
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/main-237a94cfa4fbf8f3.js",
+                "encodedDataLength": 40656,
+                "kilobytes": 39.7
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse.com/images/integrations/colab_icon.png",
+                "encodedDataLength": 53648,
+                "kilobytes": 52.4
+              },
+              {
+                "url": "https://langfuse.com/images/integrations/litellm_icon.png",
+                "encodedDataLength": 12212,
+                "kilobytes": 11.9
+              },
+              {
+                "url": "https://langfuse.com/images/integrations/google_adk_icon.png",
+                "encodedDataLength": 12147,
+                "kilobytes": 11.9
+              },
+              {
+                "url": "https://langfuse.com/images/integrations/crewai_icon.svg",
+                "encodedDataLength": 7721,
+                "kilobytes": 7.5
+              },
+              {
+                "url": "https://langfuse.com/langfuse_logo_white.svg",
+                "encodedDataLength": 7303,
+                "kilobytes": 7.1
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse.com/_next/static/media/66f30814ff6d7cdf.p.woff2",
+                "encodedDataLength": 58271,
+                "kilobytes": 56.9
+              },
+              {
+                "url": "https://langfuse.com/_next/static/media/e11418ac562b8ac1-s.p.woff2",
+                "encodedDataLength": 57215,
+                "kilobytes": 55.9
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse.com/_next/static/css/0be6fcb0615f1091.css",
+                "encodedDataLength": 29914,
+                "kilobytes": 29.2
+              }
+            ]
+          },
+          "failedRequests": 2
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 5,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": [
+            {
+              "textLength": 71,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 73,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 25,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 72,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 65,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            }
+          ]
+        },
+        "accessibility": null,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "requestFailures": [
+          {
+            "url": "https://static.langfuse.com/docs-videos/trace-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/trace-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          }
+        ],
+        "observerErrors": []
+      },
+      "previewMobile": {
+        "ok": true,
+        "label": "Deep docs page",
+        "path": "/docs/observability/get-started",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/get-started",
+        "status": 200,
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/get-started",
+        "title": "Get Started - Langfuse",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true
+        },
+        "throttled": false,
+        "navigation": {
+          "domContentLoadedMs": 193.3,
+          "loadMs": 1448.7,
+          "responseStartMs": 24.6
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 264,
+          "largestContentfulPaintMs": 264,
+          "cumulativeLayoutShift": 0.001,
+          "longTaskDurationMs": 61
+        },
+        "resourceSummary": {
+          "requestCount": 131,
+          "totalBytes": 2436066,
+          "totalKilobytes": 2379,
+          "totalsByType": {
+            "Document": {
+              "bytes": 58379,
+              "kilobytes": 57
+            },
+            "Script": {
+              "bytes": 1456131,
+              "kilobytes": 1422
+            },
+            "Stylesheet": {
+              "bytes": 40170,
+              "kilobytes": 39.2
+            },
+            "Font": {
+              "bytes": 115310,
+              "kilobytes": 112.6
+            },
+            "Media": {
+              "bytes": 0,
+              "kilobytes": 0
+            },
+            "Image": {
+              "bytes": 541650,
+              "kilobytes": 529
+            },
+            "Fetch": {
+              "bytes": 224426,
+              "kilobytes": 219.2
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/tracing-overview.png",
+              "type": "Image",
+              "encodedDataLength": 511974,
+              "kilobytes": 500
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e3432b09d47a88e.js",
+              "type": "Script",
+              "encodedDataLength": 281850,
+              "kilobytes": 275.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+              "type": "Script",
+              "encodedDataLength": 99507,
+              "kilobytes": 97.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/46cf1d1fbdc89b0d.js",
+              "type": "Script",
+              "encodedDataLength": 84061,
+              "kilobytes": 82.1
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+              "type": "Script",
+              "encodedDataLength": 83825,
+              "kilobytes": 81.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+              "type": "Script",
+              "encodedDataLength": 71464,
+              "kilobytes": 69.8
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6cf037b17a1543cf.js",
+              "type": "Script",
+              "encodedDataLength": 66746,
+              "kilobytes": 65.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f143a231a28af1ba.js",
+              "type": "Script",
+              "encodedDataLength": 66151,
+              "kilobytes": 64.6
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/get-started",
+              "type": "Document",
+              "encodedDataLength": 58379,
+              "kilobytes": 57
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+              "type": "Font",
+              "encodedDataLength": 58277,
+              "kilobytes": 56.9
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e3432b09d47a88e.js",
+                "encodedDataLength": 281850,
+                "kilobytes": 275.2
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+                "encodedDataLength": 99507,
+                "kilobytes": 97.2
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/46cf1d1fbdc89b0d.js",
+                "encodedDataLength": 84061,
+                "kilobytes": 82.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+                "encodedDataLength": 83825,
+                "kilobytes": 81.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+                "encodedDataLength": 71464,
+                "kilobytes": 69.8
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/docs/tracing-overview.png",
+                "encodedDataLength": 511974,
+                "kilobytes": 500
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/icon256.png",
+                "encodedDataLength": 11565,
+                "kilobytes": 11.3
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/icon256.png",
+                "encodedDataLength": 10945,
+                "kilobytes": 10.7
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/langfuse_logo_white.svg",
+                "encodedDataLength": 7166,
+                "kilobytes": 7
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+                "encodedDataLength": 58277,
+                "kilobytes": 56.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+                "encodedDataLength": 57033,
+                "kilobytes": 55.7
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/384394ccd0f50512.css",
+                "encodedDataLength": 31839,
+                "kilobytes": 31.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/4b89e21b2d9ac1e0.css",
+                "encodedDataLength": 3511,
+                "kilobytes": 3.4
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/705d9a0af13706bf.css",
+                "encodedDataLength": 2715,
+                "kilobytes": 2.7
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88baf1354c110b1b.css",
+                "encodedDataLength": 1142,
+                "kilobytes": 1.1
+              },
+              {
+                "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap",
+                "encodedDataLength": 963,
+                "kilobytes": 0.9
+              }
+            ]
+          },
+          "failedRequests": 2
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 5,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": [
+            {
+              "textLength": 71,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 73,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 25,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 72,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 65,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            }
+          ]
+        },
+        "accessibility": null,
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "pageErrors": [
+          "Uncaught Error: Looks like your website URL has changed. To ensure the proper functioning of your banner, update the registered URL on your CookieYes account (navigate to the Organizations & Sites page (https://app.cookieyes.com/settings/organizations-and-sites) and click the More button associated with your site). Then, reload this page to retry. If the issue persists, please contact us at https://www.cookieyes.com/support."
+        ],
+        "requestFailures": [
+          {
+            "url": "https://static.langfuse.com/docs-videos/trace-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/trace-new-ui.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://us.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://hipaa.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          }
+        ],
+        "observerErrors": []
+      },
+      "comparisons": {
+        "firstContentfulPaintMs": {
+          "preview": 3720,
+          "production": 2108,
+          "delta": 1612,
+          "deltaPercent": 76.5,
+          "unit": "ms"
+        },
+        "largestContentfulPaintMs": {
+          "preview": 3720,
+          "production": 2108,
+          "delta": 1612,
+          "deltaPercent": 76.5,
+          "unit": "ms"
+        },
+        "cumulativeLayoutShift": {
+          "preview": 0.005,
+          "production": 0.006,
+          "delta": -0.001,
+          "deltaPercent": -16.7,
+          "unit": "score"
+        },
+        "totalBytes": {
+          "preview": 1108798,
+          "production": 1373298,
+          "delta": -264500,
+          "deltaPercent": -19.3,
+          "unit": "bytes"
+        },
+        "scriptBytes": {
+          "preview": 779131,
+          "production": 829849,
+          "delta": -50718,
+          "deltaPercent": -6.1,
+          "unit": "bytes"
+        }
+      }
+    },
+    {
+      "label": "Video guide",
+      "path": "/guides/videos/introducing-datasets-v2",
+      "status": "fail",
+      "findings": [
+        {
+          "severity": "warn",
+          "message": "First Contentful Paint regressed by +1928 ms versus production."
+        },
+        {
+          "severity": "fail",
+          "message": "axe found 2 serious/critical accessibility issue(s) on preview."
+        },
+        {
+          "severity": "warn",
+          "message": "Preview surfaced browser errors (8 console, 1 page)."
+        }
+      ],
+      "previewDesktop": {
+        "ok": true,
+        "label": "Video guide",
+        "path": "/guides/videos/introducing-datasets-v2",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/introducing-datasets-v2",
+        "status": 200,
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/introducing-datasets-v2",
+        "title": "Introducing Datasets v2 - Langfuse",
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false
+        },
+        "throttled": true,
+        "navigation": {
+          "domContentLoadedMs": 3597.5,
+          "loadMs": 0,
+          "responseStartMs": 23.2
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 3568,
+          "largestContentfulPaintMs": 3568,
+          "cumulativeLayoutShift": 0,
+          "longTaskDurationMs": 337
+        },
+        "resourceSummary": {
+          "requestCount": 143,
+          "totalBytes": 1223213,
+          "totalKilobytes": 1194.5,
+          "totalsByType": {
+            "Document": {
+              "bytes": 30263,
+              "kilobytes": 29.6
+            },
+            "Stylesheet": {
+              "bytes": 39242,
+              "kilobytes": 38.3
+            },
+            "Script": {
+              "bytes": 924997,
+              "kilobytes": 903.3
+            },
+            "Image": {
+              "bytes": 57532,
+              "kilobytes": 56.2
+            },
+            "Media": {
+              "bytes": 0,
+              "kilobytes": 0
+            },
+            "Font": {
+              "bytes": 115317,
+              "kilobytes": 112.6
+            },
+            "Fetch": {
+              "bytes": 55862,
+              "kilobytes": 54.6
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+              "type": "Script",
+              "encodedDataLength": 99539,
+              "kilobytes": 97.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+              "type": "Script",
+              "encodedDataLength": 83891,
+              "kilobytes": 81.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+              "type": "Script",
+              "encodedDataLength": 71487,
+              "kilobytes": 69.8
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+              "type": "Font",
+              "encodedDataLength": 58285,
+              "kilobytes": 56.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+              "type": "Script",
+              "encodedDataLength": 57971,
+              "kilobytes": 56.6
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+              "type": "Font",
+              "encodedDataLength": 57032,
+              "kilobytes": 55.7
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/687728ef8816569e.js",
+              "type": "Script",
+              "encodedDataLength": 53013,
+              "kilobytes": 51.8
+            },
+            {
+              "url": "https://js-eu1.hs-analytics.net/analytics/1773953400000/143255669.js",
+              "type": "Script",
+              "encodedDataLength": 42915,
+              "kilobytes": 41.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog/2024-04-25-datasets-v2?_rsc=dmagh",
+              "type": "Fetch",
+              "encodedDataLength": 38094,
+              "kilobytes": 37.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/77a14fa75a89c6b3.js",
+              "type": "Script",
+              "encodedDataLength": 32463,
+              "kilobytes": 31.7
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+                "encodedDataLength": 99539,
+                "kilobytes": 97.2
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+                "encodedDataLength": 83891,
+                "kilobytes": 81.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+                "encodedDataLength": 71487,
+                "kilobytes": 69.8
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+                "encodedDataLength": 57971,
+                "kilobytes": 56.6
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/687728ef8816569e.js",
+                "encodedDataLength": 53013,
+                "kilobytes": 51.8
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/langfuse_logo_white.svg",
+                "encodedDataLength": 7167,
+                "kilobytes": 7
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/openclaw_icon.png",
+                "encodedDataLength": 4831,
+                "kilobytes": 4.7
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/anannas_icon.png",
+                "encodedDataLength": 3749,
+                "kilobytes": 3.7
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/coval_icon.png",
+                "encodedDataLength": 3674,
+                "kilobytes": 3.6
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/voltagent_icon.png",
+                "encodedDataLength": 2838,
+                "kilobytes": 2.8
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+                "encodedDataLength": 58285,
+                "kilobytes": 56.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+                "encodedDataLength": 57032,
+                "kilobytes": 55.7
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/384394ccd0f50512.css",
+                "encodedDataLength": 31843,
+                "kilobytes": 31.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/4b89e21b2d9ac1e0.css",
+                "encodedDataLength": 3568,
+                "kilobytes": 3.5
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/705d9a0af13706bf.css",
+                "encodedDataLength": 2192,
+                "kilobytes": 2.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88baf1354c110b1b.css",
+                "encodedDataLength": 1639,
+                "kilobytes": 1.6
+              }
+            ]
+          },
+          "failedRequests": 1
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 0,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": []
+        },
+        "accessibility": {
+          "violationCount": 2,
+          "seriousOrCriticalCount": 2,
+          "moderateCount": 0,
+          "minorCount": 0,
+          "violations": [
+            {
+              "id": "button-name",
+              "impact": "critical",
+              "help": "Buttons must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#radix-_R_52qav5u75ujb_"
+                  ],
+                  "failureSummary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ]
+            },
+            {
+              "id": "link-name",
+              "impact": "serious",
+              "help": "Links must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".text-\\[0\\.9375rem\\]"
+                  ],
+                  "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            }
+          ]
+        },
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "pageErrors": [
+          "Uncaught Error: Looks like your website URL has changed. To ensure the proper functioning of your banner, update the registered URL on your CookieYes account (navigate to the Organizations & Sites page (https://app.cookieyes.com/settings/organizations-and-sites) and click the More button associated with your site). Then, reload this page to retry. If the issue persists, please contact us at https://www.cookieyes.com/support."
+        ],
+        "requestFailures": [
+          {
+            "url": "https://static.langfuse.com/docs-videos/launch-week-datasets.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://us.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://hipaa.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          }
+        ],
+        "observerErrors": []
+      },
+      "productionDesktop": {
+        "ok": true,
+        "label": "Video guide",
+        "path": "/guides/videos/introducing-datasets-v2",
+        "url": "https://langfuse.com/guides/videos/introducing-datasets-v2",
+        "status": 200,
+        "finalUrl": "https://langfuse.com/guides/videos/introducing-datasets-v2",
+        "title": "Introducing Datasets v2 - Langfuse",
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false
+        },
+        "throttled": true,
+        "navigation": {
+          "domContentLoadedMs": 4981.2,
+          "loadMs": 0,
+          "responseStartMs": 81.6
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 1640,
+          "largestContentfulPaintMs": 3216,
+          "cumulativeLayoutShift": 0,
+          "longTaskDurationMs": 652
+        },
+        "resourceSummary": {
+          "requestCount": 107,
+          "totalBytes": 1255042,
+          "totalKilobytes": 1225.6,
+          "totalsByType": {
+            "Document": {
+              "bytes": 13678,
+              "kilobytes": 13.4
+            },
+            "Stylesheet": {
+              "bytes": 29721,
+              "kilobytes": 29
+            },
+            "Script": {
+              "bytes": 863341,
+              "kilobytes": 843.1
+            },
+            "Image": {
+              "bytes": 9117,
+              "kilobytes": 8.9
+            },
+            "Ping": {
+              "bytes": 457,
+              "kilobytes": 0.4
+            },
+            "Media": {
+              "bytes": 0,
+              "kilobytes": 0
+            },
+            "Font": {
+              "bytes": 115329,
+              "kilobytes": 112.6
+            },
+            "Fetch": {
+              "bytes": 12501,
+              "kilobytes": 12.2
+            },
+            "Other": {
+              "bytes": 210898,
+              "kilobytes": 206
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-866f060691a1a21d.js",
+              "type": "Script",
+              "encodedDataLength": 282667,
+              "kilobytes": 276
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "type": "Script",
+              "encodedDataLength": 61724,
+              "kilobytes": 60.3
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-e0c28f2b2d434d19.js",
+              "type": "Script",
+              "encodedDataLength": 61597,
+              "kilobytes": 60.2
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+              "type": "Script",
+              "encodedDataLength": 58805,
+              "kilobytes": 57.4
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/66f30814ff6d7cdf.p.woff2",
+              "type": "Font",
+              "encodedDataLength": 58263,
+              "kilobytes": 56.9
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/e11418ac562b8ac1-s.p.woff2",
+              "type": "Font",
+              "encodedDataLength": 57066,
+              "kilobytes": 55.7
+            },
+            {
+              "url": "https://js-eu1.hs-analytics.net/analytics/1773953400000/143255669.js",
+              "type": "Script",
+              "encodedDataLength": 43271,
+              "kilobytes": 42.3
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/main-237a94cfa4fbf8f3.js",
+              "type": "Script",
+              "encodedDataLength": 41181,
+              "kilobytes": 40.2
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/70622-3d28a0400de0d4ab.js",
+              "type": "Script",
+              "encodedDataLength": 38792,
+              "kilobytes": 37.9
+            },
+            {
+              "url": "https://langfuse.com/_next/static/css/0be6fcb0615f1091.css",
+              "type": "Stylesheet",
+              "encodedDataLength": 29721,
+              "kilobytes": 29
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse.com/_next/static/chunks/pages/_app-866f060691a1a21d.js",
+                "encodedDataLength": 282667,
+                "kilobytes": 276
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+                "encodedDataLength": 61724,
+                "kilobytes": 60.3
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/99633-e0c28f2b2d434d19.js",
+                "encodedDataLength": 61597,
+                "kilobytes": 60.2
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+                "encodedDataLength": 58805,
+                "kilobytes": 57.4
+              },
+              {
+                "url": "https://js-eu1.hs-analytics.net/analytics/1773953400000/143255669.js",
+                "encodedDataLength": 43271,
+                "kilobytes": 42.3
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse.com/langfuse_logo_white.svg",
+                "encodedDataLength": 7613,
+                "kilobytes": 7.4
+              },
+              {
+                "url": "https://cdn-cookieyes.com/assets/images/close.svg",
+                "encodedDataLength": 858,
+                "kilobytes": 0.8
+              },
+              {
+                "url": "https://langfuse.com/_next/image?url=%2Fimages%2Fpeople%2Fmarcklingen.jpg&w=32&q=75",
+                "encodedDataLength": 646,
+                "kilobytes": 0.6
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse.com/_next/static/media/66f30814ff6d7cdf.p.woff2",
+                "encodedDataLength": 58263,
+                "kilobytes": 56.9
+              },
+              {
+                "url": "https://langfuse.com/_next/static/media/e11418ac562b8ac1-s.p.woff2",
+                "encodedDataLength": 57066,
+                "kilobytes": 55.7
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse.com/_next/static/css/0be6fcb0615f1091.css",
+                "encodedDataLength": 29721,
+                "kilobytes": 29
+              }
+            ]
+          },
+          "failedRequests": 1
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 0,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": []
+        },
+        "accessibility": null,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "requestFailures": [
+          {
+            "url": "https://static.langfuse.com/docs-videos/launch-week-datasets.mp4",
+            "failure": "net::ERR_ABORTED"
+          }
+        ],
+        "observerErrors": []
+      },
+      "previewMobile": {
+        "ok": true,
+        "label": "Video guide",
+        "path": "/guides/videos/introducing-datasets-v2",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/introducing-datasets-v2",
+        "status": 200,
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/introducing-datasets-v2",
+        "title": "Introducing Datasets v2 - Langfuse",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true
+        },
+        "throttled": false,
+        "navigation": {
+          "domContentLoadedMs": 171.1,
+          "loadMs": 1440.2,
+          "responseStartMs": 34.3
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 192,
+          "largestContentfulPaintMs": 192,
+          "cumulativeLayoutShift": 0.001,
+          "longTaskDurationMs": 60
+        },
+        "resourceSummary": {
+          "requestCount": 137,
+          "totalBytes": 1915740,
+          "totalKilobytes": 1870.8,
+          "totalsByType": {
+            "Document": {
+              "bytes": 30293,
+              "kilobytes": 29.6
+            },
+            "Stylesheet": {
+              "bytes": 40027,
+              "kilobytes": 39.1
+            },
+            "Font": {
+              "bytes": 115360,
+              "kilobytes": 112.7
+            },
+            "Script": {
+              "bytes": 1457446,
+              "kilobytes": 1423.3
+            },
+            "Media": {
+              "bytes": 0,
+              "kilobytes": 0
+            },
+            "Image": {
+              "bytes": 18243,
+              "kilobytes": 17.8
+            },
+            "Fetch": {
+              "bytes": 254371,
+              "kilobytes": 248.4
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e3432b09d47a88e.js",
+              "type": "Script",
+              "encodedDataLength": 281744,
+              "kilobytes": 275.1
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+              "type": "Script",
+              "encodedDataLength": 99508,
+              "kilobytes": 97.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/46cf1d1fbdc89b0d.js",
+              "type": "Script",
+              "encodedDataLength": 83995,
+              "kilobytes": 82
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+              "type": "Script",
+              "encodedDataLength": 83834,
+              "kilobytes": 81.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+              "type": "Script",
+              "encodedDataLength": 71489,
+              "kilobytes": 69.8
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6cf037b17a1543cf.js",
+              "type": "Script",
+              "encodedDataLength": 66169,
+              "kilobytes": 64.6
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f143a231a28af1ba.js",
+              "type": "Script",
+              "encodedDataLength": 66140,
+              "kilobytes": 64.6
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+              "type": "Script",
+              "encodedDataLength": 58446,
+              "kilobytes": 57.1
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+              "type": "Font",
+              "encodedDataLength": 58277,
+              "kilobytes": 56.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+              "type": "Font",
+              "encodedDataLength": 57083,
+              "kilobytes": 55.7
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e3432b09d47a88e.js",
+                "encodedDataLength": 281744,
+                "kilobytes": 275.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+                "encodedDataLength": 99508,
+                "kilobytes": 97.2
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/46cf1d1fbdc89b0d.js",
+                "encodedDataLength": 83995,
+                "kilobytes": 82
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+                "encodedDataLength": 83834,
+                "kilobytes": 81.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+                "encodedDataLength": 71489,
+                "kilobytes": 69.8
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/icon256.png",
+                "encodedDataLength": 11046,
+                "kilobytes": 10.8
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/langfuse_logo_white.svg",
+                "encodedDataLength": 7197,
+                "kilobytes": 7
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+                "encodedDataLength": 58277,
+                "kilobytes": 56.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+                "encodedDataLength": 57083,
+                "kilobytes": 55.7
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/384394ccd0f50512.css",
+                "encodedDataLength": 31858,
+                "kilobytes": 31.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/4b89e21b2d9ac1e0.css",
+                "encodedDataLength": 3493,
+                "kilobytes": 3.4
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/705d9a0af13706bf.css",
+                "encodedDataLength": 2667,
+                "kilobytes": 2.6
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88baf1354c110b1b.css",
+                "encodedDataLength": 1142,
+                "kilobytes": 1.1
+              },
+              {
+                "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap",
+                "encodedDataLength": 867,
+                "kilobytes": 0.8
+              }
+            ]
+          },
+          "failedRequests": 2
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 0,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": []
+        },
+        "accessibility": null,
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "pageErrors": [
+          "Uncaught Error: Looks like your website URL has changed. To ensure the proper functioning of your banner, update the registered URL on your CookieYes account (navigate to the Organizations & Sites page (https://app.cookieyes.com/settings/organizations-and-sites) and click the More button associated with your site). Then, reload this page to retry. If the issue persists, please contact us at https://www.cookieyes.com/support."
+        ],
+        "requestFailures": [
+          {
+            "url": "https://static.langfuse.com/docs-videos/launch-week-datasets.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://static.langfuse.com/docs-videos/launch-week-datasets.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://hipaa.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://us.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          }
+        ],
+        "observerErrors": []
+      },
+      "comparisons": {
+        "firstContentfulPaintMs": {
+          "preview": 3568,
+          "production": 1640,
+          "delta": 1928,
+          "deltaPercent": 117.6,
+          "unit": "ms"
+        },
+        "largestContentfulPaintMs": {
+          "preview": 3568,
+          "production": 3216,
+          "delta": 352,
+          "deltaPercent": 10.9,
+          "unit": "ms"
+        },
+        "cumulativeLayoutShift": {
+          "preview": 0,
+          "production": 0,
+          "delta": 0,
+          "deltaPercent": null,
+          "unit": "score"
+        },
+        "totalBytes": {
+          "preview": 1223213,
+          "production": 1255042,
+          "delta": -31829,
+          "deltaPercent": -2.5,
+          "unit": "bytes"
+        },
+        "scriptBytes": {
+          "preview": 924997,
+          "production": 863341,
+          "delta": 61656,
+          "deltaPercent": 7.1,
+          "unit": "bytes"
+        }
+      }
+    },
+    {
+      "label": "Self-hosting long-form page",
+      "path": "/self-hosting/deployment/docker-compose",
+      "status": "fail",
+      "findings": [
+        {
+          "severity": "fail",
+          "message": "Largest Contentful Paint regressed by +1856 ms versus production."
+        },
+        {
+          "severity": "warn",
+          "message": "First Contentful Paint regressed by +1856 ms versus production."
+        },
+        {
+          "severity": "fail",
+          "message": "axe found 2 serious/critical accessibility issue(s) on preview."
+        },
+        {
+          "severity": "warn",
+          "message": "Preview surfaced browser errors (8 console, 1 page)."
+        }
+      ],
+      "previewDesktop": {
+        "ok": true,
+        "label": "Self-hosting long-form page",
+        "path": "/self-hosting/deployment/docker-compose",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/docker-compose",
+        "status": 200,
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/docker-compose",
+        "title": "Docker Compose Deployment (Self-Hosted) - Langfuse",
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false
+        },
+        "throttled": true,
+        "navigation": {
+          "domContentLoadedMs": 3647,
+          "loadMs": 4858.2,
+          "responseStartMs": 36.8
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 3644,
+          "largestContentfulPaintMs": 3644,
+          "cumulativeLayoutShift": 0.004,
+          "longTaskDurationMs": 255
+        },
+        "resourceSummary": {
+          "requestCount": 166,
+          "totalBytes": 1172407,
+          "totalKilobytes": 1144.9,
+          "totalsByType": {
+            "Document": {
+              "bytes": 39914,
+              "kilobytes": 39
+            },
+            "Stylesheet": {
+              "bytes": 39116,
+              "kilobytes": 38.2
+            },
+            "Script": {
+              "bytes": 825772,
+              "kilobytes": 806.4
+            },
+            "Image": {
+              "bytes": 132810,
+              "kilobytes": 129.7
+            },
+            "Font": {
+              "bytes": 115387,
+              "kilobytes": 112.7
+            },
+            "Fetch": {
+              "bytes": 19408,
+              "kilobytes": 19
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+              "type": "Script",
+              "encodedDataLength": 99535,
+              "kilobytes": 97.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+              "type": "Script",
+              "encodedDataLength": 83988,
+              "kilobytes": 82
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+              "type": "Script",
+              "encodedDataLength": 71772,
+              "kilobytes": 70.1
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+              "type": "Font",
+              "encodedDataLength": 58324,
+              "kilobytes": 57
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+              "type": "Script",
+              "encodedDataLength": 57958,
+              "kilobytes": 56.6
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+              "type": "Font",
+              "encodedDataLength": 57063,
+              "kilobytes": 55.7
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/687728ef8816569e.js",
+              "type": "Script",
+              "encodedDataLength": 53346,
+              "kilobytes": 52.1
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/docker-compose",
+              "type": "Document",
+              "encodedDataLength": 39914,
+              "kilobytes": 39
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/77a14fa75a89c6b3.js",
+              "type": "Script",
+              "encodedDataLength": 31994,
+              "kilobytes": 31.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/384394ccd0f50512.css",
+              "type": "Stylesheet",
+              "encodedDataLength": 31878,
+              "kilobytes": 31.1
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+                "encodedDataLength": 99535,
+                "kilobytes": 97.2
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+                "encodedDataLength": 83988,
+                "kilobytes": 82
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+                "encodedDataLength": 71772,
+                "kilobytes": 70.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+                "encodedDataLength": 57958,
+                "kilobytes": 56.6
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/687728ef8816569e.js",
+                "encodedDataLength": 53346,
+                "kilobytes": 52.1
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/agno_icon.jpg",
+                "encodedDataLength": 9797,
+                "kilobytes": 9.6
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/crewai_icon.svg",
+                "encodedDataLength": 7768,
+                "kilobytes": 7.6
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/langfuse_logo_white.svg",
+                "encodedDataLength": 7192,
+                "kilobytes": 7
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/strands_agents_icon.svg",
+                "encodedDataLength": 6896,
+                "kilobytes": 6.7
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/images/integrations/cognee_icon.png",
+                "encodedDataLength": 5708,
+                "kilobytes": 5.6
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+                "encodedDataLength": 58324,
+                "kilobytes": 57
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+                "encodedDataLength": 57063,
+                "kilobytes": 55.7
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/384394ccd0f50512.css",
+                "encodedDataLength": 31878,
+                "kilobytes": 31.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/4b89e21b2d9ac1e0.css",
+                "encodedDataLength": 3536,
+                "kilobytes": 3.5
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/705d9a0af13706bf.css",
+                "encodedDataLength": 2521,
+                "kilobytes": 2.5
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88baf1354c110b1b.css",
+                "encodedDataLength": 1181,
+                "kilobytes": 1.2
+              }
+            ]
+          },
+          "failedRequests": 0
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 5,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": [
+            {
+              "textLength": 62,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 17,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 585,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 101,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 27,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            }
+          ]
+        },
+        "accessibility": {
+          "violationCount": 2,
+          "seriousOrCriticalCount": 2,
+          "moderateCount": 0,
+          "minorCount": 0,
+          "violations": [
+            {
+              "id": "button-name",
+              "impact": "critical",
+              "help": "Buttons must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#radix-_R_52qav5u75ujb_"
+                  ],
+                  "failureSummary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ]
+            },
+            {
+              "id": "link-name",
+              "impact": "serious",
+              "help": "Links must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".me-auto"
+                  ],
+                  "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            }
+          ]
+        },
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "pageErrors": [
+          "Uncaught Error: Looks like your website URL has changed. To ensure the proper functioning of your banner, update the registered URL on your CookieYes account (navigate to the Organizations & Sites page (https://app.cookieyes.com/settings/organizations-and-sites) and click the More button associated with your site). Then, reload this page to retry. If the issue persists, please contact us at https://www.cookieyes.com/support."
+        ],
+        "requestFailures": [
+          {
+            "url": "https://cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://hipaa.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://us.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          }
+        ],
+        "observerErrors": []
+      },
+      "productionDesktop": {
+        "ok": true,
+        "label": "Self-hosting long-form page",
+        "path": "/self-hosting/deployment/docker-compose",
+        "url": "https://langfuse.com/self-hosting/deployment/docker-compose",
+        "status": 200,
+        "finalUrl": "https://langfuse.com/self-hosting/deployment/docker-compose",
+        "title": "Docker Compose Deployment (Self-Hosted) - Langfuse",
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false
+        },
+        "throttled": true,
+        "navigation": {
+          "domContentLoadedMs": 3777.2,
+          "loadMs": 3781.2,
+          "responseStartMs": 35.7
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 1788,
+          "largestContentfulPaintMs": 1788,
+          "cumulativeLayoutShift": 0.004,
+          "longTaskDurationMs": 695
+        },
+        "resourceSummary": {
+          "requestCount": 106,
+          "totalBytes": 1286092,
+          "totalKilobytes": 1255.9,
+          "totalsByType": {
+            "Document": {
+              "bytes": 19050,
+              "kilobytes": 18.6
+            },
+            "Stylesheet": {
+              "bytes": 30223,
+              "kilobytes": 29.5
+            },
+            "Script": {
+              "bytes": 885849,
+              "kilobytes": 865.1
+            },
+            "Image": {
+              "bytes": 10135,
+              "kilobytes": 9.9
+            },
+            "Ping": {
+              "bytes": 421,
+              "kilobytes": 0.4
+            },
+            "Font": {
+              "bytes": 115309,
+              "kilobytes": 112.6
+            },
+            "Fetch": {
+              "bytes": 30423,
+              "kilobytes": 29.7
+            },
+            "Other": {
+              "bytes": 194682,
+              "kilobytes": 190.1
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse.com/_next/static/chunks/pages/_app-866f060691a1a21d.js",
+              "type": "Script",
+              "encodedDataLength": 282657,
+              "kilobytes": 276
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+              "type": "Script",
+              "encodedDataLength": 61733,
+              "kilobytes": 60.3
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/99633-e0c28f2b2d434d19.js",
+              "type": "Script",
+              "encodedDataLength": 61658,
+              "kilobytes": 60.2
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+              "type": "Script",
+              "encodedDataLength": 58795,
+              "kilobytes": 57.4
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/66f30814ff6d7cdf.p.woff2",
+              "type": "Font",
+              "encodedDataLength": 58259,
+              "kilobytes": 56.9
+            },
+            {
+              "url": "https://langfuse.com/_next/static/media/e11418ac562b8ac1-s.p.woff2",
+              "type": "Font",
+              "encodedDataLength": 57050,
+              "kilobytes": 55.7
+            },
+            {
+              "url": "https://js-eu1.hs-analytics.net/analytics/1773953400000/143255669.js",
+              "type": "Script",
+              "encodedDataLength": 42916,
+              "kilobytes": 41.9
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/main-237a94cfa4fbf8f3.js",
+              "type": "Script",
+              "encodedDataLength": 40679,
+              "kilobytes": 39.7
+            },
+            {
+              "url": "https://langfuse.com/_next/static/chunks/70622-3d28a0400de0d4ab.js",
+              "type": "Script",
+              "encodedDataLength": 38817,
+              "kilobytes": 37.9
+            },
+            {
+              "url": "https://langfuse.com/_next/static/css/0be6fcb0615f1091.css",
+              "type": "Stylesheet",
+              "encodedDataLength": 30223,
+              "kilobytes": 29.5
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse.com/_next/static/chunks/pages/_app-866f060691a1a21d.js",
+                "encodedDataLength": 282657,
+                "kilobytes": 276
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/framework-c2429b60c2ca78b5.js",
+                "encodedDataLength": 61733,
+                "kilobytes": 60.3
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/99633-e0c28f2b2d434d19.js",
+                "encodedDataLength": 61658,
+                "kilobytes": 60.2
+              },
+              {
+                "url": "https://langfuse.com/_next/static/chunks/49181.967ee6baaa6abd68.js",
+                "encodedDataLength": 58795,
+                "kilobytes": 57.4
+              },
+              {
+                "url": "https://js-eu1.hs-analytics.net/analytics/1773953400000/143255669.js",
+                "encodedDataLength": 42916,
+                "kilobytes": 41.9
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse.com/langfuse_logo_white.svg",
+                "encodedDataLength": 7176,
+                "kilobytes": 7
+              },
+              {
+                "url": "https://track-eu1.hubspot.com/__ptq.gif?k=1&sd=800x600&cd=24-bit&cs=UTF-8&ln=en-us&v=1.1&a=143255669&pu=https%3A%2F%2Flangfuse.com%2Fself-hosting%2Fdeployment%2Fdocker-compose&t=Docker+Compose+Deployment+(Self-Hosted)+-+Langfuse&cts=1773960810697&vi=7080fef5f3beed044fba18c247321688&nc=true&u=225594501.7080fef5f3beed044fba18c247321688.1773960810692.1773960810692.1773960810692.1&b=225594501.1.1773960810692&cc=15",
+                "encodedDataLength": 1104,
+                "kilobytes": 1.1
+              },
+              {
+                "url": "https://cdn-cookieyes.com/assets/images/close.svg",
+                "encodedDataLength": 772,
+                "kilobytes": 0.8
+              },
+              {
+                "url": "https://langfuse.com/_next/image?url=%2Fimages%2Fpeople%2Fmarcklingen.jpg&w=32&q=75",
+                "encodedDataLength": 546,
+                "kilobytes": 0.5
+              },
+              {
+                "url": "https://langfuse.com/_next/image?url=%2Fimages%2Fpeople%2Fjannikmaierhoefer.jpg&w=32&q=75",
+                "encodedDataLength": 537,
+                "kilobytes": 0.5
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse.com/_next/static/media/66f30814ff6d7cdf.p.woff2",
+                "encodedDataLength": 58259,
+                "kilobytes": 56.9
+              },
+              {
+                "url": "https://langfuse.com/_next/static/media/e11418ac562b8ac1-s.p.woff2",
+                "encodedDataLength": 57050,
+                "kilobytes": 55.7
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse.com/_next/static/css/0be6fcb0615f1091.css",
+                "encodedDataLength": 30223,
+                "kilobytes": 29.5
+              }
+            ]
+          },
+          "failedRequests": 0
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 5,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": [
+            {
+              "textLength": 62,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 17,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 586,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 101,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 27,
+              "overflowX": "auto",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            }
+          ]
+        },
+        "accessibility": null,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "requestFailures": [],
+        "observerErrors": []
+      },
+      "previewMobile": {
+        "ok": true,
+        "label": "Self-hosting long-form page",
+        "path": "/self-hosting/deployment/docker-compose",
+        "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/docker-compose",
+        "status": 200,
+        "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/docker-compose",
+        "title": "Docker Compose Deployment (Self-Hosted) - Langfuse",
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true
+        },
+        "throttled": false,
+        "navigation": {
+          "domContentLoadedMs": 401.6,
+          "loadMs": 1310.8,
+          "responseStartMs": 31.1
+        },
+        "renderMetrics": {
+          "firstContentfulPaintMs": 420,
+          "largestContentfulPaintMs": 420,
+          "cumulativeLayoutShift": 0,
+          "longTaskDurationMs": 58
+        },
+        "resourceSummary": {
+          "requestCount": 120,
+          "totalBytes": 1837683,
+          "totalKilobytes": 1794.6,
+          "totalsByType": {
+            "Document": {
+              "bytes": 39923,
+              "kilobytes": 39
+            },
+            "Script": {
+              "bytes": 1454991,
+              "kilobytes": 1420.9
+            },
+            "Stylesheet": {
+              "bytes": 40033,
+              "kilobytes": 39.1
+            },
+            "Font": {
+              "bytes": 115870,
+              "kilobytes": 113.2
+            },
+            "Image": {
+              "bytes": 20495,
+              "kilobytes": 20
+            },
+            "Fetch": {
+              "bytes": 166371,
+              "kilobytes": 162.5
+            }
+          },
+          "topResources": [
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e3432b09d47a88e.js",
+              "type": "Script",
+              "encodedDataLength": 281735,
+              "kilobytes": 275.1
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+              "type": "Script",
+              "encodedDataLength": 99508,
+              "kilobytes": 97.2
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/46cf1d1fbdc89b0d.js",
+              "type": "Script",
+              "encodedDataLength": 84064,
+              "kilobytes": 82.1
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+              "type": "Script",
+              "encodedDataLength": 83879,
+              "kilobytes": 81.9
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+              "type": "Script",
+              "encodedDataLength": 71471,
+              "kilobytes": 69.8
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6cf037b17a1543cf.js",
+              "type": "Script",
+              "encodedDataLength": 66227,
+              "kilobytes": 64.7
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f143a231a28af1ba.js",
+              "type": "Script",
+              "encodedDataLength": 66139,
+              "kilobytes": 64.6
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+              "type": "Script",
+              "encodedDataLength": 58434,
+              "kilobytes": 57.1
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+              "type": "Font",
+              "encodedDataLength": 58334,
+              "kilobytes": 57
+            },
+            {
+              "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+              "type": "Font",
+              "encodedDataLength": 57536,
+              "kilobytes": 56.2
+            }
+          ],
+          "topByType": {
+            "Script": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e3432b09d47a88e.js",
+                "encodedDataLength": 281735,
+                "kilobytes": 275.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+                "encodedDataLength": 99508,
+                "kilobytes": 97.2
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/46cf1d1fbdc89b0d.js",
+                "encodedDataLength": 84064,
+                "kilobytes": 82.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+                "encodedDataLength": 83879,
+                "kilobytes": 81.9
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+                "encodedDataLength": 71471,
+                "kilobytes": 69.8
+              }
+            ],
+            "Image": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/icon256.png",
+                "encodedDataLength": 11041,
+                "kilobytes": 10.8
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/langfuse_logo_white.svg",
+                "encodedDataLength": 7198,
+                "kilobytes": 7
+              },
+              {
+                "url": "https://railway.com/button.svg",
+                "encodedDataLength": 2256,
+                "kilobytes": 2.2
+              }
+            ],
+            "Font": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/GeistMono_Variable.p.f130cd20.woff2",
+                "encodedDataLength": 58334,
+                "kilobytes": 57
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/media/Geist_Variable-s.p.70416cc0.woff2",
+                "encodedDataLength": 57536,
+                "kilobytes": 56.2
+              }
+            ],
+            "Stylesheet": [
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/384394ccd0f50512.css",
+                "encodedDataLength": 31831,
+                "kilobytes": 31.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/4b89e21b2d9ac1e0.css",
+                "encodedDataLength": 3511,
+                "kilobytes": 3.4
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/705d9a0af13706bf.css",
+                "encodedDataLength": 2161,
+                "kilobytes": 2.1
+              },
+              {
+                "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88baf1354c110b1b.css",
+                "encodedDataLength": 1663,
+                "kilobytes": 1.6
+              },
+              {
+                "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap",
+                "encodedDataLength": 867,
+                "kilobytes": 0.8
+              }
+            ]
+          },
+          "failedRequests": 0
+        },
+        "responsive": {
+          "horizontalOverflowPx": 0,
+          "codeBlockCount": 5,
+          "unselectableCodeBlocks": 0,
+          "scrollableCodeBlocks": 0,
+          "codeBlocks": [
+            {
+              "textLength": 62,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 17,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 585,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 101,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            },
+            {
+              "textLength": 27,
+              "overflowX": "visible",
+              "userSelect": "auto",
+              "pointerEvents": "auto",
+              "scrollable": false
+            }
+          ]
+        },
+        "accessibility": null,
+        "consoleErrors": [
+          "[PostHog.js] PostHog was initialized without a token. This likely indicates a misconfiguration. Please check the first argument passed to posthog.init()",
+          "Access to fetch at 'https://cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://hipaa.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED",
+          "Access to fetch at 'https://us.cloud.langfuse.com/api/auth/session' from origin 'https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://langfuse.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "pageErrors": [
+          "Uncaught Error: Looks like your website URL has changed. To ensure the proper functioning of your banner, update the registered URL on your CookieYes account (navigate to the Organizations & Sites page (https://app.cookieyes.com/settings/organizations-and-sites) and click the More button associated with your site). Then, reload this page to retry. If the issue persists, please contact us at https://www.cookieyes.com/support."
+        ],
+        "requestFailures": [
+          {
+            "url": "https://cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://hipaa.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          },
+          {
+            "url": "https://us.cloud.langfuse.com/api/auth/session",
+            "failure": "net::ERR_FAILED"
+          }
+        ],
+        "observerErrors": []
+      },
+      "comparisons": {
+        "firstContentfulPaintMs": {
+          "preview": 3644,
+          "production": 1788,
+          "delta": 1856,
+          "deltaPercent": 103.8,
+          "unit": "ms"
+        },
+        "largestContentfulPaintMs": {
+          "preview": 3644,
+          "production": 1788,
+          "delta": 1856,
+          "deltaPercent": 103.8,
+          "unit": "ms"
+        },
+        "cumulativeLayoutShift": {
+          "preview": 0.004,
+          "production": 0.004,
+          "delta": 0,
+          "deltaPercent": 0,
+          "unit": "score"
+        },
+        "totalBytes": {
+          "preview": 1172407,
+          "production": 1286092,
+          "delta": -113685,
+          "deltaPercent": -8.8,
+          "unit": "bytes"
+        },
+        "scriptBytes": {
+          "preview": 825772,
+          "production": 885849,
+          "delta": -60077,
+          "deltaPercent": -6.8,
+          "unit": "bytes"
+        }
+      }
+    }
+  ]
+}

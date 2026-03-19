@@ -1,0 +1,62 @@
+{
+  "totals": {
+    "checks": 2,
+    "non200": 0,
+    "missingRobotsNoindex": 0,
+    "missingPreviewHeaderNoindex": 0,
+    "unexpectedlyInPreviewSitemap": 0
+  },
+  "failures": {
+    "missingRobotsNoindex": [],
+    "missingPreviewHeaderNoindex": [],
+    "unexpectedlyInPreviewSitemap": []
+  },
+  "routes": [
+    {
+      "env": "production",
+      "origin": "https://langfuse.com",
+      "path": "/find-us",
+      "filePath": "content/marketing/find-us.mdx",
+      "requestUrl": "https://langfuse.com/find-us",
+      "finalUrl": "https://langfuse.com/find-us",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": null,
+      "title": "Find Our Office - Langfuse",
+      "description": null,
+      "canonical": null,
+      "robotsMeta": "noindex",
+      "ogUrl": "https://langfuse.com/find-us",
+      "ogImage": "https://langfuse.com/api/og?title=Find%20Our%20Office&description=&section=",
+      "twitterImage": null,
+      "h1": null,
+      "headContainsPreviewHost": false,
+      "inPreviewSitemap": false,
+      "robotsMetaHasNoindex": true,
+      "xRobotsHasNoindex": false
+    },
+    {
+      "env": "preview",
+      "origin": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+      "path": "/find-us",
+      "filePath": "content/marketing/find-us.mdx",
+      "requestUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/find-us",
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/find-us",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "xRobotsTag": "noindex",
+      "title": "Find Our Office - Langfuse",
+      "description": null,
+      "canonical": "https://langfuse.com/find-us",
+      "robotsMeta": "noindex, follow",
+      "ogUrl": "https://langfuse.com/find-us",
+      "ogImage": "https://langfuse.com/api/og?title=Find+Our+Office&section=find-us",
+      "twitterImage": "https://langfuse.com/api/og?title=Find+Our+Office&section=find-us",
+      "h1": null,
+      "headContainsPreviewHost": false,
+      "inPreviewSitemap": false,
+      "robotsMetaHasNoindex": true,
+      "xRobotsHasNoindex": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "runAt": "2026-03-19T22:50:41.256Z",
+  "previewBaseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "summary": {
+    "sampleCount": 5,
+    "failures": 0
+  },
+  "results": [
+    {
+      "pagePath": "/docs/prompt-management/get-started",
+      "anchorId": "get-api-keys",
+      "anchorText": "Get API keys",
+      "pass": true,
+      "reason": null,
+      "hash": "#get-api-keys",
+      "scrollTop": 409,
+      "targetTop": 92.984375,
+      "viewportHeight": 1200,
+      "screenshot": "artifacts/anchor-screenshots/docs-prompt-management-get-started-get-api-keys.png"
+    },
+    {
+      "pagePath": "/docs/observability/data-model",
+      "anchorId": "observations-traces-and-sessions",
+      "anchorText": "Observations, Traces, and Sessions",
+      "pass": true,
+      "reason": null,
+      "hash": "#observations-traces-and-sessions",
+      "scrollTop": 344,
+      "targetTop": 111.984375,
+      "viewportHeight": 1200,
+      "screenshot": "artifacts/anchor-screenshots/docs-observability-data-model-observations-traces-and-sessions.png"
+    },
+    {
+      "pagePath": "/docs/docs-mcp",
+      "anchorId": "install",
+      "anchorText": "Install",
+      "pass": true,
+      "reason": null,
+      "hash": "#install",
+      "scrollTop": 430,
+      "targetTop": 111.984375,
+      "viewportHeight": 1200,
+      "screenshot": "artifacts/anchor-screenshots/docs-docs-mcp-install.png"
+    },
+    {
+      "pagePath": "/integrations/frameworks/langchain",
+      "anchorId": "getting-started",
+      "anchorText": "Getting Started",
+      "pass": true,
+      "reason": null,
+      "hash": "#getting-started",
+      "scrollTop": 626,
+      "targetTop": 111.765625,
+      "viewportHeight": 1200,
+      "screenshot": "artifacts/anchor-screenshots/integrations-frameworks-langchain-getting-started.png"
+    },
+    {
+      "pagePath": "/guides/cookbook/evaluation_with_langchain",
+      "anchorId": "setup",
+      "anchorText": "Setup",
+      "pass": true,
+      "reason": null,
+      "hash": "#setup",
+      "scrollTop": 678,
+      "targetTop": 111.984375,
+      "viewportHeight": 1200,
+      "screenshot": "artifacts/anchor-screenshots/guides-cookbook-evaluation-with-langchain-setup.png"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "generatedAt": "2026-03-19T22:49:38.151Z",
+  "repoRoot": "/Users/marcklingen/repos/github/marcklingen/langfuse-docs-fuma",
+  "officialBaseline": [
+    "https://www.fumadocs.dev/docs/manual-installation/next",
+    "https://www.fumadocs.dev/docs/mdx/collections",
+    "https://www.fumadocs.dev/docs/headless/source-api",
+    "https://www.fumadocs.dev/docs/headless/page-tree"
+  ],
+  "summary": {
+    "totalChecks": 10,
+    "pass": 5,
+    "warn": 3,
+    "fail": 2
+  },
+  "checks": [
+    {
+      "id": "baseline-wiring",
+      "title": "Baseline Fumadocs wiring exists",
+      "status": "pass",
+      "summary": "The repo keeps the expected Fumadocs baseline files and core wiring.",
+      "evidence": [
+        {
+          "type": "file",
+          "path": "source.config.ts",
+          "exists": true
+        },
+        {
+          "type": "file",
+          "path": "next.config.mjs",
+          "exists": true
+        },
+        {
+          "type": "file",
+          "path": "app/layout.tsx",
+          "exists": true
+        },
+        {
+          "type": "file",
+          "path": "lib/source.ts",
+          "exists": true
+        },
+        {
+          "type": "file",
+          "path": "mdx-components.tsx",
+          "exists": true
+        },
+        {
+          "type": "file",
+          "path": "app/docs/layout.tsx",
+          "exists": true
+        },
+        {
+          "type": "file",
+          "path": "app/docs/[[...slug]]/page.tsx",
+          "exists": true
+        },
+        {
+          "type": "signal",
+          "name": "createMDX",
+          "present": true
+        },
+        {
+          "type": "signal",
+          "name": "RootProvider",
+          "present": true
+        },
+        {
+          "type": "signal",
+          "name": "loader()",
+          "present": true
+        },
+        {
+          "type": "signal",
+          "name": "default MDX extension",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "source-of-truth",
+      "title": "source.config.ts remains the schema source of truth",
+      "status": "fail",
+      "summary": "Runtime code consumes collection/schema information that source.config.ts does not fully declare.",
+      "evidence": [
+        {
+          "type": "list",
+          "name": "definedDocs",
+          "value": [
+            "docs",
+            "selfHosting",
+            "blog",
+            "changelog",
+            "guides",
+            "faq",
+            "integrations",
+            "security",
+            "library",
+            "customers",
+            "handbook",
+            "marketing"
+          ]
+        },
+        {
+          "type": "list",
+          "name": "importedCollections",
+          "value": [
+            "docs",
+            "selfHosting",
+            "blog",
+            "changelog",
+            "guides",
+            "faq",
+            "integrations",
+            "security",
+            "library",
+            "customers",
+            "handbook",
+            "marketing"
+          ]
+        },
+        {
+          "type": "list",
+          "name": "undeclaredRuntimeFields",
+          "value": [
+            "shortTitle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "loader-backed-routes",
+      "title": "Docs-like routes are loader-backed",
+      "status": "pass",
+      "summary": "Representative docs-style routes resolve content through Fumadocs loaders, not request-time filesystem access.",
+      "evidence": [
+        {
+          "file": "app/docs/[[...slug]]/page.tsx",
+          "usesGetPage": true,
+          "usesGenerateStaticParams": true,
+          "importsFs": false
+        },
+        {
+          "file": "app/guides/[[...slug]]/page.tsx",
+          "usesGetPage": true,
+          "usesGenerateStaticParams": true,
+          "importsFs": false
+        },
+        {
+          "file": "app/integrations/[[...slug]]/page.tsx",
+          "usesGetPage": true,
+          "usesGenerateStaticParams": true,
+          "importsFs": false
+        },
+        {
+          "file": "app/self-hosting/[[...slug]]/page.tsx",
+          "usesGetPage": true,
+          "usesGenerateStaticParams": true,
+          "importsFs": false
+        },
+        {
+          "file": "app/library/[[...slug]]/page.tsx",
+          "usesGetPage": true,
+          "usesGenerateStaticParams": true,
+          "importsFs": false
+        },
+        {
+          "file": "app/[section]/[[...slug]]/page.tsx",
+          "usesGetPage": true,
+          "usesGenerateStaticParams": true,
+          "importsFs": false
+        }
+      ]
+    },
+    {
+      "id": "content-structure",
+      "title": "content trees expose predictable meta.json structure",
+      "status": "warn",
+      "summary": "Some navigation-heavy content directories rely on implicit filesystem ordering instead of explicit meta.json.",
+      "evidence": [
+        {
+          "type": "list",
+          "name": "missingRootMeta",
+          "value": []
+        },
+        {
+          "type": "list",
+          "name": "missingNavigationalMeta",
+          "value": [
+            "content/faq/all"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "layout-centralization",
+      "title": "DocsLayout configuration is centralized where possible",
+      "status": "warn",
+      "summary": "Common DocsLayout behavior is partly centralized, but there is still duplicated wrapper/layout configuration that can drift.",
+      "evidence": [
+        {
+          "type": "list",
+          "name": "duplicateDocsLayoutSignals",
+          "value": [
+            "githubUrl=\"https://github.com/langfuse/langfuse-docs\"",
+            "nav={{ enabled: false }}",
+            "searchToggle={{ enabled: false }}"
+          ]
+        },
+        {
+          "type": "signal",
+          "name": "wrapperBodiesMatch",
+          "present": false
+        }
+      ]
+    },
+    {
+      "id": "search-wiring",
+      "title": "Search is intentionally implemented rather than half-migrated",
+      "status": "pass",
+      "summary": "The repo intentionally replaces the documented default search route with an Inkeep-backed search stack.",
+      "evidence": [
+        {
+          "type": "signal",
+          "name": "defaultSearchRouteExists",
+          "present": false
+        },
+        {
+          "type": "signal",
+          "name": "customSearchDocsRouteExists",
+          "present": true
+        },
+        {
+          "type": "signal",
+          "name": "InkeepSearchBarExists",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "custom-registry",
+      "title": "Custom page-tree rewrites and registries stay minimal",
+      "status": "warn",
+      "summary": "The repo layers several custom page-tree rewrite helpers and section registries on top of Fumadocs.",
+      "evidence": [
+        {
+          "type": "list",
+          "name": "customTreeSignals",
+          "value": [
+            "getSelfHostingPageTree",
+            "getIntegrationsPageTree",
+            "getPageTreeWithShortTitles",
+            "SECTION_CONFIG",
+            "DOCS_STYLE_APP_SECTIONS",
+            "POST_SECTIONS",
+            "CHANGELOG_SECTIONS",
+            "WIDE_SECTION_SLUGS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generated-artifacts",
+      "title": "Generated .source output is not manually maintained",
+      "status": "pass",
+      "summary": ".source exists locally as generated output, is gitignored, and is not tracked.",
+      "evidence": [
+        {
+          "type": "list",
+          "name": "trackedSourceFiles",
+          "value": []
+        },
+        {
+          "type": "signal",
+          "name": "ignoresDotSource",
+          "present": true
+        },
+        {
+          "type": "signal",
+          "name": "hasGeneratedSourceDir",
+          "present": true
+        }
+      ]
+    },
+    {
+      "id": "migration-shims",
+      "title": "Migration shims are still required and isolated",
+      "status": "fail",
+      "summary": "Webpack/TypeScript still alias nextra modules to lib/nextra-shim/*, but those files are gone and no live imports remain.",
+      "evidence": [
+        {
+          "type": "list",
+          "name": "missingNextraTargets",
+          "value": [
+            "lib/nextra-shim/context.tsx",
+            "lib/nextra-shim/hooks.ts",
+            "lib/nextra-shim/nextra-types.ts",
+            "lib/nextra-shim/theme-docs.tsx",
+            "lib/nextra-shim/components.tsx"
+          ]
+        },
+        {
+          "type": "list",
+          "name": "liveNextraImports",
+          "value": []
+        }
+      ]
+    },
+    {
+      "id": "mdx-overrides",
+      "title": "MDX overrides extend Fumadocs cleanly",
+      "status": "pass",
+      "summary": "mdx-components.tsx starts from the default Fumadocs component map and adds repo-specific overrides.",
+      "evidence": [
+        {
+          "type": "file",
+          "path": "mdx-components.tsx"
+        }
+      ]
+    }
+  ]
+}

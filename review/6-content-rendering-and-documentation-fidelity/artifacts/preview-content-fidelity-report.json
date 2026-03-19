@@ -1,0 +1,1115 @@
+{
+  "generatedAt": "2026-03-19T22:53:58.227Z",
+  "baseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "outputPath": "/Users/marcklingen/repos/github/marcklingen/langfuse-docs-fuma/review/6-content-rendering-and-documentation-fidelity/artifacts/preview-content-fidelity-report.json",
+  "pages": [
+    {
+      "id": "docs-prompt-management-get-started",
+      "type": "docs",
+      "path": "/docs/prompt-management/get-started",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started",
+      "ok": true,
+      "metrics": {
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "text": "Get Started with Prompt Management",
+            "id": "get-started-with-prompt-management"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Get API keys",
+            "id": "get-api-keys"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Set up your AI agent",
+            "id": "set-up-your-ai-agent"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Create a prompt",
+            "id": "create-update-prompt"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Use the prompt in your code",
+            "id": "use-prompt"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Get API keys",
+            "id": "get-api-keys-1"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Create a prompt",
+            "id": "create-update-prompt-diy"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "API Reference",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "API Reference",
+            "id": null
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Use the prompt in your code",
+            "id": "use-prompt-diy"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "API Reference",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Example Cookbook",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Example Cookbook",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Example Cookbook.",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Not seeing what you expected?",
+            "id": "not-seeing-what-you-expected"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Next steps",
+            "id": "next-steps"
+          }
+        ],
+        "tabListCount": 2,
+        "tabLabels": [
+          [
+            "✨ Use AI",
+            "Do it yourself"
+          ],
+          [
+            "Cursor",
+            "Claude Code",
+            "Codex",
+            "Other AI Coding Apps"
+          ]
+        ],
+        "stepsCount": 2,
+        "preCount": 52,
+        "codeCopyButtonCount": 3,
+        "tableCount": 0,
+        "mermaidSvgCount": 0,
+        "iframeDetails": [],
+        "videoDetails": [
+          {
+            "src": null,
+            "width": 0,
+            "height": 0,
+            "visible": false
+          }
+        ],
+        "imageCount": 0
+      },
+      "tabExercise": [
+        {
+          "expected": "Do it yourself",
+          "active": "Do it yourself",
+          "ok": true
+        },
+        {
+          "expected": "Migrate from existing code",
+          "active": "Migrate from existing code",
+          "ok": true
+        },
+        {
+          "expected": "Vercel AI SDK",
+          "active": "Vercel AI SDK",
+          "ok": true
+        }
+      ],
+      "copyExercise": {
+        "attempted": true,
+        "copiedTextLength": 269,
+        "excerpt": "# Cursor plugin\n/add-plugin langfuse\n\n# skills CLI\nnpx skills add langfuse/skills --skill \"langfuse\"\n\n# Manual: clone an"
+      },
+      "mediaProbes": []
+    },
+    {
+      "id": "docs-observability-data-model",
+      "type": "docs",
+      "path": "/docs/observability/data-model",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/data-model",
+      "ok": true,
+      "metrics": {
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "text": "Core Concepts",
+            "id": "core-concepts"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Observations, Traces, and Sessions",
+            "id": "observations-traces-and-sessions"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Observations",
+            "id": "observations"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Traces",
+            "id": "traces"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Sessions",
+            "id": "sessions"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Adding Attributes",
+            "id": "adding-attributes"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Underlying data model",
+            "id": "underlying-data-model"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "What changes",
+            "id": "what-changes"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "How Langfuse Captures Data",
+            "id": "how-langfuse-captures-data"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Built on OpenTelemetry",
+            "id": "built-on-opentelemetry"
+          },
+          {
+            "tag": "H4",
+            "level": 4,
+            "text": "Instrumentation",
+            "id": "instrumentation"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Background Processing",
+            "id": "background-processing"
+          },
+          {
+            "tag": "H4",
+            "level": 4,
+            "text": "Long-running applications",
+            "id": "long-running-applications"
+          },
+          {
+            "tag": "H4",
+            "level": 4,
+            "text": "Short-lived applications",
+            "id": "short-lived-applications"
+          }
+        ],
+        "tabListCount": 0,
+        "tabLabels": [],
+        "stepsCount": 0,
+        "preCount": 0,
+        "codeCopyButtonCount": 0,
+        "tableCount": 2,
+        "mermaidSvgCount": 5,
+        "iframeDetails": [],
+        "videoDetails": [],
+        "imageCount": 4
+      },
+      "tabExercise": [],
+      "copyExercise": {
+        "attempted": false,
+        "copiedTextLength": 0
+      },
+      "mediaProbes": []
+    },
+    {
+      "id": "changelog-custom-dashboards",
+      "type": "changelog",
+      "path": "/changelog/2025-05-21-custom-dashboards",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog/2025-05-21-custom-dashboards",
+      "ok": false,
+      "screenshot": "/Users/marcklingen/repos/github/marcklingen/langfuse-docs-fuma/review/6-content-rendering-and-documentation-fidelity/artifacts/screenshots/changelog-custom-dashboards.png",
+      "failures": [
+        {
+          "message": "Expected iframe embeds to use approved hosts only",
+          "details": {
+            "iframeHosts": [
+              "www.youtube.com"
+            ],
+            "allowedHosts": [
+              "www.youtube-nocookie.com"
+            ]
+          }
+        }
+      ],
+      "metrics": {
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "text": "Custom Dashboards",
+            "id": null
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Overview",
+            "id": "overview"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Key Features",
+            "id": "key-features"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Explore",
+            "id": "explore"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Learn More",
+            "id": "learn-more"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Questions or feedback?",
+            "id": "questions-or-feedback"
+          }
+        ],
+        "tabListCount": 1,
+        "tabLabels": [
+          [
+            "Dashboard",
+            "Widget Builder",
+            "Curated Dashboards"
+          ]
+        ],
+        "stepsCount": 0,
+        "preCount": 0,
+        "codeCopyButtonCount": 0,
+        "tableCount": 0,
+        "mermaidSvgCount": 0,
+        "iframeDetails": [
+          {
+            "src": "https://www.youtube.com/embed/z6g9xmciaBE",
+            "width": 800,
+            "height": 450
+          }
+        ],
+        "videoDetails": [],
+        "imageCount": 5
+      },
+      "tabExercise": [
+        {
+          "expected": "Curated Dashboards",
+          "active": "Curated Dashboards",
+          "ok": true
+        }
+      ],
+      "copyExercise": {
+        "attempted": false,
+        "copiedTextLength": 0
+      },
+      "mediaProbes": [
+        {
+          "url": "https://www.youtube.com/embed/z6g9xmciaBE",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.youtube.com/embed/z6g9xmciaBE",
+          "contentType": "text/html; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "id": "blog-evaluate-ai-agent-skills",
+      "type": "blog",
+      "path": "/blog/2026-02-26-evaluate-ai-agent-skills",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/blog/2026-02-26-evaluate-ai-agent-skills",
+      "ok": true,
+      "metrics": {
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "text": "Evaluating AI Agent Skills",
+            "id": null
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "The Evaluation Setup",
+            "id": "the-evaluation-setup"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "The dataset",
+            "id": "the-dataset"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Experiment setup",
+            "id": "experiment-setup"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "The Langfuse Skill",
+            "id": "the-langfuse-skill"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Improving the Skill",
+            "id": "improving-the-skill"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Iteration 1: Not enforcing Langfuse URL",
+            "id": "iteration-1-not-enforcing-langfuse-url"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Iteration 2: Hallucinated CLI parameters",
+            "id": "iteration-2-hallucinated-cli-parameters"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Iteration 3: Skill invocation issues",
+            "id": "iteration-3-skill-invocation-issues"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Iteration 4: Evaluating auto-instrumentation",
+            "id": "evaluating-auto-instrumentation"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Takeaways",
+            "id": "takeaways"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "What's Next",
+            "id": "whats-next"
+          }
+        ],
+        "tabListCount": 0,
+        "tabLabels": [],
+        "stepsCount": 0,
+        "preCount": 3,
+        "codeCopyButtonCount": 3,
+        "tableCount": 2,
+        "mermaidSvgCount": 0,
+        "iframeDetails": [],
+        "videoDetails": [],
+        "imageCount": 5
+      },
+      "tabExercise": [],
+      "copyExercise": {
+        "attempted": true,
+        "copiedTextLength": 336,
+        "excerpt": "options = ClaudeAgentOptions(\n        max_turns=args.max_turns,\n        cwd=item_cwd,\n        permission_mode=\"bypassPer"
+      },
+      "mediaProbes": []
+    },
+    {
+      "id": "faq-unwanted-http-database-spans",
+      "type": "faq",
+      "path": "/faq/all/unwanted-http-database-spans",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/unwanted-http-database-spans",
+      "ok": true,
+      "metrics": {
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "text": "Why do I see HTTP requests or database queries in my Langfuse traces?",
+            "id": "why-do-i-see-http-requests-or-database-queries-in-my-langfuse-traces"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Why this happens",
+            "id": "why-this-happens"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "How to fix it",
+            "id": "how-to-fix-it"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Upgrade to the latest SDKs (recommended)",
+            "id": "upgrade-to-the-latest-sdks-recommended"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Customize filtering",
+            "id": "customize-filtering"
+          }
+        ],
+        "tabListCount": 1,
+        "tabLabels": [
+          [
+            "Python SDK v4+",
+            "JS/TS SDK v5+",
+            "Python SDK v3",
+            "JS/TS SDK v4"
+          ]
+        ],
+        "stepsCount": 0,
+        "preCount": 9,
+        "codeCopyButtonCount": 5,
+        "tableCount": 0,
+        "mermaidSvgCount": 0,
+        "iframeDetails": [],
+        "videoDetails": [],
+        "imageCount": 1
+      },
+      "tabExercise": [
+        {
+          "expected": "JS/TS SDK v4",
+          "active": "JS/TS SDK v4",
+          "ok": true
+        }
+      ],
+      "copyExercise": {
+        "attempted": true,
+        "copiedTextLength": 556,
+        "excerpt": "┌────────────────────────────────────────────────┐\n│            Global TracerProvider               │\n│                 "
+      },
+      "mediaProbes": []
+    },
+    {
+      "id": "guides-video-introducing-datasets-v2",
+      "type": "guide",
+      "path": "/guides/videos/introducing-datasets-v2",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/introducing-datasets-v2",
+      "ok": false,
+      "screenshot": "/Users/marcklingen/repos/github/marcklingen/langfuse-docs-fuma/review/6-content-rendering-and-documentation-fidelity/artifacts/screenshots/guides-video-introducing-datasets-v2.png",
+      "failures": [
+        {
+          "message": "Expected heading levels to progress without skipping levels",
+          "details": {
+            "headingIssues": [
+              {
+                "previous": {
+                  "level": 1,
+                  "text": "Introducing Datasets v2"
+                },
+                "current": {
+                  "level": 3,
+                  "text": "Learn more"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "metrics": {
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "text": "Introducing Datasets v2",
+            "id": "introducing-datasets-v2"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Learn more",
+            "id": "learn-more"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Dataset docs",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Changelog v2",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Example Notebook",
+            "id": null
+          }
+        ],
+        "tabListCount": 0,
+        "tabLabels": [],
+        "stepsCount": 0,
+        "preCount": 0,
+        "codeCopyButtonCount": 0,
+        "tableCount": 0,
+        "mermaidSvgCount": 0,
+        "iframeDetails": [],
+        "videoDetails": [
+          {
+            "src": "https://static.langfuse.com/docs-videos/launch-week-datasets.mp4",
+            "width": 836,
+            "height": 496.375,
+            "visible": true
+          }
+        ],
+        "imageCount": 0
+      },
+      "tabExercise": [],
+      "copyExercise": {
+        "attempted": false,
+        "copiedTextLength": 0
+      },
+      "mediaProbes": [
+        {
+          "url": "https://static.langfuse.com/docs-videos/launch-week-datasets.mp4",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://static.langfuse.com/docs-videos/launch-week-datasets.mp4",
+          "contentType": "video/mp4"
+        }
+      ]
+    },
+    {
+      "id": "guides-cookbook-multi-turn-conversations",
+      "type": "cookbook",
+      "path": "/guides/cookbook/example_simulated_multi_turn_conversations",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/cookbook/example_simulated_multi_turn_conversations",
+      "ok": false,
+      "screenshot": "/Users/marcklingen/repos/github/marcklingen/langfuse-docs-fuma/review/6-content-rendering-and-documentation-fidelity/artifacts/screenshots/guides-cookbook-multi-turn-conversations.png",
+      "failures": [
+        {
+          "message": "Expected iframe embeds to use approved hosts only",
+          "details": {
+            "iframeHosts": [
+              "www.youtube.com"
+            ],
+            "allowedHosts": [
+              "www.youtube-nocookie.com"
+            ]
+          }
+        }
+      ],
+      "metrics": {
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "text": "Evaluating Multi-Turn Conversations (Simulation)",
+            "id": "evaluating-multi-turn-conversations-simulation"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Setup",
+            "id": "setup"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Step 1 - Create a chat app and generate traces in Langfuse",
+            "id": "step-1---create-a-chat-app-and-generate-traces-in-langfuse"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Step 2 - Create a structured Dataset of user scenarios",
+            "id": "step-2---create-a-structured-dataset-of-user-scenarios"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Step 3 - Prepare your application to run against the simulator",
+            "id": "step-3---prepare-your-application-to-run-against-the-simulator"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Step 4 - Run an experiment",
+            "id": "step-4---run-an-experiment"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Step 5 - Run evaluations against your Dataset runs",
+            "id": "step-5---run-evaluations-against-your-dataset-runs"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Conclusion",
+            "id": "conclusion"
+          }
+        ],
+        "tabListCount": 0,
+        "tabLabels": [],
+        "stepsCount": 0,
+        "preCount": 7,
+        "codeCopyButtonCount": 7,
+        "tableCount": 1,
+        "mermaidSvgCount": 0,
+        "iframeDetails": [
+          {
+            "src": "https://www.youtube.com/embed/3ODizwXu-uk",
+            "width": 836,
+            "height": 472.015625
+          }
+        ],
+        "videoDetails": [],
+        "imageCount": 3
+      },
+      "tabExercise": [],
+      "copyExercise": {
+        "attempted": true,
+        "copiedTextLength": 41,
+        "excerpt": "%pip install langfuse openevals --upgrade"
+      },
+      "mediaProbes": [
+        {
+          "url": "https://www.youtube.com/embed/3ODizwXu-uk",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.youtube.com/embed/3ODizwXu-uk",
+          "contentType": "text/html; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "id": "integrations-goose",
+      "type": "integration",
+      "path": "/integrations/no-code/goose",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/no-code/goose",
+      "ok": true,
+      "metrics": {
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "text": "Integrating Goose with Langfuse",
+            "id": "integrating-goose-with-langfuse"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "About Goose",
+            "id": "about-goose"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Get Started",
+            "id": "get-started"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Set up Langfuse",
+            "id": "set-up-langfuse"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Configure Goose to Connect to Langfuse",
+            "id": "configure-goose-to-connect-to-langfuse"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Run Goose with Langfuse Integration",
+            "id": "run-goose-with-langfuse-integration"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Demo",
+            "id": "demo"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "References",
+            "id": "references"
+          }
+        ],
+        "tabListCount": 0,
+        "tabLabels": [],
+        "stepsCount": 1,
+        "preCount": 1,
+        "codeCopyButtonCount": 1,
+        "tableCount": 0,
+        "mermaidSvgCount": 0,
+        "iframeDetails": [
+          {
+            "src": "https://www.youtube-nocookie.com/embed/W39BQjsTS9E?si=wLDFwDmfMBEOHQ2A",
+            "width": 836,
+            "height": 470.25
+          }
+        ],
+        "videoDetails": [
+          {
+            "src": "https://static.langfuse.com/docs-videos/goose_hero.mp4",
+            "width": 836,
+            "height": 524.734375,
+            "visible": true
+          }
+        ],
+        "imageCount": 1
+      },
+      "tabExercise": [],
+      "copyExercise": {
+        "attempted": true,
+        "copiedTextLength": 285,
+        "excerpt": "export LANGFUSE_INIT_PROJECT_PUBLIC_KEY=pk-lf-...\nexport LANGFUSE_INIT_PROJECT_SECRET_KEY=sk-lf-...\nexport LANGFUSE_HOST"
+      },
+      "mediaProbes": [
+        {
+          "url": "https://www.youtube-nocookie.com/embed/W39BQjsTS9E?si=wLDFwDmfMBEOHQ2A",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.youtube-nocookie.com/embed/W39BQjsTS9E?si=wLDFwDmfMBEOHQ2A",
+          "contentType": "text/html; charset=utf-8"
+        },
+        {
+          "url": "https://static.langfuse.com/docs-videos/goose_hero.mp4",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://static.langfuse.com/docs-videos/goose_hero.mp4",
+          "contentType": "video/mp4"
+        }
+      ]
+    },
+    {
+      "id": "self-hosting-docker-compose",
+      "type": "self-hosting",
+      "path": "/self-hosting/deployment/docker-compose",
+      "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/self-hosting/deployment/docker-compose",
+      "ok": true,
+      "metrics": {
+        "h1Count": 1,
+        "headings": [
+          {
+            "tag": "H1",
+            "level": 1,
+            "text": "Docker Compose",
+            "id": "docker-compose"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Walkthrough",
+            "id": "walkthrough"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Get Started",
+            "id": "get-started"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Requirements",
+            "id": "requirements"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Clone Langfuse Repository",
+            "id": "clone-langfuse-repository"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Start the application",
+            "id": "start-the-application"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Done",
+            "id": "done"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Start a new instance and SSH into it",
+            "id": "start-a-new-instance-and-ssh-into-it"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Install Docker and Docker Compose",
+            "id": "install-docker-and-docker-compose"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Clone Langfuse Repository",
+            "id": "clone-langfuse-repository-1"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Update Secrets",
+            "id": "update-secrets"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Update network parameters (optional)",
+            "id": "update-network-parameters-optional"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Start the application",
+            "id": "start-the-application-1"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Done",
+            "id": "done-1"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Features",
+            "id": "features"
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Authentication & SSO",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Automated Access Provisioning",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Caching",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Custom Base Path",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Encryption",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Headless Initialization",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Data Masking",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Networking",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Organization Creators (EE)",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Instance Management API (EE)",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Health and Readiness Check",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Observability via OpenTelemetry",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "Transactional Emails",
+            "id": null
+          },
+          {
+            "tag": "H3",
+            "level": 3,
+            "text": "UI Customization (EE)",
+            "id": null
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Scaling",
+            "id": "scaling"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Shutdown",
+            "id": "shutdown"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "Troubleshooting",
+            "id": "troubleshooting"
+          },
+          {
+            "tag": "H2",
+            "level": 2,
+            "text": "How to Upgrade",
+            "id": "how-to-upgrade"
+          }
+        ],
+        "tabListCount": 1,
+        "tabLabels": [
+          [
+            "Local",
+            "VM"
+          ]
+        ],
+        "stepsCount": 2,
+        "preCount": 8,
+        "codeCopyButtonCount": 3,
+        "tableCount": 0,
+        "mermaidSvgCount": 0,
+        "iframeDetails": [
+          {
+            "src": "https://www.youtube-nocookie.com/embed/we52x5-a_Ac?si=2rqAs0LNwqeq767W",
+            "width": 836,
+            "height": 472.015625
+          }
+        ],
+        "videoDetails": [],
+        "imageCount": 0
+      },
+      "tabExercise": [
+        {
+          "expected": "VM",
+          "active": "VM",
+          "ok": true
+        }
+      ],
+      "copyExercise": {
+        "attempted": true,
+        "copiedTextLength": 585,
+        "excerpt": "# Add Docker's official GPG key:\nsudo apt-get update\nsudo apt-get install ca-certificates curl\nsudo install -m 0755 -d /"
+      },
+      "mediaProbes": [
+        {
+          "url": "https://www.youtube-nocookie.com/embed/we52x5-a_Ac?si=2rqAs0LNwqeq767W",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.youtube-nocookie.com/embed/we52x5-a_Ac?si=2rqAs0LNwqeq767W",
+          "contentType": "text/html; charset=utf-8"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalPages": 9,
+    "passedPages": 6,
+    "failedPages": 3
+  }
+}

@@ -1,0 +1,4 @@
+{"method":"POST","url":"/feedback-webhook","body":{"type":"docs-feedback","page":"/docs/observability/data-model","feedback":"positive"}}
+{"method":"POST","url":"/feedback-webhook","body":{"type":"docs-feedback","page":"/docs/observability/data-model","feedback":"positive","comment":"Very clear explanation of traces and observations."}}
+{"method":"POST","url":"/feedback-webhook","body":{"type":"docs-feedback","page":"/docs/observability/data-model","feedback":"negative"}}
+{"method":"POST","url":"/feedback-webhook","body":{"type":"docs-feedback","page":"/docs/observability/data-model","feedback":"negative","comment":"The page could use a shorter migration example near the top."}}

@@ -1,0 +1,148 @@
+{
+  "executedAt": "2026-03-19T22:55:41.432Z",
+  "localBaseUrl": "http://127.0.0.1:3333",
+  "previewUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionUrl": "https://langfuse.com",
+  "legacyRepoPath": "/Users/marcklingen/repos/github/langfuse/langfuse-docs",
+  "summary": {
+    "total": 9,
+    "passed": 5,
+    "failed": 4
+  },
+  "checks": [
+    {
+      "name": "Feedback route still forwards docs-feedback payloads to WEBSITE_FEEDBACK_WEBHOOK",
+      "ok": true,
+      "startedAt": "2026-03-19T22:55:38.119Z",
+      "finishedAt": "2026-03-19T22:55:38.120Z",
+      "details": {
+        "route": "app/api/feedback/route.ts",
+        "webhookVarPresent": true,
+        "docsFeedbackTypePresent": true
+      }
+    },
+    {
+      "name": "Public docs search route preserves the legacy PostHog query event",
+      "ok": false,
+      "startedAt": "2026-03-19T22:55:38.120Z",
+      "finishedAt": "2026-03-19T22:55:38.120Z",
+      "error": "Migrated route no longer captures docs_search:query events",
+      "details": {
+        "legacyRoute": "/Users/marcklingen/repos/github/langfuse/langfuse-docs/pages/api/search-docs.ts",
+        "newRoute": "/Users/marcklingen/repos/github/marcklingen/langfuse-docs-fuma/app/api/search-docs/route.ts"
+      }
+    },
+    {
+      "name": "Root analytics shell preserves the legacy Google Tag Manager integration",
+      "ok": false,
+      "startedAt": "2026-03-19T22:55:38.120Z",
+      "finishedAt": "2026-03-19T22:55:38.120Z",
+      "error": "Migrated root layout no longer includes the legacy GTM integration",
+      "details": {
+        "legacyApp": "/Users/marcklingen/repos/github/langfuse/langfuse-docs/pages/_app.tsx",
+        "newLayout": "/Users/marcklingen/repos/github/marcklingen/langfuse-docs-fuma/app/layout.tsx"
+      }
+    },
+    {
+      "name": ".env.template includes the environment variables required by active analytics/search integrations",
+      "ok": false,
+      "startedAt": "2026-03-19T22:55:38.120Z",
+      "finishedAt": "2026-03-19T22:55:38.120Z",
+      "error": "Missing required environment variables in .env.template",
+      "details": {
+        "missing": [
+          "NEXT_PUBLIC_INKEEP_API_KEY",
+          "INKEEP_BACKEND_API_KEY"
+        ],
+        "requiredVars": [
+          "NEXT_PUBLIC_POSTHOG_HOST",
+          "NEXT_PUBLIC_POSTHOG_KEY",
+          "WEBSITE_FEEDBACK_WEBHOOK",
+          "NEXT_PUBLIC_INKEEP_API_KEY",
+          "INKEEP_BACKEND_API_KEY",
+          "NEXT_PUBLIC_PLAIN_APP_ID"
+        ]
+      }
+    },
+    {
+      "name": "MCP handler still captures the docs_mcp:execute_tool analytics event",
+      "ok": true,
+      "startedAt": "2026-03-19T22:55:38.120Z",
+      "finishedAt": "2026-03-19T22:55:38.120Z",
+      "details": {
+        "handler": "/Users/marcklingen/repos/github/marcklingen/langfuse-docs-fuma/lib/mcp-handler.ts",
+        "eventName": "docs_mcp:execute_tool"
+      }
+    },
+    {
+      "name": "Preview docs page still renders the feedback widget and avoids preview host leakage",
+      "ok": true,
+      "startedAt": "2026-03-19T22:55:38.120Z",
+      "finishedAt": "2026-03-19T22:55:38.316Z",
+      "details": {
+        "status": 200,
+        "containsFeedbackWidget": true
+      }
+    },
+    {
+      "name": "Migrated root layout still includes the HubSpot and CookieYes integrations kept in the legacy app shell",
+      "ok": true,
+      "startedAt": "2026-03-19T22:55:38.316Z",
+      "finishedAt": "2026-03-19T22:55:38.316Z",
+      "details": {
+        "legacyHasHubspot": true,
+        "legacyHasCookieyes": true,
+        "newHasHubspot": true,
+        "newHasCookieyes": true
+      }
+    },
+    {
+      "name": "Cloud redirect flow still preserves query parameters and hash fragments on same-tab navigation",
+      "ok": true,
+      "startedAt": "2026-03-19T22:55:38.316Z",
+      "finishedAt": "2026-03-19T22:55:38.316Z",
+      "details": {
+        "route": "/Users/marcklingen/repos/github/marcklingen/langfuse-docs-fuma/app/cloud/[[...path]]/page.tsx",
+        "preservesSearch": true,
+        "preservesHash": true
+      }
+    },
+    {
+      "name": "Controlled local public docs search call still emits the legacy docs_search:query event",
+      "ok": false,
+      "startedAt": "2026-03-19T22:55:38.334Z",
+      "finishedAt": "2026-03-19T22:55:41.344Z",
+      "error": "Missing docs_search:query event after public docs search call",
+      "details": {
+        "status": 500,
+        "responseBody": "{\"error\":\"Error searching documentation\",\"message\":\"Missing INKEEP_BACKEND_API_KEY environment variable\",\"query\":\"How do I trace LangGraph agents with Langfuse?\"}",
+        "events": [],
+        "requestsAfter": []
+      }
+    }
+  ],
+  "devServerLogsTail": [
+    "stdout:  WARN  Unsupported engine: wanted: {\"node\":\"22\"} (current: {\"node\":\"v24.14.0\",\"pnpm\":\"8.15.6\"})",
+    "stdout: > langfuse-docs@0.0.1 dev /Users/marcklingen/repos/github/marcklingen/langfuse-docs-fuma",
+    "stdout: > next dev -p 3333 -H 127.0.0.1",
+    "stdout: ▲ Next.js 16.1.6 (Turbopack)",
+    "stdout: - Local:         http://127.0.0.1:3333",
+    "stdout: - Network:       http://127.0.0.1:3333",
+    "stdout: - Experiments (use with caution):",
+    "stdout:   ✓ scrollRestoration",
+    "stdout:   ⨯ serverSourceMaps",
+    "stdout:   ✓ webpackMemoryOptimizations",
+    "stdout: ✓ Starting...",
+    "stdout: [MDX] generated files in 21.06895800000001ms",
+    "stdout: [MDX] started dev server",
+    "stderr: 2026-03-19T22:55:39.516Z [Langfuse SDK] [WARN] No exporter configured and no public key provided in constructor or as LANGFUSE_PUBLIC_KEY env var. Span exports will fail.",
+    "stderr: 2026-03-19T22:55:39.516Z [Langfuse SDK] [WARN] No exporter configured and no secret key provided in constructor or as LANGFUSE_SECRET_KEY env var. Span exports will fail.",
+    "stderr: 2026-03-19T22:55:39.517Z [Langfuse SDK] [WARN] No exporter configured and no public key provided in constructor or as LANGFUSE_PUBLIC_KEY env var. Span exports will fail.",
+    "stderr: 2026-03-19T22:55:39.517Z [Langfuse SDK] [WARN] No exporter configured and no secret key provided in constructor or as LANGFUSE_SECRET_KEY env var. Span exports will fail.",
+    "stderr: 2026-03-19T22:55:39.518Z [Langfuse SDK] [WARN] No exporter configured and no public key provided in constructor or as LANGFUSE_PUBLIC_KEY env var. Span exports will fail.",
+    "stderr: 2026-03-19T22:55:39.518Z [Langfuse SDK] [WARN] No exporter configured and no secret key provided in constructor or as LANGFUSE_SECRET_KEY env var. Span exports will fail.",
+    "stdout: ✓ Ready in 676ms",
+    "stdout: [MDX] closing dev server",
+    "stdout: \u001b[?25h"
+  ]
+}

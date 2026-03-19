@@ -1,0 +1,30 @@
+{
+  "runAt": "2026-03-19T22:50:41.256Z",
+  "routeAudit": {
+    "runAt": "2026-03-19T22:50:21.765Z",
+    "environments": {
+      "productionBaseUrl": "https://langfuse.com",
+      "previewBaseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app"
+    },
+    "inventory": {
+      "productionPaths": 788,
+      "redirectExpectations": 488,
+      "importantPaths": 1274,
+      "trailingSlashPaths": 787,
+      "caseSamples": 7,
+      "internalLinkPageCount": 649,
+      "internalLinkTargetCount": 773
+    },
+    "findings": {
+      "comparisonFailures": 0,
+      "redirectFailures": 118,
+      "trailingSlashFailures": 0,
+      "caseFailures": 0,
+      "internalLinkFailures": 119
+    }
+  },
+  "anchorCheck": {
+    "sampleCount": 5,
+    "failures": 0
+  }
+}

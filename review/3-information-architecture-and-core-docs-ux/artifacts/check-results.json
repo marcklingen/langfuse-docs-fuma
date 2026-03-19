@@ -1,0 +1,2004 @@
+{
+  "generated_at": "2026-03-19T22:45:23.288072+00:00",
+  "base_url": "http://127.0.0.1:3333",
+  "pages": {
+    "docs_landing": "/docs",
+    "deep_page": "/docs/observability/get-started",
+    "contributor_page": "/docs/api-and-data-platform/features/export-from-ui"
+  },
+  "checks": [
+    {
+      "name": "top-nav-key-sections",
+      "ok": true,
+      "details": "missing: none"
+    },
+    {
+      "name": "sidebar-menu-switcher",
+      "ok": true,
+      "details": "found: [('Docs', '/docs'), ('Integrations', '/integrations'), ('Self Hosting', '/self-hosting'), ('Guides', '/guides'), ('AI Engineering Library', '/library')]"
+    },
+    {
+      "name": "docs-sidebar-sequence",
+      "ok": true,
+      "details": "sidebar sequence sample: ['Docs', 'Integrations', 'Self Hosting', 'Guides', 'AI Engineering Library', 'Overview', 'Example Project', 'Ask AI', 'Get Started', 'Start Tracing', 'Use Prompt Management', 'Set up Evals', 'Products', 'Observability', 'Prompt Management', 'Evaluation', 'Platform', 'Metrics', 'API & Data Platform', 'Administration', 'Security & Guardrails', 'More', 'Glossary', 'Roadmap', 'Faster Langfuse', 'Docs MCP Server', 'SDK & API References', 'Security & Compliance \u2197', 'Support \u2197']"
+    },
+    {
+      "name": "breadcrumbs-present",
+      "ok": true,
+      "details": "found: ['Docs', 'Start Tracing']"
+    },
+    {
+      "name": "toc-anchor-targets",
+      "ok": true,
+      "details": "toc entries: 9"
+    },
+    {
+      "name": "edit-link",
+      "ok": true,
+      "details": "found: https://github.com/langfuse/langfuse-docs/edit/main/content/docs/observability/get-started.mdx"
+    },
+    {
+      "name": "contributors-block",
+      "ok": true,
+      "details": "contributors: ['tomaszantas Contributor']"
+    },
+    {
+      "name": "announcement-banner-present",
+      "ok": true,
+      "details": "href: /blog/joining-clickhouse"
+    },
+    {
+      "name": "internal-docs-chrome-links",
+      "ok": true,
+      "details": "194 checked, 3 redirected"
+    }
+  ],
+  "link_checks": [
+    {
+      "page": "/docs",
+      "section": "header",
+      "text": "",
+      "href": "/",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "header",
+      "text": "Hiring in Europe and SF Looking for GOATS!",
+      "href": "/careers",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/careers",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "header",
+      "text": "Docs",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "header",
+      "text": "Changelog",
+      "href": "/changelog",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/changelog",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "header",
+      "text": "Pricing",
+      "href": "/pricing",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/pricing",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "header",
+      "text": "Overview",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "header",
+      "text": "LLM Observability",
+      "href": "/docs/observability/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "header",
+      "text": "Prompt Management",
+      "href": "/docs/prompt-management/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "header",
+      "text": "Evaluation",
+      "href": "/docs/evaluation/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/evaluation/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "header",
+      "text": "Metrics",
+      "href": "/docs/metrics/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/metrics/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "header",
+      "text": "Get Demo",
+      "href": "/talk-to-us",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/talk-to-us",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "",
+      "href": "/",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Docs",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Integrations",
+      "href": "/integrations",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/integrations",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Self Hosting",
+      "href": "/self-hosting",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/self-hosting",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Guides",
+      "href": "/guides",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/guides",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "AI Engineering Library",
+      "href": "/library",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/library",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Overview",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Example Project",
+      "href": "/docs/demo",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/demo",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Ask AI",
+      "href": "/docs/ask-ai",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/ask-ai",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Start Tracing",
+      "href": "/docs/observability/get-started",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/get-started",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Use Prompt Management",
+      "href": "/docs/prompt-management/get-started",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/get-started",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Set up Evals",
+      "href": "/docs/evaluation/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/evaluation/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Security & Guardrails",
+      "href": "/docs/security-and-guardrails",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/security-and-guardrails",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Glossary",
+      "href": "/docs/glossary",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/glossary",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Roadmap",
+      "href": "/docs/roadmap",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/roadmap",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Faster Langfuse",
+      "href": "/docs/v4",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/v4",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Docs MCP Server",
+      "href": "/docs/docs-mcp",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/docs-mcp",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Security & Compliance \u2197",
+      "href": "/security",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/security",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "sidebar",
+      "text": "Support \u2197",
+      "href": "/support",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/support",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "breadcrumbs",
+      "text": "Overview",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Observability",
+      "href": "/docs/observability/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Prompt Management",
+      "href": "/docs/prompt-management/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Evaluation",
+      "href": "/docs/evaluation/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/evaluation/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Metrics",
+      "href": "/docs/metrics/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/metrics/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Playground",
+      "href": "/docs/prompt-management/features/playground",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/features/playground",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Pricing",
+      "href": "/pricing",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/pricing",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Enterprise",
+      "href": "/enterprise",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/enterprise",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Documentation",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Self-Hosting",
+      "href": "/self-hosting",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/self-hosting",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "SDKs",
+      "href": "/docs/observability/sdk/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/sdk/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Integrations",
+      "href": "/integrations",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/integrations",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "API Reference",
+      "href": "/docs/api-and-data-platform/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Talk to Us",
+      "href": "/talk-to-us",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/talk-to-us",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Blog",
+      "href": "/blog",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/blog",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Changelog",
+      "href": "/changelog",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/changelog",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Roadmap",
+      "href": "/docs/roadmap",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/roadmap",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Interactive Demo",
+      "href": "/docs/demo",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/demo",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Users",
+      "href": "/users",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/users",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "AI Engineering Library",
+      "href": "/library",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/library",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Guides & Cookbooks",
+      "href": "/guides",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/guides",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "About Us",
+      "href": "/about",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/about",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Careers",
+      "href": "/careers",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/careers",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Press",
+      "href": "/press",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/press",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Security",
+      "href": "/security",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/security",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Support",
+      "href": "/support",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/support",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Open Source",
+      "href": "/handbook/chapters/open-source",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/handbook/chapters/open-source",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Terms",
+      "href": "/terms",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/terms",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Privacy",
+      "href": "/privacy",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/privacy",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Imprint",
+      "href": "/imprint",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/imprint",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Cookie Policy",
+      "href": "/cookie-policy",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/cookie-policy",
+      "ok": true
+    },
+    {
+      "page": "/docs",
+      "section": "footer",
+      "text": "Discord",
+      "href": "/discord",
+      "status_code": 307,
+      "redirected": true,
+      "final_url": "https://discord.gg/7NXusRtqYU",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "header",
+      "text": "",
+      "href": "/",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "header",
+      "text": "Hiring in Europe and SF Looking for GOATS!",
+      "href": "/careers",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/careers",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "header",
+      "text": "Docs",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "header",
+      "text": "Changelog",
+      "href": "/changelog",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/changelog",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "header",
+      "text": "Pricing",
+      "href": "/pricing",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/pricing",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "header",
+      "text": "Overview",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "header",
+      "text": "LLM Observability",
+      "href": "/docs/observability/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "header",
+      "text": "Prompt Management",
+      "href": "/docs/prompt-management/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "header",
+      "text": "Evaluation",
+      "href": "/docs/evaluation/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/evaluation/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "header",
+      "text": "Metrics",
+      "href": "/docs/metrics/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/metrics/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "header",
+      "text": "Get Demo",
+      "href": "/talk-to-us",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/talk-to-us",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "",
+      "href": "/",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Docs",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Integrations",
+      "href": "/integrations",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/integrations",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Self Hosting",
+      "href": "/self-hosting",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/self-hosting",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Guides",
+      "href": "/guides",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/guides",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "AI Engineering Library",
+      "href": "/library",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/library",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Overview",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Example Project",
+      "href": "/docs/demo",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/demo",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Ask AI",
+      "href": "/docs/ask-ai",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/ask-ai",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Start Tracing",
+      "href": "/docs/observability/get-started",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/get-started",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Use Prompt Management",
+      "href": "/docs/prompt-management/get-started",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/get-started",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Set up Evals",
+      "href": "/docs/evaluation/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/evaluation/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Security & Guardrails",
+      "href": "/docs/security-and-guardrails",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/security-and-guardrails",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Glossary",
+      "href": "/docs/glossary",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/glossary",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Roadmap",
+      "href": "/docs/roadmap",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/roadmap",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Faster Langfuse",
+      "href": "/docs/v4",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/v4",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Docs MCP Server",
+      "href": "/docs/docs-mcp",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/docs-mcp",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Security & Compliance \u2197",
+      "href": "/security",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/security",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "sidebar",
+      "text": "Support \u2197",
+      "href": "/support",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/support",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "breadcrumbs",
+      "text": "Start Tracing",
+      "href": "/docs/observability/get-started",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/get-started",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Observability",
+      "href": "/docs/observability/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Prompt Management",
+      "href": "/docs/prompt-management/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Evaluation",
+      "href": "/docs/evaluation/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/evaluation/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Metrics",
+      "href": "/docs/metrics/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/metrics/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Playground",
+      "href": "/docs/prompt-management/features/playground",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/features/playground",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Pricing",
+      "href": "/pricing",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/pricing",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Enterprise",
+      "href": "/enterprise",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/enterprise",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Documentation",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Self-Hosting",
+      "href": "/self-hosting",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/self-hosting",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "SDKs",
+      "href": "/docs/observability/sdk/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/sdk/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Integrations",
+      "href": "/integrations",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/integrations",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "API Reference",
+      "href": "/docs/api-and-data-platform/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Talk to Us",
+      "href": "/talk-to-us",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/talk-to-us",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Blog",
+      "href": "/blog",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/blog",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Changelog",
+      "href": "/changelog",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/changelog",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Roadmap",
+      "href": "/docs/roadmap",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/roadmap",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Interactive Demo",
+      "href": "/docs/demo",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/demo",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Users",
+      "href": "/users",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/users",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "AI Engineering Library",
+      "href": "/library",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/library",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Guides & Cookbooks",
+      "href": "/guides",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/guides",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "About Us",
+      "href": "/about",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/about",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Careers",
+      "href": "/careers",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/careers",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Press",
+      "href": "/press",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/press",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Security",
+      "href": "/security",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/security",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Support",
+      "href": "/support",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/support",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Open Source",
+      "href": "/handbook/chapters/open-source",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/handbook/chapters/open-source",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Terms",
+      "href": "/terms",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/terms",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Privacy",
+      "href": "/privacy",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/privacy",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Imprint",
+      "href": "/imprint",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/imprint",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Cookie Policy",
+      "href": "/cookie-policy",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/cookie-policy",
+      "ok": true
+    },
+    {
+      "page": "/docs/observability/get-started",
+      "section": "footer",
+      "text": "Discord",
+      "href": "/discord",
+      "status_code": 307,
+      "redirected": true,
+      "final_url": "https://discord.gg/7NXusRtqYU",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "header",
+      "text": "",
+      "href": "/",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "header",
+      "text": "Hiring in Europe and SF Looking for GOATS!",
+      "href": "/careers",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/careers",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "header",
+      "text": "Docs",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "header",
+      "text": "Changelog",
+      "href": "/changelog",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/changelog",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "header",
+      "text": "Pricing",
+      "href": "/pricing",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/pricing",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "header",
+      "text": "Overview",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "header",
+      "text": "LLM Observability",
+      "href": "/docs/observability/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "header",
+      "text": "Prompt Management",
+      "href": "/docs/prompt-management/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "header",
+      "text": "Evaluation",
+      "href": "/docs/evaluation/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/evaluation/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "header",
+      "text": "Metrics",
+      "href": "/docs/metrics/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/metrics/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "header",
+      "text": "Get Demo",
+      "href": "/talk-to-us",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/talk-to-us",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "",
+      "href": "/",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Docs",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Integrations",
+      "href": "/integrations",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/integrations",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Self Hosting",
+      "href": "/self-hosting",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/self-hosting",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Guides",
+      "href": "/guides",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/guides",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "AI Engineering Library",
+      "href": "/library",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/library",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Overview",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Example Project",
+      "href": "/docs/demo",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/demo",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Ask AI",
+      "href": "/docs/ask-ai",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/ask-ai",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Start Tracing",
+      "href": "/docs/observability/get-started",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/get-started",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Use Prompt Management",
+      "href": "/docs/prompt-management/get-started",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/get-started",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Set up Evals",
+      "href": "/docs/evaluation/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/evaluation/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Overview",
+      "href": "/docs/api-and-data-platform/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "CLI",
+      "href": "/docs/api-and-data-platform/features/cli",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/features/cli",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Export from UI",
+      "href": "/docs/api-and-data-platform/features/export-from-ui",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/features/export-from-ui",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Export to Blob Storage",
+      "href": "/docs/api-and-data-platform/features/export-to-blob-storage",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/features/export-to-blob-storage",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "MCP Server",
+      "href": "/docs/api-and-data-platform/features/mcp-server",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/features/mcp-server",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Observations API",
+      "href": "/docs/api-and-data-platform/features/observations-api",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/features/observations-api",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Public API",
+      "href": "/docs/api-and-data-platform/features/public-api",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/features/public-api",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Query via SDKs",
+      "href": "/docs/api-and-data-platform/features/query-via-sdk",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/features/query-via-sdk",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Security & Guardrails",
+      "href": "/docs/security-and-guardrails",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/security-and-guardrails",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Glossary",
+      "href": "/docs/glossary",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/glossary",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Roadmap",
+      "href": "/docs/roadmap",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/roadmap",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Faster Langfuse",
+      "href": "/docs/v4",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/v4",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Docs MCP Server",
+      "href": "/docs/docs-mcp",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/docs-mcp",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Security & Compliance \u2197",
+      "href": "/security",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/security",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "sidebar",
+      "text": "Support \u2197",
+      "href": "/support",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/support",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "breadcrumbs",
+      "text": "Export from UI",
+      "href": "/docs/api-and-data-platform/features/export-from-ui",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/features/export-from-ui",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Observability",
+      "href": "/docs/observability/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Prompt Management",
+      "href": "/docs/prompt-management/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Evaluation",
+      "href": "/docs/evaluation/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/evaluation/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Metrics",
+      "href": "/docs/metrics/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/metrics/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Playground",
+      "href": "/docs/prompt-management/features/playground",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/prompt-management/features/playground",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Pricing",
+      "href": "/pricing",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/pricing",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Enterprise",
+      "href": "/enterprise",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/enterprise",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Documentation",
+      "href": "/docs",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Self-Hosting",
+      "href": "/self-hosting",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/self-hosting",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "SDKs",
+      "href": "/docs/observability/sdk/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/observability/sdk/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Integrations",
+      "href": "/integrations",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/integrations",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "API Reference",
+      "href": "/docs/api-and-data-platform/overview",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/api-and-data-platform/overview",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Talk to Us",
+      "href": "/talk-to-us",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/talk-to-us",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Blog",
+      "href": "/blog",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/blog",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Changelog",
+      "href": "/changelog",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/changelog",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Roadmap",
+      "href": "/docs/roadmap",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/roadmap",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Interactive Demo",
+      "href": "/docs/demo",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/docs/demo",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Users",
+      "href": "/users",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/users",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "AI Engineering Library",
+      "href": "/library",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/library",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Guides & Cookbooks",
+      "href": "/guides",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/guides",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "About Us",
+      "href": "/about",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/about",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Careers",
+      "href": "/careers",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/careers",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Press",
+      "href": "/press",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/press",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Security",
+      "href": "/security",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/security",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Support",
+      "href": "/support",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/support",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Open Source",
+      "href": "/handbook/chapters/open-source",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/handbook/chapters/open-source",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Terms",
+      "href": "/terms",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/terms",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Privacy",
+      "href": "/privacy",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/privacy",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Imprint",
+      "href": "/imprint",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/imprint",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Cookie Policy",
+      "href": "/cookie-policy",
+      "status_code": 200,
+      "redirected": false,
+      "final_url": "http://127.0.0.1:3333/cookie-policy",
+      "ok": true
+    },
+    {
+      "page": "/docs/api-and-data-platform/features/export-from-ui",
+      "section": "footer",
+      "text": "Discord",
+      "href": "/discord",
+      "status_code": 307,
+      "redirected": true,
+      "final_url": "https://discord.gg/7NXusRtqYU",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0,
+    "broken_link_count": 0,
+    "redirected_link_count": 3
+  }
+}

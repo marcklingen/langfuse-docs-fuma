@@ -1,0 +1,429 @@
+{
+  "generatedAt": "2026-03-19T22:50:02.363Z",
+  "baseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionUrl": "https://langfuse.com",
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "Docs overview metadata",
+      "ok": true,
+      "startedAt": "2026-03-19T22:49:57.023Z",
+      "finishedAt": "2026-03-19T22:49:58.316Z",
+      "details": {
+        "sample": "Docs overview metadata",
+        "path": "/docs/observability/overview",
+        "preview": {
+          "status": 200,
+          "requestedUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview",
+          "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/overview",
+          "title": "LLM Observability & Application Tracing (Open Source) - Langfuse",
+          "description": "Open source application tracing and observability for LLM apps. Capture traces, monitor latency, track costs, and debug issues across OpenAI, LangChain, LlamaIndex, and more.",
+          "canonical": "https://langfuse.com/docs/observability/overview",
+          "ogTitle": "LLM Observability & Application Tracing (Open Source) - Langfuse",
+          "ogDescription": "Open source application tracing and observability for LLM apps. Capture traces, monitor latency, track costs, and debug issues across OpenAI, LangChain, LlamaIndex, and more.",
+          "ogUrl": "https://langfuse.com/docs/observability/overview",
+          "ogImage": "https://langfuse.com/api/og?title=LLM+Observability+%26+Application+Tracing+%28Open+Source%29&description=Open+source+application+tracing+and+observability+for+LLM+apps.+Capture+traces%2C+monitor+latency%2C+track+costs%2C+and+debug+issues+across+OpenAI%2C+LangChain%2C+LlamaIndex%2C+and+more.&section=Docs",
+          "ogVideo": null,
+          "twitterCard": "summary_large_image",
+          "twitterTitle": "LLM Observability & Application Tracing (Open Source) - Langfuse",
+          "twitterDescription": "Open source application tracing and observability for LLM apps. Capture traces, monitor latency, track costs, and debug issues across OpenAI, LangChain, LlamaIndex, and more.",
+          "twitterImage": "https://langfuse.com/api/og?title=LLM+Observability+%26+Application+Tracing+%28Open+Source%29&description=Open+source+application+tracing+and+observability+for+LLM+apps.+Capture+traces%2C+monitor+latency%2C+track+costs%2C+and+debug+issues+across+OpenAI%2C+LangChain%2C+LlamaIndex%2C+and+more.&section=Docs",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "production": {
+          "status": 200,
+          "requestedUrl": "https://langfuse.com/docs/observability/overview",
+          "finalUrl": "https://langfuse.com/docs/observability/overview",
+          "title": "LLM Observability & Application Tracing (Open Source) - Langfuse",
+          "description": "Open source application tracing and observability for LLM apps. Capture traces, monitor latency, track costs, and debug issues across OpenAI, LangChain, LlamaIndex, and more.",
+          "canonical": null,
+          "ogTitle": null,
+          "ogDescription": "Open source application tracing and observability for LLM apps. Capture traces, monitor latency, track costs, and debug issues across OpenAI, LangChain, LlamaIndex, and more.",
+          "ogUrl": "https://langfuse.com/docs/observability/overview",
+          "ogImage": "https://langfuse.com/api/og?title=LLM%20Observability%20%26%20Application%20Tracing%20(Open%20Source)&description=Open%20source%20application%20tracing%20and%20observability%20for%20LLM%20apps.%20Capture%20traces%2C%20monitor%20latency%2C%20track%20costs%2C%20and%20debug%20issues%20across%20OpenAI%2C%20LangChain%2C%20LlamaIndex%2C%20and%20more.&section=Docs",
+          "ogVideo": null,
+          "twitterCard": "summary_large_image",
+          "twitterTitle": null,
+          "twitterDescription": null,
+          "twitterImage": "https://langfuse.com/api/og?title=LLM%20Observability%20%26%20Application%20Tracing%20(Open%20Source)&description=Open%20source%20application%20tracing%20and%20observability%20for%20LLM%20apps.%20Capture%20traces%2C%20monitor%20latency%2C%20track%20costs%2C%20and%20debug%20issues%20across%20OpenAI%2C%20LangChain%2C%20LlamaIndex%2C%20and%20more.&section=Docs",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "ogImageAsset": {
+          "requestedUrl": "https://langfuse.com/api/og?title=LLM+Observability+%26+Application+Tracing+%28Open+Source%29&description=Open+source+application+tracing+and+observability+for+LLM+apps.+Capture+traces%2C+monitor+latency%2C+track+costs%2C+and+debug+issues+across+OpenAI%2C+LangChain%2C+LlamaIndex%2C+and+more.&section=Docs",
+          "finalUrl": "https://langfuse.com/api/og?title=LLM+Observability+%26+Application+Tracing+%28Open+Source%29&description=Open+source+application+tracing+and+observability+for+LLM+apps.+Capture+traces%2C+monitor+latency%2C+track+costs%2C+and+debug+issues+across+OpenAI%2C+LangChain%2C+LlamaIndex%2C+and+more.&section=Docs",
+          "status": 200,
+          "contentType": "image/png"
+        },
+        "ogVideoAsset": null,
+        "productionDiffs": [
+          {
+            "field": "canonical",
+            "preview": "https://langfuse.com/docs/observability/overview",
+            "production": null
+          },
+          {
+            "field": "og:image",
+            "preview": "https://langfuse.com/api/og?title=LLM+Observability+%26+Application+Tracing+%28Open+Source%29&description=Open+source+application+tracing+and+observability+for+LLM+apps.+Capture+traces%2C+monitor+latency%2C+track+costs%2C+and+debug+issues+across+OpenAI%2C+LangChain%2C+LlamaIndex%2C+and+more.&section=Docs",
+            "production": "https://langfuse.com/api/og?title=LLM%20Observability%20%26%20Application%20Tracing%20(Open%20Source)&description=Open%20source%20application%20tracing%20and%20observability%20for%20LLM%20apps.%20Capture%20traces%2C%20monitor%20latency%2C%20track%20costs%2C%20and%20debug%20issues%20across%20OpenAI%2C%20LangChain%2C%20LlamaIndex%2C%20and%20more.&section=Docs"
+          },
+          {
+            "field": "twitter:image",
+            "preview": "https://langfuse.com/api/og?title=LLM+Observability+%26+Application+Tracing+%28Open+Source%29&description=Open+source+application+tracing+and+observability+for+LLM+apps.+Capture+traces%2C+monitor+latency%2C+track+costs%2C+and+debug+issues+across+OpenAI%2C+LangChain%2C+LlamaIndex%2C+and+more.&section=Docs",
+            "production": "https://langfuse.com/api/og?title=LLM%20Observability%20%26%20Application%20Tracing%20(Open%20Source)&description=Open%20source%20application%20tracing%20and%20observability%20for%20LLM%20apps.%20Capture%20traces%2C%20monitor%20latency%2C%20track%20costs%2C%20and%20debug%20issues%20across%20OpenAI%2C%20LangChain%2C%20LlamaIndex%2C%20and%20more.&section=Docs"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FAQ detail metadata",
+      "ok": true,
+      "startedAt": "2026-03-19T22:49:58.316Z",
+      "finishedAt": "2026-03-19T22:49:59.236Z",
+      "details": {
+        "sample": "FAQ detail metadata",
+        "path": "/faq/all/unwanted-http-database-spans",
+        "preview": {
+          "status": 200,
+          "requestedUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/unwanted-http-database-spans",
+          "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/faq/all/unwanted-http-database-spans",
+          "title": "Why do I see HTTP requests or database queries in my Langfuse traces? - Langfuse",
+          "description": "If your Langfuse dashboard shows spans like HTTP GET, SQL queries, or health checks alongside your LLM calls, here's why it happens and how to fix it.",
+          "canonical": "https://langfuse.com/faq/all/unwanted-http-database-spans",
+          "ogTitle": "Why do I see HTTP requests or database queries in my Langfuse traces? - Langfuse",
+          "ogDescription": "If your Langfuse dashboard shows spans like HTTP GET, SQL queries, or health checks alongside your LLM calls, here's why it happens and how to fix it.",
+          "ogUrl": "https://langfuse.com/faq/all/unwanted-http-database-spans",
+          "ogImage": "https://langfuse.com/api/og?title=Why+do+I+see+HTTP+requests+or+database+queries+in+my+Langfuse+traces%3F&description=If+your+Langfuse+dashboard+shows+spans+like+HTTP+GET%2C+SQL+queries%2C+or+health+checks+alongside+your+LLM+calls%2C+here%27s+why+it+happens+and+how+to+fix+it.&section=FAQ",
+          "ogVideo": null,
+          "twitterCard": "summary_large_image",
+          "twitterTitle": "Why do I see HTTP requests or database queries in my Langfuse traces? - Langfuse",
+          "twitterDescription": "If your Langfuse dashboard shows spans like HTTP GET, SQL queries, or health checks alongside your LLM calls, here's why it happens and how to fix it.",
+          "twitterImage": "https://langfuse.com/api/og?title=Why+do+I+see+HTTP+requests+or+database+queries+in+my+Langfuse+traces%3F&description=If+your+Langfuse+dashboard+shows+spans+like+HTTP+GET%2C+SQL+queries%2C+or+health+checks+alongside+your+LLM+calls%2C+here%27s+why+it+happens+and+how+to+fix+it.&section=FAQ",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "production": {
+          "status": 200,
+          "requestedUrl": "https://langfuse.com/faq/all/unwanted-http-database-spans",
+          "finalUrl": "https://langfuse.com/faq/all/unwanted-http-database-spans",
+          "title": "Why do I see HTTP requests or database queries in my Langfuse traces? - Langfuse",
+          "description": "If your Langfuse dashboard shows spans like HTTP GET, SQL queries, or health checks alongside your LLM calls, here's why it happens and how to fix it.",
+          "canonical": null,
+          "ogTitle": null,
+          "ogDescription": "If your Langfuse dashboard shows spans like HTTP GET, SQL queries, or health checks alongside your LLM calls, here's why it happens and how to fix it.",
+          "ogUrl": "https://langfuse.com/faq/all/unwanted-http-database-spans",
+          "ogImage": "https://langfuse.com/api/og?title=Why%20do%20I%20see%20HTTP%20requests%20or%20database%20queries%20in%20my%20Langfuse%20traces%3F&description=If%20your%20Langfuse%20dashboard%20shows%20spans%20like%20HTTP%20GET%2C%20SQL%20queries%2C%20or%20health%20checks%20alongside%20your%20LLM%20calls%2C%20here's%20why%20it%20happens%20and%20how%20to%20fix%20it.&section=FAQ",
+          "ogVideo": null,
+          "twitterCard": "summary_large_image",
+          "twitterTitle": null,
+          "twitterDescription": null,
+          "twitterImage": "https://langfuse.com/api/og?title=Why%20do%20I%20see%20HTTP%20requests%20or%20database%20queries%20in%20my%20Langfuse%20traces%3F&description=If%20your%20Langfuse%20dashboard%20shows%20spans%20like%20HTTP%20GET%2C%20SQL%20queries%2C%20or%20health%20checks%20alongside%20your%20LLM%20calls%2C%20here's%20why%20it%20happens%20and%20how%20to%20fix%20it.&section=FAQ",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "ogImageAsset": {
+          "requestedUrl": "https://langfuse.com/api/og?title=Why+do+I+see+HTTP+requests+or+database+queries+in+my+Langfuse+traces%3F&description=If+your+Langfuse+dashboard+shows+spans+like+HTTP+GET%2C+SQL+queries%2C+or+health+checks+alongside+your+LLM+calls%2C+here%27s+why+it+happens+and+how+to+fix+it.&section=FAQ",
+          "finalUrl": "https://langfuse.com/api/og?title=Why+do+I+see+HTTP+requests+or+database+queries+in+my+Langfuse+traces%3F&description=If+your+Langfuse+dashboard+shows+spans+like+HTTP+GET%2C+SQL+queries%2C+or+health+checks+alongside+your+LLM+calls%2C+here%27s+why+it+happens+and+how+to+fix+it.&section=FAQ",
+          "status": 200,
+          "contentType": "image/png"
+        },
+        "ogVideoAsset": null,
+        "productionDiffs": [
+          {
+            "field": "canonical",
+            "preview": "https://langfuse.com/faq/all/unwanted-http-database-spans",
+            "production": null
+          },
+          {
+            "field": "og:image",
+            "preview": "https://langfuse.com/api/og?title=Why+do+I+see+HTTP+requests+or+database+queries+in+my+Langfuse+traces%3F&description=If+your+Langfuse+dashboard+shows+spans+like+HTTP+GET%2C+SQL+queries%2C+or+health+checks+alongside+your+LLM+calls%2C+here%27s+why+it+happens+and+how+to+fix+it.&section=FAQ",
+            "production": "https://langfuse.com/api/og?title=Why%20do%20I%20see%20HTTP%20requests%20or%20database%20queries%20in%20my%20Langfuse%20traces%3F&description=If%20your%20Langfuse%20dashboard%20shows%20spans%20like%20HTTP%20GET%2C%20SQL%20queries%2C%20or%20health%20checks%20alongside%20your%20LLM%20calls%2C%20here's%20why%20it%20happens%20and%20how%20to%20fix%20it.&section=FAQ"
+          },
+          {
+            "field": "twitter:image",
+            "preview": "https://langfuse.com/api/og?title=Why+do+I+see+HTTP+requests+or+database+queries+in+my+Langfuse+traces%3F&description=If+your+Langfuse+dashboard+shows+spans+like+HTTP+GET%2C+SQL+queries%2C+or+health+checks+alongside+your+LLM+calls%2C+here%27s+why+it+happens+and+how+to+fix+it.&section=FAQ",
+            "production": "https://langfuse.com/api/og?title=Why%20do%20I%20see%20HTTP%20requests%20or%20database%20queries%20in%20my%20Langfuse%20traces%3F&description=If%20your%20Langfuse%20dashboard%20shows%20spans%20like%20HTTP%20GET%2C%20SQL%20queries%2C%20or%20health%20checks%20alongside%20your%20LLM%20calls%2C%20here's%20why%20it%20happens%20and%20how%20to%20fix%20it.&section=FAQ"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blog post with static OG image",
+      "ok": true,
+      "startedAt": "2026-03-19T22:49:59.236Z",
+      "finishedAt": "2026-03-19T22:49:59.977Z",
+      "details": {
+        "sample": "Blog post with static OG image",
+        "path": "/blog/2026-02-26-evaluate-ai-agent-skills",
+        "preview": {
+          "status": 200,
+          "requestedUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/blog/2026-02-26-evaluate-ai-agent-skills",
+          "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/blog/2026-02-26-evaluate-ai-agent-skills",
+          "title": "Evaluating AI Agent Skills - Langfuse",
+          "description": "How we used Langfuse datasets, tracing, and the cloud agent SDK to iteratively evaluate and improve our AI agent skill.",
+          "canonical": "https://langfuse.com/blog/2026-02-26-evaluate-ai-agent-skills",
+          "ogTitle": "Evaluating AI Agent Skills - Langfuse",
+          "ogDescription": "How we used Langfuse datasets, tracing, and the cloud agent SDK to iteratively evaluate and improve our AI agent skill.",
+          "ogUrl": "https://langfuse.com/blog/2026-02-26-evaluate-ai-agent-skills",
+          "ogImage": "https://langfuse.com/images/blog/2026-02-26-evaluate-ai-agent-skills/og.jpg",
+          "ogVideo": null,
+          "twitterCard": "summary_large_image",
+          "twitterTitle": "Evaluating AI Agent Skills - Langfuse",
+          "twitterDescription": "How we used Langfuse datasets, tracing, and the cloud agent SDK to iteratively evaluate and improve our AI agent skill.",
+          "twitterImage": "https://langfuse.com/images/blog/2026-02-26-evaluate-ai-agent-skills/og.jpg",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "production": {
+          "status": 200,
+          "requestedUrl": "https://langfuse.com/blog/2026-02-26-evaluate-ai-agent-skills",
+          "finalUrl": "https://langfuse.com/blog/2026-02-26-evaluate-ai-agent-skills",
+          "title": "Evaluating AI Agent Skills - Langfuse Blog",
+          "description": "How we used Langfuse datasets, tracing, and the cloud agent SDK to iteratively evaluate and improve our AI agent skill.",
+          "canonical": null,
+          "ogTitle": null,
+          "ogDescription": "How we used Langfuse datasets, tracing, and the cloud agent SDK to iteratively evaluate and improve our AI agent skill.",
+          "ogUrl": "https://langfuse.com/blog/2026-02-26-evaluate-ai-agent-skills",
+          "ogImage": "https://langfuse.com/images/blog/2026-02-26-evaluate-ai-agent-skills/og.jpg",
+          "ogVideo": null,
+          "twitterCard": "summary_large_image",
+          "twitterTitle": null,
+          "twitterDescription": null,
+          "twitterImage": "https://langfuse.com/images/blog/2026-02-26-evaluate-ai-agent-skills/og.jpg",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "ogImageAsset": {
+          "requestedUrl": "https://langfuse.com/images/blog/2026-02-26-evaluate-ai-agent-skills/og.jpg",
+          "finalUrl": "https://langfuse.com/images/blog/2026-02-26-evaluate-ai-agent-skills/og.jpg",
+          "status": 200,
+          "contentType": "image/jpeg"
+        },
+        "ogVideoAsset": null,
+        "productionDiffs": [
+          {
+            "field": "title",
+            "preview": "Evaluating AI Agent Skills - Langfuse",
+            "production": "Evaluating AI Agent Skills - Langfuse Blog"
+          },
+          {
+            "field": "canonical",
+            "preview": "https://langfuse.com/blog/2026-02-26-evaluate-ai-agent-skills",
+            "production": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guide video page with static OG image",
+      "ok": true,
+      "startedAt": "2026-03-19T22:49:59.977Z",
+      "finishedAt": "2026-03-19T22:50:00.782Z",
+      "details": {
+        "sample": "Guide video page with static OG image",
+        "path": "/guides/videos/introducing-datasets-v2",
+        "preview": {
+          "status": 200,
+          "requestedUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/introducing-datasets-v2",
+          "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/guides/videos/introducing-datasets-v2",
+          "title": "Introducing Datasets v2 - Langfuse",
+          "description": "Overview of the dataset-related changes released during Launch Week",
+          "canonical": "https://langfuse.com/guides/videos/introducing-datasets-v2",
+          "ogTitle": "Introducing Datasets v2 - Langfuse",
+          "ogDescription": "Overview of the dataset-related changes released during Launch Week",
+          "ogUrl": "https://langfuse.com/guides/videos/introducing-datasets-v2",
+          "ogImage": "https://langfuse.com/images/videos/introducing-datasets-v2.jpg",
+          "ogVideo": null,
+          "twitterCard": "summary_large_image",
+          "twitterTitle": "Introducing Datasets v2 - Langfuse",
+          "twitterDescription": "Overview of the dataset-related changes released during Launch Week",
+          "twitterImage": "https://langfuse.com/images/videos/introducing-datasets-v2.jpg",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "production": {
+          "status": 200,
+          "requestedUrl": "https://langfuse.com/guides/videos/introducing-datasets-v2",
+          "finalUrl": "https://langfuse.com/guides/videos/introducing-datasets-v2",
+          "title": "Introducing Datasets v2 - Langfuse",
+          "description": "Overview of the dataset-related changes released during Launch Week",
+          "canonical": null,
+          "ogTitle": null,
+          "ogDescription": "Overview of the dataset-related changes released during Launch Week",
+          "ogUrl": "https://langfuse.com/guides/videos/introducing-datasets-v2",
+          "ogImage": "https://langfuse.com/images/videos/introducing-datasets-v2.jpg",
+          "ogVideo": null,
+          "twitterCard": "summary_large_image",
+          "twitterTitle": null,
+          "twitterDescription": null,
+          "twitterImage": "https://langfuse.com/images/videos/introducing-datasets-v2.jpg",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "ogImageAsset": {
+          "requestedUrl": "https://langfuse.com/images/videos/introducing-datasets-v2.jpg",
+          "finalUrl": "https://langfuse.com/images/videos/introducing-datasets-v2.jpg",
+          "status": 200,
+          "contentType": "image/jpeg"
+        },
+        "ogVideoAsset": null,
+        "productionDiffs": [
+          {
+            "field": "canonical",
+            "preview": "https://langfuse.com/guides/videos/introducing-datasets-v2",
+            "production": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "Changelog page with canonical override and og:video",
+      "ok": true,
+      "startedAt": "2026-03-19T22:50:00.782Z",
+      "finishedAt": "2026-03-19T22:50:02.013Z",
+      "details": {
+        "sample": "Changelog page with canonical override and og:video",
+        "path": "/changelog/2025-01-22-track-changes-between-prompt-versions",
+        "preview": {
+          "status": 200,
+          "requestedUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog/2025-01-22-track-changes-between-prompt-versions",
+          "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog/2025-01-22-track-changes-between-prompt-versions",
+          "title": "Track changes between prompt versions - Langfuse",
+          "description": "See a detailed comparison of changes between prompt versions. Optionally, you can also review changes before creating a new prompt version.",
+          "canonical": "https://langfuse.com/docs/prompt-management/features/prompt-version-control",
+          "ogTitle": "Track changes between prompt versions - Langfuse",
+          "ogDescription": "See a detailed comparison of changes between prompt versions. Optionally, you can also review changes before creating a new prompt version.",
+          "ogUrl": "https://langfuse.com/docs/prompt-management/features/prompt-version-control",
+          "ogImage": "https://langfuse.com/api/og?title=Track+changes+between+prompt+versions&description=See+a+detailed+comparison+of+changes+between+prompt+versions.+Optionally%2C+you+can+also+review+changes+before+creating+a+new+prompt+version.&section=Changelog",
+          "ogVideo": "https://static.langfuse.com/docs-videos/prompt-diff.mp4",
+          "twitterCard": "summary_large_image",
+          "twitterTitle": "Track changes between prompt versions - Langfuse",
+          "twitterDescription": "See a detailed comparison of changes between prompt versions. Optionally, you can also review changes before creating a new prompt version.",
+          "twitterImage": "https://langfuse.com/api/og?title=Track+changes+between+prompt+versions&description=See+a+detailed+comparison+of+changes+between+prompt+versions.+Optionally%2C+you+can+also+review+changes+before+creating+a+new+prompt+version.&section=Changelog",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "production": {
+          "status": 200,
+          "requestedUrl": "https://langfuse.com/changelog/2025-01-22-track-changes-between-prompt-versions",
+          "finalUrl": "https://langfuse.com/changelog/2025-01-22-track-changes-between-prompt-versions",
+          "title": "Track changes between prompt versions - Langfuse",
+          "description": "See a detailed comparison of changes between prompt versions. Optionally, you can also review changes before creating a new prompt version.",
+          "canonical": "https://langfuse.com/docs/prompt-management/features/prompt-version-control",
+          "ogTitle": null,
+          "ogDescription": "See a detailed comparison of changes between prompt versions. Optionally, you can also review changes before creating a new prompt version.",
+          "ogUrl": "https://langfuse.com/changelog/2025-01-22-track-changes-between-prompt-versions",
+          "ogImage": "https://langfuse.com/api/og?title=Track%20changes%20between%20prompt%20versions&description=See%20a%20detailed%20comparison%20of%20changes%20between%20prompt%20versions.%20Optionally%2C%20you%20can%20also%20review%20changes%20before%20creating%20a%20new%20prompt%20version.&section=Changelog",
+          "ogVideo": "https://langfuse.comhttps://static.langfuse.com/docs-videos/prompt-diff.mp4",
+          "twitterCard": "summary_large_image",
+          "twitterTitle": null,
+          "twitterDescription": null,
+          "twitterImage": "https://langfuse.com/api/og?title=Track%20changes%20between%20prompt%20versions&description=See%20a%20detailed%20comparison%20of%20changes%20between%20prompt%20versions.%20Optionally%2C%20you%20can%20also%20review%20changes%20before%20creating%20a%20new%20prompt%20version.&section=Changelog",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "ogImageAsset": {
+          "requestedUrl": "https://langfuse.com/api/og?title=Track+changes+between+prompt+versions&description=See+a+detailed+comparison+of+changes+between+prompt+versions.+Optionally%2C+you+can+also+review+changes+before+creating+a+new+prompt+version.&section=Changelog",
+          "finalUrl": "https://langfuse.com/api/og?title=Track+changes+between+prompt+versions&description=See+a+detailed+comparison+of+changes+between+prompt+versions.+Optionally%2C+you+can+also+review+changes+before+creating+a+new+prompt+version.&section=Changelog",
+          "status": 200,
+          "contentType": "image/png"
+        },
+        "ogVideoAsset": {
+          "requestedUrl": "https://static.langfuse.com/docs-videos/prompt-diff.mp4",
+          "finalUrl": "https://static.langfuse.com/docs-videos/prompt-diff.mp4",
+          "status": 200,
+          "contentType": "video/mp4"
+        },
+        "productionDiffs": [
+          {
+            "field": "og:url",
+            "preview": "https://langfuse.com/docs/prompt-management/features/prompt-version-control",
+            "production": "https://langfuse.com/changelog/2025-01-22-track-changes-between-prompt-versions"
+          },
+          {
+            "field": "og:image",
+            "preview": "https://langfuse.com/api/og?title=Track+changes+between+prompt+versions&description=See+a+detailed+comparison+of+changes+between+prompt+versions.+Optionally%2C+you+can+also+review+changes+before+creating+a+new+prompt+version.&section=Changelog",
+            "production": "https://langfuse.com/api/og?title=Track%20changes%20between%20prompt%20versions&description=See%20a%20detailed%20comparison%20of%20changes%20between%20prompt%20versions.%20Optionally%2C%20you%20can%20also%20review%20changes%20before%20creating%20a%20new%20prompt%20version.&section=Changelog"
+          },
+          {
+            "field": "og:video",
+            "preview": "https://static.langfuse.com/docs-videos/prompt-diff.mp4",
+            "production": "https://langfuse.comhttps://static.langfuse.com/docs-videos/prompt-diff.mp4"
+          },
+          {
+            "field": "twitter:image",
+            "preview": "https://langfuse.com/api/og?title=Track+changes+between+prompt+versions&description=See+a+detailed+comparison+of+changes+between+prompt+versions.+Optionally%2C+you+can+also+review+changes+before+creating+a+new+prompt+version.&section=Changelog",
+            "production": "https://langfuse.com/api/og?title=Track%20changes%20between%20prompt%20versions&description=See%20a%20detailed%20comparison%20of%20changes%20between%20prompt%20versions.%20Optionally%2C%20you%20can%20also%20review%20changes%20before%20creating%20a%20new%20prompt%20version.&section=Changelog"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Changelog page with canonical override and static OG image",
+      "ok": true,
+      "startedAt": "2026-03-19T22:50:02.013Z",
+      "finishedAt": "2026-03-19T22:50:02.363Z",
+      "details": {
+        "sample": "Changelog page with canonical override and static OG image",
+        "path": "/changelog/2025-05-21-custom-dashboards",
+        "preview": {
+          "status": 200,
+          "requestedUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog/2025-05-21-custom-dashboards",
+          "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/changelog/2025-05-21-custom-dashboards",
+          "title": "Custom Dashboards - Langfuse",
+          "description": "Create your own custom dashboards or use Langfuse-curated dashboards to analyze and understand your AI application deeply.",
+          "canonical": "https://langfuse.com/docs/metrics/features/custom-dashboards",
+          "ogTitle": "Custom Dashboards - Langfuse",
+          "ogDescription": "Create your own custom dashboards or use Langfuse-curated dashboards to analyze and understand your AI application deeply.",
+          "ogUrl": "https://langfuse.com/docs/metrics/features/custom-dashboards",
+          "ogImage": "https://langfuse.com/images/changelog/2025-05-21-custom-dashboards/custom-dashboard.png",
+          "ogVideo": null,
+          "twitterCard": "summary_large_image",
+          "twitterTitle": "Custom Dashboards - Langfuse",
+          "twitterDescription": "Create your own custom dashboards or use Langfuse-curated dashboards to analyze and understand your AI application deeply.",
+          "twitterImage": "https://langfuse.com/images/changelog/2025-05-21-custom-dashboards/custom-dashboard.png",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "production": {
+          "status": 200,
+          "requestedUrl": "https://langfuse.com/changelog/2025-05-21-custom-dashboards",
+          "finalUrl": "https://langfuse.com/changelog/2025-05-21-custom-dashboards",
+          "title": "Custom Dashboards - Langfuse",
+          "description": "Create your own custom dashboards or use Langfuse-curated dashboards to analyze and understand your AI application deeply.",
+          "canonical": "https://langfuse.com/docs/metrics/features/custom-dashboards",
+          "ogTitle": null,
+          "ogDescription": "Create your own custom dashboards or use Langfuse-curated dashboards to analyze and understand your AI application deeply.",
+          "ogUrl": "https://langfuse.com/changelog/2025-05-21-custom-dashboards",
+          "ogImage": "https://langfuse.com/images/changelog/2025-05-21-custom-dashboards/custom-dashboard.png",
+          "ogVideo": null,
+          "twitterCard": "summary_large_image",
+          "twitterTitle": null,
+          "twitterDescription": null,
+          "twitterImage": "https://langfuse.com/images/changelog/2025-05-21-custom-dashboards/custom-dashboard.png",
+          "jsonLdCount": 0,
+          "jsonLdTypes": []
+        },
+        "ogImageAsset": {
+          "requestedUrl": "https://langfuse.com/images/changelog/2025-05-21-custom-dashboards/custom-dashboard.png",
+          "finalUrl": "https://langfuse.com/images/changelog/2025-05-21-custom-dashboards/custom-dashboard.png",
+          "status": 200,
+          "contentType": "image/png"
+        },
+        "ogVideoAsset": null,
+        "productionDiffs": [
+          {
+            "field": "og:url",
+            "preview": "https://langfuse.com/docs/metrics/features/custom-dashboards",
+            "production": "https://langfuse.com/changelog/2025-05-21-custom-dashboards"
+          }
+        ]
+      }
+    }
+  ]
+}

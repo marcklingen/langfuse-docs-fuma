@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-03-19T22:41:16.735Z",
+  "baseUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionUrl": "https://langfuse.com",
+  "sampleDocPath": "/docs/observability/data-model",
+  "summary": {
+    "total": 9,
+    "passed": 7,
+    "failed": 2
+  },
+  "checks": [
+    {
+      "name": "llms.txt is reachable and references the expected AI assets",
+      "ok": true,
+      "startedAt": "2026-03-19T22:41:12.138Z",
+      "finishedAt": "2026-03-19T22:41:12.140Z",
+      "details": {
+        "status": 200,
+        "contentType": "text/plain; charset=utf-8",
+        "xRobotsTag": "noindex",
+        "sha256": "7e5f7ac57b2957b436fd68b077c76cf1e6263223e9afa40ec292a4c610aae8db"
+      }
+    },
+    {
+      "name": "llms section files are reachable and expose markdown links",
+      "ok": true,
+      "startedAt": "2026-03-19T22:41:12.140Z",
+      "finishedAt": "2026-03-19T22:41:12.733Z",
+      "details": {
+        "files": [
+          {
+            "file": "/llms-docs.txt",
+            "status": 200,
+            "contentType": "text/plain; charset=utf-8",
+            "sha256": "19376e9424a735add65c2f3334b205377a89a5eb05f7535c624f2862152ad709"
+          },
+          {
+            "file": "/llms-integrations.txt",
+            "status": 200,
+            "contentType": "text/plain; charset=utf-8",
+            "sha256": "f340eab021880bfabbc101df829bf1a8f71bd5f6586826e4042e39ac9f9222d1"
+          },
+          {
+            "file": "/llms-self-hosting.txt",
+            "status": 200,
+            "contentType": "text/plain; charset=utf-8",
+            "sha256": "822ff4898924e66224b72be1dd44f8d812f9af5978c6f232575a42c5d0e4141f"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Direct .md endpoints return markdown with noindex",
+      "ok": true,
+      "startedAt": "2026-03-19T22:41:12.733Z",
+      "finishedAt": "2026-03-19T22:41:12.733Z",
+      "details": {
+        "status": 200,
+        "contentType": "text/markdown; charset=utf-8",
+        "xRobotsTag": "noindex",
+        "firstLine": "---",
+        "sha256": "4d36304c8578f986377edd8f141073b64714d24c116b8b07e49bcc3caac1d4a9"
+      }
+    },
+    {
+      "name": "Accept: text/markdown content negotiation matches the .md endpoint",
+      "ok": true,
+      "startedAt": "2026-03-19T22:41:12.733Z",
+      "finishedAt": "2026-03-19T22:41:13.372Z",
+      "details": {
+        "negotiatedContentType": "text/markdown; charset=utf-8",
+        "negotiatedHash": "4d36304c8578f986377edd8f141073b64714d24c116b8b07e49bcc3caac1d4a9",
+        "htmlContentType": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "name": "/api/mcp exposes the expected tools and the overview tool resolves",
+      "ok": true,
+      "startedAt": "2026-03-19T22:41:13.372Z",
+      "finishedAt": "2026-03-19T22:41:13.933Z",
+      "details": {
+        "toolNames": [
+          "getLangfuseDocsPage",
+          "getLangfuseOverview",
+          "searchLangfuseDocs"
+        ],
+        "overviewExcerpt": "# Langfuse > Langfuse is an **open-source LLM engineering platform** ([GitHub](https://github.com/langfuse/langfuse)) that helps teams collaboratively debug, analyze, and iterate on their LLM applications. All platform features are natively...",
+        "overviewHash": "7e5f7ac57b2957b436fd68b077c76cf1e6263223e9afa40ec292a4c610aae8db"
+      }
+    },
+    {
+      "name": "MCP markdown retrieval matches the preview deployment markdown output",
+      "ok": false,
+      "startedAt": "2026-03-19T22:41:13.934Z",
+      "finishedAt": "2026-03-19T22:41:14.286Z",
+      "error": "MCP page tool output did not match the preview .md endpoint",
+      "details": {
+        "mcpMetaUrl": "https://langfuse.com/docs/observability/data-model.md",
+        "previewHash": "4d36304c8578f986377edd8f141073b64714d24c116b8b07e49bcc3caac1d4a9",
+        "mcpHash": "b15f92db091c868c6766fc682f49340ac554c8bd256f9604b578c6e37df2d65c",
+        "firstDiff": {
+          "line": 2,
+          "left": "title: Concepts",
+          "right": "title: Tracing Data Model in Langfuse"
+        },
+        "previewExcerpt": "--- title: Concepts description: Langfuse (open source) helps you trace and analyze LLM applications. Learn how traces and observations are ...",
+        "mcpExcerpt": "--- title: Tracing Data Model in Langfuse description: Langfuse (open source) helps you trace and analyze LLM applications. Learn how traces..."
+      }
+    },
+    {
+      "name": "/api/search-docs preserves response shape and CORS behavior",
+      "ok": true,
+      "startedAt": "2026-03-19T22:41:14.286Z",
+      "finishedAt": "2026-03-19T22:41:16.571Z",
+      "details": {
+        "optionsStatus": 204,
+        "getStatus": 200,
+        "query": "How do I install the Docs MCP server?",
+        "answerType": "string",
+        "metadataType": "object",
+        "answerExcerpt": "{\"content\": [{\"type\": \"document\", \"record_type\": \"documentation\", \"url\": \"https://langfuse.com/docs/docs-mcp\", \"title\": \"Langfuse Docs MCP Server\", \"source\": {\"content\": [{\"type\": ..."
+      }
+    },
+    {
+      "name": "/api/md-to-pdf succeeds for allowed Langfuse markdown inputs",
+      "ok": false,
+      "startedAt": "2026-03-19T22:41:16.571Z",
+      "finishedAt": "2026-03-19T22:41:16.671Z",
+      "error": "Expected md-to-pdf to return 200",
+      "details": {
+        "status": 500,
+        "body": "{\"error\":\"Internal server error while generating PDF\",\"message\":\"An unexpected error occurred.\"}"
+      }
+    },
+    {
+      "name": "/api/md-to-pdf blocks untrusted hosts instead of rendering them",
+      "ok": true,
+      "startedAt": "2026-03-19T22:41:16.671Z",
+      "finishedAt": "2026-03-19T22:41:16.735Z",
+      "details": {
+        "status": 400,
+        "error": "Fetching from example.com is not permitted."
+      }
+    }
+  ]
+}

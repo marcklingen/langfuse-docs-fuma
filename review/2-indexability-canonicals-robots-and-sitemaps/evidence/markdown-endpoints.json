@@ -1,0 +1,80 @@
+{
+  "totals": {
+    "checks": 6,
+    "non200": 0,
+    "wrongContentType": 0,
+    "missingNoindexHeader": 0
+  },
+  "failures": {
+    "wrongContentType": [],
+    "missingNoindexHeader": []
+  },
+  "endpoints": [
+    {
+      "env": "production",
+      "origin": "https://langfuse.com",
+      "path": "/docs/prompt-management/get-started.md",
+      "status": 200,
+      "finalUrl": "https://langfuse.com/docs/prompt-management/get-started.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "xRobotsTag": "noindex",
+      "bodyStartsWith": "---\ntitle: Get Started with Open Source Prompt Management\nsidebarTitle: Get Started\ndescription: Get started with Langfu",
+      "finalUrlNormalized": "https://langfuse.com/docs/prompt-management/get-started.md"
+    },
+    {
+      "env": "preview",
+      "origin": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+      "path": "/docs/prompt-management/get-started.md",
+      "status": 200,
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "xRobotsTag": "noindex",
+      "bodyStartsWith": "---\ntitle: Get Started\nsidebarTitle: Get Started\ndescription: Get started with Langfuse Prompt Management.\n---\n\n# Get St",
+      "finalUrlNormalized": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/prompt-management/get-started.md"
+    },
+    {
+      "env": "production",
+      "origin": "https://langfuse.com",
+      "path": "/docs/observability/data-model.md",
+      "status": 200,
+      "finalUrl": "https://langfuse.com/docs/observability/data-model.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "xRobotsTag": "noindex",
+      "bodyStartsWith": "---\ntitle: Tracing Data Model in Langfuse\ndescription: Langfuse (open source) helps you trace and analyze LLM applicatio",
+      "finalUrlNormalized": "https://langfuse.com/docs/observability/data-model.md"
+    },
+    {
+      "env": "preview",
+      "origin": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+      "path": "/docs/observability/data-model.md",
+      "status": 200,
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/data-model.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "xRobotsTag": "noindex",
+      "bodyStartsWith": "---\ntitle: Concepts\ndescription: Langfuse (open source) helps you trace and analyze LLM applications. Learn how traces a",
+      "finalUrlNormalized": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/docs/observability/data-model.md"
+    },
+    {
+      "env": "production",
+      "origin": "https://langfuse.com",
+      "path": "/integrations/model-providers/openai-js.md",
+      "status": 200,
+      "finalUrl": "https://langfuse.com/integrations/model-providers/openai-js.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "xRobotsTag": "noindex",
+      "bodyStartsWith": "---\ntitle: OpenAI (JS/TS)\nsidebarTitle: OpenAI (JS/TS)\nseoTitle: Open Source Observability for OpenAI (JS/TS)\ndescriptio",
+      "finalUrlNormalized": "https://langfuse.com/integrations/model-providers/openai-js.md"
+    },
+    {
+      "env": "preview",
+      "origin": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+      "path": "/integrations/model-providers/openai-js.md",
+      "status": 200,
+      "finalUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/openai-js.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "xRobotsTag": "noindex",
+      "bodyStartsWith": "---\ntitle: OpenAI (JS/TS)\nsidebarTitle: OpenAI (JS/TS)\nseoTitle: Open Source Observability for OpenAI (JS/TS)\ndescriptio",
+      "finalUrlNormalized": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/integrations/model-providers/openai-js.md"
+    }
+  ]
+}

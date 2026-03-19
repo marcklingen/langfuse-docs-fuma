@@ -1,0 +1,1026 @@
+- generic:
+  - generic:
+    - link:
+      - /url: /blog/joining-clickhouse
+      - text: Langfuse joins ClickHouse! Learn more →
+    - button:
+      - img
+  - banner:
+    - navigation:
+      - generic:
+        - generic:
+          - generic:
+            - link:
+              - /url: /
+              - generic:
+                - img
+          - generic:
+            - link:
+              - /url: /careers
+              - generic:
+                - generic: Hiring in Europe and SF
+      - generic:
+        - generic:
+          - button:
+            - text: Product
+            - img
+          - button:
+            - text: Resources
+            - img
+          - link:
+            - /url: /docs
+            - text: Docs
+          - link:
+            - /url: /changelog
+            - text: Changelog
+          - link:
+            - /url: /pricing
+            - text: Pricing
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button:
+                      - generic:
+                        - img
+          - link:
+            - /url: https://x.com/langfuse
+            - img
+          - link:
+            - /url: https://github.com/langfuse/langfuse
+            - generic:
+              - img
+            - generic: 23K
+          - link:
+            - /url: /talk-to-us
+            - text: Get Demo
+          - link:
+            - /url: https://cloud.langfuse.com
+            - generic: Sign Up
+  - generic:
+    - generic:
+      - complementary [ref=e46]:
+        - generic [ref=e47]:
+          - button [ref=e935]:
+            - img [ref=e50]
+          - generic [ref=e52]:
+            - link [ref=e936] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e54]
+              - text: Docs
+            - link [ref=e937] [cursor=pointer]:
+              - /url: /integrations
+              - img [ref=e58]
+              - text: Integrations
+            - link [ref=e938] [cursor=pointer]:
+              - /url: /self-hosting
+              - img [ref=e66]
+              - text: Self Hosting
+            - link [ref=e939] [cursor=pointer]:
+              - /url: /guides
+              - img [ref=e70]
+              - text: Guides
+            - link [ref=e940] [cursor=pointer]:
+              - /url: /library
+              - img [ref=e76]
+              - text: AI Engineering Library
+        - generic [ref=e80]:
+          - link [ref=e941] [cursor=pointer]:
+            - /url: /docs
+            - text: Overview
+          - link [ref=e942] [cursor=pointer]:
+            - /url: /docs/demo
+            - text: Example Project
+          - link [ref=e943] [cursor=pointer]:
+            - /url: /docs/ask-ai
+            - text: Ask AI
+          - paragraph [ref=e84]: Get Started
+          - link [ref=e944] [cursor=pointer]:
+            - /url: /docs/observability/get-started
+            - text: Start Tracing
+          - link [ref=e945] [cursor=pointer]:
+            - /url: /docs/prompt-management/get-started
+            - text: Use Prompt Management
+          - link [ref=e946] [cursor=pointer]:
+            - /url: /docs/evaluation/overview
+            - text: Set up Evals
+          - paragraph [ref=e88]: Products
+          - generic [ref=e89]:
+            - button [expanded] [ref=e947]:
+              - text: Observability
+              - img [ref=e91]
+            - generic [ref=e93]:
+              - link [ref=e948] [cursor=pointer]:
+                - /url: /docs/observability/overview
+                - text: Overview
+              - link [ref=e949] [cursor=pointer]:
+                - /url: /docs/observability/get-started
+                - text: Get Started
+              - link [ref=e950] [cursor=pointer]:
+                - /url: /docs/observability/data-model
+                - text: Concepts
+              - button [ref=e951]:
+                - text: Features
+                - img [ref=e99]
+              - button [ref=e952]:
+                - text: SDKs
+                - img [ref=e103]
+              - link [ref=e953] [cursor=pointer]:
+                - /url: /integrations
+                - text: Integrations ↗
+              - link [ref=e954] [cursor=pointer]:
+                - /url: /docs/observability/troubleshooting-and-faq
+                - text: Troubleshooting & FAQ
+          - button [ref=e955]:
+            - text: Prompt Management
+            - img [ref=e109]
+          - button [ref=e956]:
+            - text: Evaluation
+            - img [ref=e113]
+          - paragraph [ref=e115]: Platform
+          - button [ref=e957]:
+            - text: Metrics
+            - img [ref=e118]
+          - button [ref=e958]:
+            - text: API & Data Platform
+            - img [ref=e122]
+          - button [ref=e959]:
+            - text: Administration
+            - img [ref=e126]
+          - link [ref=e960] [cursor=pointer]:
+            - /url: /docs/security-and-guardrails
+            - text: Security & Guardrails
+          - paragraph [ref=e129]: More
+          - link [ref=e961] [cursor=pointer]:
+            - /url: /docs/glossary
+            - text: Glossary
+          - link [ref=e962] [cursor=pointer]:
+            - /url: /docs/roadmap
+            - text: Roadmap
+          - link [ref=e963] [cursor=pointer]:
+            - /url: /docs/v4
+            - text: Faster Langfuse
+          - link [ref=e964] [cursor=pointer]:
+            - /url: /docs/docs-mcp
+            - text: Docs MCP Server
+          - button [ref=e965]:
+            - text: SDK & API References
+            - img [ref=e136]
+          - link [ref=e966] [cursor=pointer]:
+            - /url: /security
+            - text: Security & Compliance ↗
+          - link [ref=e967] [cursor=pointer]:
+            - /url: /support
+            - text: Support ↗
+        - generic [ref=e141]:
+          - link [ref=e968] [cursor=pointer]:
+            - /url: https://github.com/langfuse/langfuse-docs
+          - group [ref=e969]:
+            - button [pressed] [ref=e970]:
+              - img [ref=e552]
+            - button [ref=e971]:
+              - img [ref=e559]
+      - generic:
+        - button:
+          - img
+      - article:
+        - generic:
+          - generic: Docs
+          - img
+          - generic: Observability
+          - img
+          - link:
+            - /url: /docs/observability/data-model
+            - text: Concepts
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - img
+                - generic: Copy page
+              - button:
+                - img
+          - heading [level=1]:
+            - link:
+              - /url: "#core-concepts"
+              - text: Core Concepts
+            - img
+          - paragraph: This page digs into the underlying concepts of how Langfuse structures and captures your data. Understanding these will make debugging and working with traces easier.
+          - paragraph:
+            - text: Ready to start? Check out the
+            - link:
+              - /url: /docs/observability/get-started
+              - text: Get Started guide
+            - text: to ingest your first trace.
+          - heading [level=2]:
+            - link:
+              - /url: "#observations-traces-and-sessions"
+              - text: Observations, Traces, and Sessions
+            - img
+          - paragraph: "Langfuse organizes an application's data into three core concepts: observations, traces, and sessions."
+          - generic:
+            - document:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - paragraph: session
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: trace
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: observation
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: observation
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: observation
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: trace
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: observation
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: observation
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: observation
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: trace
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: observation
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: observation
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: observation
+          - heading [level=3]:
+            - link:
+              - /url: "#observations"
+              - text: Observations
+            - img
+          - paragraph:
+            - code: Observations
+            - text: are the individual steps within a trace. Langfuse supports a number of LLM application specific
+            - link:
+              - /url: /docs/observability/features/observation-types
+              - text: observation types
+            - text: ", for example"
+            - emphasis: generations
+            - text: ","
+            - emphasis: toolcalls
+            - text: ","
+            - emphasis: RAG retrieval steps
+            - text: ", etc."
+          - paragraph: Observations can be nested. The example below shows a trace with a nested observation.
+          - generic:
+            - generic:
+              - paragraph: Hierarchical structure of observations in Langfuse
+              - generic:
+                - generic:
+                  - document:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - paragraph: Nesting
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - paragraph: "1"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - paragraph: "n"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Trace
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Observation
+            - generic:
+              - paragraph: Example trace in Langfuse UI
+              - paragraph:
+                - img
+          - heading [level=3]:
+            - link:
+              - /url: "#traces"
+              - text: Traces
+            - img
+          - paragraph:
+            - text: A
+            - code: trace
+            - text: typically represents a single request or operation. For example, when a user asks a question to a chatbot, that interaction, from the user's question to the bot's response, is captured as one trace.
+          - paragraph:
+            - text: It serves as container of observations. Trace attributes such as
+            - code: user_id
+            - text: ","
+            - code: session_id
+            - text: ","
+            - code: tags
+            - text: ","
+            - code: metadata
+            - text: ", etc. are propagated to all observations within the trace."
+          - heading [level=3]:
+            - link:
+              - /url: "#sessions"
+              - text: Sessions
+            - img
+          - paragraph:
+            - text: Optionally, traces can be grouped into
+            - link:
+              - /url: /docs/observability/features/sessions
+              - text: sessions
+            - text: . Sessions are used to group traces that are part of the same user interaction. A common example is a thread in a chat interface.
+          - generic:
+            - generic:
+              - paragraph: Optionally, sessions aggregate traces
+              - generic:
+                - generic:
+                  - document:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - paragraph: "1"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - paragraph: "n"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Session
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Trace
+            - generic:
+              - paragraph: Example session in Langfuse UI
+              - generic:
+                - generic:
+                  - img
+          - paragraph:
+            - text: Using sessions is recommended for applications with multi-turn conversations or workflows. Please refer to the
+            - link:
+              - /url: /docs/observability/features/sessions
+              - text: Sessions
+            - text: documentation to add sessions to your traces.
+          - heading [level=2]:
+            - link:
+              - /url: "#adding-attributes"
+              - text: Adding Attributes
+            - img
+          - paragraph: Once you've structured your data into traces and observations, you can enrich them with additional attributes. These attributes act as labels that help you filter, segment, and analyze your traces for specific use cases.
+          - paragraph: "There are different types of attributes you can add:"
+          - generic:
+            - table:
+              - rowgroup:
+                - row:
+                  - columnheader: Attribute
+                  - columnheader: Description
+              - rowgroup:
+                - row:
+                  - cell:
+                    - link:
+                      - /url: /docs/observability/features/environments
+                      - text: Environments
+                  - cell:
+                    - text: Separate data from different deployment contexts like
+                    - code: production
+                    - text: ","
+                    - code: staging
+                    - text: ", or"
+                    - code: development
+                - row:
+                  - cell:
+                    - link:
+                      - /url: /docs/observability/features/tags
+                      - text: Tags
+                  - cell: Flexible labels to categorize traces by feature, API endpoint, or workflow
+                - row:
+                  - cell:
+                    - link:
+                      - /url: /docs/observability/features/users
+                      - text: User
+                  - cell: Track which end-user triggered each trace
+                - row:
+                  - cell:
+                    - link:
+                      - /url: /docs/observability/features/metadata
+                      - text: Metadata
+                  - cell: Flexible key-value store for custom information
+                - row:
+                  - cell:
+                    - link:
+                      - /url: /docs/observability/features/releases-and-versioning
+                      - text: Releases & Versions
+                  - cell: Track application versions and component changes
+          - heading [level=2]:
+            - link:
+              - /url: "#underlying-data-model"
+              - text: Underlying data model
+            - img
+          - generic:
+            - img
+            - generic:
+              - generic:
+                - paragraph:
+                  - text: This data model is live on Langfuse Cloud. For OSS deployments, this will be Langfuse V4. See the
+                  - link:
+                    - /url: /changelog/2026-03-10-simplify-for-scale
+                    - text: changelog post
+                  - text: for more details.
+          - paragraph:
+            - text: To improve query performance at scale, Langfuse introduces an
+            - strong: observation-centric data model
+            - text: . In this model, context attributes (
+            - code: user_id
+            - text: ","
+            - code: session_id
+            - text: ","
+            - code: metadata
+            - text: ","
+            - code: tags
+            - text: ) that previously lived only on the trace are propagated to every observation. This eliminates expensive joins between trace and observation tables, enabling single-table queries.
+          - heading [level=3]:
+            - link:
+              - /url: "#what-changes"
+              - text: What changes
+            - img
+          - paragraph:
+            - link:
+              - /url: /docs/v4
+              - text: Guide
+            - text: how to adopt the new data model.
+          - generic:
+            - table:
+              - rowgroup:
+                - row:
+                  - columnheader
+                  - columnheader: Classic model
+                  - columnheader: Observation-centric model
+              - rowgroup:
+                - row:
+                  - cell:
+                    - strong: Storage
+                  - cell: Separate mutable Traces and Observations tables
+                  - cell: Single immutable Observations table
+                - row:
+                  - cell:
+                    - strong: Context attributes
+                  - cell: Stored on the trace, joined at query time
+                  - cell: Propagated to every observation on SDK side.
+                - row:
+                  - cell:
+                    - strong: Trace input/output
+                  - cell: Set directly on the trace
+                  - cell:
+                    - text: Removed, use observation IO instead. (For legacy LLM-as-a-judge evaluators that depend on trace input and output, users can use the deprecated
+                    - code: set_trace_io
+                    - text: methods in the SDKs.)
+                - row:
+                  - cell:
+                    - strong: Mutability
+                  - cell: Traces and observations are mutable
+                  - cell: Observations are immutable (written once)
+          - heading [level=2]:
+            - link:
+              - /url: "#how-langfuse-captures-data"
+              - text: How Langfuse Captures Data
+            - img
+          - paragraph: Now that you understand the data model, let's explore how Langfuse actually captures and processes your traces.
+          - heading [level=3]:
+            - link:
+              - /url: "#built-on-opentelemetry"
+              - text: Built on OpenTelemetry
+            - img
+          - paragraph:
+            - text: Langfuse is built on
+            - link:
+              - /url: https://opentelemetry.io/
+              - text: OpenTelemetry
+            - text: ", an open standard for collecting telemetry data from applications."
+          - paragraph: This means you're not locked into using only Langfuse-specific SDKs. You can also send your traces to multiple destinations at once, like Langfuse for LLM observability and Datadog for infrastructure monitoring.
+          - paragraph:
+            - text: See the
+            - link:
+              - /url: /integrations/native/opentelemetry
+              - text: OpenTelemetry integration guide
+            - text: for detailed documentation on integrating OpenTelemetry with Langfuse.
+          - heading [level=4]:
+            - link:
+              - /url: "#instrumentation"
+              - text: Instrumentation
+            - img
+          - paragraph: Instrumentation is the process of adding code to record its behavior. Once this recording is turned on, Langfuse (through OpenTelemetry) can automatically capture these events and structure them into traces and observations.
+          - paragraph:
+            - text: The
+            - link:
+              - /url: /docs/observability/get-started
+              - text: Get Started guide
+            - text: walks you through the process of instrumenting a function in your application.
+          - heading [level=3]:
+            - link:
+              - /url: "#background-processing"
+              - text: Background Processing
+            - img
+          - paragraph: In order to avoid slowing down your application, Langfuse doesn't send traces synchronously the moment they're created. Instead, Langfuse batches traces locally and sends them in the background, keeping your application fast and responsive.
+          - generic:
+            - document:
+              - generic:
+                - generic: Langfuse backend
+              - generic:
+                - generic: Background exporter
+              - generic:
+                - generic: Langfuse SDK
+              - generic:
+                - generic: Application
+              - generic:
+                - generic: End user
+              - generic:
+                - generic:
+                  - generic: Langfuse backend
+              - generic:
+                - generic:
+                  - generic: Background exporter
+              - generic:
+                - generic:
+                  - generic: Langfuse SDK
+              - generic:
+                - generic:
+                  - generic: Application
+              - generic:
+                - generic:
+                  - generic: End user
+              - generic:
+                - generic: Tracing is non-blocking
+                - generic: App continues handling request
+              - generic:
+                - generic: loop
+                - generic: "[Incoming requests over time]"
+              - generic:
+                - generic: Runs on a timer / batch size
+              - generic:
+                - generic: loop
+                - generic: "[In the background]"
+              - generic: send request
+              - generic: "1"
+              - generic: createTrace() / log events
+              - generic: "2"
+              - generic: enqueue(trace/events)
+              - generic: "3"
+              - generic: response
+              - generic: "4"
+              - generic: send(batched traces)
+              - generic: "5"
+              - generic: ack
+              - generic: "6"
+          - heading [level=4]:
+            - link:
+              - /url: "#long-running-applications"
+              - text: Long-running applications
+            - img
+          - paragraph: The approach above works well for long-running applications (like web servers or APIs) because the background exporter continuously runs and has plenty of time to flush batches on its own.
+          - heading [level=4]:
+            - link:
+              - /url: "#short-lived-applications"
+              - text: Short-lived applications
+            - img
+          - paragraph: For applications that start, execute something, and shut down quickly (short-lived applications), there's a risk that the application terminates while there are still unsent traces in the queue.
+          - paragraph:
+            - text: To avoid losing data, short-lived applications
+            - strong:
+              - text: must explicitly call
+              - link:
+                - /url: /docs/observability/features/queuing-batching#manual-flushing
+                - code: flush()
+              - text: before exiting
+            - text: . This forces the exporter to send all buffered traces immediately, so nothing is lost when the process terminates.
+          - generic:
+            - document:
+              - generic:
+                - generic: Langfuse backend
+              - generic:
+                - generic: Background exporter
+              - generic:
+                - generic: Langfuse SDK
+              - generic:
+                - generic: Application
+              - generic:
+                - generic: End user
+              - generic:
+                - generic:
+                  - generic: Langfuse backend
+              - generic:
+                - generic:
+                  - generic: Background exporter
+              - generic:
+                - generic:
+                  - generic: Langfuse SDK
+              - generic:
+                - generic:
+                  - generic: Application
+              - generic:
+                - generic:
+                  - generic: End user
+              - generic:
+                - generic: Trace buffered in memory
+              - generic:
+                - generic: Exporter waits for next
+                - generic: background send
+              - generic:
+                - generic: Process terminates before
+                - generic: buffer is sent → traces lost
+              - generic:
+                - generic: Buffer is now empty
+              - generic:
+                - generic: alt
+                - generic: "[No flush() used]"
+                - generic: "[flush() used]"
+              - generic: start script / job
+              - generic: "1"
+              - generic: createTrace()
+              - generic: "2"
+              - generic: enqueue(trace)
+              - generic: "3"
+              - generic: job finished
+              - generic: "4"
+              - generic: process exits
+              - generic: "5"
+              - generic: flush() before exit
+              - generic: "6"
+              - generic: flush()
+              - generic: "7"
+              - generic: send(all buffered traces)
+              - generic: "8"
+              - generic: ack
+              - generic: "9"
+              - generic: job finished
+              - generic: "10"
+              - generic: process exits
+              - generic: "11"
+          - separator
+          - generic:
+            - generic:
+              - generic: Was this page helpful?
+              - generic:
+                - button:
+                  - img
+                  - generic: "Yes"
+                - button:
+                  - img
+                  - generic: "No"
+            - generic:
+              - link:
+                - /url: /support
+                - generic: Support
+                - img
+        - generic:
+          - link:
+            - /url: /docs/observability/get-started
+            - generic:
+              - img
+              - paragraph: Get Started
+          - link:
+            - /url: /docs/observability/features/sessions
+            - generic:
+              - img
+              - paragraph: Sessions
+      - generic:
+        - heading [level=3]:
+          - img
+          - text: On this page
+        - generic:
+          - generic:
+            - link:
+              - /url: "#core-concepts"
+              - text: Core Concepts
+            - link:
+              - /url: "#observations-traces-and-sessions"
+              - text: Observations, Traces, and Sessions
+            - link:
+              - /url: "#observations"
+              - text: Observations
+            - link:
+              - /url: "#traces"
+              - text: Traces
+            - link:
+              - /url: "#sessions"
+              - text: Sessions
+            - link:
+              - /url: "#adding-attributes"
+              - text: Adding Attributes
+            - link:
+              - /url: "#underlying-data-model"
+              - text: Underlying data model
+            - link:
+              - /url: "#what-changes"
+              - text: What changes
+            - link:
+              - /url: "#how-langfuse-captures-data"
+              - text: How Langfuse Captures Data
+            - link:
+              - /url: "#built-on-opentelemetry"
+              - text: Built on OpenTelemetry
+            - link:
+              - /url: "#instrumentation"
+              - text: Instrumentation
+            - link:
+              - /url: "#background-processing"
+              - text: Background Processing
+            - link:
+              - /url: "#long-running-applications"
+              - text: Long-running applications
+            - link:
+              - /url: "#short-lived-applications"
+              - text: Short-lived applications
+        - generic:
+          - link:
+            - /url: https://github.com/langfuse/langfuse-docs/issues/new?title=Feedback+for+%22Concepts%22&labels=feedback
+            - text: Question? Give us feedback →
+          - link:
+            - /url: https://github.com/langfuse/langfuse-docs/edit/main/content/docs/observability/data-model.mdx
+            - text: Edit this page on GitHub
+  - contentinfo:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - paragraph: Product
+            - list:
+              - listitem:
+                - link:
+                  - /url: /docs/observability/overview
+                  - text: Observability
+              - listitem:
+                - link:
+                  - /url: /docs/prompt-management/overview
+                  - text: Prompt Management
+              - listitem:
+                - link:
+                  - /url: /docs/evaluation/overview
+                  - text: Evaluation
+              - listitem:
+                - link:
+                  - /url: /docs/metrics/overview
+                  - text: Metrics
+              - listitem:
+                - link:
+                  - /url: /docs/prompt-management/features/playground
+                  - text: Playground
+              - listitem:
+                - link:
+                  - /url: /pricing
+                  - text: Pricing
+              - listitem:
+                - link:
+                  - /url: /enterprise
+                  - text: Enterprise
+          - generic:
+            - paragraph: Developers
+            - list:
+              - listitem:
+                - link:
+                  - /url: /docs
+                  - text: Documentation
+              - listitem:
+                - link:
+                  - /url: /self-hosting
+                  - text: Self-Hosting
+              - listitem:
+                - link:
+                  - /url: /docs/observability/sdk/overview
+                  - text: SDKs
+              - listitem:
+                - link:
+                  - /url: /integrations
+                  - text: Integrations
+              - listitem:
+                - link:
+                  - /url: /docs/api-and-data-platform/overview
+                  - text: API Reference
+              - listitem:
+                - link:
+                  - /url: https://status.langfuse.com
+                  - text: Status
+              - listitem:
+                - link:
+                  - /url: /talk-to-us
+                  - text: Talk to Us
+          - generic:
+            - paragraph: Resources
+            - list:
+              - listitem:
+                - link:
+                  - /url: /blog
+                  - text: Blog
+              - listitem:
+                - link:
+                  - /url: /changelog
+                  - text: Changelog
+              - listitem:
+                - link:
+                  - /url: /docs/roadmap
+                  - text: Roadmap
+              - listitem:
+                - link:
+                  - /url: /docs/demo
+                  - text: Interactive Demo
+              - listitem:
+                - link:
+                  - /url: /users
+                  - text: Users
+              - listitem:
+                - link:
+                  - /url: /library
+                  - text: AI Engineering Library
+              - listitem:
+                - link:
+                  - /url: /guides
+                  - text: Guides & Cookbooks
+          - generic:
+            - paragraph: Company
+            - list:
+              - listitem:
+                - link:
+                  - /url: /about
+                  - text: About Us
+              - listitem:
+                - link:
+                  - /url: /careers
+                  - text: Careers
+              - listitem:
+                - link:
+                  - /url: /press
+                  - text: Press
+              - listitem:
+                - link:
+                  - /url: /security
+                  - text: Security
+              - listitem:
+                - link:
+                  - /url: /support
+                  - text: Support
+              - listitem:
+                - link:
+                  - /url: /handbook/chapters/open-source
+                  - text: Open Source
+        - generic:
+          - generic: © 2022-2026 Langfuse GmbH / Finto Technologies Inc.
+          - generic:
+            - link:
+              - /url: /terms
+              - text: Terms
+            - link:
+              - /url: /privacy
+              - text: Privacy
+            - link:
+              - /url: /imprint
+              - text: Imprint
+            - link:
+              - /url: /cookie-policy
+              - text: Cookie Policy
+          - generic:
+            - link:
+              - /url: https://github.com/langfuse/langfuse
+              - img
+            - link:
+              - /url: /discord
+              - img
+            - link:
+              - /url: https://x.com/langfuse
+              - img
+            - link:
+              - /url: https://www.youtube.com/@langfuse
+              - img
+            - link:
+              - /url: https://www.linkedin.com/company/langfuse/
+              - img
+            - generic:
+              - group:
+                - button [pressed]:
+                  - img
+                - button:
+                  - img
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - generic: Ask AI
+                - generic:
+                  - img
+  - generic:
+    - img
+  - generic [ref=e536] [cursor=pointer]:
+    - button [ref=e972]:
+      - img [ref=e538]
+    - generic [ref=e915]:
+      - button [ref=e973]:
+        - generic [ref=e974]:
+          - generic [ref=e975]: "3"
+          - generic [ref=e976]: "4"
+        - generic [ref=e920]:
+          - text: Issue
+          - generic [ref=e921]: s
+      - button [ref=e977]:
+        - img [ref=e923]
+  - alert
+  - dialog [active] [ref=e979]:
+    - generic [ref=e980]:
+      - img [ref=e995]
+      - heading "Thank you for your feedback!" [level=4] [ref=e997]
+      - paragraph [ref=e998]: We appreciate you taking the time to help us improve.
+      - button "Done" [ref=e999]
+    - button "Close" [ref=e990]:
+      - img [ref=e991]
+      - generic [ref=e994]: Close

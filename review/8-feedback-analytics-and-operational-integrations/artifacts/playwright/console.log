@@ -1,0 +1,90 @@
+[    7636ms] [ERROR] Access to script at 'http://127.0.0.1:4010/array/chapter8-test-key/config.js' from origin 'http://127.0.0.1:3333' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:3333/docs/observability/data-model:0
+[    7636ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:4010/array/chapter8-test-key/config.js:0
+[    7640ms] [ERROR] Access to fetch at 'http://127.0.0.1:4010/array/chapter8-test-key/config?ip=1&_=1773961007372&ver=1.203.1' from origin 'http://127.0.0.1:3333' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:3333/docs/observability/data-model:0
+[    7640ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:4010/array/chapter8-test-key/config?ip=1&_=1773961007372&ver=1.203.1:0
+[    7640ms] [ERROR] [PostHog.js] TypeError: Failed to fetch
+    at method (http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:8390:9)
+    at http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:10563:13
+    at co._send_request (http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:10564:11)
+    at rr._loadRemoteConfigJSON (http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:8164:23)
+    at http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:8177:124
+    at http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:8161:257
+    at e.onerror (http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:5531:124) @ http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_76dce7ef._.js:3127
+[    7641ms] [ERROR] [PostHog.js] [RemoteConfig] Failed to fetch remote config from PostHog. @ http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_76dce7ef._.js:3127
+[    7641ms] [ERROR] Access to fetch at 'http://127.0.0.1:4010/decide/?v=3&ip=1&_=1773961007331&ver=1.203.1&compression=base64' from origin 'http://127.0.0.1:3333' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:3333/docs/observability/data-model:0
+[    7641ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:4010/decide/?v=3&ip=1&_=1773961007331&ver=1.203.1&compression=base64:0
+[    7641ms] [ERROR] [PostHog.js] TypeError: Failed to fetch
+    at method (http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:8390:9)
+    at http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:10563:13
+    at co._send_request (http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:10564:11)
+    at Ge._callDecideEndpoint (http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:5772:167)
+    at Ge.decide (http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:5720:18)
+    at co._loaded (http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:10536:55)
+    at co._init (http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:10517:252)
+    at co.init (http://127.0.0.1:3333/_next/static/chunks/node_modules__pnpm_dbc5c868._.js:10463:21)
+    at PostHogProvider.useEffect (http://127.0.0.1:3333/_next/static/chunks/components_analytics_b8d63159._.js:67:235)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:14876:22)
+    at runWithFiberInDEV (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:965:74)
+    at commitHookEffectListMount (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:7266:167)
+    at commitHookPassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:7301:60)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8696:33)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8757:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8757:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8757:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8695:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8695:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8700:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8695:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8700:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8695:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8695:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8700:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8695:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8757:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8757:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8757:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8757:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8757:17)
+    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8683:316)
+    at commitPassiveMountOnFiber (http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_compiled_react-dom_866c110e._.js:8757:17) @ http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_76dce7ef._.js:3127
+[   25308ms] [ERROR] `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog @ http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_76dce7ef._.js:3127
+[   25308ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_76dce7ef._.js:2297
+[   25311ms] [ERROR] `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog @ http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_76dce7ef._.js:3127
+[   25311ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_76dce7ef._.js:2297
+[   82896ms] [ERROR] `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog @ http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_76dce7ef._.js:3127
+[   82897ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_76dce7ef._.js:2297
+[   82898ms] [ERROR] `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog @ http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_76dce7ef._.js:3127
+[   82898ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ http://127.0.0.1:3333/_next/static/chunks/3cf62_next_dist_76dce7ef._.js:2297

@@ -1,0 +1,330 @@
+{
+  "generatedAt": "2026-03-19T22:49:22.654Z",
+  "previewUrl": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app",
+  "productionUrl": "https://langfuse.com",
+  "htmlRoutes": [
+    "/",
+    "/docs/prompt-management/get-started",
+    "/guides/videos/introducing-datasets-v2"
+  ],
+  "summary": {
+    "total": 7,
+    "passed": 6,
+    "failed": 1
+  },
+  "checks": [
+    {
+      "name": "Preview HTML routes preserve baseline security headers, CSP directives, and noindex posture",
+      "ok": true,
+      "startedAt": "2026-03-19T22:49:18.074Z",
+      "finishedAt": "2026-03-19T22:49:18.541Z",
+      "details": {
+        "routes": [
+          {
+            "route": "/",
+            "previewHeaders": {
+              "contentSecurityPolicy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+              "xContentTypeOptions": "nosniff",
+              "referrerPolicy": "strict-origin-when-cross-origin",
+              "permissionsPolicy": "autoplay=*, fullscreen=*, microphone=*",
+              "xFrameOptions": "SAMEORIGIN",
+              "strictTransportSecurity": "max-age=63072000; includeSubDomains; preload",
+              "xRobotsTag": "noindex"
+            },
+            "productionHeaders": {
+              "contentSecurityPolicy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+              "strictTransportSecurity": "max-age=63072000",
+              "xRobotsTag": null
+            }
+          },
+          {
+            "route": "/docs/prompt-management/get-started",
+            "previewHeaders": {
+              "contentSecurityPolicy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+              "xContentTypeOptions": "nosniff",
+              "referrerPolicy": "strict-origin-when-cross-origin",
+              "permissionsPolicy": "autoplay=*, fullscreen=*, microphone=*",
+              "xFrameOptions": "SAMEORIGIN",
+              "strictTransportSecurity": "max-age=63072000; includeSubDomains; preload",
+              "xRobotsTag": "noindex"
+            },
+            "productionHeaders": {
+              "contentSecurityPolicy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+              "strictTransportSecurity": "max-age=63072000",
+              "xRobotsTag": null
+            }
+          },
+          {
+            "route": "/guides/videos/introducing-datasets-v2",
+            "previewHeaders": {
+              "contentSecurityPolicy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+              "xContentTypeOptions": "nosniff",
+              "referrerPolicy": "strict-origin-when-cross-origin",
+              "permissionsPolicy": "autoplay=*, fullscreen=*, microphone=*",
+              "xFrameOptions": "SAMEORIGIN",
+              "strictTransportSecurity": "max-age=63072000; includeSubDomains; preload",
+              "xRobotsTag": "noindex"
+            },
+            "productionHeaders": {
+              "contentSecurityPolicy": "default-src 'self' https: wss:;  script-src 'self' 'unsafe-eval' 'unsafe-inline' https:;  style-src 'self' 'unsafe-inline' https:;  img-src 'self' https: blob: data:;  media-src 'self' https: blob: data:;  font-src 'self' https:;  frame-src 'self' https:;  worker-src 'self' blob:;  object-src 'none';  base-uri 'self';  form-action 'self';  frame-ancestors 'none';  upgrade-insecure-requests;  block-all-mixed-content;",
+              "strictTransportSecurity": "max-age=63072000",
+              "xRobotsTag": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Preview API routes preserve baseline security headers and expected public CORS behavior",
+      "ok": true,
+      "startedAt": "2026-03-19T22:49:18.541Z",
+      "finishedAt": "2026-03-19T22:49:20.566Z",
+      "details": {
+        "optionsStatus": 204,
+        "getStatus": 200,
+        "accessControlAllowOrigin": "*",
+        "answerExcerpt": "{\"content\": [{\"type\": \"document\", \"record_type\": \"documentation\", \"url\": \"https://langfuse.com/docs/docs-mcp\", \"title\": \"Langfuse Docs MCP Server\", \"source\": {\"content\": [{\"type\": ..."
+      }
+    },
+    {
+      "name": "Production HTTP routes redirect cleanly to HTTPS",
+      "ok": true,
+      "startedAt": "2026-03-19T22:49:20.566Z",
+      "finishedAt": "2026-03-19T22:49:20.705Z",
+      "details": {
+        "routes": [
+          {
+            "route": "/",
+            "status": 308,
+            "location": "https://langfuse.com/"
+          },
+          {
+            "route": "/docs/prompt-management/get-started",
+            "status": 308,
+            "location": "https://langfuse.com/docs/prompt-management/get-started"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Preview HTML routes do not advertise mixed-content or staging/local hosts in load-bearing markup",
+      "ok": true,
+      "startedAt": "2026-03-19T22:49:20.705Z",
+      "finishedAt": "2026-03-19T22:49:20.708Z",
+      "details": {
+        "routes": [
+          {
+            "route": "/",
+            "inspectedResourceCount": 44
+          },
+          {
+            "route": "/docs/prompt-management/get-started",
+            "inspectedResourceCount": 48
+          },
+          {
+            "route": "/guides/videos/introducing-datasets-v2",
+            "inspectedResourceCount": 48
+          }
+        ]
+      }
+    },
+    {
+      "name": "Public JS bundles do not expose forbidden secret identifiers or local/staging hostnames",
+      "ok": true,
+      "startedAt": "2026-03-19T22:49:20.708Z",
+      "finishedAt": "2026-03-19T22:49:22.478Z",
+      "details": {
+        "assetCount": 41,
+        "assets": [
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/b80d3e2bbf75c1e1.js",
+            "size": 32892
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/05b1629350ba52d5.js",
+            "size": 111319
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/88abd58e62eb7807.js",
+            "size": 223559
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/turbopack-bd0b5ef20a805e71.js",
+            "size": 10567
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/e3e65a346566b5de.js",
+            "size": 8429
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8e1488da103c1fdd.js",
+            "size": 175967
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/3bd4844d331a118d.js",
+            "size": 25112
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/94724ee8e54fc3fa.js",
+            "size": 283
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/8026fd6fa5562657.js",
+            "size": 30783
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/a6e36d26d3ce4042.js",
+            "size": 1178
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/7df46ea3f43d71ad.js",
+            "size": 28211
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/ed9de83c2850e4fc.js",
+            "size": 24145
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/e5a724525bf20434.js",
+            "size": 62654
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d59932d63d34580f.js",
+            "size": 20156
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f256242ae9c356ef.js",
+            "size": 28173
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/533c49d4642f46ae.js",
+            "size": 19811
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/fe24b84cba7de1b8.js",
+            "size": 74637
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/afaeaec053cb5f9f.js",
+            "size": 27888
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/4adefcf2f0dca762.js",
+            "size": 37597
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/bd890a045f4701b6.js",
+            "size": 50173
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/568c15d23a1f52a4.js",
+            "size": 31281
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/69f7242d00650f08.js",
+            "size": 39934
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/d8d3432b37629da3.js",
+            "size": 61512
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/77a14fa75a89c6b3.js",
+            "size": 92910
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/46cf1d1fbdc89b0d.js",
+            "size": 295209
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/ac8004fd6d5e1ad9.js",
+            "size": 74964
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/78be63c2b4938fc6.js",
+            "size": 45872
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/687728ef8816569e.js",
+            "size": 179216
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/ed0768f5886f7d93.js",
+            "size": 47203
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/050ee898fbf99c77.js",
+            "size": 336744
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c521489d1dd5073c.js",
+            "size": 60450
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/a6dad97d9634a72d.js",
+            "size": 112541
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c1aaf6b06b499a3e.js",
+            "size": 32739
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/fb7b5ddc717a5dfb.js",
+            "size": 31034
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/c07af0a442bf13f7.js",
+            "size": 26663
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/bb04c52717ca28a2.js",
+            "size": 45872
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/3293c9bde02524b1.js",
+            "size": 50374
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/6d1508504c81cd34.js",
+            "size": 295209
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/427d857c1cddc109.js",
+            "size": 61512
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/f729168d9e2da6e9.js",
+            "size": 265
+          },
+          {
+            "url": "https://langfuse-docs-git-fork-altalogy-to-fumadocs-langfuse.vercel.app/_next/static/chunks/50162142a9749c3e.js",
+            "size": 28212
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wildcard CORS remains intentionally limited to the documented search endpoint",
+      "ok": true,
+      "startedAt": "2026-03-19T22:49:22.478Z",
+      "finishedAt": "2026-03-19T22:49:22.486Z",
+      "details": {
+        "explicitCorsDefinitions": [
+          "app/api/search-docs/route.ts"
+        ],
+        "documentedIn": "content/docs/docs-mcp.mdx"
+      }
+    },
+    {
+      "name": "PDF generation keeps SSRF protections while allowing trusted markdown inputs",
+      "ok": false,
+      "startedAt": "2026-03-19T22:49:22.486Z",
+      "finishedAt": "2026-03-19T22:49:22.654Z",
+      "error": "Expected trusted md-to-pdf input to succeed",
+      "details": {
+        "status": 500,
+        "body": "{\"error\":\"Internal server error while generating PDF\",\"message\":\"An unexpected error occurred.\"}"
+      }
+    }
+  ]
+}
