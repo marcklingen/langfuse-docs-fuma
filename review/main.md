@@ -46,7 +46,6 @@ Old version
 
 - Filesystem: repos/github/langfuse/langfuse-docs
 - Deployment: https://langfuse.com
-- Local dev (no rate limits or bot protection): http://localhost:4444
 
 New version
 
