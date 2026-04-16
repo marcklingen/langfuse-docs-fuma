@@ -50,7 +50,7 @@ Old version
 New version
 
 - Filesystem: this repo
-- Local dev (no rate limits or bot protection): http://localhost:3333
+- Local dev (no rate limits or bot protection, server already running, you do not need to start it): http://localhost:3333
 
 ## How to work on the following chapters
 
